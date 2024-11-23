@@ -1,0 +1,17 @@
+[
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/moritz-maehr/index.html",
+      "/people/tobias-hodel/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/benasch/index.html",
+      "/projects/bullinger-digital/index.html",
+      "/projects/aufbereitung-bundesratsprotokolle/index.html"
+    ]
+  }
+]
