@@ -1,1 +1,52 @@
-/* css styles */
+/* CSS Styles */
+
+/* Frutiger Neue Light */
+@font-face {
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'FrutigerNeue';
+	font-style: normal;
+	font-weight: 300;
+	src: url('./assets/fonts/FrutigerNeueLTW06-Light.woff2') format('woff2');
+	/* Supports Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* Frutiger Neue Light Italic */
+@font-face {
+	font-display: swap;
+	font-family: 'FrutigerNeue';
+	font-style: italic;
+	font-weight: 300;
+	src: url('./assets/fonts/FrutigerNeueLTW06-LightIt.woff2') format('woff2');
+	/* Supports Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* Frutiger Neue Regular */
+@font-face {
+	font-display: swap;
+	font-family: 'FrutigerNeue';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./assets/fonts/FrutigerNeueLTW06-Regular.woff2') format('woff2');
+	/* Supports Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* Frutiger Neue Italic */
+@font-face {
+	font-display: swap;
+	font-family: 'FrutigerNeue';
+	font-style: italic;
+	font-weight: 400;
+	src: url('./assets/fonts/FrutigerNeueLTW06-Italic.woff2') format('woff2');
+	/* Supports Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* Frutiger Neue Bold */
+@font-face {
+	font-display: swap;
+	font-family: 'FrutigerNeue';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./assets/fonts/FrutigerNeueLTW06-Bold.woff2') format('woff2');
+	/* Supports Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}

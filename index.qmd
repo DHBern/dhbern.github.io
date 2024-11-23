@@ -1,1 +1,8 @@
-{{< include README.md >}}
+# Digital Humanities
+
+Wir bieten Kurse für Studierende und Forschende auf allen Ebenen an, von Bachelor bis zu Postdoc.
+
+Wir forschen zu unterschiedlichen Themen, im Umkreis digitaler Text- und Bildanalysen, digitaler Edition und der Reflexion des Einflusses digitaler Methoden auf die Geisteswissenschaften.  
+Lehre und Weiterbildung sind zentrale Stützen der Professur, um digitale Kompetenzen zu verbreiten. Eine Übersicht zu aktuellen DH-Forschungsprojekten finden Sie unter [Forschung](https://www.dh.unibe.ch/forschung/index_ger.html).
+
+Neben Forschung ist auch die Lehre ein wichtiger Aspekt der DH@UNIBE, unter [Studium](https://www.dh.unibe.ch/studium/index_ger.html) erfahren Sie mehr.

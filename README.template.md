@@ -1,12 +1,12 @@
-# REPO_NAME
+# dhbern.github.io
 
-This repository contains SHORT_DESCRIPTION. The data in this repository is openly available to everyone and is intended to support reproducible research.
+This repository contains Digital Humanities at the University of Bern. The data in this repository is openly available to everyone and is intended to support reproducible research.
 
-[![GitHub issues](https://img.shields.io/github/issues/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/issues)
-[![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/network)
-[![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/stargazers)
-[![Code license](https://img.shields.io/github/license/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/blob/main/LICENSE-AGPL.md)
-[![Data license](https://img.shields.io/github/license/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/blob/main/LICENSE-CCBY.md)
+[![GitHub issues](https://img.shields.io/github/issues/DHBern/dhbern.github.io.svg)](https://github.com/DHBern/dhbern.github.io/issues)
+[![GitHub forks](https://img.shields.io/github/forks/DHBern/dhbern.github.io.svg)](https://github.com/DHBern/dhbern.github.io/network)
+[![GitHub stars](https://img.shields.io/github/stars/DHBern/dhbern.github.io.svg)](https://github.com/DHBern/dhbern.github.io/stargazers)
+[![Code license](https://img.shields.io/github/license/DHBern/dhbern.github.io.svg)](https://github.com/DHBern/dhbern.github.io/blob/main/LICENSE-AGPL.md)
+[![Data license](https://img.shields.io/github/license/DHBern/dhbern.github.io.svg)](https://github.com/DHBern/dhbern.github.io/blob/main/LICENSE-CCBY.md)
 [![DOI](https://zenodo.org/badge/ZENODO_RECORD.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD)
 
 ## Repository Structure
@@ -51,16 +51,16 @@ curl -i https://zenodo.org/api/records/ZENODO_RECORD
 
 ## Support
 
-This project is maintained by [@USERNAME](https://github.com/USERNAME). Please understand that we can't provide individual support via email. We also believe that help is much more valuable when it's shared publicly, so more people can benefit from it.
+This project is maintained by [@DHBern](https://github.com/DHBern). Please understand that we can't provide individual support via email. We also believe that help is much more valuable when it's shared publicly, so more people can benefit from it.
 
-| Type                                   | Platforms                                                               |
-| -------------------------------------- | ----------------------------------------------------------------------- |
-| 🚨 **Bug Reports**                     | [GitHub Issue Tracker](https://github.com/USERNAME/REPO_NAME/issues)    |
-| 📊 **Report bad data**                 | [GitHub Issue Tracker](https://github.com/USERNAME/REPO_NAME/issues)    |
-| 📚 **Docs Issue**                      | [GitHub Issue Tracker](https://github.com/USERNAME/REPO_NAME/issues)    |
-| 🎁 **Feature Requests**                | [GitHub Issue Tracker](https://github.com/USERNAME/REPO_NAME/issues)    |
-| 🛡 **Report a security vulnerability** | See [SECURITY.md](SECURITY.md)                                          |
-| 💬 **General Questions**               | [GitHub Discussions](https://github.com/USERNAME/REPO_NAME/discussions) |
+| Type                                   | Platforms                                                                    |
+| -------------------------------------- | ---------------------------------------------------------------------------- |
+| 🚨 **Bug Reports**                     | [GitHub Issue Tracker](https://github.com/DHBern/dhbern.github.io/issues)    |
+| 📊 **Report bad data**                 | [GitHub Issue Tracker](https://github.com/DHBern/dhbern.github.io/issues)    |
+| 📚 **Docs Issue**                      | [GitHub Issue Tracker](https://github.com/DHBern/dhbern.github.io/issues)    |
+| 🎁 **Feature Requests**                | [GitHub Issue Tracker](https://github.com/DHBern/dhbern.github.io/issues)    |
+| 🛡 **Report a security vulnerability** | See [SECURITY.md](SECURITY.md)                                               |
+| 💬 **General Questions**               | [GitHub Discussions](https://github.com/DHBern/dhbern.github.io/discussions) |
 
 ## Roadmap
 
@@ -72,13 +72,13 @@ All contributions to this repository are welcome! If you find errors or problems
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. The available versions are listed in the [tags on this repository](https://github.com/USERNAME/REPO_NAME/tags).
+We use [SemVer](http://semver.org/) for versioning. The available versions are listed in the [tags on this repository](https://github.com/DHBern/dhbern.github.io/tags).
 
 ## Authors and acknowledgment
 
-- **FULLNAME** - _Initial work_ - [USERNAME](https://github.com/USERNAME)
+- **Moritz Mähr** - _Initial work_ - [maehr](https://github.com/maehr)
 
-See also the list of [contributors](https://github.com/USERNAME/REPO_NAME/graphs/contributors) who contributed to this project.
+See also the list of [contributors](https://github.com/DHBern/dhbern.github.io/graphs/contributors) who contributed to this project.
 
 ## License
 

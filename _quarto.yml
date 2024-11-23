@@ -2,13 +2,13 @@ project:
   type: website
 
 website:
-  title: REPO_NAME
+  title: dhbern.github.io
   favicon: android-chrome-512x512.png
   open-graph: true
   twitter-card: true
-  site-url: https://USERNAME.github.io/REPO_NAME/
-  repo-url: https://github.com/USERNAME/REPO_NAME/
-  issue-url: https://github.com/USERNAME/REPO_NAME/issues/new/choose
+  site-url: https://DHBern.github.io/dhbern.github.io/
+  repo-url: https://github.com/DHBern/dhbern.github.io/
+  issue-url: https://github.com/DHBern/dhbern.github.io/issues/new/choose
   repo-actions: [edit, issue]
   page-navigation: true
   bread-crumbs: true
@@ -19,44 +19,54 @@ website:
   navbar:
     logo: android-chrome-512x512.png
     logo-alt: ''
-    title: REPO_NAME
+    title: Digital Humanities
     tools:
       - icon: github
-        url: https://github.com/USERNAME/REPO_NAME/
+        url: https://github.com/DHBern/dhbern.github.io/
     left:
-      - text: Readme
+      - text: Startseite
         href: index.qmd
-      - text: Report
-        href: report.md
+      - text: Studium
+        href: https://www.dh.unibe.ch/studium/index_ger.html
+      - text: Projekte
+        href: projects/index.qmd
+      - text: Personen
+        href: people/index.qmd
+      - text: Dienstleistungen
+        href: https://www.dh.unibe.ch/dienstleistungen/index_ger.html
 
   sidebar:
+    style: 'docked'
+    collapse-level: 1
     contents:
-      - section: REPO_NAME
+      - text: Startseite
         href: index.qmd
-        contents:
-          - text: Changelog
-            href: CHANGELOG.md
-          - text: Code of Conduct
-            href: CODE_OF_CONDUCT.md
-          - text: Contributing
-            href: CONTRIBUTING.md
-          - text: License (Data)
-            href: LICENSE-CCBY.md
-          - text: License (Code)
-            href: LICENSE-AGPL.md
-          - text: Security
-            href: SECURITY.md
-      - href: report.md
-        contents: project-management/*
+      - text: Studium
+        href: https://www.dh.unibe.ch/studium/index_ger.html
+      - section: Projekte
+        href: projects/index.qmd
+        contents: projects/*/index.qmd
+      - section: Personen
+        href: people/index.qmd
+        contents: people/*/index.qmd
+      - text: Dienstleistungen
+        href: https://www.dh.unibe.ch/dienstleistungen/index_ger.html
 
 format:
   html:
     toc: true
-    theme: cosmo
+    theme:
+      - cosmo
+      - custom.scss
     code-copy: true
     code-overflow: wrap
     css: styles.css
-
+    mainfont: 'FrutigerNeue'
+    linkcolor: '#0074c4'
+    link-external-icon: true
+    include-in-header:
+      - custom-header.html
+    page-layout: full
 freeze: true
 
 editor: visual

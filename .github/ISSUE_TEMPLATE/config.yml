@@ -1,8 +1,8 @@
 contact_links:
-  - name: Are you looking for documentation on REPO_NAME?
-    url: https://USERNAME.github.io/REPO_NAME
-    about: Please see the documentation for REPO_NAME on its GitHub Pages page.
-  - name: Do want to discuss REPO_NAME with the community?
-    url: https://github.com/USERNAME/REPO_NAME/discussions
-    about: Please see the discussions page for REPO_NAME.
+  - name: Are you looking for documentation on dhbern.github.io?
+    url: https://DHBern.github.io/dhbern.github.io
+    about: Please see the documentation for dhbern.github.io on its GitHub Pages page.
+  - name: Do want to discuss dhbern.github.io with the community?
+    url: https://github.com/DHBern/dhbern.github.io/discussions
+    about: Please see the discussions page for dhbern.github.io.
 blank_issues_enabled: true

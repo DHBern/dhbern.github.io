@@ -1,8 +1,8 @@
 {
-	"name": "REPO_NAME",
-	"description": "SHORT_DESCRIPTION",
-	"author": "FULLNAME <[INSERT CONTACT METHOD]>",
-	"url": "https://github.com/USERNAME/REPO_NAME/issues",
+	"name": "dhbern.github.io",
+	"description": "Digital Humanities at the University of Bern.",
+	"author": "Digital Humanities UniBern <digitalhumanities@unibe.ch>",
+	"url": "https://github.com/DHBern/dhbern.github.io/issues",
 	"license": "AGPL-3.0",
 	"scripts": {
 		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBY.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock}'",

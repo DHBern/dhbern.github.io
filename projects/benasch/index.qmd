@@ -1,0 +1,12 @@
+---
+status: active
+type: Forschungsprojekt
+tags: [Annotation, Datenmodellierung, Workshop]
+---
+# BeNASch: Praktische Einblicke und Diskussion
+
+# Ein Workshop zur nachhaltigen Annotation von Entitäten und Ereignissen in historischen Texten
+
+Wir laden zum ersten Workshop zu BeNASch, dem Annotationsschema für vormoderne deutschsprachige Texte, ein. Über zwei Tage wollen wir uns intensiv mit dem Schema auseinandersetzen. Einer praktischen Einführung zum Schema folgen kritische Diskussionen. Forschende aller Stufen (inklusive Studierende), die sich für Annotation und Datenmodellierung anhand historischer Texte interessieren, sind herzlich eingeladen. Der Workshop findet am 23. und 24. Januar 2025 an der Universität Bern statt.
+
+[Flyer BeNASch (PDF, 311KB)](https://www.dh.unibe.ch/unibe/portal/fak_historisch/fsuf/d_dh/content/e330302/e1597094/e1597095/Flyer_BeNASch_WS2025_ger.pdf "application/pdf (311KB)")
