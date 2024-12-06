@@ -6,7 +6,7 @@ website:
   favicon: android-chrome-512x512.png
   open-graph: true
   twitter-card: true
-  site-url: https://DHBern.github.io/dhbern.github.io/
+  site-url: https://dhbern.github.io/
   repo-url: https://github.com/DHBern/dhbern.github.io/
   issue-url: https://github.com/DHBern/dhbern.github.io/issues/new/choose
   repo-actions: [edit, issue]
