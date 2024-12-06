@@ -1,6 +1,5 @@
 ---
+title: People
 listing: grid
-categories: true
+# categories: true
 ---
-
-# People

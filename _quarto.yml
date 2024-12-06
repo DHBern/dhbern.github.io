@@ -24,32 +24,32 @@ website:
       - icon: github
         url: https://github.com/DHBern/dhbern.github.io/
     left:
-      - text: Startseite
-        href: index.qmd
-      - text: Studium
+      - text: Home
+        href: https://www.dh.unibe.ch/
+      - text: Studies
         href: https://www.dh.unibe.ch/studium/index_ger.html
-      - text: Projekte
+      - text: Projects
         href: projects/index.qmd
-      - text: Personen
+      - text: People
         href: people/index.qmd
-      - text: Dienstleistungen
+      - text: Services
         href: https://www.dh.unibe.ch/dienstleistungen/index_ger.html
 
   sidebar:
     style: 'docked'
     collapse-level: 1
     contents:
-      - text: Startseite
+      - text: Home
         href: index.qmd
-      - text: Studium
+      - text: Studies
         href: https://www.dh.unibe.ch/studium/index_ger.html
-      - section: Projekte
+      - section: Projects
         href: projects/index.qmd
         contents: projects/*/index.qmd
-      - section: Personen
+      - section: People
         href: people/index.qmd
         contents: people/*/index.qmd
-      - text: Dienstleistungen
+      - text: Services
         href: https://www.dh.unibe.ch/dienstleistungen/index_ger.html
 
 format:
