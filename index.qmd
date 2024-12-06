@@ -1,1 +1,6 @@
-{{< include projects/index.qmd >}}
+---
+title: "Projects"
+listing:
+  contents: projects/*/index.qmd
+  type: grid
+---
