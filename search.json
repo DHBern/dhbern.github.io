@@ -25,10 +25,10 @@
     "href": "people/index.html",
     "title": "People",
     "section": "",
-    "text": "People\n\n\n\n\n\n\n\n\n\n\n\n\n\nMoritz Mähr\n\n\n\n\n\n\nMoritz Mähr\n\n\n\n\n\n\n\n\n\n\n\n\nTobias Hodel\n\n\n\n\n\n\nTobias\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "text": "Moritz Mähr\n\n\n\n\n\n\nMoritz Mähr\n\n\n\n\n\n\n\n\n\n\n\n\nTobias Hodel\n\n\n\n\n\n\nTobias\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
-      "Startseite",
-      "Personen"
+      "Home",
+      "People"
     ]
   },
   {
@@ -48,11 +48,11 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Digital Humanities",
+    "title": "Projects",
     "section": "",
-    "text": "Digital Humanities\nWir bieten Kurse für Studierende und Forschende auf allen Ebenen an, von Bachelor bis zu Postdoc.\nWir forschen zu unterschiedlichen Themen, im Umkreis digitaler Text- und Bildanalysen, digitaler Edition und der Reflexion des Einflusses digitaler Methoden auf die Geisteswissenschaften.\nLehre und Weiterbildung sind zentrale Stützen der Professur, um digitale Kompetenzen zu verbreiten. Eine Übersicht zu aktuellen DH-Forschungsprojekten finden Sie unter Forschung.\nNeben Forschung ist auch die Lehre ein wichtiger Aspekt der DH@UNIBE, unter Studium erfahren Sie mehr.\n\n\n\n\n Back to top",
+    "text": "BeNASch: Praktische Einblicke und Diskussion\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBullinger digital\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChangelog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContributing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContributor Covenant Code of Conduct\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMoritz Mähr\n\n\n\n\n\n\nMoritz Mähr\n\n\n\n\n\n\n\n\n\n\n\n\nPeople\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecurity Policy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTobias Hodel\n\n\n\n\n\n\nTobias\n\n\n\n\n\n\n\n\n\n\n\n\ndhbern.github.io\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
-      "Startseite"
+      "Home"
     ]
   },
   {
@@ -62,8 +62,8 @@
     "section": "",
     "text": "Bullinger digital\nIn Kooperation mit der Universität Zürich (Prof. Dr. Martin Volk) und der Fachhochschule Westschweiz (Prof. Dr. Andreas Fischer) erarbeiten wir Handschriftenmodelle zur Erkennung des Briefwechsels Heinrich Bullingers.\nZiel ist die effiziente Unterstützung der Lesbarmachung der Handschriften der umfangreichen Briefkorrespondenz Bullingers. Informationen zum Stand des Projekts finden sich online: bullinger-digital.ch.\nDas Projekt startet am 1. April 2021 und wird grosszügig unterstützt durch die Hasler Stiftung.\n\n\n\n\n Back to top",
     "crumbs": [
-      "Startseite",
-      "Projekte",
+      "Home",
+      "Projects",
       "Bullinger digital"
     ]
   },
@@ -74,16 +74,37 @@
     "section": "",
     "text": "BeNASch: Praktische Einblicke und Diskussion\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBullinger digital\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
-      "Startseite",
-      "Projekte"
+      "Home",
+      "Projects"
     ]
   },
   {
-    "objectID": "report.html",
-    "href": "report.html",
-    "title": "Report",
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "Changelog",
     "section": "",
-    "text": "Report\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n\n\n\n Back to top"
+    "text": "All notable changes to this project will be documented in this file.\nThe format is based on Keep a Changelog, and this project adheres to Semantic Versioning.\n\n\n\n\n\nDocs for Zenodo added\nFixed various typos and replaced favicon\n\n\n\n\n\nInitial version\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n…"
+  },
+  {
+    "objectID": "CHANGELOG.html#unreleased",
+    "href": "CHANGELOG.html#unreleased",
+    "title": "Changelog",
+    "section": "",
+    "text": "Docs for Zenodo added\nFixed various typos and replaced favicon\n\n\n\n\n\nInitial version"
+  },
+  {
+    "objectID": "CHANGELOG.html#section",
+    "href": "CHANGELOG.html#section",
+    "title": "Changelog",
+    "section": "",
+    "text": "…"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-1",
+    "href": "CHANGELOG.html#section-1",
+    "title": "Changelog",
+    "section": "",
+    "text": "…"
   },
   {
     "objectID": "CODE_OF_CONDUCT.html",
@@ -142,42 +163,14 @@
     "text": "This Code of Conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
   },
   {
-    "objectID": "CHANGELOG.html",
-    "href": "CHANGELOG.html",
-    "title": "Changelog",
-    "section": "",
-    "text": "All notable changes to this project will be documented in this file.\nThe format is based on Keep a Changelog, and this project adheres to Semantic Versioning.\n\n\n\n\n\nDocs for Zenodo added\nFixed various typos and replaced favicon\n\n\n\n\n\nInitial version\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n…"
-  },
-  {
-    "objectID": "CHANGELOG.html#unreleased",
-    "href": "CHANGELOG.html#unreleased",
-    "title": "Changelog",
-    "section": "",
-    "text": "Docs for Zenodo added\nFixed various typos and replaced favicon\n\n\n\n\n\nInitial version"
-  },
-  {
-    "objectID": "CHANGELOG.html#section",
-    "href": "CHANGELOG.html#section",
-    "title": "Changelog",
-    "section": "",
-    "text": "…"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-1",
-    "href": "CHANGELOG.html#section-1",
-    "title": "Changelog",
-    "section": "",
-    "text": "…"
-  },
-  {
     "objectID": "projects/aufbereitung-bundesratsprotokolle/index.html",
     "href": "projects/aufbereitung-bundesratsprotokolle/index.html",
     "title": "Kooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle",
     "section": "",
     "text": "Kooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle\nZiel des Projekts ist die Aufbereitung der handschriftlichen Bundesratsprotokolle (1848-1903) um einen niederschwelligen Zugriff mittels eigener Suchoberfläche zu schaffen. Die automatische Erkennung und Aufbereitung von handschriftlichem Material ist seit wenigen Jahren mit guter Qualität möglich.\nDie handschriftlich verfassten Bundesratsprotokolle der Jahre 1848 bis 1903 liegen zwar als Digitalisate vor (siehe: www.amtsdruckschriften.bar.admin.ch), sie sind jedoch nur schwer über handschriftliche Register und Sitzungsnummern suchbar. Im Rahmen des Projekts werden 150’000 Seiten der Bundesratsprotokolle segmentiert (p2pala und citlab advanced layout analysis) und mittels Texterkennung (Pylaia) aufbereitet. Der gesamte Prozess läuft in Transkribus und wird in eine Such- und Blätteroberfläche eingespiesen.\nDer Zugang zu den erkannten Dokumenten ist über das Bundesarchiv möglich: www.chgov.bar.admin.ch/search.\nDas Projekt befindet sich im Abschluss, siehe dazu die Medienmitteilung des Bundesarchivs vom 3.2.2022.\nDas Projekt ist eine Kooperation des Schweizerischen Bundesarchivs und der Digital Humanities. Die Texterkennung erfolgt im Rahmen der Mitgliedschaft in der READ Kooperative.\nDavid Schoch, B. A.\n\n\n\n\n\n\n Back to top",
     "crumbs": [
-      "Startseite",
-      "Projekte",
+      "Home",
+      "Projects",
       "Kooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle"
     ]
   },
@@ -188,8 +181,8 @@
     "section": "",
     "text": "BeNASch: Praktische Einblicke und Diskussion\n\n\nEin Workshop zur nachhaltigen Annotation von Entitäten und Ereignissen in historischen Texten\nWir laden zum ersten Workshop zu BeNASch, dem Annotationsschema für vormoderne deutschsprachige Texte, ein. Über zwei Tage wollen wir uns intensiv mit dem Schema auseinandersetzen. Einer praktischen Einführung zum Schema folgen kritische Diskussionen. Forschende aller Stufen (inklusive Studierende), die sich für Annotation und Datenmodellierung anhand historischer Texte interessieren, sind herzlich eingeladen. Der Workshop findet am 23. und 24. Januar 2025 an der Universität Bern statt.\nFlyer BeNASch (PDF, 311KB)\n\n\n\n\n Back to top",
     "crumbs": [
-      "Startseite",
-      "Projekte",
+      "Home",
+      "Projects",
       "BeNASch: Praktische Einblicke und Diskussion"
     ]
   },
@@ -277,8 +270,8 @@
     "section": "",
     "text": "Tobias Hodel\n\n\n\n\n Back to top",
     "crumbs": [
-      "Startseite",
-      "Personen",
+      "Home",
+      "People",
       "Tobias Hodel"
     ]
   },
@@ -289,8 +282,8 @@
     "section": "",
     "text": "Moritz Mähr\n\n\n\n\n Back to top",
     "crumbs": [
-      "Startseite",
-      "Personen",
+      "Home",
+      "People",
       "Moritz Mähr"
     ]
   },

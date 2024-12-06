@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>dhbern.github.io</title>
+<title>Projects – dhbern.github.io</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,15 +32,17 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./projects/index.html" rel="next">
 <link href="./android-chrome-512x512.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-80fda5824d557de7836364d5b94649aa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,15 +70,71 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="dhbern.github.io">
-<meta property="og:description" content="">
+<meta property="og:title" content="Projects – dhbern.github.io">
 <meta property="og:site_name" content="dhbern.github.io">
-<meta name="twitter:title" content="dhbern.github.io">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="Projects – dhbern.github.io">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -101,24 +159,24 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Startseite</span></a>
+    <a class="nav-link" href="https://www.dh.unibe.ch/"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.dh.unibe.ch/studium/index_ger.html"> 
-<span class="menu-text">Studium</span></a>
+    <a class="nav-link active" href="https://www.dh.unibe.ch/studium/index_ger.html" aria-current="page"> 
+<span class="menu-text">Studies</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./projects/index.html"> 
-<span class="menu-text">Projekte</span></a>
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./people/index.html"> 
-<span class="menu-text">Personen</span></a>
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://www.dh.unibe.ch/dienstleistungen/index_ger.html"> 
-<span class="menu-text">Dienstleistungen</span></a>
+<span class="menu-text">Services</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -132,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Startseite</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -147,19 +205,19 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Startseite</span></a>
+ <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://www.dh.unibe.ch/studium/index_ger.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Studium</span></a>
+ <span class="menu-text">Studies</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./projects/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Projekte</span></a>
+ <span class="menu-text">Projects</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -188,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./people/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Personen</span></a>
+ <span class="menu-text">People</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -211,7 +269,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://www.dh.unibe.ch/dienstleistungen/index_ger.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Dienstleistungen</span></a>
+ <span class="menu-text">Services</span></a>
   </div>
 </li>
     </ul>
@@ -219,32 +277,453 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#digital-humanities" id="toc-digital-humanities" class="nav-link active" data-scroll-target="#digital-humanities">Digital Humanities</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/DHBern/dhbern.github.io/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/dhbern.github.io/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Projects</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-right">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 
 
-<section id="digital-humanities" class="level1">
-<h1>Digital Humanities</h1>
-<p>Wir bieten Kurse&nbsp;für Studierende und Forschende&nbsp;auf allen Ebenen an, von Bachelor bis zu Postdoc.</p>
-<p>Wir forschen zu unterschiedlichen Themen, im Umkreis digitaler Text- und Bildanalysen, digitaler Edition und der Reflexion des Einflusses digitaler Methoden auf die Geisteswissenschaften.<br>
-Lehre und Weiterbildung sind zentrale Stützen der Professur, um digitale Kompetenzen zu verbreiten. Eine Übersicht zu aktuellen DH-Forschungsprojekten finden Sie unter&nbsp;<a href="https://www.dh.unibe.ch/forschung/index_ger.html">Forschung</a>.</p>
-<p>Neben Forschung ist auch die Lehre ein wichtiger Aspekt der DH@UNIBE, unter&nbsp;<a href="https://www.dh.unibe.ch/studium/index_ger.html">Studium</a>&nbsp;erfahren Sie mehr.</p>
 
 
-</section>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1732350649519" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
+<a href="./projects/benasch/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+BeNASch: Praktische Einblicke und Diskussion
+</h5>
+<div class="card-text listing-description">
+Wir laden zum ersten Workshop zu BeNASch, dem Annotationsschema für vormoderne deutschsprachige Texte, ein. Über zwei Tage wollen wir uns intensiv mit dem Schema…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1732350649519" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<a href="./projects/bullinger-digital/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bullinger digital
+</h5>
+<div class="card-text listing-description">
+In Kooperation mit der Universität Zürich (Prof.&nbsp;Dr.&nbsp;Martin Volk)&nbsp;und der Fachhochschule Westschweiz (Prof.&nbsp;Dr.&nbsp;Andreas Fischer)&nbsp;erarbeiten wir Handschriftenmodelle zur…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1732350649483" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
+<a href="./CHANGELOG.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Changelog
+</h5>
+<div class="card-text listing-description">
+All notable changes to this project will be documented in this file.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1732350649484" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
+<a href="./CONTRIBUTING.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Contributing
+</h5>
+<div class="card-text listing-description">
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1732350649484" data-listing-reading-time-sort="4" data-listing-word-count-sort="631">
+<a href="./CODE_OF_CONDUCT.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Contributor Covenant Code of Conduct
+</h5>
+<div class="card-text listing-description">
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1732350649518" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
+<a href="./projects/aufbereitung-bundesratsprotokolle/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Kooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle
+</h5>
+<div class="card-text listing-description">
+Ziel des Projekts ist die Aufbereitung der handschriftlichen Bundesratsprotokolle (1848-1903) um einen niederschwelligen Zugriff mittels eigener Suchoberfläche zu schaffen.…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1732350649517" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/moritz-maehr/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Moritz Mähr
+</h5>
+<div class="card-text listing-description">
+
+
+
+
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Moritz Mähr
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1733500449157" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+People
+</h5>
+<div class="card-text listing-description">
+
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1732350649517" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+
+<div class="card-text listing-description">
+
+
+
+
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Moritz Mähr
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1732350649517" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+
+<div class="card-text listing-description">
+
+
+
+
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Tobias
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1732350649521" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./projects/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Projects
+</h5>
+<div class="card-text listing-description">
+
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1732350649519" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
+
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+
+<div class="card-text listing-description">
+Wir laden zum ersten Workshop zu BeNASch, dem Annotationsschema für vormoderne deutschsprachige Texte, ein. Über zwei Tage wollen wir uns intensiv mit dem Schema…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1732350649519" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+
+<div class="card-text listing-description">
+In Kooperation mit der Universität Zürich (Prof.&nbsp;Dr.&nbsp;Martin Volk)&nbsp;und der Fachhochschule Westschweiz (Prof.&nbsp;Dr.&nbsp;Andreas Fischer)&nbsp;erarbeiten wir Handschriftenmodelle zur…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1732350649518" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
+
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+
+<div class="card-text listing-description">
+Ziel des Projekts ist die Aufbereitung der handschriftlichen Bundesratsprotokolle (1848-1903) um einen niederschwelligen Zugriff mittels eigener Suchoberfläche zu schaffen.…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1732350649486" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
+<a href="./SECURITY.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Security Policy
+</h5>
+<div class="card-text listing-description">
+To report a security issue, please email digitalhumanities@unibe.ch with a description of the issue, the steps you took to create the issue, affected versions, and, if…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-listing-file-modified-sort="1732350649517" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/tobias-hodel/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tobias Hodel
+</h5>
+<div class="card-text listing-description">
+
+
+
+
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Tobias
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-listing-file-modified-sort="1732350649486" data-listing-reading-time-sort="5" data-listing-word-count-sort="817">
+<a href="./README.template.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+dhbern.github.io
+</h5>
+<div class="card-text listing-description">
+This repository contains Digital Humanities at the University of Bern. The data in this repository is openly available to everyone and is intended to support reproducible…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-listing-file-modified-sort="1732108725164" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
+<a href="./TODO.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<div class="card-text listing-description">
+
+<li><label><input type="checkbox">Zweisprachigkeit https://docs.ropensci.org/babelquarto/</label></li>
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-listing-file-modified-sort="1732350649485" data-listing-reading-time-sort="20" data-listing-word-count-sort="3984">
+<a href="./LICENSE-CCBY.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<div class="card-text listing-description">
+Attribution 4.0 International
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="14" data-listing-file-modified-sort="1732350649484" data-listing-reading-time-sort="29" data-listing-word-count-sort="5707">
+<a href="./LICENSE-AGPL.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<div class="card-text listing-description">
+Copyright (C) 2007 Free Software Foundation, Inc.&nbsp;https://fsf.org/ Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -327,8 +806,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -337,7 +814,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/DHBern\.github\.io\/dhbern\.github\.io\/");
+      var filterRegex = new RegExp("https:\/\/maehr\.github\.io\/dhbern\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -441,7 +918,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -667,12 +1143,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation column-body">
+<nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./projects/index.html" class="pagination-link" aria-label="Projekte">
-        <span class="nav-page-text">Projekte</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./projects/index.html" class="pagination-link" aria-label="Projects">
+        <span class="nav-page-text">Projects</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -681,4 +1157,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DHBern/dhbern.github.io/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/dhbern.github.io/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/DHBern/dhbern.github.io/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DHBern/dhbern.github.io/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
