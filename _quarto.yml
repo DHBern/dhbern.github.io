@@ -3,7 +3,7 @@ project:
 
 website:
   title: dhbern.github.io
-  favicon: logo.png
+  # favicon: logo.png
   open-graph: true
   twitter-card: true
   site-url: https://maehr.github.io/dhbern.github.io/projects/
@@ -57,15 +57,17 @@ format:
     toc: true
     toc-location: right
     theme:
-      - cosmo
+      - brand
       - custom.scss
     code-copy: true
     code-overflow: wrap
     citations-hover: true
     crossrefs-hover: true
     css: styles.css
-    mainfont: 'FrutigerNeue'
-    linkcolor: '#0074c4'
+    # mainfont: 'FrutigerNeue'
+    # backgroundcolor: '#f8f9fa'
+    # fontcolor: '#333333'
+    # linkcolor: '#0056b3'
     link-external-icon: true
     link-external-newwindow: true
     include-in-header:

@@ -69,7 +69,6 @@ format:
     include-in-header: custom-header.tex
 resources:
   - 9783657796823-71011.pdf
-image: portrait.jpeg
 ---
 
 :::: {.content-visible when-format="html"}

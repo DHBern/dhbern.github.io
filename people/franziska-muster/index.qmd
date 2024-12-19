@@ -32,9 +32,10 @@ other-links:
     href: https://github.com/franziskamuster
 format:
   html: default
-  docx: default
-  typst: default
-image: image.webp
+  docx:
+    output-file: franziska-muster.docx
+  typst:
+    output-file: franziska-muster.pdf
 ---
 
 :::: {.content-visible when-format="html"}

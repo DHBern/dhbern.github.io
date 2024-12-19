@@ -1,0 +1,34 @@
+meta:
+  name:
+    full: Digital Humanities University of Bern
+    short: DH Bern
+  link:
+    home: https://www.dh.unibe.ch/
+    docs: https://dhbern.github.io/
+    github: https://github.com/dhbern
+    twitter: https://x.com/dh_unibe
+    linkedin: https://www.linkedin.com/school/university-of-bern/
+    huggingface: https://huggingface.co/dh-unibe
+  description: |
+    The Digital Humanities Lab at the University of Bern is a research and teaching unit that supports the use of digital methods and tools in the humanities. We offer courses, workshops, and consulting services to students and researchers at the University of Bern and beyond.
+  founded: 2013
+logo: # https://posit-dev.github.io/brand-yml/brand/logo.html
+  small: ./logo.png
+  medium: ./logo.png
+  large: ./logo.png
+color:
+  foreground: '#222222' # Main text color
+  background: '#FFFFFF' # Page background
+  primary: '#d6002b' # Active links and buttons
+  secondary: '#707073' # Muted or secondary elements
+  tertiary: '#E4E4E4' # Borders and light backgrounds
+  success: '#0f7d28' # Positive or success messages
+  info: '#419599' # Informational backgrounds
+  warning: '#EE6331' # Warning or caution indicators
+  danger: '#ad0023' # Error messages or alerts
+  light: '#f5f5f5' # Light background sections
+  dark: '#404041' # Dark text for contrast
+typography: # https://posit-dev.github.io/brand-yml/brand/typography.html
+  base: FrutigerNeue
+  headings: FrutigerNeue
+  monospace: FrutigerNeue
