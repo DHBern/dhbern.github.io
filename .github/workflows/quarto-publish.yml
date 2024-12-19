@@ -61,11 +61,14 @@ jobs:
         with:
           python-version-file: '.python-version'
 
+      - name: Create and activate virtual environment
+        run: |
+          uv venv .venv
+          echo "VIRTUAL_ENV=.venv" >> $GITHUB_ENV
+          echo "$PWD/.venv/bin" >> $GITHUB_PATH
+
       - name: Install the project
         run: uv sync
-
-      - name: Activate the environment
-        run: echo "source .venv/bin/activate" >> $GITHUB_ENV
 
       # From https://github.com/r-lib/actions/tree/v2-branch/setup-r
       - name: Setup R

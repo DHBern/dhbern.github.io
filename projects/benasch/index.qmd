@@ -3,6 +3,7 @@ status: active
 type: Forschungsprojekt
 tags: [Annotation, Datenmodellierung, Workshop]
 ---
+
 # BeNASch: Praktische Einblicke und Diskussion
 
 # Ein Workshop zur nachhaltigen Annotation von Entitäten und Ereignissen in historischen Texten
