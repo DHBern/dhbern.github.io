@@ -13,9 +13,9 @@ meta:
     The Digital Humanities Lab at the University of Bern is a research and teaching unit that supports the use of digital methods and tools in the humanities. We offer courses, workshops, and consulting services to students and researchers at the University of Bern and beyond.
   founded: 2013
 logo: # https://posit-dev.github.io/brand-yml/brand/logo.html
-  small: ./logo.png
-  medium: ./logo.png
-  large: ./logo.png
+  small: /logo.png
+  medium: /logo.png
+  large: /logo.png
 color:
   foreground: '#222222' # Main text color
   background: '#FFFFFF' # Page background

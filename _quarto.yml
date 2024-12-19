@@ -17,8 +17,6 @@ website:
     show-item-context: true
     type: overlay
   navbar:
-    # logo: android-chrome-512x512.png
-    logo-alt: ''
     title: Digital Humanities
     tools:
       - icon: github

@@ -67,6 +67,7 @@ format:
     linkcolor: darkgray
     urlcolor: darkgray
     include-in-header: custom-header.tex
+    output-file: moritz-maehr.pdf
 resources:
   - 9783657796823-71011.pdf
 ---
