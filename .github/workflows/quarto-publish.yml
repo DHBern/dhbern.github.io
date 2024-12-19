@@ -65,7 +65,7 @@ jobs:
         run: uv sync
 
       - name: Activate the environment
-        run: source .venv/bin/activate
+        run: echo "source .venv/bin/activate" >> $GITHUB_ENV
 
       # From https://github.com/r-lib/actions/tree/v2-branch/setup-r
       - name: Setup R
