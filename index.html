@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./projects/index.html" rel="next">
-<link href="./android-chrome-512x512.png" rel="icon" type="image/png">
+<link href="./logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -133,9 +133,17 @@ window.Quarto = {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Projects – dhbern.github.io">
+<meta property="og:image" content="https://maehr.github.io/dhbern.github.io/projects/projects/advanced-layout/margin-content.png">
 <meta property="og:site_name" content="dhbern.github.io">
+<meta property="og:image:alt" content="Screenshot of two sections of post: Margin Figures, which has a plot in the margin; and Arbitrary Margin Content, which has text with a LaTeX equation in the margin.">
+<meta property="og:image:height" content="723">
+<meta property="og:image:width" content="965">
 <meta name="twitter:title" content="Projects – dhbern.github.io">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://maehr.github.io/dhbern.github.io/projects/projects/advanced-layout/margin-content.png">
+<meta name="twitter:image:alt" content="Screenshot of two sections of post: Margin Figures, which has a plot in the margin; and Arbitrary Margin Content, which has text with a LaTeX equation in the margin.">
+<meta name="twitter:image-height" content="723">
+<meta name="twitter:image-width" content="965">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -145,9 +153,6 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./android-chrome-512x512.png" alt="" class="navbar-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Digital Humanities</span>
     </a>
@@ -190,9 +195,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
+        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">Projects</h1>
+        </a>     
     </div>
   </nav>
 </header>
@@ -231,6 +236,24 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./projects/interactivity/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Observable JS</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./projects/dashboard/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Development Indicators by Continent</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./projects/advanced-layout/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Positioning Content in the Margin</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./projects/benasch/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BeNASch: Praktische Einblicke und Diskussion</span></a>
   </div>
@@ -239,6 +262,12 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="./projects/bullinger-digital/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bullinger digital</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./projects/presentation/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quarto Presentations</span></a>
   </div>
 </li>
       </ul>
@@ -254,8 +283,8 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./people/tobias-hodel/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tobias Hodel</span></a>
+  <a href="./people/franziska-muster/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Franziska Muster</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -285,7 +314,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title d-none d-lg-block">Projects</h1>
 </div>
 
 
@@ -308,7 +337,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1732350649519" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1734604659224" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
 <a href="./projects/benasch/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -328,7 +357,7 @@ Wir laden zum ersten Workshop zu BeNASch, dem Annotationsschema für vormoderne 
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1732350649519" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1734555721462" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
 <a href="./projects/bullinger-digital/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -348,7 +377,27 @@ In Kooperation mit der Universität Zürich (Prof.&nbsp;Dr.&nbsp;Martin Volk)&nb
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1732350649518" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1734554417977" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
+<a href="./projects/dashboard/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Development Indicators by Continent
+</h5>
+<div class="card-text listing-description">
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Gapminder Analytics Group
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1734560509928" data-listing-reading-time-sort="1" data-listing-word-count-sort="140">
 <a href="./projects/aufbereitung-bundesratsprotokolle/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -368,11 +417,76 @@ Ziel des Projekts ist die Aufbereitung der handschriftlichen Bundesratsprotokoll
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1713299028047" data-listing-reading-time-sort="7" data-listing-word-count-sort="1355">
+<a href="./projects/interactivity/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Observable JS
+</h5>
+<div class="card-text listing-description">
+Quarto includes native support for Observable JS, a set of enhancements to vanilla JavaScript created by Mike Bostock (also the author of D3). Observable JS is distinguished…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="RmVhdHVyZXMlMkNMYXlvdXQ=" data-listing-date-sort="1645052400000" data-listing-file-modified-sort="1734595379074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="469">
+<a href="./projects/advanced-layout/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/advanced-layout/margin-content.png" class="thumbnail-image card-img" style="height: 150px;" alt="Screenshot of two sections of post: Margin Figures, which has a plot in the margin; and Arbitrary Margin Content, which has text with a LaTeX equation in the margin.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Positioning Content in the Margin
+</h5>
+<div class="card-text listing-description">
+This post demonstrates a few of the capabilities for positioning content in the margin of the page. You can read more about the complete capabilities in the [Article Layout…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Charles Teague
+</div>
+<div class="listing-date">
+Feb 17, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1734595539470" data-listing-reading-time-sort="8" data-listing-word-count-sort="1413">
+<a href="./projects/presentation/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Quarto Presentations
+</h5>
+<div class="card-text listing-description">
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -477,6 +591,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
           // default icon
           link.classList.add("external");
       }

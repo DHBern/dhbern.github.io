@@ -1,9 +1,14 @@
 [
   {
-    "listing": "/people/index.html",
+    "listing": "/projects/index.html",
     "items": [
-      "/people/moritz-maehr/index.html",
-      "/people/tobias-hodel/index.html"
+      "/projects/benasch/index.html",
+      "/projects/bullinger-digital/index.html",
+      "/projects/dashboard/index.html",
+      "/projects/aufbereitung-bundesratsprotokolle/index.html",
+      "/projects/interactivity/index.html",
+      "/projects/advanced-layout/index.html",
+      "/projects/presentation/index.html"
     ]
   },
   {
@@ -11,15 +16,18 @@
     "items": [
       "/projects/benasch/index.html",
       "/projects/bullinger-digital/index.html",
-      "/projects/aufbereitung-bundesratsprotokolle/index.html"
+      "/projects/dashboard/index.html",
+      "/projects/aufbereitung-bundesratsprotokolle/index.html",
+      "/projects/interactivity/index.html",
+      "/projects/advanced-layout/index.html",
+      "/projects/presentation/index.html"
     ]
   },
   {
-    "listing": "/projects/index.html",
+    "listing": "/people/index.html",
     "items": [
-      "/projects/benasch/index.html",
-      "/projects/bullinger-digital/index.html",
-      "/projects/aufbereitung-bundesratsprotokolle/index.html"
+      "/people/franziska-muster/index.html",
+      "/people/moritz-maehr/index.html"
     ]
   }
 ]

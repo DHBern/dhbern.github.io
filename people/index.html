@@ -30,9 +30,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../people/tobias-hodel/index.html" rel="next">
-<link href="../projects/bullinger-digital/index.html" rel="prev">
-<link href="../android-chrome-512x512.png" rel="icon" type="image/png">
+<link href="../people/franziska-muster/index.html" rel="next">
+<link href="../projects/presentation/index.html" rel="prev">
+<link href="../logo.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -81,9 +81,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -134,9 +134,11 @@ window.Quarto = {
 
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="People – dhbern.github.io">
+<meta property="og:image" content="https://maehr.github.io/dhbern.github.io/projects/people/franziska-muster/image.webp">
 <meta property="og:site_name" content="dhbern.github.io">
 <meta name="twitter:title" content="People – dhbern.github.io">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://maehr.github.io/dhbern.github.io/projects/people/franziska-muster/image.webp">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -146,9 +148,6 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../android-chrome-512x512.png" alt="" class="navbar-logo">
-    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Digital Humanities</span>
     </a>
@@ -191,9 +190,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../people/index.html">People</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
+        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">People</h1>
+        </a>     
     </div>
   </nav>
 </header>
@@ -232,6 +231,24 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../projects/interactivity/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Observable JS</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/dashboard/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Development Indicators by Continent</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/advanced-layout/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Positioning Content in the Margin</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../projects/benasch/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BeNASch: Praktische Einblicke und Diskussion</span></a>
   </div>
@@ -240,6 +257,12 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="../projects/bullinger-digital/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bullinger digital</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/presentation/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quarto Presentations</span></a>
   </div>
 </li>
       </ul>
@@ -255,8 +278,8 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../people/tobias-hodel/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tobias Hodel</span></a>
+  <a href="../people/franziska-muster/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Franziska Muster</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -286,7 +309,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">People</h1>
+<h1 class="title d-none d-lg-block">People</h1>
 </div>
 
 
@@ -309,48 +332,50 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1732350649517" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../people/moritz-maehr/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1734594683000" data-listing-file-modified-sort="1734594683339" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="362">
+<a href="../people/franziska-muster/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img loading="lazy" src="../people/franziska-muster/image.webp" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Moritz Mähr
+Franziska Muster
 </h5>
 <div class="card-text listing-description">
-
-
-
-
+Franziska Muster is a PhD Candidate at the <span>University of Bern</span> specializing in <span>Digital Humanities</span> and [Science and…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
 
 </div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Moritz Mähr
+<div class="listing-date">
+Dec 19, 2024
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1732350649517" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../people/tobias-hodel/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1734594572000" data-listing-file-modified-sort="1734594572407" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2386">
+<a href="../people/moritz-maehr/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img loading="lazy" src="../people/moritz-maehr/portrait.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Tobias Hodel
+Moritz Mähr
 </h5>
 <div class="card-text listing-description">
-
-
-
-
+Dr.&nbsp;sc. Moritz Mähr is an Associate Researcher in <span>Digital Humanities</span> at the University of Bern and the digital project manager of…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
 
 </div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Tobias
+<div class="listing-date">
+Dec 19, 2024
 </div>
 </div>
 </div>
@@ -361,7 +386,7 @@ Tobias
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -466,6 +491,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
           // default icon
           link.classList.add("external");
       }
@@ -783,13 +813,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
-      <a href="../projects/bullinger-digital/index.html" class="pagination-link" aria-label="Bullinger digital">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Bullinger digital</span>
+      <a href="../projects/presentation/index.html" class="pagination-link" aria-label="Quarto Presentations">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Quarto Presentations</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../people/tobias-hodel/index.html" class="pagination-link" aria-label="Tobias Hodel">
-        <span class="nav-page-text">Tobias Hodel</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../people/franziska-muster/index.html" class="pagination-link" aria-label="Franziska Muster">
+        <span class="nav-page-text">Franziska Muster</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
