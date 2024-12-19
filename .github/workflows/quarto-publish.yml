@@ -1,4 +1,7 @@
 on:
+  pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
@@ -12,38 +15,62 @@ permissions:
   pages: write
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
+  lint:
+    name: Lint with Prettier
+    runs-on: macos-latest
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Overwrite _quarto.yml
-        if: github.repository == 'maehr/open-research-data-template'
-        run: |
-          cp .github/_quarto.yml _quarto.yml
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check for linting errors
+        run: npm run check
+
+  build-deploy:
+    runs-on: macos-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-        # To install LaTeX to build PDF book outputs, uncomment below
-        tinytex: true
+          # To install LaTeX to build PDF book outputs, uncomment below
+          tinytex: true
         # uncomment below and fill to pin a version
         # version: SPECIFIC-QUARTO-VERSION-HERE
 
-      # add software dependencies here and any libraries
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          enable-cache: true
 
-      # From https://github.com/actions/setup-python
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
+        with:
+          python-version-file: '.python-version'
+
+      - name: Install the project
+        run: uv sync
 
       # From https://github.com/r-lib/actions/tree/v2-branch/setup-r
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
 
+      - uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1
       # From https://github.com/julia-actions/setup-julia
       # - name: Setup Julia
       #   uses: julia-actions/setup-julia@v1
@@ -54,6 +81,7 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
         with:
           path: .
+          to: html
 
       - name: JamPack
         if: github.event_name != 'pull_request'

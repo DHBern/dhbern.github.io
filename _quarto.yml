@@ -3,21 +3,21 @@ project:
 
 website:
   title: dhbern.github.io
-  favicon: android-chrome-512x512.png
+  favicon: logo.png
   open-graph: true
   twitter-card: true
-  site-url: https://dhbern.github.io/
+  site-url: https://maehr.github.io/dhbern.github.io/projects/
   repo-url: https://github.com/DHBern/dhbern.github.io/
   issue-url: https://github.com/DHBern/dhbern.github.io/issues/new/choose
   repo-actions: [edit, issue]
   page-navigation: true
-  bread-crumbs: true
+  bread-crumbs: false
   back-to-top-navigation: true
   search:
     show-item-context: true
     type: overlay
   navbar:
-    logo: android-chrome-512x512.png
+    # logo: android-chrome-512x512.png
     logo-alt: ''
     title: Digital Humanities
     tools:
@@ -55,18 +55,24 @@ website:
 format:
   html:
     toc: true
+    toc-location: right
     theme:
       - cosmo
       - custom.scss
     code-copy: true
     code-overflow: wrap
+    citations-hover: true
+    crossrefs-hover: true
     css: styles.css
     mainfont: 'FrutigerNeue'
     linkcolor: '#0074c4'
     link-external-icon: true
+    link-external-newwindow: true
     include-in-header:
       - custom-header.html
     page-layout: full
+    license: CC BY-SA 4.0
+
 freeze: true
 
 editor: visual
