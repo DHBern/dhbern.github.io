@@ -133,8 +133,7 @@ a_{21}& =b_{21}&
 \begin{gather*}
 a_1=b_1+c_1\\
 a_2=b_2+c_2-d_2+e_2
-\end{gather*}
-\begin{align}
+\end{gather*} \begin{align}
 a_{11}& =b_{11}&
   a_{12}& =b_{12}\\
 a_{21}& =b_{21}&
@@ -307,7 +306,7 @@ Learn more: [Auto-Animate](https://{{< meta prerelease-subdomain >}}quarto.org/d
 The next few slides will transition using the `slide` transition
 
 | Transition | Description |
-|---------------|---------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | `none` | No transition (default, switch instantly) |
 | `fade` | Cross fade |
 | `slide` | Slide horizontally |

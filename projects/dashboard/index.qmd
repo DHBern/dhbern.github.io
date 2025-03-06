@@ -1,17 +1,17 @@
---- 
+---
 title: "Development Indicators by Continent"
 author: "Gapminder Analytics Group"
 format: dashboard
 tags: [dahsboard, plotly, gapminder]
 jupyter: python3
---- 
+---
 
 ```{python}
 import plotly.express as px
 df = px.data.gapminder()
 ```
 
-## Row {height=60%}
+## Row {height="60%"}
 
 ```{python}
 #| title: GDP and Life Expectancy 
@@ -24,7 +24,7 @@ px.scatter(
 )  
 ```
 
-## Row {height=40%}
+## Row {height="40%"}
 
 ```{python}
 #| title: Population
