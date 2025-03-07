@@ -17,7 +17,7 @@ permissions:
 jobs:
   lint:
     name: Lint with Prettier
-    runs-on: ubuntu-24.04
+    runs-on: macos-latest
 
     steps:
       - name: Check out repository
@@ -137,6 +137,9 @@ jobs:
 
   deploy:
     name: Download Artifacts and Deploy
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-24.04
     needs: [build-optimize, deadlinkcheck]
     if: github.event_name != 'pull_request'
