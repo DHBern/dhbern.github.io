@@ -2,6 +2,7 @@
 type: "Digitale Edition"
 status: active
 tags: [HTR, OCR]
+category: "asdfd"
 ---
 
 # Kooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle
