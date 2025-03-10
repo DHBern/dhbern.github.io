@@ -22,33 +22,19 @@ website:
       - icon: github
         url: https://github.com/DHBern/dhbern.github.io/
     left:
-      - text: Home
-        href: https://www.dh.unibe.ch/
       - text: Studies
         href: https://www.dh.unibe.ch/studium/index_ger.html
-      - text: Projects
+      - text: Research
         href: projects/index.qmd
-      - text: People
-        href: people/index.qmd
       - text: Services
         href: https://www.dh.unibe.ch/dienstleistungen/index_ger.html
+      - text: About us
+        href: https://www.dh.unibe.ch/about_us/team/index_eng.html
 
   sidebar:
     style: 'docked'
-    collapse-level: 1
-    contents:
-      - text: Home
-        href: index.qmd
-      - text: Studies
-        href: https://www.dh.unibe.ch/studium/index_ger.html
-      - section: Projects
-        href: projects/index.qmd
-        contents: projects/*/index.qmd
-      - section: People
-        href: people/index.qmd
-        contents: people/*/index.qmd
-      - text: Services
-        href: https://www.dh.unibe.ch/dienstleistungen/index_ger.html
+    collapse-level: 2
+    contents: projects/*/index.qmd
 
 format:
   html:
@@ -62,10 +48,6 @@ format:
     citations-hover: true
     crossrefs-hover: true
     css: styles.css
-    # mainfont: 'FrutigerNeue'
-    # backgroundcolor: '#f8f9fa'
-    # fontcolor: '#333333'
-    # linkcolor: '#0056b3'
     link-external-icon: true
     link-external-newwindow: true
     include-in-header:
@@ -73,6 +55,6 @@ format:
     page-layout: full
     license: CC BY-SA 4.0
 
-freeze: true
+freeze: auto
 
 editor: visual
