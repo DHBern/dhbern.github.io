@@ -306,7 +306,7 @@ Learn more: [Auto-Animate](https://{{< meta prerelease-subdomain >}}quarto.org/d
 The next few slides will transition using the `slide` transition
 
 | Transition | Description |
-|-------------------|-----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | `none` | No transition (default, switch instantly) |
 | `fade` | Cross fade |
 | `slide` | Slide horizontally |
@@ -431,7 +431,7 @@ You can also press {{< kbd m >}} to toggle the menu open and closed.
 You can also press {{< kbd g >}} to toggle 'Jump To Slide' modal box to quickly go to one of your slide using its number or id.
 
 ::: footer
-Learn more: [Navigation](/docs/presentations/revealjs/presenting.qmd#navigation-menu) / [Jump To Slide](/docs/presentations/revealjs/presenting.qmd#jump-to-slide)
+Learn more: Navigation `/docs/presentations/revealjs/presenting.qmd#navigation-menu / Jump To Slide `](`/docs/presentations/revealjs/presenting.qmd#jump-to-slide`
 :::
 
 ## Jump To Slide

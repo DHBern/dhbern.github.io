@@ -77,7 +77,7 @@ If you click the inspector you'll see it expand to reveal the data as JSON.
 
 We talked about showing and hiding source code above, but what about controlling exactly how it's displayed?
 
-There are options available for customizing the appearance of code blocks (highlighting, background, border, etc.) as well as how horizontal overflow is handled. See the article on [HTML Code Blocks](/docs/output-formats/html-code.qmd) for all of the details.
+There are options available for customizing the appearance of code blocks (highlighting, background, border, etc.) as well as how horizontal overflow is handled. See the article on HTML Code Blocks `/docs/output-formats/html-code.qmd` for all of the details.
 
 One option we wanted to specifically highlight here is code folding, which enables you to collapse code but still provide an option for users to view it. This is especially handy for custom JavaScript visualizations as they often span dozens of lines of code.
 
@@ -196,45 +196,47 @@ viewof islands = Inputs.checkbox(
 
 We then added a tabset (div of class `.panel-tabset`) with **Plot** and **Data** tabs (headings within the div define the tabs):
 
-    ::: {.panel-tabset}
+````         
+::: {.panel-tabset}
 
-    ## Plot
+## Plot
 
-    ```{{ojs}}
-    Plot.rectY(filtered, 
-      Plot.binX(
-        {y: "count"}, 
-        {x: "body_mass_g", fill: "species", thresholds: 20}
-      ))
-      .plot({
-        facet: {
-          data: filtered,
-          x: "sex",
-          y: "species",
-          marginRight: 80
-        },
-        marks: [
-          Plot.frame(),
-        ]
-      }
-    )
-    ```
+```{{ojs}}
+Plot.rectY(filtered, 
+  Plot.binX(
+    {y: "count"}, 
+    {x: "body_mass_g", fill: "species", thresholds: 20}
+  ))
+  .plot({
+    facet: {
+      data: filtered,
+      x: "sex",
+      y: "species",
+      marginRight: 80
+    },
+    marks: [
+      Plot.frame(),
+    ]
+  }
+)
+```
 
-    ## Data
+## Data
 
-    ```{{ojs}}
-    Inputs.table(filtered)
-    ```
+```{{ojs}}
+Inputs.table(filtered)
+```
 
-    :::
+:::
+````
 
-See the [Layout](examples/layout.qmd) example for the full source code.
+See the Layout `examples/layout.qmd` example for the full source code.
 
-Learn more in the article on [Layout](../layout.qmd) for interactive documents.
+Learn more in the article on Layout `../layout.qmd` for interactive documents.
 
 ## Cell Figures
 
-OJS cells can also be rendered as numbered, [cross-referenceable](/docs/authoring/cross-references.qmd) figures. To do this, add the `label` and `fig-cap` options to the cell. For example:
+OJS cells can also be rendered as numbered, cross-referenceable `/docs/authoring/cross-references.qmd` figures. To do this, add the `label` and `fig-cap` options to the cell. For example:
 
 ```{ojs}
 //| echo: fenced
@@ -261,7 +263,7 @@ Plot.rectY(filtered,
 
 See @fig-penguin-body-mass for further illustration.
 
-To reference the figure use its label in a markdown [cross reference](/docs/authoring/cross-references.qmd):
+To reference the figure use its label in a markdown cross reference `/docs/authoring/cross-references.qmd`:
 
 ``` markdown
 See @fig-penguin-body-mass for further illustration.

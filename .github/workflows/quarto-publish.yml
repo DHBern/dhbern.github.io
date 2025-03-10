@@ -95,7 +95,6 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
         with:
           path: .
-          to: html
 
       - name: JamPack Optimization
         run: |
