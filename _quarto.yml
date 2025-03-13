@@ -36,9 +36,9 @@ website:
     collapse-level: 2
     contents:
       - text: Blog
-        href: index.qmd
+        href: /
       - text: Events
-        href: index.qmd#Events
+        href: /#events
       - text: Projects
         href: content/projects/index.qmd
         contents: content/projects/*/index.qmd
