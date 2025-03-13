@@ -25,7 +25,7 @@ website:
       - text: Studies
         href: https://www.dh.unibe.ch/studium/index_ger.html
       - text: Research
-        href: projects/index.qmd
+        href: content/projects/index.qmd
       - text: Services
         href: https://www.dh.unibe.ch/dienstleistungen/index_ger.html
       - text: About us
@@ -34,7 +34,14 @@ website:
   sidebar:
     style: 'docked'
     collapse-level: 2
-    contents: projects/*/index.qmd
+    contents:
+      - text: Blog
+        href: index.qmd
+      - text: Events
+        href: index.qmd#Events
+      - text: Projects
+        href: content/projects/index.qmd
+        contents: content/projects/*/index.qmd
 
 format:
   html:

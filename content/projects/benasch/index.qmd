@@ -1,7 +1,8 @@
 ---
 status: active
 type: Forschungsprojekt
-tags: [Annotation, Datenmodellierung, Workshop]
+categories:
+- Benasch
 ---
 
 # BeNASch: Praktische Einblicke und Diskussion

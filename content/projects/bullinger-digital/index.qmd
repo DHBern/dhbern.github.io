@@ -1,7 +1,8 @@
 ---
 type: "Digitale Edition"
 status: active
-tags: [HTR, OCR]
+categories:
+- Benasch
 ---
 
 # Bullinger digital

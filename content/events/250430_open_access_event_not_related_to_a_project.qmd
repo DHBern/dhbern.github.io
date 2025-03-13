@@ -1,0 +1,24 @@
+---
+title: Workshop on Open Access, Open & Community Peer Review
+subtitle: Rethinking Scholarly Publishing in the Digital Humanities
+date: "2025-04-30"
+categories:
+- Event
+location: University of Zurich
+author: 
+  - name: Moritz Mähr
+    orcid: 0000-0002-1367-1618
+    email: moritz.maehr@faculty.unibe.ch
+    affiliations:
+      - University of Bern
+      - University of Basel
+    role: author
+---
+
+Join us for a hands-on workshop exploring new models of scholarly publishing in the digital humanities. Traditional publishing often relies on intermediaries, slowing access and increasing costs. This workshop will explore ways to streamline publishing, increase transparency, and foster collaboration. 
+
+We'll discuss university presses, public-private partnerships and preprint infrastructures, and how open access platforms can accelerate the dissemination of research. We'll also explore community and open peer review to promote inclusivity and shared authority in scholarly communication. 
+
+In addition, we'll be showcasing open source tools such as Git, Quire and Quarto to simplify publishing and peer-review workflows, making them more adaptable and researcher-friendly.
+
+The [Digital History Network Switzerland](https://www.digitalhistorynetwork.ch/en/home), including Prof. Dr. Michael Piotrowski, Dr. Moritz Feichtinger and Dominic Weber, will contribute their expertise to guide the discussions.

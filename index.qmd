@@ -1,6 +1,29 @@
 ---
-title: "Projects"
+title: "Blog"
 listing:
-  contents: projects/*/index.qmd
-  type: grid
+  - id: blog
+    contents: content
+    type: grid
+    include:
+      categories: Post
+  - id: events
+    contents: content
+    include:
+      categories: Event
+    type: table
+    categories: false
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
+    fields: [date, title, location, author]
+    field-display-names: 
+      author: 'Orgnizer'
 ---
+
+::: {#blog}
+:::
+
+## Events
+
+::: {#events}
+:::
