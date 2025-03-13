@@ -37,262 +37,321 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Projects",
+    "title": "Blog",
     "section": "",
-    "text": "BeNASch: Praktische Einblicke und Diskussion\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBullinger digital\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nObservable JS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPositioning Content in the Margin\n\n\nThis post demonstrates a few of the capabilities for positioning content in the margin of the page. You can read more about the complete capabilities in the Article Layout…\n\n\n\nCharles Teague\n\n\nFeb 17, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to topReuseCC BY-SA 4.0"
-  },
-  {
-    "objectID": "projects/benasch/index.html",
-    "href": "projects/benasch/index.html",
-    "title": "BeNASch: Praktische Einblicke und Diskussion",
-    "section": "",
-    "text": "BeNASch: Praktische Einblicke und Diskussion\n\n\nEin Workshop zur nachhaltigen Annotation von Entitäten und Ereignissen in historischen Texten\nWir laden zum ersten Workshop zu BeNASch, dem Annotationsschema für vormoderne deutschsprachige Texte, ein. Über zwei Tage wollen wir uns intensiv mit dem Schema auseinandersetzen. Einer praktischen Einführung zum Schema folgen kritische Diskussionen. Forschende aller Stufen (inklusive Studierende), die sich für Annotation und Datenmodellierung anhand historischer Texte interessieren, sind herzlich eingeladen. Der Workshop findet am 23. und 24. Januar 2025 an der Universität Bern statt.\nFlyer BeNASch (PDF, 311KB)\n\n\n\n\n Back to topReuseCC BY-SA 4.0",
+    "text": "Mar 13, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Studies",
-      "BeNASch: Praktische Einblicke und Diskussion"
+      "Blog"
     ]
   },
   {
-    "objectID": "projects/interactivity/code-reuse.html",
-    "href": "projects/interactivity/code-reuse.html",
+    "objectID": "index.html#events",
+    "href": "index.html#events",
+    "title": "Blog",
+    "section": "Events",
+    "text": "Events\n\n\n\n\n\nDate\n\n\nTitle\n\n\nlocation\n\n\nOrgnizer\n\n\n\n\n\n\nApr 30, 2025\n\n\nWorkshop on Open Access, Open & Community Peer Review\n\n\nUniversity of Zurich\n\n\nMoritz Mähr\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Studies",
+      "Blog"
+    ]
+  },
+  {
+    "objectID": "content/projects/bullinger-digital/index.html",
+    "href": "content/projects/bullinger-digital/index.html",
+    "title": "Bullinger digital",
+    "section": "",
+    "text": "Bullinger digital\nIn Kooperation mit der Universität Zürich (Prof. Dr. Martin Volk) und der Fachhochschule Westschweiz (Prof. Dr. Andreas Fischer) erarbeiten wir Handschriftenmodelle zur Erkennung des Briefwechsels Heinrich Bullingers.\nZiel ist die effiziente Unterstützung der Lesbarmachung der Handschriften der umfangreichen Briefkorrespondenz Bullingers. Informationen zum Stand des Projekts finden sich online: bullinger-digital.ch.\nDas Projekt startet am 1. April 2021 und wird grosszügig unterstützt durch die Hasler Stiftung.\n\n\n\n\n Back to topReuseCC BY-SA 4.0",
+    "crumbs": [
+      "Studies",
+      "Projects",
+      "Bullinger digital"
+    ]
+  },
+  {
+    "objectID": "content/projects/benasch/250313_news_related_to_benasch.html",
+    "href": "content/projects/benasch/250313_news_related_to_benasch.html",
+    "title": "Benasch News",
+    "section": "",
+    "text": "Benasch News\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n\n\n\n Back to topReuseCC BY-SA 4.0"
+  },
+  {
+    "objectID": "content/projects/interactivity/code-reuse.html",
+    "href": "content/projects/interactivity/code-reuse.html",
     "title": "Code Reuse",
     "section": "",
     "text": "As you build larger Quarto projects (like websites /docs/websites/ and books /docs/books/) that incorporate OJS, you’ll likely want to re-use code, data, and output across different pages."
   },
   {
-    "objectID": "projects/interactivity/code-reuse.html#modules",
-    "href": "projects/interactivity/code-reuse.html#modules",
+    "objectID": "content/projects/interactivity/code-reuse.html#modules",
+    "href": "content/projects/interactivity/code-reuse.html#modules",
     "title": "Code Reuse",
     "section": "Modules",
     "text": "Modules\nJavaScript modules are directly supported in Quarto’s OJS blocks. For example, if we have the following source file square.js:\nexport function square(x) {\n  return x * x;\n}\nThen you can import and use the square() function as follows:\n\nimport { square } from \"./square.js\"\nsquare(5)"
   },
   {
-    "objectID": "projects/interactivity/code-reuse.html#data",
-    "href": "projects/interactivity/code-reuse.html#data",
+    "objectID": "content/projects/interactivity/code-reuse.html#data",
+    "href": "content/projects/interactivity/code-reuse.html#data",
     "title": "Code Reuse",
     "section": "Data",
     "text": "Data\nYou may be using Python or R to pre-process data that is then provided to OJS via the ojs_define() function (this is described in more depth in the Data Sources article). If you want to share data prepared in this fashion you can import it directly from another .qmd.\nFor example, here we import the co2data that we read and pre-processed with dplyr in data-sources.qmd:\n\nimport { co2data } from \"./data-sources.qmd\";\nInputs.table(transpose(co2data))"
   },
   {
-    "objectID": "projects/interactivity/code-reuse.html#output",
-    "href": "projects/interactivity/code-reuse.html#output",
+    "objectID": "content/projects/interactivity/code-reuse.html#output",
+    "href": "content/projects/interactivity/code-reuse.html#output",
     "title": "Code Reuse",
     "section": "Output",
     "text": "Output\nYou can import any reactive value from another .qmd file. Here, we’re reusing a chart directly from data-sources.qmd:\n\nimport { yearlyChart } from \"./data-sources.qmd\";\nyearlyChart"
   },
   {
-    "objectID": "projects/interactivity/examples/noaa-co2.html",
-    "href": "projects/interactivity/examples/noaa-co2.html",
+    "objectID": "content/projects/interactivity/examples/noaa-co2.html",
+    "href": "content/projects/interactivity/examples/noaa-co2.html",
     "title": "NOAA CO2",
     "section": "",
     "text": "Read and plot a CSV of NOAA’s Monthly CO2 concentration data from Mauna Loa:\n\ndata = {\n  const co2data = await FileAttachment(\"co2_mm.csv\")\n    .csv({ typed: true });\n  return co2data.map(d =&gt; { \n    d[\"decimal date\"] = Number(d[\"decimal date\"]);\n    d.average = Number(d.average); \n    return d; \n  });\n}\nPlot.plot({\n  marks: [\n    Plot.line(data, \n      { x: \"decimal date\", y: \"average\"}, \n      { stroke: \"black\" }\n    )\n  ]\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRead the same data into R, do some grouping and summarization, then make it available using ojs_define:\n\nlibrary(readr)\nlibrary(dplyr)\n\nco2 = read_csv(\"co2_mm.csv\")  %&gt;% \n  group_by(year) %&gt;% \n  summarize(max = max(average))\n\nojs_define(co2data = co2)\n\nNow plot the summarized data:\n\nPlot.plot({\n  marks: [\n    Plot.line(transpose(co2data), \n      {x: \"year\", y: \"max\"}, \n      { stroke: \"black\" }\n    )\n  ]}\n)\n\n\n\n\n\n\n\n\n\n\n\n Back to topReuseCC BY-SA 4.0"
   },
   {
-    "objectID": "projects/interactivity/examples/penguins.html",
-    "href": "projects/interactivity/examples/penguins.html",
+    "objectID": "content/projects/interactivity/examples/penguins.html",
+    "href": "content/projects/interactivity/examples/penguins.html",
     "title": "Penguins",
     "section": "",
     "text": "A simple example based on Allison Horst’s Palmer Penguins dataset. Here we look at how penguin body mass varies across both sex and species (use the provided inputs to filter the dataset by bill length and island):\n\nviewof bill_length_min = Inputs.range(\n  [32, 50], \n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], \n    label: \"Islands:\"\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlotData\n\n\n\nPlot.rectY(filtered, \n  Plot.binX(\n    {y: \"count\"}, \n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n\n\n\n\n\n\n\n\n\nInputs.table(filtered)\n\n\n\n\n\n\n\n\n\n\ndata = FileAttachment(\"palmer-penguins.csv\").csv({ typed: true })\n\n\n\n\n\n\n\nfiltered = data.filter(function(penguin) {\n  return bill_length_min &lt; penguin.bill_length_mm &&\n         islands.includes(penguin.island);\n})\n\n\n\n\n\n\n\n\n\n\n\n Back to topReuseCC BY-SA 4.0"
   },
   {
-    "objectID": "projects/interactivity/examples/github.html",
-    "href": "projects/interactivity/examples/github.html",
+    "objectID": "content/projects/interactivity/examples/github.html",
+    "href": "content/projects/interactivity/examples/github.html",
     "title": "GitHub API",
     "section": "",
     "text": "Demonstration of using the GitHub API.\nCode\nviewof repo = Inputs.radio(\n  [\n    \"pandas-dev/pandas\",\n    \"tidyverse/ggplot2\",\n  ], \n  { label: \"Repo:\", value: \"pandas-dev/pandas\"}\n)\nCode\nimport { chart } with { commits as data } from \"@d3/d3-bubble-chart\"\nchart"
   },
   {
-    "objectID": "projects/interactivity/examples/github.html#data",
-    "href": "projects/interactivity/examples/github.html#data",
+    "objectID": "content/projects/interactivity/examples/github.html#data",
+    "href": "content/projects/interactivity/examples/github.html#data",
     "title": "GitHub API",
     "section": "Data",
     "text": "Data\n\nd3 = require('d3')\ncontributors = await d3.json(\n  \"https://api.github.com/repos/\" + repo + \"/stats/contributors\"\n)\ncommits = contributors.map(contributor =&gt; {\n  const author = contributor.author;\n  return {\n    name: author.login,\n    title: author.login,\n    group: author.type,\n    value: contributor.total\n  }\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(commits, { sort: \"value\", reverse: true })"
   },
   {
-    "objectID": "projects/interactivity/index.html",
-    "href": "projects/interactivity/index.html",
+    "objectID": "content/projects/interactivity/index.html",
+    "href": "content/projects/interactivity/index.html",
     "title": "Observable JS",
     "section": "",
     "text": "Quarto includes native support for Observable JS, a set of enhancements to vanilla JavaScript created by Mike Bostock (also the author of D3). Observable JS is distinguished by its reactive runtime, which is especially well suited for interactive data exploration and analysis.\nThe creators of Observable JS (Observable, Inc.) run a hosted service at https://observablehq.com/ where you can create and publish notebooks. Additionally, you can use Observable JS (“OJS”) in standalone documents and websites via its core libraries. Quarto uses these libraries along with a compiler that is run at render time to enable the use of OJS within Quarto documents.\nOJS works in any Quarto document (plain markdown as well as Jupyter and Knitr documents). Just include your code in an {ojs} executable code block. Documents that use OJS need to run on the http:// or https:// protocol and not the file:// protocol. The rest of this article explains the basics of using OJS with Quarto.",
     "crumbs": [
       "Studies",
+      "Projects",
       "Observable JS"
     ]
   },
   {
-    "objectID": "projects/interactivity/index.html#overview",
-    "href": "projects/interactivity/index.html#overview",
+    "objectID": "content/projects/interactivity/index.html#overview",
+    "href": "content/projects/interactivity/index.html#overview",
     "title": "Observable JS",
     "section": "",
     "text": "Quarto includes native support for Observable JS, a set of enhancements to vanilla JavaScript created by Mike Bostock (also the author of D3). Observable JS is distinguished by its reactive runtime, which is especially well suited for interactive data exploration and analysis.\nThe creators of Observable JS (Observable, Inc.) run a hosted service at https://observablehq.com/ where you can create and publish notebooks. Additionally, you can use Observable JS (“OJS”) in standalone documents and websites via its core libraries. Quarto uses these libraries along with a compiler that is run at render time to enable the use of OJS within Quarto documents.\nOJS works in any Quarto document (plain markdown as well as Jupyter and Knitr documents). Just include your code in an {ojs} executable code block. Documents that use OJS need to run on the http:// or https:// protocol and not the file:// protocol. The rest of this article explains the basics of using OJS with Quarto.",
     "crumbs": [
       "Studies",
+      "Projects",
       "Observable JS"
     ]
   },
   {
-    "objectID": "projects/interactivity/index.html#example",
-    "href": "projects/interactivity/index.html#example",
+    "objectID": "content/projects/interactivity/index.html#example",
+    "href": "content/projects/interactivity/index.html#example",
     "title": "Observable JS",
     "section": "Example",
     "text": "Example\nWe’ll start with a simple example based on Allison Horst’s Palmer Penguins dataset. Here we look at how penguin body mass varies across both sex and species (use the provided inputs to filter the dataset by bill length and island):\n\nfiltered = transpose(data).filter(function(penguin) {\n  return bill_length_min &lt; penguin.bill_length_mm &&\n         islands.includes(penguin.island);\n})\n\n\n\n\n\n\n\nviewof bill_length_min = Inputs.range(\n  [32, 50], \n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], \n    label: \"Islands:\"\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlot.rectY(filtered, \n  Plot.binX(\n    {y: \"count\"}, \n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n\n\n\n\n\n\nLet’s take a look at the source code for this example. First we create an {ojs} cell that reads in some data from a CSV file using a FileAttachment:\n```{ojs}\ndata = FileAttachment(\"palmer-penguins.csv\").csv({ typed: true })\n```\nThe example above doesn’t plot all of the data but rather a filtered subset. To create our filter we’ll need some inputs, and we’ll want to be able to use the values of these inputs in our filtering function. To do this, we use the viewof keyword and with some standard Inputs:\n```{ojs}\nviewof bill_length_min = Inputs.range(\n  [32, 50], \n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], \n    label: \"Islands:\"\n  }\n)\n```\nNow we write the filtering function that will transform the data read from the CSV using the values of bill_length_min and island.\n```{ojs}\nfiltered = data.filter(function(penguin) {\n  return bill_length_min &lt; penguin.bill_length_mm &&\n         islands.includes(penguin.island);\n})\n```\nHere we see reactivity in action: we don’t need any special syntax to refer to the dynamic input values, they “just work”, and the filtering code is automatically re-run when the inputs change. This works in much the same way a spreadsheet works when you update a cell and other cells that refer to it are recalculated.\nFinally, we’ll plot the filtered data using Observable Plot (an open-source JavaScript library for quick visualization of tabular data):\n```{ojs}\nPlot.rectY(filtered, \n  Plot.binX(\n    {y: \"count\"}, \n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n```\nNote that as with our inputs, we refer to the filtered variable with no special syntax—the plotting code will be automatically re-run whenever filtered changes (which in turn is updated whenever an input changes).\nThat covers a basic end-to-end use of OJS (see the [Penguins `/docs/interactive/ojs/examples/penguins.qmd) examples for the full source code).\n\n\n\n\n\n\nIf you take a look at the [Penguins `/docs/interactive/ojs/examples/penguins.qmd) code, you’ll notice something curious: the inputs and plotting code are defined before the data processing code. This demonstrates a critical difference between OJS cell execution and traditional notebooks: cells do not need to be defined in any particular order.\nBecause execution is fully reactive, the runtime will automatically execute cells in the correct order based on how they reference each other. This is more akin to a spreadsheet than a traditional notebook with linear cell execution.",
     "crumbs": [
       "Studies",
+      "Projects",
       "Observable JS"
     ]
   },
   {
-    "objectID": "projects/interactivity/index.html#libraries",
-    "href": "projects/interactivity/index.html#libraries",
+    "objectID": "content/projects/interactivity/index.html#libraries",
+    "href": "content/projects/interactivity/index.html#libraries",
     "title": "Observable JS",
     "section": "Libraries",
     "text": "Libraries\nOur example above made use of several standard libraries, including:\n\nObservable stdlib — Core primitives for DOM manipulation, file handling, importing code, and much more.\nObservable Inputs — Standard inputs controls including sliders, drop-downs, tables, check-boxes, etc.\nObservable Plot — High level plotting library for exploratory data visualization.\n\nThe libraries are somewhat special because they are automatically available within notebooks on https://observablehq.com as well as within {ojs} cells in Quarto documents.\nUsing other JavaScript libraries is also straightforward, they just need to be explicitly imported. For example, here we import a some libraries using the require function (which in turn loads NPM modules from jsDelivr):\n```{ojs}\nd3 = require(\"d3@7\")\ntopojson = require(\"topojson\")\n```\nSee the article on Libraries /docs/interactive/ojs/libraries.qmd to learn more about using standard and third-party libraries.",
     "crumbs": [
       "Studies",
+      "Projects",
       "Observable JS"
     ]
   },
   {
-    "objectID": "projects/interactivity/index.html#data-sources",
-    "href": "projects/interactivity/index.html#data-sources",
+    "objectID": "content/projects/interactivity/index.html#data-sources",
+    "href": "content/projects/interactivity/index.html#data-sources",
     "title": "Observable JS",
     "section": "Data Sources",
     "text": "Data Sources\nIn our initial example we used a FileAttachment as our data source. File attachments support many formats including CSV, TSV, JSON, Arrow (uncompressed), and SQLite so are a convenient way to read a dataset that has already been prepared for analysis.\nFrequently though you’ll need to do some pre-processing of your data in Python or R before it’s ready for visualization. Within Quarto, you can do this pre-processing during document render then make the results available to OJS.\nUse the ojs_define() function from Python or R to define variables that you want to use within JavaScript. For example, to reproduce the simple CSV read in Python you might do this:\n\n```{python}\nimport pandas as pd\npenguins = pd.read_csv(\"palmer-penguins.csv\")\nojs_define(data = penguins)\n```\n\n\n\n\nThe call to ojs_define(data = penguins) says that we want to make a variable named data (with the value of the penguins data frame) available to OJS\nDepending on the visualization library you use, one additional step may be required to consume the data from JavaScript. In this case, the Plot function expects data by row rather than by column, so we transpose() it before filtering:\n```{ojs}\nfiltered = transpose(data).filter(function(penguin) {\n  return bill_length_min &lt; penguin.bill_length_mm &&\n         islands.includes(penguin.island);\n})\n```\nSee the article on [Data Sources `/docs/interactive/ojs/data-sources.qmd) to learn more about the various ways to prepare and read data.",
     "crumbs": [
       "Studies",
+      "Projects",
       "Observable JS"
     ]
   },
   {
-    "objectID": "projects/interactivity/index.html#ojs-cells",
-    "href": "projects/interactivity/index.html#ojs-cells",
+    "objectID": "content/projects/interactivity/index.html#ojs-cells",
+    "href": "content/projects/interactivity/index.html#ojs-cells",
     "title": "Observable JS",
     "section": "OJS Cells",
     "text": "OJS Cells\nThere are many options available to customize the behavior of {ojs} code cells, including showing, hiding, and collapsing code as well as controlling the visibility and layout of outputs.\nThe most important cell option to be aware of is the echo option, which controls whether source code is displayed. You’ll have different preferences depending on whether you are embedding visualizations in an article or creating a notebook or full-on tutorial.\nCode in {ojs} cells is displayed by default. To prevent display of code for an entire document, set the echo: false option in YAML metadata:\n---\ntitle: \"My Document\"\nexecute:\n  echo: false\n---\nYou can also specify this option on a per-cell basis. For example:\n```{ojs}\n//| echo: false\ndata = FileAttachment(\"palmer-penguins.csv\").csv({ typed: true })\n```\nTo learn about all of the options available, see the article on [OJS Cells `/docs/interactive/ojs/ojs-cells.qmd).",
     "crumbs": [
       "Studies",
+      "Projects",
       "Observable JS"
     ]
   },
   {
-    "objectID": "projects/interactivity/index.html#learning-more",
-    "href": "projects/interactivity/index.html#learning-more",
+    "objectID": "content/projects/interactivity/index.html#learning-more",
+    "href": "content/projects/interactivity/index.html#learning-more",
     "title": "Observable JS",
     "section": "Learning More",
     "text": "Learning More\nThese articles go into more depth on using OJS in Quarto documents:\n\nLibraries /docs/interactive/ojs/libraries.qmd covers using standard libraries and external JavaScript libraries.\nData Sources /docs/interactive/ojs/data-sources.qmd outlines the various ways to read and pre-process data.\nOJS Cells /docs/interactive/ojs/ojs-cells.qmd goes into more depth on cell execution, output, and layout.\nShiny Reactives /docs/interactive/ojs/shiny.qmd describes how to integrate Shiny with OJS.\nCode Reuse /docs/interactive/ojs/code-reuse.qmd delves into ways to re-use OJS code across multiple documents.\n\nIf you want to learn more about the underlying mechanics of reactivity, check out these notebooks from Mike Bostock:\n\nFive Minute Introduction\nObservable’s not JavaScript\nIntroduction to Views\nHow Observable Runs",
     "crumbs": [
       "Studies",
+      "Projects",
       "Observable JS"
     ]
   },
   {
-    "objectID": "projects/interactivity/libraries.html",
-    "href": "projects/interactivity/libraries.html",
+    "objectID": "content/projects/interactivity/libraries.html",
+    "href": "content/projects/interactivity/libraries.html",
     "title": "Libraries",
     "section": "",
     "text": "There are three types of library you’ll generally use with OJS:\n\nObservable core libraries automatically available in every document.\nThird-party JavaScript libraries from npm and ObservableHQ.\nCustom libraries you and/or your colleagues have created\n\nIn this document we’ll provide a high-level overview of the core libraries and some examples of using third-party libraries (D3 and Arquero). Creating your own libraries is covered in the article on Code Reuse."
   },
   {
-    "objectID": "projects/interactivity/libraries.html#overview",
-    "href": "projects/interactivity/libraries.html#overview",
+    "objectID": "content/projects/interactivity/libraries.html#overview",
+    "href": "content/projects/interactivity/libraries.html#overview",
     "title": "Libraries",
     "section": "",
     "text": "There are three types of library you’ll generally use with OJS:\n\nObservable core libraries automatically available in every document.\nThird-party JavaScript libraries from npm and ObservableHQ.\nCustom libraries you and/or your colleagues have created\n\nIn this document we’ll provide a high-level overview of the core libraries and some examples of using third-party libraries (D3 and Arquero). Creating your own libraries is covered in the article on Code Reuse."
   },
   {
-    "objectID": "projects/interactivity/libraries.html#stdlib",
-    "href": "projects/interactivity/libraries.html#stdlib",
+    "objectID": "content/projects/interactivity/libraries.html#stdlib",
+    "href": "content/projects/interactivity/libraries.html#stdlib",
     "title": "Libraries",
     "section": "Stdlib",
     "text": "Stdlib\nThe Observable standard library provides the core capabilities that underlie rendering content and loading code and data. Some particularly important components of the standard library include:\n\n\n\nComponent\nDescription\n\n\n\n\nDOM\nDynamically creating DOM elements\n\n\nFileAttachments\nReading files in a variety of formats\n\n\nrequire\nImporting third-party modules from NPM and GitHub\n\n\n\nYou can find complete documentation for the standard library at https://github.com/observablehq/stdlib.\n\n\n\n\n\n\nNote\n\n\n\nQuarto always embeds a specific version of ObservableHQ’s runtime, which means that Quarto might be behind the very latest ObservableHQ version on their website. If you need to use the latest version of Plot (or other core libraries), you can use the import function to import the latest version directly from a CDN. For example:\nPlot = import(\"https://cdn.jsdelivr.net/npm/@observablehq/plot/+esm\")"
   },
   {
-    "objectID": "projects/interactivity/libraries.html#inputs",
-    "href": "projects/interactivity/libraries.html#inputs",
+    "objectID": "content/projects/interactivity/libraries.html#inputs",
+    "href": "content/projects/interactivity/libraries.html#inputs",
     "title": "Libraries",
     "section": "Inputs",
     "text": "Inputs\nThe Observable inputs library provides widgets that can be bound to reactive expressions via the viewof keyword. Some particularly useful input include:\n\n\n\nComponent\nDescription\n\n\n\n\nRadio\nChoose from mutually exclusive set of options\n\n\nCheckbox\nChoose one or more options from a list\n\n\nRange\nSlider for continuous numeric values\n\n\nSelect\nDrop down select box\n\n\nTable\nSelect one or more rows from a table\n\n\n\nYou can find complete documentation for all of the inputs at https://github.com/observablehq/inputs."
   },
   {
-    "objectID": "projects/interactivity/libraries.html#plot",
-    "href": "projects/interactivity/libraries.html#plot",
+    "objectID": "content/projects/interactivity/libraries.html#plot",
+    "href": "content/projects/interactivity/libraries.html#plot",
     "title": "Libraries",
     "section": "Plot",
     "text": "Plot\nObservable Plot is a JavaScript library for exploratory data visualization. Plot is built upon a set of core concepts (Marks, Scales, Transforms, and Facets) that can be composed together to create custom visualizations.\nHere’s an example of a histogram of the weight of Olympic athletes created with Plot:\n\n```{ojs}\nathletes = FileAttachment(\"athletes.csv\").csv({typed: true})\n\nPlot.plot({\n  grid: true,\n  facet: {\n    data: athletes,\n    y: \"sex\"\n  },\n  marks: [\n    Plot.rectY(\n      athletes, \n      Plot.binX({y: \"count\"}, {x: \"weight\", fill: \"sex\"})\n    ),\n    Plot.ruleY([0])\n  ]\n})\n```\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou can find complete documentation for Observable plot https://github.com/observablehq/plot."
   },
   {
-    "objectID": "projects/interactivity/libraries.html#d3",
-    "href": "projects/interactivity/libraries.html#d3",
+    "objectID": "content/projects/interactivity/libraries.html#d3",
+    "href": "content/projects/interactivity/libraries.html#d3",
     "title": "Libraries",
     "section": "D3",
     "text": "D3\nD3.js is a JavaScript library for manipulating documents based on data. D3 is capable of creating just about any interactive graphic you can imagine!\nHere’s a “zoomable sunburst” diagram (originally published at: https://observablehq.com/@d3/zoomable-sunburst) created with D3. Only two layers of the hierarchy are shown at a time. Click a node to zoom in, or the center to zoom out.\n\nsunburst = {\n  const root = partition(flareData);\n\n  root.each(d =&gt; d.current = d);\n\n  const svg = d3.create(\"svg\")\n      .attr(\"viewBox\", [0, 0, width, width])\n      .style(\"font\", \"15px sans-serif\");\n\n  const g = svg.append(\"g\")\n      .attr(\"transform\", `translate(${width / 2},${width / 2})`);\n\n  const path = g.append(\"g\")\n    .selectAll(\"path\")\n    .data(root.descendants().slice(1))\n    .join(\"path\")\n      .attr(\"fill\", d =&gt; { while (d.depth &gt; 1) d = d.parent; return color(d.data.name); })\n      .attr(\"fill-opacity\", d =&gt; arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0)\n      .attr(\"d\", d =&gt; arc(d.current));\n\n  path.filter(d =&gt; d.children)\n      .style(\"cursor\", \"pointer\")\n      .on(\"click\", clicked);\n\n  path.append(\"title\")\n      .text(d =&gt; `${d.ancestors().map(d =&gt; d.data.name).reverse().join(\"/\")}\\n${format(d.value)}`);\n\n  const label = g.append(\"g\")\n      .attr(\"pointer-events\", \"none\")\n      .attr(\"text-anchor\", \"middle\")\n      .style(\"user-select\", \"none\")\n    .selectAll(\"text\")\n    .data(root.descendants().slice(1))\n    .join(\"text\")\n      .attr(\"dy\", \"0.35em\")\n      .attr(\"fill-opacity\", d =&gt; +labelVisible(d.current))\n      .attr(\"transform\", d =&gt; labelTransform(d.current))\n      .text(d =&gt; d.data.name);\n\n  const parent = g.append(\"circle\")\n      .datum(root)\n      .attr(\"r\", radius)\n      .attr(\"fill\", \"none\")\n      .attr(\"pointer-events\", \"all\")\n      .on(\"click\", clicked);\n\n  function clicked(event, p) {\n    parent.datum(p.parent || root);\n\n    root.each(d =&gt; d.target = {\n      x0: Math.max(0, Math.min(1, (d.x0 - p.x0) / (p.x1 - p.x0))) * 2 * Math.PI,\n      x1: Math.max(0, Math.min(1, (d.x1 - p.x0) / (p.x1 - p.x0))) * 2 * Math.PI,\n      y0: Math.max(0, d.y0 - p.depth),\n      y1: Math.max(0, d.y1 - p.depth)\n    });\n\n    const t = g.transition().duration(750);\n\n    // Transition the data on all arcs, even the ones that aren’t visible,\n    // so that if this transition is interrupted, entering arcs will start\n    // the next transition from the desired position.\n    path.transition(t)\n        .tween(\"data\", d =&gt; {\n          const i = d3.interpolate(d.current, d.target);\n          return t =&gt; d.current = i(t);\n        })\n      .filter(function(d) {\n        return +this.getAttribute(\"fill-opacity\") || arcVisible(d.target);\n      })\n        .attr(\"fill-opacity\", d =&gt; arcVisible(d.target) ? (d.children ? 0.6 : 0.4) : 0)\n        .attrTween(\"d\", d =&gt; () =&gt; arc(d.current));\n\n    label.filter(function(d) {\n        return +this.getAttribute(\"fill-opacity\") || labelVisible(d.target);\n      }).transition(t)\n        .attr(\"fill-opacity\", d =&gt; +labelVisible(d.target))\n        .attrTween(\"transform\", d =&gt; () =&gt; labelTransform(d.current));\n  }\n  \n  function arcVisible(d) {\n    return d.y1 &lt;= 3 && d.y0 &gt;= 1 && d.x1 &gt; d.x0;\n  }\n\n  function labelVisible(d) {\n    return d.y1 &lt;= 3 && d.y0 &gt;= 1 && (d.y1 - d.y0) * (d.x1 - d.x0) &gt; 0.03;\n  }\n\n  function labelTransform(d) {\n    const x = (d.x0 + d.x1) / 2 * 180 / Math.PI;\n    const y = (d.y0 + d.y1) / 2 * radius;\n    return `rotate(${x - 90}) translate(${y},0) rotate(${x &lt; 180 ? 0 : 180})`;\n  }\n\n  return svg.node();\n}\n\n\n\n\n\n\nTo use D3 in an {ojs} cell, first import it using the require function (which loads modules hosted at jsDelivr):\n```{ojs}\nd3 = require(\"d3@7\")\n```\nThen, use d3 as needed to create your visualization. For example, here are the first few lines of the cell that creates the visualization above:\n```{ojs}\nsunburst = {\n  const root = partition(flareData);\n  root.each(d =&gt; d.current = d);\n  const svg = d3.create(\"svg\")\n      .attr(\"viewBox\", [0, 0, width, width])\n      .style(\"font\", \"15px sans-serif\");\n\n  // ...remainder of implementation\n  \n  return svg.node();\n}\n```\nSee the Sunburst example for the complete source code. To learn more about D3, visit https://d3js.org/."
   },
   {
-    "objectID": "projects/interactivity/libraries.html#arquero",
-    "href": "projects/interactivity/libraries.html#arquero",
+    "objectID": "content/projects/interactivity/libraries.html#arquero",
+    "href": "content/projects/interactivity/libraries.html#arquero",
     "title": "Libraries",
     "section": "Arquero",
     "text": "Arquero\nArquero is a JavaScript library for query processing and transformation of array-backed data tables. Following the relational algebra and inspired by the design of dplyr, Arquero provides a fluent API for manipulating column-oriented data frames.\nHere we’ll import Arquero (aq) and an alias to Arquero operations (op), read a dataset, then filter, aggregate, and view the data:\n\n```{ojs}\nimport { aq, op } from '@uwdata/arquero'\npenguins = aq.loadCSV(\"palmer-penguins.csv\")\npenguins\n  .groupby('species')\n  .filter(p =&gt; p.body_mass_g &gt; 0)\n  .rollup({\n    count: op.count(),\n    avg_mass: op.average('body_mass_g')\n   })\n  .view()\n```\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSee the Arquero example for complete source code. To learn more about using Arquero, see the Introducing Arquero tutorial."
   },
   {
-    "objectID": "projects/interactivity/libraries.html#modules",
-    "href": "projects/interactivity/libraries.html#modules",
+    "objectID": "content/projects/interactivity/libraries.html#modules",
+    "href": "content/projects/interactivity/libraries.html#modules",
     "title": "Libraries",
     "section": "Modules",
     "text": "Modules\n\nNPM\nThe require function in the standard library can be used to import npm modules (which are served from the jsDelivr CDN):\n```{ojs}\nd3 = require(\"d3\")\ntopojson = require(\"topojson\")\n```\nModules can optionally include an @ sign with a version. For example:\n```{ojs}\nd3 = require(\"d3@7\")\n```\nSee the jsDelivr documentation for additional details. Note that the require function automatically prepends the prefix https://cdn.jsdelivr.net/npm/ when resolving imports, so where the jsDeliver documentation says to use this URL:\nhttps://cdn.jsdelivr.net/npm/package@version/file\nYou need only pass this to require:\npackage@version/file\n\n\nObservableHQ\nNotebooks published on http://observablehq.com can also be compiled and downloaded as JavaScript modules.\nWhile notebooks often have their own embedded dataset, you can actually replace this data with your own when you import them! Returning to the sunburst example from above, here we import a notebook and use the with keyword to provide our own value for data:\n\n```{ojs}\npdata = FileAttachment(\"population.json\").json()\nimport { chart } with { pdata as data } from \"@d3/zoomable-sunburst\"\nchart\n```\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOne important restriction to be aware of is that not all notebooks published on ObservableHQ have an open-source license. Notebooks need to explicitly tagged with a license as an indication that it’s okay to use them outside of ObservableHQ.\nYou can see the license for a notebook in its header area. For, example this notebook is tagged with the ISC license:\n\nYou should check the license of ObservableHQ notebooks before you import them. See the documentation on notebook licenses for additional details on how to do this."
   },
   {
-    "objectID": "projects/interactivity/libraries.html#appendix",
-    "href": "projects/interactivity/libraries.html#appendix",
+    "objectID": "content/projects/interactivity/libraries.html#appendix",
+    "href": "content/projects/interactivity/libraries.html#appendix",
     "title": "Libraries",
     "section": "Appendix",
     "text": "Appendix\n\n```{ojs}\nflareData = FileAttachment(\"examples/flare-2.json\").json()\n```\n\n\n\n\n\n\n\n```{ojs}\npartition = flareData =&gt; {\n  const root = d3.hierarchy(flareData)\n      .sum(d =&gt; d.value)\n      .sort((a, b) =&gt; b.value - a.value);\n  return d3.partition()\n      .size([2 * Math.PI, root.height + 1])\n    (root);\n}\n```\n\n\n\n\n\n\n\n```{ojs}\ncolor = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, flareData.children.length + 1))\n```\n\n\n\n\n\n\n\n```{ojs}\nformat = d3.format(\",d\")\n```\n\n\n\n\n\n\n\n```{ojs}\nwidth = 932\n```\n\n\n\n\n\n\n\n```{ojs}\nradius = width / 6\n```\n\n\n\n\n\n\n\n```{ojs}\narc = d3.arc()\n    .startAngle(d =&gt; d.x0)\n    .endAngle(d =&gt; d.x1)\n    .padAngle(d =&gt; Math.min((d.x1 - d.x0) / 2, 0.005))\n    .padRadius(radius * 1.5)\n    .innerRadius(d =&gt; d.y0 * radius)\n    .outerRadius(d =&gt; Math.max(d.y0 * radius, d.y1 * radius - 1))\n```\n\n\n\n\n\n\n\n```{ojs}\nd3 = require(\"d3@7\")\n```"
   },
   {
-    "objectID": "projects/interactivity/ojs-cells.html",
-    "href": "projects/interactivity/ojs-cells.html",
+    "objectID": "content/projects/interactivity/ojs-cells.html",
+    "href": "content/projects/interactivity/ojs-cells.html",
     "title": "OJS Cells",
     "section": "",
     "text": "OJS code cells {ojs} behave a bit differently than cells in traditional notebooks, and have many options available to control their display and layout."
   },
   {
-    "objectID": "projects/interactivity/ojs-cells.html#cell-execution",
-    "href": "projects/interactivity/ojs-cells.html#cell-execution",
+    "objectID": "content/projects/interactivity/ojs-cells.html#cell-execution",
+    "href": "content/projects/interactivity/ojs-cells.html#cell-execution",
     "title": "OJS Cells",
     "section": "Cell Execution",
     "text": "Cell Execution\nA critical difference between OJS cell execution and traditional notebooks is that in OJS cells do not need to be defined in any particular order.\nBecause execution is fully reactive, the runtime will automatically execute cells in the correct order based on how they reference each other. This is more akin to a spreadsheet than a traditional notebook with linear cell execution.\nFor example, in this cell we reference a variable that is not yet defined (it’s defined immediately below):\n\n```{ojs}\nx + 5\n```\n\n\n\n\n\n\n\n```{ojs}\nx = 10\n```\n\n\n\n\n\n\nThis code works because the Observable runtime automatically determines the correct order of execution for the cells."
   },
   {
-    "objectID": "projects/interactivity/ojs-cells.html#cell-output",
-    "href": "projects/interactivity/ojs-cells.html#cell-output",
+    "objectID": "content/projects/interactivity/ojs-cells.html#cell-output",
+    "href": "content/projects/interactivity/ojs-cells.html#cell-output",
     "title": "OJS Cells",
     "section": "Cell Output",
     "text": "Cell Output\nBy default, OJS cells show their full source code and output within rendered documents. Depending on the type of document you are creating you might want to change this behavior either globally or for individual cells.\n\nCode Visibility\nThe echo option controls whether cells display their source code. To prevent display of code for an entire document, set the echo: false option in YAML metadata:\n---\ntitle: \"My Document\"\nexecute:\n  echo: false\n---\nYou can also specify this option on a per-cell basis. For example:\n```{ojs}\n//| echo: false\ndata = FileAttachment(\"palmer-penguins.csv\").csv({ typed: true })\n```\n\n\nOutput Visibility\nOJS cell output is also displayed by default. You can change this at a global or (more likely) per-cell level using the output option. For example, here we disable output for a cell:\n```{ojs}\n//| output: false\ndata\n```\nNote that cells which only carry assignments do not print their output by default. For example, this assignment won’t print anything:\n\n```{ojs}\n//| echo: fenced\ndummy1 = \"aHiddenAssignment\"\n```\n\n\n\n\n\n\nIf you want to print even the results of assignments, you can specify the output: all option. For example:\n\n```{ojs}\n//| echo: fenced\n//| output: all\ndummy2 = [{key: 1, value: [1, 2, [3, 4], dummy1]}]\n```\n\n\n\n\n\n\nIf you click the inspector you’ll see it expand to reveal the data as JSON.\n\n\nCode Display\nWe talked about showing and hiding source code above, but what about controlling exactly how it’s displayed?\nThere are options available for customizing the appearance of code blocks (highlighting, background, border, etc.) as well as how horizontal overflow is handled. See the article on HTML Code Blocks /docs/output-formats/html-code.qmd for all of the details.\nOne option we wanted to specifically highlight here is code folding, which enables you to collapse code but still provide an option for users to view it. This is especially handy for custom JavaScript visualizations as they often span dozens of lines of code.\nAdd the code-fold: true option to a code cell to enable code folding (you can also enable this globally). For example, click the “Code” button to show the code block (note the code-fold: true option is specified)\n\n\nCode\n```{ojs}\n//| code-fold: true\npdata = FileAttachment(\"palmer-penguins.csv\").csv({typed: true})\n\nPlot.plot({\n  facet: {\n    data: pdata,\n    x: \"sex\",\n    y: \"species\",\n    marginRight: 80\n  },\n  marks: [\n    Plot.frame(),\n    Plot.rectY(pdata, \n      Plot.binX(\n        {y: \"count\"}, \n        {x: \"body_mass_g\", thresholds: 20, fill: \"species\"}\n      )\n    ),\n    Plot.tickX(pdata, \n      Plot.groupZ(\n        {x: \"median\"}, \n        {x: \"body_mass_g\",\n         z: d =&gt; d.sex + d.species,\n         stroke: \"#333\",\n         strokeWidth: 2\n        }\n      )\n    )\n  ]\n})\n```"
   },
   {
-    "objectID": "projects/interactivity/ojs-cells.html#cell-layout",
-    "href": "projects/interactivity/ojs-cells.html#cell-layout",
+    "objectID": "content/projects/interactivity/ojs-cells.html#cell-layout",
+    "href": "content/projects/interactivity/ojs-cells.html#cell-layout",
     "title": "OJS Cells",
     "section": "Cell Layout",
     "text": "Cell Layout\nThere are additional panel and layout options which you can add to OJS cells to customize how their output is presented. Here’s a version of some of the previous examples we’ve used presented with a sidebar and tabset:\n\nfiltered = pdata.filter(function(penguin) {\n  return bill_length_min &lt; penguin.bill_length_mm &&\n         islands.includes(penguin.island);\n})\n\n\n\n\n\n\n\n\nviewof bill_length_min = Inputs.range(\n  [32, 50], \n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], \n    label: \"Islands:\"\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlotData\n\n\n\nPlot.rectY(filtered, \n  Plot.binX(\n    {y: \"count\"}, \n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n\n\n\n\n\n\n\n\n\nInputs.table(filtered)\n\n\n\n\n\n\n\n\n\nWe created this layout by first adding the panel: sidebar option to the cell with our inputs:\n```{ojs}\n//| panel: sidebar\n\nviewof bill_length_min = Inputs.range(\n  [32, 50], \n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], \n    label: \"Islands:\"\n  }\n)\n```\nWe then added a tabset (div of class .panel-tabset) with Plot and Data tabs (headings within the div define the tabs):\n::: {.panel-tabset}\n\n## Plot\n\n```{ojs}\nPlot.rectY(filtered, \n  Plot.binX(\n    {y: \"count\"}, \n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n```\n\n## Data\n\n```{ojs}\nInputs.table(filtered)\n```\n\n:::\nSee the Layout examples/layout.qmd example for the full source code.\nLearn more in the article on Layout ../layout.qmd for interactive documents."
   },
   {
-    "objectID": "projects/interactivity/ojs-cells.html#cell-figures",
-    "href": "projects/interactivity/ojs-cells.html#cell-figures",
+    "objectID": "content/projects/interactivity/ojs-cells.html#cell-figures",
+    "href": "content/projects/interactivity/ojs-cells.html#cell-figures",
     "title": "OJS Cells",
     "section": "Cell Figures",
     "text": "Cell Figures\nOJS cells can also be rendered as numbered, cross-referenceable /docs/authoring/cross-references.qmd figures. To do this, add the label and fig-cap options to the cell. For example:\n\n```{ojs}\n//| echo: fenced\n//| label: fig-penguin-body-mass\n//| fig-cap: \"Penguin body mass by sex and species\"\nPlot.rectY(filtered, \n  Plot.binX(\n    {y: \"count\"}, \n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n```\n\n\n\n\n\n\n\n\nFigure 1: Penguin body mass by sex and species\n\n\n\n\nSee Figure 1 for further illustration.\nTo reference the figure use its label in a markdown cross reference /docs/authoring/cross-references.qmd:\nSee @fig-penguin-body-mass for further illustration."
   },
   {
-    "objectID": "projects/aufbereitung-bundesratsprotokolle/index.html",
-    "href": "projects/aufbereitung-bundesratsprotokolle/index.html",
+    "objectID": "content/projects/aufbereitung-bundesratsprotokolle/index.html",
+    "href": "content/projects/aufbereitung-bundesratsprotokolle/index.html",
     "title": "Kooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle",
     "section": "",
     "text": "Kooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle\nZiel des Projekts ist die Aufbereitung der handschriftlichen Bundesratsprotokolle (1848-1903) um einen niederschwelligen Zugriff mittels eigener Suchoberfläche zu schaffen. Die automatische Erkennung und Aufbereitung von handschriftlichem Material ist seit wenigen Jahren mit guter Qualität möglich.\nDie handschriftlich verfassten Bundesratsprotokolle der Jahre 1848 bis 1903 liegen zwar als Digitalisate vor (siehe: www.amtsdruckschriften.bar.admin.ch), sie sind jedoch nur schwer über handschriftliche Register und Sitzungsnummern suchbar. Im Rahmen des Projekts werden 150’000 Seiten der Bundesratsprotokolle segmentiert (p2pala und citlab advanced layout analysis) und mittels Texterkennung (Pylaia) aufbereitet. Der gesamte Prozess läuft in Transkribus und wird in eine Such- und Blätteroberfläche eingespiesen.\nDer Zugang zu den erkannten Dokumenten ist über das Bundesarchiv möglich: www.chgov.bar.admin.ch/search.\nDas Projekt befindet sich im Abschluss, siehe dazu die Medienmitteilung des Bundesarchivs vom 3.2.2022.\nDas Projekt ist eine Kooperation des Schweizerischen Bundesarchivs und der Digital Humanities. Die Texterkennung erfolgt im Rahmen der Mitgliedschaft in der READ Kooperative.\nDavid Schoch, B. A.\n\n\n\n\n\n\n Back to topReuseCC BY-SA 4.0",
     "crumbs": [
       "Studies",
+      "Projects",
       "Kooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle"
     ]
+  },
+  {
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "All notable changes to this project will be documented in this file.\nThe format is based on Keep a Changelog, and this project adheres to Semantic Versioning.\n\n\n\n\n\nDocs for Zenodo added\nFixed various typos and replaced favicon\n\n\n\n\n\nInitial version\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n…"
+  },
+  {
+    "objectID": "CHANGELOG.html#unreleased",
+    "href": "CHANGELOG.html#unreleased",
+    "title": "Changelog",
+    "section": "",
+    "text": "Docs for Zenodo added\nFixed various typos and replaced favicon\n\n\n\n\n\nInitial version"
+  },
+  {
+    "objectID": "CHANGELOG.html#section",
+    "href": "CHANGELOG.html#section",
+    "title": "Changelog",
+    "section": "",
+    "text": "…"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-1",
+    "href": "CHANGELOG.html#section-1",
+    "title": "Changelog",
+    "section": "",
+    "text": "…"
   },
   {
     "objectID": "CODE_OF_CONDUCT.html",
@@ -351,228 +410,225 @@
     "text": "This Code of Conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
   },
   {
-    "objectID": "CHANGELOG.html",
-    "href": "CHANGELOG.html",
-    "title": "Changelog",
+    "objectID": "content/posts/250313_news_not_related_to_a_projetct.html",
+    "href": "content/posts/250313_news_not_related_to_a_projetct.html",
+    "title": "Not Project related news",
     "section": "",
-    "text": "All notable changes to this project will be documented in this file.\nThe format is based on Keep a Changelog, and this project adheres to Semantic Versioning.\n\n\n\n\n\nDocs for Zenodo added\nFixed various typos and replaced favicon\n\n\n\n\n\nInitial version\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n…"
+    "text": "Not Project related news\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n\n\n\n Back to topReuseCC BY-SA 4.0"
   },
   {
-    "objectID": "CHANGELOG.html#unreleased",
-    "href": "CHANGELOG.html#unreleased",
-    "title": "Changelog",
-    "section": "",
-    "text": "Docs for Zenodo added\nFixed various typos and replaced favicon\n\n\n\n\n\nInitial version"
-  },
-  {
-    "objectID": "CHANGELOG.html#section",
-    "href": "CHANGELOG.html#section",
-    "title": "Changelog",
-    "section": "",
-    "text": "…"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-1",
-    "href": "CHANGELOG.html#section-1",
-    "title": "Changelog",
-    "section": "",
-    "text": "…"
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
+    "objectID": "content/projects/index.html",
+    "href": "content/projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "BeNASch: Praktische Einblicke und Diskussion\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBullinger digital\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nObservable JS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPositioning Content in the Margin\n\n\nThis post demonstrates a few of the capabilities for positioning content in the margin of the page. You can read more about the complete capabilities in the Article Layout…\n\n\n\nCharles Teague\n\n\nFeb 17, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to topReuseCC BY-SA 4.0"
+    "text": "BeNASch: Praktische Einblicke und Diskussion\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBullinger digital\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nObservable JS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPositioning Content in the Margin\n\n\nThis post demonstrates a few of the capabilities for positioning content in the margin of the page. You can read more about the complete capabilities in the Article Layout…\n\n\n\nCharles Teague\n\n\nFeb 17, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to topReuseCC BY-SA 4.0",
+    "crumbs": [
+      "Studies",
+      "Projects"
+    ]
   },
   {
-    "objectID": "projects/interactivity/data-sources.html",
-    "href": "projects/interactivity/data-sources.html",
+    "objectID": "content/projects/interactivity/data-sources.html",
+    "href": "content/projects/interactivity/data-sources.html",
     "title": "Data Sources",
     "section": "",
     "text": "There are a wide variety of way to make data available to OJS:\n\nRead CSV, JSON, SQLite, and more using the FileAttachments API.\nUse the ojs_define() function to make data processed in Python or R available to {ojs} cells.\nMake calls to Web APIs for online services and data stores.\n\nWe’ll explore all of these techniques below."
   },
   {
-    "objectID": "projects/interactivity/data-sources.html#overview",
-    "href": "projects/interactivity/data-sources.html#overview",
+    "objectID": "content/projects/interactivity/data-sources.html#overview",
+    "href": "content/projects/interactivity/data-sources.html#overview",
     "title": "Data Sources",
     "section": "",
     "text": "There are a wide variety of way to make data available to OJS:\n\nRead CSV, JSON, SQLite, and more using the FileAttachments API.\nUse the ojs_define() function to make data processed in Python or R available to {ojs} cells.\nMake calls to Web APIs for online services and data stores.\n\nWe’ll explore all of these techniques below."
   },
   {
-    "objectID": "projects/interactivity/data-sources.html#file-attachments",
-    "href": "projects/interactivity/data-sources.html#file-attachments",
+    "objectID": "content/projects/interactivity/data-sources.html#file-attachments",
+    "href": "content/projects/interactivity/data-sources.html#file-attachments",
     "title": "Data Sources",
     "section": "File Attachments",
     "text": "File Attachments\nUse the FileAttachment function from the standard library to read data from a file. For example, here we read and plot a CSV of NOAA’s Monthly CO2 concentration data from Mauna Loa:\n\n```{ojs}\ndata = {\n  const co2data = await FileAttachment(\"co2_mm.csv\")\n    .csv({ typed: true } );\n  return co2data.map(d =&gt; { \n    d[\"decimal date\"] = Number(d[\"decimal date\"]);\n    d.average = Number(d.average); \n    return d; \n  });\n}\nPlot.plot({\n  marks: [\n    Plot.line(data, \n      { x: \"decimal date\", y: \"average\"}, \n      { stroke: \"black\" }\n    )\n  ]\n})\n```\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote that we specified the typed: true option to the csv() function. When this option is specified d3.autoType is used to automatically detect numbers, dates, etc. and convert them to the correct JavaScript types. This is highly recommend when you know that your data is compatible with automatic type detection.\nHere are the methods available for structured data formats:\n\n\n\nMethod\nDescription\n\n\n\n\ncsv\nComma separated values\n\n\ntsv\nTab separated values\n\n\njson\nJSON (JavaScript objects)\n\n\nsqlite\nSQLite database client\n\n\narrow\nApache Arrow IPC file (uncompressed)\n\n\n\nThere are also methods to get the raw data as a blob, text, image, or stream.\nNote that if you are using the arrow() method the Apache Arrow IPC file (Feather V2 file) should be written uncompressed. For example:\n```{r}\narrow::write_feather(\n  mtcars, \n  \"data.arrow\", \n  compression = \"uncompressed\"\n)\n```\n\n```{ojs}\ndata = FileAttachment(\"data.arrow\").arrow()\n```"
   },
   {
-    "objectID": "projects/interactivity/data-sources.html#python-and-r",
-    "href": "projects/interactivity/data-sources.html#python-and-r",
+    "objectID": "content/projects/interactivity/data-sources.html#python-and-r",
+    "href": "content/projects/interactivity/data-sources.html#python-and-r",
     "title": "Data Sources",
     "section": "Python and R",
     "text": "Python and R\nThe data you want to use with OJS might not always be available in raw form. Often you’ll need to read and preprocess the raw data using Python or R. You can perform this preprocessing during document render (in an {r} or {python} code cell) and then make it available to {ojs} cells via the ojs_define() function.\nHere’s an example. We’ll read the same data into R, do some grouping and summarization, then make it available to OJS using ojs_define:\n\n```{r}\n#| output: false\n\nlibrary(readr)\nlibrary(dplyr)\n\nco2 = read_csv(\"co2_mm.csv\")  %&gt;% \n  group_by(year) %&gt;% \n  summarize(max = max(average))\n\nojs_define(co2data = co2)\n```\n\nNote that we could have done the same thing using Python (the ojs_define function is available in any document that uses R or Python).\nNow we plot the data using Observable Plot:\n\n```{ojs}\nyearlyChart = Plot.plot({\n  marks: [\n    Plot.line(transpose(co2data), \n      {x: \"year\", y: \"max\"}, \n      { stroke: \"black\" }\n    )\n  ]}\n)\n```\n\n\n\n\n\n\nSee the NOAA C02 example for the full source code.\n\nTranspose\nYou’ll note one additional twist in the OJS code above: we call the transpose function on our co2data before plotting it. The transpose function is built in to Quarto’s OJS engine, and will convert column-oriented datasets (like the ones used in Python and R) into the row-oriented datasets used by many JavaScript plotting libraries (including Plot).\nFor example, the following JSON data emitted from R or Python:\n{\n  \"year\": [1958, 1959, 1960],\n  \"max\":  [317.51, 318.29, 320.04]\n}\nIs converted to the following via the call to transpose:\n[\n  { \"year\": 1959, \"max\": 317.51 },\n  { \"year\": 1960, \"max\": 318.29 },\n  { \"year\": 1960, \"max\": 320.04 }\n]\nCheck the documentation for whatever plotting library you are using from OJS to see whether a call to transpose is required."
   },
   {
-    "objectID": "projects/interactivity/data-sources.html#web-apis",
-    "href": "projects/interactivity/data-sources.html#web-apis",
+    "objectID": "content/projects/interactivity/data-sources.html#web-apis",
+    "href": "content/projects/interactivity/data-sources.html#web-apis",
     "title": "Data Sources",
     "section": "Web APIs",
     "text": "Web APIs\nYou can use the d3.json() function to read JSON data from web services and data sources. Here we query the GitHub API for data on contributions to the Python pandas package:\n\n```{ojs}\nd3 = require('d3')\n\ncontributors = await d3.json(\n  \"https://api.github.com/repos/pandas-dev/pandas/stats/contributors\"\n)\n\ncommits = contributors.map(contributor =&gt; {\n  const author = contributor.author;\n  return {\n    name: author.login,\n    title: author.login,\n    group: author.type,\n    value: contributor.total\n  }\n})\n```\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView the data sorted by number of commits:\n\n```{ojs}\nInputs.table(commits, { sort: \"value\", reverse: true })\n```\n\n\n\n\n\n\nSee the GitHub API example for the full source code."
   },
   {
-    "objectID": "projects/interactivity/shiny.html",
-    "href": "projects/interactivity/shiny.html",
+    "objectID": "content/projects/interactivity/shiny.html",
+    "href": "content/projects/interactivity/shiny.html",
     "title": "Shiny Reactives",
     "section": "",
     "text": "Earlier we described how to use the ojs_define() function to make data from Python and R available in OJS cells. In this scenario, data pre-processing is done once during render time then all subsequent interactions are handled on the client.\nBut what if you want to do data transformation dynamically in response to user inputs? This is also possible with ojs_define(), as it can be passed not just static values but also Shiny reactives (assuming it’s running inside a Shiny interactive document ../shiny/index.qmd))."
   },
   {
-    "objectID": "projects/interactivity/shiny.html#overview",
-    "href": "projects/interactivity/shiny.html#overview",
+    "objectID": "content/projects/interactivity/shiny.html#overview",
+    "href": "content/projects/interactivity/shiny.html#overview",
     "title": "Shiny Reactives",
     "section": "",
     "text": "Earlier we described how to use the ojs_define() function to make data from Python and R available in OJS cells. In this scenario, data pre-processing is done once during render time then all subsequent interactions are handled on the client.\nBut what if you want to do data transformation dynamically in response to user inputs? This is also possible with ojs_define(), as it can be passed not just static values but also Shiny reactives (assuming it’s running inside a Shiny interactive document ../shiny/index.qmd))."
   },
   {
-    "objectID": "projects/interactivity/shiny.html#hello-shiny",
-    "href": "projects/interactivity/shiny.html#hello-shiny",
+    "objectID": "content/projects/interactivity/shiny.html#hello-shiny",
+    "href": "content/projects/interactivity/shiny.html#hello-shiny",
     "title": "Shiny Reactives",
     "section": "Hello, Shiny",
     "text": "Hello, Shiny\nHere is the K-Means Clustering example from the Shiny Gallery implemented with an OJS client and Shiny Server:\n\nYou can see the document deployed at https://jjallaire.shinyapps.io/kmeans-shiny-ojs/.\n\nSource Code\nLet’s take a look at the source code. On the client we have familiar looking OJS inputs and a plot laid out using panel: sidebar and panel: fill:\n```{{ojs}}\n//| panel: sidebar\nvars = [\"Sepal.Length\", \"Sepal.Width\", \"Petal.Length\", \"Petal.Width\"]\nviewof xcol = Inputs.select(vars, {label: \"X Variable\"})\nviewof ycol = Inputs.select(vars, {label: \"Y Variable\", value: vars[1]})\nviewof count = Inputs.range([1, 9], {label: \"Cluster Count\", step: 1, value: 3})\n```\n```{ojs}\n//| panel: fill\nPlot.plot({\n  color: {\n    type: \"ordinal\",\n    scheme: \"category10\"\n  },\n  marks: [\n    Plot.dot(transpose(selectedData), {\n      x: xcol,\n      y: ycol,\n      fill: (d, i) =&gt; clusters.cluster[i],\n    }),\n    Plot.dot(clusters.centers, { \n      x: d =&gt; d[0],\n      y: d =&gt; d[1],\n      r: 10,\n      stroke: \"black\",\n      fill: (d, i) =&gt; i + 1\n    }),\n  ]\n})\n```\nNote that the plotting code references the variables selectedData and clusters. These will be provided by reactive expressions within the Shiny server code. Note also that we use the transpose() function to reshape the data into the row-oriented format that the Plot library expects.\nHere is the server code:\n```{r}\n#| context: server\n\nselectedData &lt;- reactive({\n  iris[, c(input$xcol, input$ycol)]\n})\n\nclusters &lt;- reactive({\n  kmeans(selectedData(), input$count)\n})\n\nojs_define(selectedData, clusters)\n```\nWe designate this code as running on the server via the context: server option.\nNote that we reference several inputs that were defined by viewof expressions on the client (e.g. input$xcol). When these inputs change they will cause the appropriate server side reactives to re-execute.\nWe create two reactive values (selectedData and clusters) and provide them to the client using ojs_define(). The plot will be automatically re-drawn on the client side when these values change."
   },
   {
-    "objectID": "projects/interactivity/shiny.html#examples",
-    "href": "projects/interactivity/shiny.html#examples",
+    "objectID": "content/projects/interactivity/shiny.html#examples",
+    "href": "content/projects/interactivity/shiny.html#examples",
     "title": "Shiny Reactives",
     "section": "Examples",
     "text": "Examples\nHere are some examples that demonstrate various ways to use OJS with Shiny:\n\n\n\nExample\nSource\nDescription\n\n\n\n\nK-Means\nCode\nSimple example of binding OJS inputs to Shiny inputs and shiny reactives to OJS plots.\n\n\nBinning\nCode\nDemonstrates fast binning of a medium sized dataset (32mb) on the server.\n\n\nData Binding\nCode\nDemonstrates importing a notebook from https://observablehq.com and binding it’s data field to a Shiny reactive."
   },
   {
-    "objectID": "projects/interactivity/shiny.html#bindings",
-    "href": "projects/interactivity/shiny.html#bindings",
+    "objectID": "content/projects/interactivity/shiny.html#bindings",
+    "href": "content/projects/interactivity/shiny.html#bindings",
     "title": "Shiny Reactives",
     "section": "Bindings",
     "text": "Bindings\n\nOJS to Shiny\nIn the example above we took advantage of the fact that by default OJS viewof expressions are automatically propagated to Shiny inputs (e.g input$xcol). This provides a reasonable separation of concerns, and prevents excess network traffic in the case that you have large OJS variables.\nHowever, if you want to use other OJS variables as Shiny inputs this is also possible using the ojs-export option. The default behavior maps to the following configuration:\n---\nserver:\n  type: shiny\n  ojs-export: viewof\n---\nYou can also specify ojs-export: all to cause all OJS reactives to be bound to Shiny inputs:\n---\nserver:\n  type: shiny\n  ojs-export: all\n---\nAlternatively, you can specify a list of OJS reactives by name (including using ~ to filter out reactives), and optionally combine this with the viewof and/or all options. For example:\n---\nserver:\n  type: shiny\n  ojs-export: [all, ~large_dataset]\n---\n\n\nShiny to OJS\nLess common but occasionally useful is the ability to bind Shiny inputs into OJS. By default no such bindings occur, however you can use the ojs-import option to opt-in for specific Shiny inputs. For example:\n---\nserver: \n  type: shiny\n  ojs-import: [minimum, maximum]\n---"
   },
   {
-    "objectID": "projects/interactivity/examples/population.html",
-    "href": "projects/interactivity/examples/population.html",
+    "objectID": "content/projects/interactivity/examples/population.html",
+    "href": "content/projects/interactivity/examples/population.html",
     "title": "Population",
     "section": "",
     "text": "This example demonstrates importing a notebook from ObervableHQ and replacing its data with data of our own (the code and data for this example were originally published here).\nFirst we read from a local JSON file into population:\n\npopulation = FileAttachment(\"population.json\").json()\n\n\n\n\n\n\nThen we import from https://observablehq.com/@d3/zoomable-sunburst and specify that we’d like to use population instead of the data built in to the notebook:\n\nimport { chart } with { population as data } from \"@d3/zoomable-sunburst\"\n\n\n\n\n\n\nFinally, we display the chart:\n\nchart\n\n\n\n\n\n\n\n\n\n\n\n Back to topReuseCC BY-SA 4.0"
   },
   {
-    "objectID": "projects/interactivity/examples/sunburst.html",
-    "href": "projects/interactivity/examples/sunburst.html",
+    "objectID": "content/projects/interactivity/examples/sunburst.html",
+    "href": "content/projects/interactivity/examples/sunburst.html",
     "title": "Sunburst",
     "section": "",
     "text": "This variant of a sunburst diagram shows only two layers of the hierarchy at a time. Click a node to zoom in, or the center to zoom out. Compare to an icicle.\n\n\nCode\nsunburst = {\n  const root = partition(flareData);\n\n  root.each(d =&gt; d.current = d);\n\n  const svg = d3.create(\"svg\")\n      .attr(\"viewBox\", [0, 0, width, width])\n      .style(\"font\", \"15px sans-serif\");\n\n  const g = svg.append(\"g\")\n      .attr(\"transform\", `translate(${width / 2},${width / 2})`);\n\n  const path = g.append(\"g\")\n    .selectAll(\"path\")\n    .data(root.descendants().slice(1))\n    .join(\"path\")\n      .attr(\"fill\", d =&gt; { while (d.depth &gt; 1) d = d.parent; return color(d.data.name); })\n      .attr(\"fill-opacity\", d =&gt; arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0)\n      .attr(\"d\", d =&gt; arc(d.current));\n\n  path.filter(d =&gt; d.children)\n      .style(\"cursor\", \"pointer\")\n      .on(\"click\", clicked);\n\n  path.append(\"title\")\n      .text(d =&gt; `${d.ancestors().map(d =&gt; d.data.name).reverse().join(\"/\")}\\n${format(d.value)}`);\n\n  const label = g.append(\"g\")\n      .attr(\"pointer-events\", \"none\")\n      .attr(\"text-anchor\", \"middle\")\n      .style(\"user-select\", \"none\")\n    .selectAll(\"text\")\n    .data(root.descendants().slice(1))\n    .join(\"text\")\n      .attr(\"dy\", \"0.35em\")\n      .attr(\"fill-opacity\", d =&gt; +labelVisible(d.current))\n      .attr(\"transform\", d =&gt; labelTransform(d.current))\n      .text(d =&gt; d.data.name);\n\n  const parent = g.append(\"circle\")\n      .datum(root)\n      .attr(\"r\", radius)\n      .attr(\"fill\", \"none\")\n      .attr(\"pointer-events\", \"all\")\n      .on(\"click\", clicked);\n\n  function clicked(event, p) {\n    parent.datum(p.parent || root);\n\n    root.each(d =&gt; d.target = {\n      x0: Math.max(0, Math.min(1, (d.x0 - p.x0) / (p.x1 - p.x0))) * 2 * Math.PI,\n      x1: Math.max(0, Math.min(1, (d.x1 - p.x0) / (p.x1 - p.x0))) * 2 * Math.PI,\n      y0: Math.max(0, d.y0 - p.depth),\n      y1: Math.max(0, d.y1 - p.depth)\n    });\n\n    const t = g.transition().duration(750);\n\n    // Transition the data on all arcs, even the ones that aren’t visible,\n    // so that if this transition is interrupted, entering arcs will start\n    // the next transition from the desired position.\n    path.transition(t)\n        .tween(\"data\", d =&gt; {\n          const i = d3.interpolate(d.current, d.target);\n          return t =&gt; d.current = i(t);\n        })\n      .filter(function(d) {\n        return +this.getAttribute(\"fill-opacity\") || arcVisible(d.target);\n      })\n        .attr(\"fill-opacity\", d =&gt; arcVisible(d.target) ? (d.children ? 0.6 : 0.4) : 0)\n        .attrTween(\"d\", d =&gt; () =&gt; arc(d.current));\n\n    label.filter(function(d) {\n        return +this.getAttribute(\"fill-opacity\") || labelVisible(d.target);\n      }).transition(t)\n        .attr(\"fill-opacity\", d =&gt; +labelVisible(d.target))\n        .attrTween(\"transform\", d =&gt; () =&gt; labelTransform(d.current));\n  }\n  \n  function arcVisible(d) {\n    return d.y1 &lt;= 3 && d.y0 &gt;= 1 && d.x1 &gt; d.x0;\n  }\n\n  function labelVisible(d) {\n    return d.y1 &lt;= 3 && d.y0 &gt;= 1 && (d.y1 - d.y0) * (d.x1 - d.x0) &gt; 0.03;\n  }\n\n  function labelTransform(d) {\n    const x = (d.x0 + d.x1) / 2 * 180 / Math.PI;\n    const y = (d.y0 + d.y1) / 2 * radius;\n    return `rotate(${x - 90}) translate(${y},0) rotate(${x &lt; 180 ? 0 : 180})`;\n  }\n\n  return svg.node();\n}\n\n\n\n\n\n\n\n\nflareData = FileAttachment(\"flare-2.json\").json()\n\npartition = flareData =&gt; {\n  const root = d3.hierarchy(flareData)\n      .sum(d =&gt; d.value)\n      .sort((a, b) =&gt; b.value - a.value);\n  return d3.partition()\n      .size([2 * Math.PI, root.height + 1])\n    (root);\n}\n\ncolor = d3.scaleOrdinal(\n  d3.quantize(d3.interpolateRainbow, flareData.children.length + 1)\n)\n\nformat = d3.format(\",d\")\n\nwidth = 932\n\nradius = width / 6\n\narc = d3.arc()\n    .startAngle(d =&gt; d.x0)\n    .endAngle(d =&gt; d.x1)\n    .padAngle(d =&gt; Math.min((d.x1 - d.x0) / 2, 0.005))\n    .padRadius(radius * 1.5)\n    .innerRadius(d =&gt; d.y0 * radius)\n    .outerRadius(d =&gt; Math.max(d.y0 * radius, d.y1 * radius - 1))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to topReuseISC License"
   },
   {
-    "objectID": "projects/interactivity/examples/arquero.html",
-    "href": "projects/interactivity/examples/arquero.html",
+    "objectID": "content/projects/interactivity/examples/arquero.html",
+    "href": "content/projects/interactivity/examples/arquero.html",
     "title": "Arquero",
     "section": "",
     "text": "Simple demonstration of Arquero using Allison Horst’s Palmer Penguins dataset.\n\nimport { aq, op } from '@uwdata/arquero'\npenguins = aq.loadCSV(\"palmer-penguins.csv\")\n\npenguins.view()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npenguins\n  .groupby('species')\n  .filter(d =&gt; d.body_mass_g &gt; 0)\n  .rollup({\n    count: op.count(),\n    avg_mass: op.average('body_mass_g')\n   })\n  .view()\n\n\n\n\n\n\n\n\nIf you want to use inputs in an arquero query, you can use the params method of table. Below is a simple example of filtering a dataset by the values provided.\n\nviewof bill_length_min = Inputs.range(\n  [32, 50],\n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"],\n  { value: [\"Torgersen\", \"Biscoe\"],\n    label: \"Islands:\"\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npenguins\n  .params({\n    blm: bill_length_min,\n    i: islands\n  })\n  .filter((d, $) =&gt; op.includes($.i, d.island) && d.bill_length_mm &gt; $.blm)\n  .view()\n\n\n\n\n\n\n\n\n\n\n\n Back to topReuseCC BY-SA 4.0"
   },
   {
-    "objectID": "projects/interactivity/examples/layout.html",
-    "href": "projects/interactivity/examples/layout.html",
+    "objectID": "content/projects/interactivity/examples/layout.html",
+    "href": "content/projects/interactivity/examples/layout.html",
     "title": "Layout",
     "section": "",
     "text": "You can control the layout of OJS content in a number of ways."
   },
   {
-    "objectID": "projects/interactivity/examples/layout.html#page-layout-full",
-    "href": "projects/interactivity/examples/layout.html#page-layout-full",
+    "objectID": "content/projects/interactivity/examples/layout.html#page-layout-full",
+    "href": "content/projects/interactivity/examples/layout.html#page-layout-full",
     "title": "Layout",
     "section": "page-layout: full",
     "text": "page-layout: full\nThis example uses page-layout: full to have its contents occupy the entire width of the page:\n---\ntitle: \"Layout\"\nformat: \n  html: \n    page-layout: full\n---\nEnclose the inputs in a sidebar panel and the outputs in a tabset panel (click the “Code” button at top right to see the full source code):\n\n\nviewof bill_length_min = Inputs.range(\n  [32, 50], \n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], \n    label: \"Islands:\"\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlotData\n\n\n\nPlot.rectY(filtered, \n  Plot.binX(\n    {y: \"count\"}, \n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n\n\n\n\n\n\n\n\n\nInputs.table(filtered)\n\n\n\n\n\n\n\n\n\nRead and filter the data based on the user’s inputs:\n\ndata = FileAttachment(\"palmer-penguins.csv\").csv({typed: true})\nfiltered = data.filter(function(penguin) {\n  return bill_length_min &lt; penguin.bill_length_mm &&\n         islands.includes(penguin.island);\n})"
   },
   {
-    "objectID": "projects/interactivity/examples/layout.html#width-and-layoutwidth-fine-grained-layout-tracking",
-    "href": "projects/interactivity/examples/layout.html#width-and-layoutwidth-fine-grained-layout-tracking",
+    "objectID": "content/projects/interactivity/examples/layout.html#width-and-layoutwidth-fine-grained-layout-tracking",
+    "href": "content/projects/interactivity/examples/layout.html#width-and-layoutwidth-fine-grained-layout-tracking",
     "title": "Layout",
     "section": "width and layoutWidth: fine-grained layout tracking",
     "text": "width and layoutWidth: fine-grained layout tracking\nLike ObservableHQ, ojs cells support the reactive width which tracks the clientWidth of the main HTML element.\n\nwidth\n\n\n\n\n\n\nIn addition, if you need the widths of specific parts of the layout, use the CSS class ojs-track-layout in a div. Quarto’s OJS runtime tracks all such divs in layoutWidth. In this example, the tabset above has id penguins-tabset, and you can see its clientWidth reactively below. If this webpage is sufficiently wide, the sidebar will take up some of the space and the width of the resulting tabset will be smaller:\n\nlayoutWidth"
   },
   {
-    "objectID": "projects/advanced-layout/index.html",
-    "href": "projects/advanced-layout/index.html",
+    "objectID": "content/projects/advanced-layout/index.html",
+    "href": "content/projects/advanced-layout/index.html",
     "title": "Positioning Content in the Margin",
     "section": "",
     "text": "Quarto supports a variety of page layout options that enable you to author content that\nThis post will demonstrate a few of the capabilities for positioning content in the margin of the page. You can read more about the complete capabilities in the Article Layout Guide.",
     "crumbs": [
       "Studies",
+      "Projects",
       "Positioning Content in the Margin"
     ]
   },
   {
-    "objectID": "projects/advanced-layout/index.html#margin-figures",
-    "href": "projects/advanced-layout/index.html#margin-figures",
+    "objectID": "content/projects/advanced-layout/index.html#margin-figures",
+    "href": "content/projects/advanced-layout/index.html#margin-figures",
     "title": "Positioning Content in the Margin",
     "section": "Margin Figures",
     "text": "Margin Figures\nFigures that you create using code cells can be placed in the margin by using the column: margin code cell option. If the code produces more than one figure, each of the figures will be placed in the margin.\n\n```{r}\n#| label: fig-mtcars\n#| fig-cap: \"MPG vs horsepower, colored by transmission.\"\n#| column: margin\n\nlibrary(ggplot2)\nmtcars2 &lt;- mtcars\nmtcars2$am &lt;- factor(\n  mtcars$am, labels = c('automatic', 'manual')\n)\nggplot(mtcars2, aes(hp, mpg, color = am)) +\n  geom_point() +\n  geom_smooth(formula = y ~ x, method = \"loess\") +\n  theme(legend.position = 'bottom')\n```\n\n\n\n\n\n\n\n\nFigure 1: MPG vs horsepower, colored by transmission.",
     "crumbs": [
       "Studies",
+      "Projects",
       "Positioning Content in the Margin"
     ]
   },
   {
-    "objectID": "projects/advanced-layout/index.html#margin-tables",
-    "href": "projects/advanced-layout/index.html#margin-tables",
+    "objectID": "content/projects/advanced-layout/index.html#margin-tables",
+    "href": "content/projects/advanced-layout/index.html#margin-tables",
     "title": "Positioning Content in the Margin",
     "section": "Margin Tables",
     "text": "Margin Tables\nYou an also place tables in the margin of your document by specifying column: margin.\n\n```{r}\n#| column: margin\n\nknitr::kable(\n  mtcars[1:3, 1:3]\n)\n```\n\n\n\n\n\n\nmpg\ncyl\ndisp\n\n\n\n\nMazda RX4\n21.0\n6\n160\n\n\nMazda RX4 Wag\n21.0\n6\n160\n\n\nDatsun 710\n22.8\n4\n108",
     "crumbs": [
       "Studies",
+      "Projects",
       "Positioning Content in the Margin"
     ]
   },
   {
-    "objectID": "projects/advanced-layout/index.html#other-content",
-    "href": "projects/advanced-layout/index.html#other-content",
+    "objectID": "content/projects/advanced-layout/index.html#other-content",
+    "href": "content/projects/advanced-layout/index.html#other-content",
     "title": "Positioning Content in the Margin",
     "section": "Other Content",
     "text": "Other Content\nYou can also place content in the margin by targeting the margin column using a div with the .column-margin class. For example:\n::: {.column-margin}\nWe know from *the first fundamental theorem of calculus* that for $x$ in $[a, b]$:\n\n$$\\frac{d}{dx}\\left( \\int_{a}^{x} f(u)\\,du\\right)=f(x).$$\n:::\n\n\nWe know from the first fundamental theorem of calculus that for \\(x\\) in \\([a, b]\\):\n\\[\\frac{d}{dx}\\left( \\int_{a}^{x} f(u)\\,du\\right)=f(x).\\]",
     "crumbs": [
       "Studies",
+      "Projects",
       "Positioning Content in the Margin"
     ]
   },
   {
-    "objectID": "projects/advanced-layout/index.html#margin-references",
-    "href": "projects/advanced-layout/index.html#margin-references",
+    "objectID": "content/projects/advanced-layout/index.html#margin-references",
+    "href": "content/projects/advanced-layout/index.html#margin-references",
     "title": "Positioning Content in the Margin",
     "section": "Margin References",
     "text": "Margin References\nFootnotes and the bibliography typically appear at the end of the document, but you can choose to have them placed in the margin by setting the following option[^1] in the document front matter:\n---\nreference-location: margin\ncitation-location: margin\n---\nWith these options set, footnotes and citations will (respectively) be automatically be placed in the margin of the document rather than the bottom of the page. As an example, when I cite @xie2018, the citation bibliography entry itself will now appear in the margin.\n\nAsides\nAsides allow you to place content aside from the content it is placed in. Asides look like footnotes, but do not include the footnote mark (the superscript number). This is a span that has the class aside which places it in the margin without a footnote number.\n[This is a span that has the class aside which places it in the margin without a footnote number.]{.aside}",
     "crumbs": [
       "Studies",
+      "Projects",
       "Positioning Content in the Margin"
     ]
   },
   {
-    "objectID": "projects/advanced-layout/index.html#margin-captions",
-    "href": "projects/advanced-layout/index.html#margin-captions",
+    "objectID": "content/projects/advanced-layout/index.html#margin-captions",
+    "href": "content/projects/advanced-layout/index.html#margin-captions",
     "title": "Positioning Content in the Margin",
     "section": "Margin Captions",
     "text": "Margin Captions\nFor figures and tables, you may leave the content in the body of the document while placing the caption in the margin of the document. Using cap-location: margin in a code cell or document front matter to control this. For example:\n\n```{r}\n#| label: fig-cap-margin\n#| fig-cap: \"MPG vs horsepower, colored by transmission.\"\n#| cap-location: margin\n\nlibrary(ggplot2)\nmtcars2 &lt;- mtcars\nmtcars2$am &lt;- factor(\n  mtcars$am, labels = c('automatic', 'manual')\n)\nggplot(mtcars2, aes(hp, mpg, color = am)) +\n  geom_point() +\n  geom_smooth(formula = y ~ x, method = \"loess\") +\n  theme(legend.position = 'bottom')\n```\n\n\n\n\n\n\n\nFigure 2: MPG vs horsepower, colored by transmission.",
     "crumbs": [
       "Studies",
+      "Projects",
       "Positioning Content in the Margin"
     ]
   },
   {
-    "objectID": "projects/bullinger-digital/index.html",
-    "href": "projects/bullinger-digital/index.html",
-    "title": "Bullinger digital",
+    "objectID": "content/projects/benasch/index.html",
+    "href": "content/projects/benasch/index.html",
+    "title": "BeNASch: Praktische Einblicke und Diskussion",
     "section": "",
-    "text": "Bullinger digital\nIn Kooperation mit der Universität Zürich (Prof. Dr. Martin Volk) und der Fachhochschule Westschweiz (Prof. Dr. Andreas Fischer) erarbeiten wir Handschriftenmodelle zur Erkennung des Briefwechsels Heinrich Bullingers.\nZiel ist die effiziente Unterstützung der Lesbarmachung der Handschriften der umfangreichen Briefkorrespondenz Bullingers. Informationen zum Stand des Projekts finden sich online: bullinger-digital.ch.\nDas Projekt startet am 1. April 2021 und wird grosszügig unterstützt durch die Hasler Stiftung.\n\n\n\n\n Back to topReuseCC BY-SA 4.0",
+    "text": "BeNASch: Praktische Einblicke und Diskussion\n\n\nEin Workshop zur nachhaltigen Annotation von Entitäten und Ereignissen in historischen Texten\nWir laden zum ersten Workshop zu BeNASch, dem Annotationsschema für vormoderne deutschsprachige Texte, ein. Über zwei Tage wollen wir uns intensiv mit dem Schema auseinandersetzen. Einer praktischen Einführung zum Schema folgen kritische Diskussionen. Forschende aller Stufen (inklusive Studierende), die sich für Annotation und Datenmodellierung anhand historischer Texte interessieren, sind herzlich eingeladen. Der Workshop findet am 23. und 24. Januar 2025 an der Universität Bern statt.\nFlyer BeNASch (PDF, 311KB)\n\n\n\n\n Back to topReuseCC BY-SA 4.0",
     "crumbs": [
       "Studies",
-      "Bullinger digital"
+      "Projects",
+      "BeNASch: Praktische Einblicke und Diskussion"
     ]
+  },
+  {
+    "objectID": "content/events/250430_open_access_event_not_related_to_a_project.html",
+    "href": "content/events/250430_open_access_event_not_related_to_a_project.html",
+    "title": "Workshop on Open Access, Open & Community Peer Review",
+    "section": "",
+    "text": "Join us for a hands-on workshop exploring new models of scholarly publishing in the digital humanities. Traditional publishing often relies on intermediaries, slowing access and increasing costs. This workshop will explore ways to streamline publishing, increase transparency, and foster collaboration. \nWe’ll discuss university presses, public-private partnerships and preprint infrastructures, and how open access platforms can accelerate the dissemination of research. We’ll also explore community and open peer review to promote inclusivity and shared authority in scholarly communication. \nIn addition, we’ll be showcasing open source tools such as Git, Quire and Quarto to simplify publishing and peer-review workflows, making them more adaptable and researcher-friendly.\nThe Digital History Network Switzerland, including Prof. Dr. Michael Piotrowski, Dr. Moritz Feichtinger and Dominic Weber, will contribute their expertise to guide the discussions.\n\n\n\n Back to topReuseCC BY-SA 4.0"
   },
   {
     "objectID": "README.template.html",
