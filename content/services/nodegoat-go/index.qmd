@@ -1,0 +1,25 @@
+---
+title: "nodegoat Go: data management and network analysis"
+author: 
+  - name: Sebastian Borkowski
+    email: sebastian.borkowski@unibe.ch
+    orcid: 0000-0002-8324-1939
+    affiliation: University of Bern
+categories: [services]
+---
+
+*nodegoat Go* is a virtual research environment that has been specially developed for the management, visualisation and analysis of complex data. Researchers and students at the University of Bern can apply for free access and carry out projects in the humanities, social and natural sciences.
+
+-   Currently active projects: 113
+-   Researchers on the platform: 186
+
+## Services
+
+-   Provision of a personal or group research environment
+-   Support with data entry and visualisation
+-   Organisation of workshops and training on how to use nodegoat
+
+## Contact
+
+Sebastian Borkowski\
+[nodegoat.support\@unibe.ch](mailto:nodegoat.support@unibe.ch)

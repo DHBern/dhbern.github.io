@@ -1,0 +1,15 @@
+---
+title: "Services"
+listing:
+  id: services
+  type: default
+  contents: "./*/index.qmd"
+  sort: "title desc"
+---
+
+The Digital Humanities (DH) at the University of Bern offer a wide range of services for researchers, students and institutions. Our expertise includes support for research projects, the development of innovative publication formats, the provision of technical solutions and advice on digital tools and methods. The aim is to promote scientific innovation, strengthen digital skills and improve networking between research and the public.
+
+The following is an overview of our main services and the contact persons responsible for them.
+
+::: {#services}
+:::

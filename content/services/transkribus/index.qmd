@@ -1,0 +1,17 @@
+---
+title: Handwriting and Text Recognition with Transkribus
+author: "Digital Humanities"
+categories: [services]
+---
+
+*Transkribus* is a powerful tool for automated text recognition of handwritten and historical documents. The University of Bern supports researchers by subsidising the use of the tool and providing training and workshops.
+
+## Services
+
+-   Introduction to the use of Transkribus
+-   Support with text recognition for historical documents
+-   Organisation of workshops on advanced features (e.g. PyLaia training)
+
+## Contact
+
+[digitalhumanities\@unibe.ch](mailto:digitalhumanities@unibe.ch)
