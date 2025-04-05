@@ -33,7 +33,7 @@ website:
 
   sidebar:
     style: 'docked'
-    collapse-level: 2
+    collapse-level: 1
     contents:
       - text: Blog
         href: /

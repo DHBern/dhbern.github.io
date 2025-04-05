@@ -1,11 +1,13 @@
 ---
+title: "Bundesratsprotokolle"
+subtitle: "Kooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle"
+author: 
+ - David Schoch
 type: "Digitale Edition"
 status: active
 tags: [HTR, OCR]
 category: "asdfd"
 ---
-
-# Kooperationsprojekt Aufbereitung der Schweizerischen Bundesratsprotokolle
 
 Ziel des Projekts ist die Aufbereitung der handschriftlichen Bundesratsprotokolle (1848-1903) um einen niederschwelligen Zugriff mittels eigener Suchoberfläche zu schaffen. Die automatische Erkennung und Aufbereitung von handschriftlichem Material ist seit wenigen Jahren mit guter Qualität möglich.
 

@@ -1,7 +1,6 @@
 ---
 title: "Projects"
 listing:
-  type: grid
+  type: default
   contents: "./*/index.qmd"
-# categories: true
 ---

@@ -4,6 +4,7 @@ listing:
   - id: blog
     contents: content
     type: grid
+    sort: "date desc"
     include:
       categories: Post
   - id: events

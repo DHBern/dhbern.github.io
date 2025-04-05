@@ -4,9 +4,4 @@ version = "0.1.0"
 description = "This repository contains Digital Humanities at the University of Bern."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "jupyter>=1.1.1",
-    "pandas>=2.2.3",
-    "plotly>=5.24.1",
-    "requests>=2.32.3",
-]
+dependencies = []

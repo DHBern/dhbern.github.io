@@ -1,11 +1,10 @@
 ---
+title: Bullinger digital
 type: "Digitale Edition"
 status: active
 categories:
 - Benasch
 ---
-
-# Bullinger digital
 
 In Kooperation mit der Universität Zürich ([Prof. Dr. Martin Volk)](https://www.cl.uzh.ch/de/people/team/compling/volk.html) und der Fachhochschule Westschweiz ([Prof. Dr. Andreas Fischer)](https://icosys.ch/) erarbeiten wir Handschriftenmodelle zur Erkennung des Briefwechsels Heinrich Bullingers.
 
