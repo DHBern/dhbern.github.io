@@ -3,7 +3,6 @@ project:
 
 website:
   title: dhbern.github.io
-  # favicon: logo.png
   open-graph: true
   twitter-card: true
   site-url: https://dhbern.github.io/
@@ -32,6 +31,7 @@ website:
         href: https://www.dh.unibe.ch/about_us/team/index_eng.html
 
   sidebar:
+    logo: ''
     style: 'docked'
     collapse-level: 1
     contents:
