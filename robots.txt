@@ -1,1 +1,1 @@
-Sitemap: https://maehr.github.io/dhbern.github.io/sitemap.xml
+Sitemap: https://dhbern.github.io/sitemap.xml

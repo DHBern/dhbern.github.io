@@ -3,8 +3,8 @@
     "listing": "/index.html",
     "items": [
       "/content/projects/benasch/250313_news_related_to_benasch.html",
-      "/content/posts/250313_news_not_related_to_a_projetct.html",
-      "/content/events/250430_open_access_event_not_related_to_a_project.html"
+      "/content/posts/20250402-move-to-quarto/index.html",
+      "/content/events/20250430-open-access-workshop/index.html"
     ]
   },
   {
@@ -12,9 +12,7 @@
     "items": [
       "/content/projects/benasch/index.html",
       "/content/projects/bullinger-digital/index.html",
-      "/content/projects/aufbereitung-bundesratsprotokolle/index.html",
-      "/content/projects/interactivity/index.html",
-      "/content/projects/advanced-layout/index.html"
+      "/content/projects/aufbereitung-bundesratsprotokolle/index.html"
     ]
   }
 ]
