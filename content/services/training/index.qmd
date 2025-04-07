@@ -1,0 +1,18 @@
+---
+title: Advice and training on digital tools
+author: "Digital Humanities"
+categories: [services]
+---
+
+We offer training and advice on a wide range of digital tools, including:
+
+-   Blender: 3D modelling and visualisation
+-   Text Encoding Initiative (TEI): digital editions and text technologies
+-   [Transkribus](../transkribus/index.qmd): automated text recognition
+-   [nodegoat](../nodegoat-go/index.qmd): data management and network analysis
+
+Our workshops are designed to be practical and offer both beginners and experienced users the opportunity to develop their digital skills.
+
+## Contact
+
+[digitalhumanities\@unibe.ch](mailto:digitalhumanities@unibe.ch)

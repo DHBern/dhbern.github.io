@@ -1,0 +1,11 @@
+---
+title: Support for research projects and applications
+author: "Digital Humanities"
+categories: [services]
+---
+
+We advise and support researchers at the Faculty of Humanities in the design and implementation of their research projects. This includes assistance with applications for third-party funded projects. Our advice ranges from methodological questions to the selection and use of digital tools that are suitable for specific research questions.
+
+## Contact
+
+[digitalhumanities\@unibe.ch](https://www.dh.unibe.ch/index_eng.html)

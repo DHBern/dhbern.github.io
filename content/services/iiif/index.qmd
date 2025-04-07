@@ -1,0 +1,17 @@
+---
+title: "Digital image processing with IIIF"
+author: "Open Science Team"
+categories: [services]
+---
+
+The *International Image Interoperability Framework (IIIF)* enables the efficient provision and use of image data. In collaboration with the University Library of Bern, we provide an IIIF interface that allows access to high-quality image data for research purposes.
+
+## Services
+
+-   Advice on integrating IIIF into research projects
+-   Provision of interfaces and image management tools
+-   Support in using IIIF standards for projects in the humanities and social sciences
+
+## Contact
+
+[openscience\@unibe.ch](mailto:openscience@unibe.ch)
