@@ -1,0 +1,39 @@
+---
+title: Support for research projects and applications
+author: "Digital Humanities"
+categories: [services]
+---
+
+We advise and support researchers at the Faculty of Humanities in the design and implementation of their research projects. This includes assistance with applications for third-party funded projects. Our advice ranges from methodological questions to the selection and use of digital tools that are suitable for specific research questions.
+
+## Our Services
+
+In addition to general project consulting, we offer the following specialized services:
+
+-   **Data Management Planning**\
+    We support the preparation of data management plans (DMPs) for funding applications, in alignment with SNSF and European Commission requirements. Our expertise covers FAIR principles, metadata standards, long-term preservation strategies, and repository selection.
+
+-   **Digital Infrastructure and Architecture Design**\
+    We help design sustainable technical architectures for research projects — from toolchains and workflows to modular and reusable software components. This includes the integration of version control, containerization (e.g. Docker), continuous deployment, and documentation workflows (e.g. Quarto, MkDocs).
+
+-   **Tool and Platform Evaluation**\
+    We assist in identifying and evaluating digital tools, platforms, and services that align with your research needs — including data annotation, OCR/HTR, network analysis, spatial humanities, and corpus linguistics.
+
+-   **Support for Digital Editions**\
+    We advise on encoding standards (TEI, XML, Markdown-based pipelines), publication platforms, and the technical implementation of digital scholarly editions.
+
+-   **Data Modeling and Ontologies**\
+    We provide guidance on data modeling for historical sources and entities, including the use of controlled vocabularies and ontologies (e.g. CIDOC CRM, SKOS, Linked Data).
+
+-   **Prototyping and Technical Proofs of Concept**\
+    We offer assistance in building minimal viable prototypes for digital components of your project, including exploratory coding or automation for feasibility assessments.
+
+-   **Consulting on Research Software Development**\
+    We advise on best practices for writing reproducible, maintainable code in collaborative research contexts, including testing strategies, dependency management, and code review workflows.
+
+-   **Visualization and Dissemination Strategies**\
+    We assist with planning data visualizations, public-facing interfaces, and strategies for communicating results through digital exhibitions, storymaps, or interactive platforms.
+
+## Contact
+
+[digitalhumanities\@unibe.ch](https://www.dh.unibe.ch/index_eng.html)

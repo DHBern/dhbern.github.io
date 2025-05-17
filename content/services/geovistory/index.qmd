@@ -1,0 +1,22 @@
+---
+title: "Geovistory: LOD Research Environment"
+author:
+  - name: Stephen Hart
+    email: stephen.hart@unibe.ch
+    orcid: 0009-0003-6556-5512
+    affiliation: University of Bern
+categories: [services]
+---
+
+*Geovistory* is a collaborative information system that allows researchers to structure, link and analyse data. Its innovative visualisation tools promote the sharing and dissemination of research data.
+
+## Services
+
+-   Advice and support on using Geovistory
+-   Provision of tools for semantic data modelling
+-   support with publishing and analysing research data
+
+## Contact
+
+Stephen Hart\
+[stephen.hart\@unibe.ch](mailto:stephen.hart@unibe.ch)

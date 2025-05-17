@@ -27,11 +27,12 @@ website:
       - text: Research
         href: content/projects/index.qmd
       - text: Services
-        href: https://www.dh.unibe.ch/dienstleistungen/index_ger.html
+        href: content/services/index.qmd
       - text: About us
         href: https://www.dh.unibe.ch/about_us/team/index_eng.html
 
   sidebar:
+    logo: ''
     style: 'docked'
     collapse-level: 1
     contents:
@@ -42,6 +43,9 @@ website:
       - text: Projects
         href: content/projects/index.qmd
         contents: content/projects/*/index.qmd
+      - text: Services
+        href: content/services/index.qmd
+        contents: content/services/*/index.qmd
 
 format:
   html:

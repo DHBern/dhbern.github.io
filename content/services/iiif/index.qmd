@@ -1,0 +1,21 @@
+---
+title: "Digital Image Processing with IIIF"
+author: "Open Science Team"
+categories: [services]
+---
+
+The [*International Image Interoperability Framework (IIIF)*](https://iiif.io/) is a set of open standards for delivering high-quality digital objects online at scale. It enables standardized access to rich, image-based resources, allowing for deep zoom, comparison, structure, and annotation of images across repositories.
+
+With the IIIF service, the University Library of Bern provides a server infrastructure with IIIF interfaces that enables web-based embedding of IIIF images. The service was developed in collaboration with Digital Humanities and hallerNet.
+
+## Services
+
+-   Server infrastructure and publicly accessible IIIF-compliant interfaces (Image API and Presentation API) for the delivery of images.
+-   A user-friendly web-based administration application for managing the import of image data and metadata.
+-   Expert advice on using the IIIF service.
+
+Detailed information on the services offered by the University Library: <https://bib.unibe.ch/iiif>
+
+## Contact
+
+[openscience\@unibe.ch](mailto:openscience@unibe.ch)

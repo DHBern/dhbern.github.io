@@ -1,0 +1,107 @@
+---
+title: "Open Access Lab"
+author: 
+  - name: Katharina Böhmer
+    email: katharina.boehmer@unibe.ch
+    orcid: 0009-0003-7269-6780
+    affiliation: University of Bern
+  - name: Alessandra Fedrigo
+    email: alessandrafedrigo@unibe.ch
+    orcid: 0009-0005-0968-7376
+    affiliation: University of Bern
+categories: [services]
+other-links:
+  - text: "German version"
+    icon: globe
+    href: ./de/
+---
+
+## Welcome to the OA Lab!
+
+We provide advice and support for researchers who wish to publish in Diamond Open Access (DOA), independently of commercial publishers: as editorial board members, editorial teams, or authors of academic journals.
+
+::: {.btn-group .d-flex .justify-content-center role="group" aria-label="Role navigation"}
+<a href="#for-editorial-board-members" class="btn btn-outline-primary">For Editorial Board Members</a> <a href="#for-editorial-teams" class="btn btn-outline-primary">For Editorial Teams</a> <a href="#for-authors" class="btn btn-outline-primary">For Authors</a>
+:::
+
+## For Editorial Board Members
+
+Together with you we design:
+
+-   new OA journals
+-   innovative features for your OA journal
+-   strategies for the further development of existing OA journals
+
+We support you in:
+
+-   deciding on formats (HTML, PDF, XML), publishing platforms (e.g. [OJS](https://pkp.sfu.ca/software/ojs/)), hosting solutions, and software
+-   transforming existing print or online journals to OA/DOA (Flipping)
+-   including your OA journal in relevant databases and metric-based indices (e.g. [DOAJ](https://doaj.org/), [Scopus](https://www.scopus.com/search/form.uri?display=basic&zone=header&origin=searchbasic#basic), [Web of Science Core Collection](https://mjl.clarivate.com/home), [EBSCO](https://www.ebsco.com/), [ERIH PLUS](https://kanalregister.hkdir.no/publiseringskanaler/erihplus/), [WorldCat](https://search.worldcat.org/de), etc.)
+-   deciding on suitable OA licenses ([Creative Commons](https://creativecommons.org/share-your-work/cclicenses/))
+
+For questions about:
+
+-   [funding options for open access publications](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html)
+
+-   [open access requirements of funding organisations](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html#pane1224714) (SNF)
+
+please contact the Open Science Team of the University Library of Bern UB: [openaccess\@ub.unibe.ch](mailto:openaccess@ub.unibe.ch)
+
+## For Editorial Teams
+
+We share our expertise on the following topics:
+
+-   designing OA-journal workflows
+-   editorial process: guidelines for peer review, proofreading, stylesheet…
+-   production process: formatting, typesetting, proofreading, publication…
+-   best practices: workflow in OJS, image management (image rights and image editing)
+-   communication with authors and editorial board, time management…
+-   plagiarism check: software and handling of plagiarism
+-   marketing strategies (Social Media)
+
+We offer:
+
+-   regular consultation and training for editorial teams of OA journals
+-   assistance in optimizing editorial workflows
+
+For questions about:
+
+-   technical infrastructure for scholar-led open access journal projects such as [BOP Serials](https://bop.unibe.ch/), [Open Journal Systems](https://pkp.sfu.ca/software/ojs/) (OJS), [SciFlow Publish](https://sciflow.net/en/sciflow-publish), and [identifiers](https://www.ub.unibe.ch/services/open_science/identifiers/index_eng.html) (DOI, ISBN, ISSN, GND)
+
+please contact the Open Science Team of the University Library of Bern UB: [openaccess\@ub.unibe.ch](mailto:openaccess@ub.unibe.ch)
+
+## For Authors
+
+We advise you on:
+
+-   image management (image rights and image editing)
+-   communication with museums, libraries, archives, etc.
+-   communication with editorial teams of OA journals
+-   legal questions (copyright)
+
+We offer tips on:
+
+-   innovative presentation of image material
+-   embedding multimedia features into texts (video, audio, etc.)
+
+For questions about:
+
+-   [funding options for open access publications](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html)
+
+-   [open access requirements of research funding institutions](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html#pane1224714)
+
+-   [Article Processing Charges (APC) and Book Processing Charges (BPC)](https://www.ub.unibe.ch/service/open_science/dienstleistungen/index_ger.html#collapse_pane780347)
+
+please contact the Open Science Team at University Library of Bern UB: [openaccess\@ub.unibe.ch](mailto:openaccess@ub.unibe.ch)
+
+## About Us
+
+The OA Lab is a service of Digital Humanities at the University of Bern. Katharina Böhmer (director) and Alessandra Fedrigo (collaborator) played a key role in establishing the successful art history Diamond OA journal [*21: Inquiries into Art, History, and the Visual*](https://21-inquiries.eu/en) as editors, are experts in the field of OA publishing for academic journals and specialists in digital image management. They are happy to share their in-depth editorial expertise and practical experience with everyone interested.
+
+We look forward to hearing from you!
+
+**Contact:**\
+[Katharina Böhmer](https://www.dh.unibe.ch/about_us/people/ma_boehmer_katharina/index_eng.html)\
+[Alessandra Fedrigo](https://www.dh.unibe.ch/about_us/people/fedrigo_alessandra/index_eng.html)\
+[oa-lab.dh\@unibe.ch](mailto:oa-lab.dh@unibe.ch)\
+[www.dh.unibe.ch/services/oa_lab/index_eng.html](https://www.dh.unibe.ch/services/oa_lab/index_eng.html){.uri}
