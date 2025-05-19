@@ -17,6 +17,81 @@ The structure of this repository follows the [Advanced Structure for Data Analys
 - `content/` - Contains the content of the website, including the main page and any additional pages.
 - `renv/` - Contains the R environment used to build the website, including the R packages and their versions.
 
+## 📁 Content Structure and Categorization
+
+The website is maintained under two main domains:
+
+```mermaid
+graph TD
+  A[https://dhbern.github.io/] --> A1[News (Blog)]
+  A --> A2[Events]
+  A --> A3[Projects]
+  A --> A4[Services]
+
+  B[https://www.dh.unibe.ch/] --> B1[Studies]
+  B --> B2[Team]
+```
+
+- Content published at **[https://dhbern.github.io/](https://dhbern.github.io/)** includes:
+
+  - 📰 News and blog posts
+  - 📅 Events
+  - 🧪 Projects
+  - 🛠 Services
+
+- The official DH Bern university pages at **[https://www.dh.unibe.ch/](https://www.dh.unibe.ch/)** cover:
+
+  - 📚 Study programs
+  - 👥 Team information
+
+### Folder structure of content
+
+```mermaid
+graph TD
+  root(content/)
+
+  sub1[projects/] --> pj1[project-shortname/]
+  pj1 --> pjindex[index.qmd]
+  pj1 --> pjpost[YYYYMMDD-shortname-post/index.qmd]
+  pj1 --> pjevent[YYYYMMDD-shortname-event/index.qmd]
+
+  sub2[services/] --> sv1[service-shortname/]
+  sv1 --> svindex[index.qmd]
+    sv1 --> svpost[YYYYMMDD-shortname-post/index.qmd]
+  sv1 --> svevent[YYYYMMDD-shortname-event/index.qmd]
+
+  sub3[posts/] --> pst1[YYYYMMDD-shortname/]
+  pst1 --> pstindex[index.qmd]
+
+  sub4[events/] --> ev1[YYYYMMDD-shortname/]
+  ev1 --> evindex[index.qmd]
+
+  root --> sub1
+  root --> sub2
+  root --> sub3
+  root --> sub4
+```
+
+- `content/projects/project-shortname/index.qmd`
+  Each project resides in its own folder and can include blog posts or event entries.
+
+- `content/services/service-shortname/index.qmd`
+  Services are structured similarly but **must include** a YAML header with `categories: [services]`.
+
+- `content/posts/YYYYMMDD-shortname/index.qmd`
+  News/blog posts live here or may be embedded under a project folder. Each must include `categories: [Post]`.
+
+- `content/events/YYYYMMDD-shortname/index.qmd`
+  Events may also be project-specific or standalone and must include `categories: [Event]`.
+
+### Categorization logic
+
+- 🏷 News are markdown files with a YAML header containing `categories: [Post]`.
+- 📆 Events require `categories: [Event]`.
+- 🛠 Services require `categories: [services]`.
+
+All such files must be named `index.qmd` inside appropriately named folders.
+
 ## Getting Started
 
 We recommend using **GitHub Codespaces** for the easiest and fastest setup. It gives you a pre-configured, cloud-based development environment with everything ready to go — directly in your browser.
