@@ -8,7 +8,7 @@ author:
 categories: [services]
 ---
 
-*nodegoat Go* is a virtual research environment for modelling, visualising, and analysing heterogeneous data.¹ Researchers and students at the University of Bern can apply for **free, institution-hosted domains** and carry out projects in the humanities, social, and natural sciences.²
+*nodegoat Go* is a virtual research environment for modelling, visualising, and analysing heterogeneous data. Researchers and students at the University of Bern can apply for **free, institution-hosted domains** and carry out projects in the humanities, social, and natural sciences.
 
 -   **Currently active projects:** 113\
 -   **Researchers on the platform:** 186
@@ -22,7 +22,7 @@ categories: [services]
 
 ## How to apply for a domain/account
 
-The Faculty of Humanities maintains a licensed installation of nodegoat Go. **Students and staff can request a personal or project domain via this [online form](https://docs.google.com/forms/d/e/1FAIpQLSegTg4-Mu5pUzayOex_lo_Mh_7xETy73trENKgMNnSoCp0U1g/viewform); accounts are created manually and become active within two working days.**³
+The Faculty of Humanities maintains a licensed installation of nodegoat Go. **Students and staff can request a personal or project domain via this [online form](https://docs.google.com/forms/d/e/1FAIpQLSegTg4-Mu5pUzayOex_lo_Mh_7xETy73trENKgMNnSoCp0U1g/viewform); accounts are created manually and become active within two working days.**
 
 ## Typical use cases
 
@@ -30,9 +30,9 @@ The Faculty of Humanities maintains a licensed installation of nodegoat Go. **St
 -   **Digital editions & textual projects** – storing TEI/XML or metadata alongside facsimiles and linking passages to people, places, or concepts.\
 -   **Spatial history & historical GIS** – mapping artifact distributions, travel routes, or settlement patterns with time filters.\
 -   **Archaeological typologies** – classifying objects and running similarity or network analyses to test cultural hypotheses.\
--   **Data-publication pipelines** – exporting curated datasets as JSON/CSV and exposing an API or interactive viewer for the public.⁴
+-   **Data-publication pipelines** – exporting curated datasets as JSON/CSV and exposing an API or interactive viewer for the public.
 
-These scenarios leverage nodegoat’s built-in data modelling, temporal–spatial visualisation, and network-analysis tools⁵ as demonstrated in UniBE projects such as *Forced Academic Migration*, *Reading the Beach*, and *RAG Online*.⁶
+These scenarios leverage nodegoat’s built-in data modelling, temporal–spatial visualisation, and network-analysis tools as demonstrated in UniBE projects such as *Forced Academic Migration*, *Reading the Beach*, and *RAG Online*.
 
 ## Further resources
 
@@ -47,7 +47,7 @@ These scenarios leverage nodegoat’s built-in data modelling, temporal–spatia
 
 ## Use-case videos
 
-A curated playlist showcases concrete applications—from digital editions to archaeological network studies—recorded during nodegoat workshops and *Nodegoat Day* events.⁷ Browse the videos for inspiration and methodological insights.
+A curated playlist showcases concrete applications—from digital editions to archaeological network studies—recorded during nodegoat workshops and *Nodegoat Day* events. Browse the videos for inspiration and methodological insights.
 
 ## Contact
 
