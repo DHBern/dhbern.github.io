@@ -18,7 +18,7 @@ other-links:
 
 The Digital Humanities department at the University of Bern is transitioning its research and services to a [Quarto](https://quarto.org/)-based website hosted on [GitHub Pages](https://pages.github.com/). This strategic move aims to enhance the flexibility and accessibility of their digital presence.
 
-![We are moving!](ChatGPT%20Image%20Apr%202,%202025,%2008_43_17%20AM.png){fig-alt="A smiling woman holding a box in an office space."}
+![We are moving!](chatgpt-image-apr-2%2c-2025%2c-08_43_17-am.png){fig-alt="A smiling woman holding a box in an office space."}
 
 Quarto is an open-source publishing system that supports various formats, including HTML, PDF, and ePub. It integrates seamlessly with programming languages such as Python, R, Julia, and Observable, facilitating the creation of dynamic and reproducible content. This versatility is particularly beneficial for digital humanities projects that often require the integration of diverse data sources and analytical methods.
 
