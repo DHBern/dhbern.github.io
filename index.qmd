@@ -18,7 +18,7 @@ listing:
     filter-ui: false
     fields: [date, title, location, author]
     field-display-names: 
-      author: 'Orgnizer'
+      author: 'Organizer'
 ---
 
 ::: {#blog}
