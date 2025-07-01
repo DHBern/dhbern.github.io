@@ -1,6 +1,12 @@
-![](chludens-logo.png){fig-align="center"}
+---
+title: "Confoederatio Ludens"
+type: "Research Project"
+status: active
+categories:
+- Confoederatio Ludens
+---
 
-# Confoederatio Ludens
+![](chludens-logo.png){fig-align="center"}
 
 CH LUDENS looks at a vibrant game design and development scene in the pre-Internet age. For decades, digital games were programmed in Switzerland in niches, but also with commercial success. They bear witness to many sub-scenes and a society changing through digitization.
 
