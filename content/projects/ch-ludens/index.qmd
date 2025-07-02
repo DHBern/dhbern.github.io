@@ -4,6 +4,7 @@ type: "Research Project"
 status: active
 categories:
 - Confoederatio Ludens
+- Project
 ---
 
 ![](chludens-logo.png){fig-align="center"}
