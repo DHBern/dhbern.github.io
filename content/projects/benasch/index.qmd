@@ -4,6 +4,7 @@ status: active
 type: Forschungsprojekt
 categories:
 - Benasch
+- Project
 ---
 
 # Ein Workshop zur nachhaltigen Annotation von Entitäten und Ereignissen in historischen Texten

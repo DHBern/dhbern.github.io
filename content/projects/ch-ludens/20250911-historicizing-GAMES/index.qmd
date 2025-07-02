@@ -1,0 +1,220 @@
+---
+title: Historicizing G.A.M.E.S. 2025
+subtitle: Gaming, Artifacts, Memory, Experience and Society
+date: "2025-07-01"
+categories:
+- Event
+- Confoederatio Ludens
+location: University of Bern
+author: 
+  - name: Addrich Mauch
+    orcid: 0009-0002-5089-6223
+    email: addrich.mauch.unibe.ch
+    role: author
+---
+
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+
+<li class="nav-item" role="presentation">
+
+<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+
+Home
+
+</button>
+
+</li>
+
+<li class="nav-item" role="presentation">
+
+<button class="nav-link" id="pills-program-tab" data-bs-toggle="pill" data-bs-target="#pills-program" type="button" role="tab" aria-controls="pills-program" aria-selected="false">
+
+Conference program
+
+</button>
+
+</li>
+
+<li class="nav-item" role="presentation">
+
+<button class="nav-link" id="pills-keynote-tab" data-bs-toggle="pill" data-bs-target="#pills-keynote" type="button" role="tab" aria-controls="pills-keynote" aria-selected="false">
+
+Keynote
+
+</button>
+
+</li>
+
+<li class="nav-item" role="presentation">
+
+<button class="nav-link" id="pills-guide-tab" data-bs-toggle="pill" data-bs-target="#pills-guide" type="button" role="tab" aria-controls="pills-guide" aria-selected="false">
+
+Speakers’ guide
+
+</button>
+
+</li>
+
+<li class="nav-item" role="presentation">
+
+<button class="nav-link" id="pills-cfp-tab" data-bs-toggle="pill" data-bs-target="#pills-cfp" type="button" role="tab" aria-controls="pills-cfp" aria-selected="false">
+
+Call for papers
+
+</button>
+
+</li>
+
+</ul>
+
+:::::::: {#pills-tabContent .tab-content}
+::: {#pills-home .tab-pane .fade .show .active role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"}
+
+## Welcome
+
+# Historicizing G.A.M.E.S. 2025 – Gaming, Artifacts, Memory, Experience and Society
+
+### International conference, 11-12 September 2025, Bern, Switzerland
+
+Welcome to our website! Here, you will find:
+
+- <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-program-tab')).show(); return false;"> The conference program (including extended abstracts coming soon) </a>.
+- <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-keynote-tab')).show(); return false;"> A presentation of the keynote speaker </a>.
+- <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-guide-tab')).show(); return false;"> The speakers’ guide </a>.
+- <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-cfp-tab')).show(); return false;"> The call for papers (including organizing and scientific committees) </a>.
+
+This conference is co-organized by the [DH, University of Bern](https://www.dh.unibe.ch) and the research project [Confoederatio Ludens](https://chludens.ch/).
+
+You are more than welcome to attend on-site in room 205, Hallerstrasse 6, 3012 Bern.\
+No registration needed.
+
+![](GAMES-2025.avif){fig-align="center"}
+:::
+
+::: {#pills-program .tab-pane .fade role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"}
+More details coming soon!
+
+<embed src="./games-Program.pdf" type="application/pdf" width="100%" height="2280px" />
+:::
+
+::: {#pills-keynote .tab-pane .fade role="tabpanel" aria-labelledby="pills-keynote-tab" tabindex="0"}
+Coming soon...
+:::
+
+::: {#pills-guide .tab-pane .fade role="tabpanel" aria-labelledby="pills-guide-tab" tabindex="0"}
+Coming soon...
+:::
+
+::: {#pills-cfp .tab-pane .fade role="tabpanel" aria-labelledby="pills-cfp-tab" tabindex="0"}
+Historicizing G.A.M.E.S. 2025
+
+Gaming, Artifacts, Memory, Experience and Society
+
+**Abstract submission deadline extended to March 31. 2025.**
+
+How do we write a history of video gaming? As scholars argue (Sicart, 2011; Triclot, 2011; Newman, 2017; Trépanier-Jobin, 2021; Berry, 2022), video gaming should be understood as an ongoing interaction between artifacts—such as games, rules, machines, screens, images, or stories—and players, whose practices are embedded in specific cultural contexts. **Moving beyond an inventorying perspective and the history of the video game industry alone, this conference invites participants to explore the history of video games from the players’ perspectives.**
+
+Since its commercialization during the 1970s, the expansion of video game culture has not only been linked to the diffusion of its artifacts but has also been embedded in broader historical and cultural transformations. Indeed, throughout the 20th century—and particularly in the post-war period and within the context of the Cold War—Western countries experienced the massive development of leisure industries. This shift was supported by increases in free time, educational opportunities, and purchasing power. Such social, economic, political, and ideological transformations helped redefine the role of leisure, including play, in society (Blackshaw, 2015).
+
+This period, during which video games emerge as an object, an industry and a set of media practices, corresponds to the advent of what Reckwitz (2020) calls the *society of singularitie*s. Although aspects of modernity, such as rationalization, standardization or quantification of society still provide the infrastructure for social processes, Reckwitz argues that late modernity is characterized by the sociocultural construction of the exceptionality of events, social roles, and artefacts that now determine how society is experienced in the late 20th and early 21st centuries.
+
+This shift is largely driven by the emerging cultural industries and their means of communication, including video games. On the one hand, gaming enables social, communicative, identity and meaning-generating processes between players and society, by offering spaces and tools for social exchange, distinction and communitization. On the other hand, it allows players to withdraw themselves and actively experience diverse narratives, worlds and situations providing a certain distance from their social environment. In short: **in late modernity, a sphere of player and gaming cultures is developing that manifests itself in objects, subjects, spaces, temporalities and collectives around the medium “game”.**
+
+**The conference aims to encourage participants from all disciplines to explore the sphere of gaming culture from the players’ perspectives**. How has it evolved from its earliest days, and how can today’s phenomena in gaming culture be traced in relation to their historical heritage? How have relationships between objects, subjects, spaces, temporalities, and collectives shaped gaming cultures? How can these phenomena, relationships, and artifacts be categorized phenomenologically and epistemologically? What has been the nature of the connections between producers, consumers, artifacts, and their political and social environments in this developing cultural industry? How can these aspects be analyzed theoretically and methodologically, especially given their volatility and constant transformation?
+
+## Submission Guidelines
+
+ntations and round tables will be conducted in English. Participation is expected to be on-site, with online participation available only in exceptional cases. Abstracts should outline the research problem, methodology, theoretical framework, and some results or hypotheses.
+
+**Guidelines for Abstract Submission:**
+
+**Please submit your abstract through the conference easy chair website.**
+
+- Abstracts must be a maximum of 2,000 characters, including space.
+- The proposal should be written in English, using Times New Roman, 12-point font, justified alignment, and 1.5 line spacing.
+- Proposals must include a short bibliography, not included into the signs count.
+- References must follow the Chicago Manual of Style.
+- Submit both .doc and .pdf versions of your proposal.
+
+**Important:** We use an anonymized review process. Please do not include personal information in the abstract or file names.
+
+## List of Topics
+
+Possible topics for exploring and discussing this field of research could be, but are not limited to:
+
+**Collectives**
+
+- Community-building and institutionalization processes in early fan cultures
+- Mutual development of gaming cultures by gamers and gaming journalism
+- Public and/or collective play
+- The role of play in conversations, interactions, relationships, and sociability
+
+**Spatial Settings**
+
+- The spatial organization of play: play at home, by a friend, in public spaces
+- The publicity and intimacy of play, from teenage bedrooms to common living rooms and the arcade halls
+- The Geography of play : gaming cultures in rural, urban, suburbs
+- Local histories of play : gaming culture in non-american and non-western countries
+
+**Temporalities**
+
+- Memory, Nostalgia and retro communities
+- Routines, rhythms, repetition : how videogames structured time and how time structured playing
+- The impact of broader historical contexts on play and player cultures
+
+**Objects**
+
+- Consoles, controllers, Arcade, TV sets, consoles, boxes, booklets, magazines…
+- Transmedial economic and social correlations and overlaps between electromechanical toys, board games and digital games
+
+**Subjects**
+
+- Geeks, freaks, nerds, otakus : Identities and self conceptions around gaming
+- Gender relations and identity with game experience
+- The video game experiences in different social classes
+- Taste and distaste, construction and interiorization of cultural norms
+
+## Committees
+
+### Organizing committee
+
+- Arno Görgen (Bern University of High Arts)
+- Guillaume Guenat (University of Lausanne)
+- Addrich Mauch (University of Bern)
+- Yannick Rochat (University of Lausanne)
+
+This conference is part of the [[Confoederatio Ludens]{.underline}](https://chludens.ch/), a collaboration among Swiss universities researching Swiss game cultures in the 20th century, supported by the Swiss National Science Foundation (SNSF).
+
+### Scientific committee
+
+- Fanny Barnabé (University of Namur)
+- Sophie Bémelmans (University of Lausanne)
+- Vincent Berry (Sorbonne Paris Nord University)
+- Loïse Bilat (Education University of Fribourg)
+- Alexis Blanchet (Sorbonne Nouvelle University)
+- Björn Blankenheim (University of Wuppertal)
+- Adrian Demleitner (Bern University of High Arts)
+- Melanie Fritsch (Heinrich Heine University Düsseldorf)
+- Renard Gluzman (Shenkar College of Engineering and Design)
+- Pierre-Yves Hurel (University of Lausanne)
+- Rudolf T. Inderst (IU International University of Applied Sciences)
+- Mela Kocher (Zurich University of the Arts)
+- Loeva La Ragione (University of Lausanne)
+- Matthieu Letourneux (University of Paris-Nanterre)
+- Damien Marguet (University of Paris-8)
+- Bernard Perron (University of Montreal)
+- Eugen Pfister (Bern University of High Arts)
+- Fabian Ruz (University of Geneva)
+- Chantal Savoie (Montreal University of Quebec)
+- Carl Therrien (University of Montreal)
+- Tobias Winnerling (Heinrich-Heine-Universität Düsseldorf)
+
+## Venue
+
+The conference will be held at the University of Bern (Switzerland), Hallerstrasse 6.
+
+## Contact
+
+games.dh\@unibe.ch
+:::
+::::::::
