@@ -228,7 +228,29 @@ details p {
       <td>Ayşe Bayrakci Gulyuz:<br>
         <details>
           <summary>From Soda Bottle Caps to Pokémon Go: The Evolution of Collecting and E-Commerce in Turkish Childhood Game Culture</summary>
-          <p>Coming soon...</p>
+          <p>The nostalgic memories of Turkish game culture vividly illustrate how traditional play has been
+          reshaped by digitalization and e-commerce applications. In the early 1990s, children’s games
+          involving soda bottle caps not only reflected aesthetic and barter culture but also represented a
+          small-scale local economy.</p>
+          <p>By the late 1990s, the emergence of Pokémon-themed "pogs" (collectible disks) from snack
+          packages introduced a new dimension to this collecting tradition. The pogs craze not only
+          increased children's interest in the game but also led to the recognition of rare pogs as valuable
+          items, marking an early experience in microeconomics.</p>
+          <p>The process of digitalization has fundamentally transformed gaming culture, ushering in a new
+          era where e-commerce and microtransactions have become dominant. The launch of Pokémon
+          GO in 2016 replaced physical gaming experiences with digital platforms accessible via mobile
+          devices. Players now use GPS-supported game maps to locate and capture virtual Pokémon,
+          engaging in microtransactions, e-commerce integrations, and online tournaments in the process.
+          As a result, gaming culture has evolved beyond mere entertainment, becoming a central
+          component of digital commerce and economic interactions.</p>
+          <p>This study aims to highlight the critical role of e-commerce and digital trade applications in the
+          transformation of gaming culture. The evolution of Turkish childhood game culture from past
+          to present has undergone a radical shift under the influence of digitalization. The traditional
+          barter economy of street games, which once operated with little to no financial cost, has
+          transitioned into a new economic model supported by microtransactions and e-commerce on
+          digital platforms. This shift not only reshapes individual consumption habits but also reflects
+          broader societal transformations, offering a comprehensive perspective on how cultural identity
+          and economic relationships are being redefined.</p>
         </details></td>
       <td></td>
     </tr>
@@ -445,7 +467,7 @@ details p {
     <tr>
       <td>11:45 – 13:30</td>
       <td>Lunch</td>
-      <td>Mensa Gesellschaftsstrasse<br>Gesellschaftsstrasse 2<br>3012 Bern</td>
+      <td>Mensa Gesell&shy;schafts&shy;strasse<br>Gesell&shy;schafts&shy;strasse 2<br>3012 Bern</td>
     </tr>
     <tr class="highlight-yellow">
       <td>13:30 – 14:50</td>
