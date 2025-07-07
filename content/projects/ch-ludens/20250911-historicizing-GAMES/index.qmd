@@ -93,7 +93,7 @@ No registration needed.
 
 ::: {#pills-program .tab-pane .fade role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"}
 
-<h1 style="text-align:center;">Historicizing G.A.M.E.S. – Conference Program</h1>
+<h2 style="text-align:center;">Historicizing G.A.M.E.S. – Conference Program</h2>
 
 <h3 style="text-align:center;">Day 0 - Wednesday 10 September 2025</h3>
 
@@ -532,13 +532,23 @@ Coming soon...
 :::
 
 ::: {#pills-guide .tab-pane .fade role="tabpanel" aria-labelledby="pills-guide-tab" tabindex="0"}
-Coming soon...
+
+## Speakers’ Guide
+
+### Getting to Bern
+
+By train: Travel to Bern station. For timetables and tickets, visit [sbb.ch](https://sbb.ch) or use [this (very good) app](https://www.sbb.ch/en/travel-information/apps/sbb-mobile.html).
+By plane: Arrival via Geneva, Zurich, or Basel airports. Direct trains connect with Bern at least once an hour from Zurich and Basel. For train timetables and tickets, visit sbb.ch.
+
+By car: If you plan to use the highway, remember to purchase the national yearly vignette at the border (40 CHF).
+
+More information coming soon...
 :::
 
 ::: {#pills-cfp .tab-pane .fade role="tabpanel" aria-labelledby="pills-cfp-tab" tabindex="0"}
-Historicizing G.A.M.E.S. 2025
+## Historicizing G.A.M.E.S. 2025
 
-Gaming, Artifacts, Memory, Experience and Society
+### Gaming, Artifacts, Memory, Experience and Society
 
 **Abstract submission deadline extended to March 31. 2025.**
 
