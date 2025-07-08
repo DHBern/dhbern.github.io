@@ -159,7 +159,7 @@ details p {
       <td>
         Let's meet around a drink in town
       </td>
-      <td>TBD</td>
+      <td>[Restaurant Beaulieu](https://www.restaurantbeaulieu.ch/)<br>Erlach&shy;strasse 3<br>3012 Bern</td>
     </tr>
   </tbody>
 </table>
@@ -262,7 +262,7 @@ details p {
     <tr>
       <td>12:00 – 13:30</td>
       <td>Lunch</td>
-      <td>Restaurant Grosse Schanze<br>Parkterrasse 10<br>3012 Bern</td>
+      <td>[Restaurant Grosse Schanze](https://www.grosseschanze.ch)<br>Parkterrasse 10<br>3012 Bern</td>
     </tr>
     <tr class="highlight-yellow">
       <td>13:30 – 14:50</td>
@@ -354,7 +354,7 @@ details p {
     <tr>
       <td class="highlight-yellow">19:00</td>
       <td class="highlight-yellow"><b>Social Event:</b> Apero, dinner and a video game pubquiz</td>
-      <td class="highlight-yellow">Erupt Bar<br>Parkterrasse 14<br>3012 Bern</td>
+      <td class="highlight-yellow">[Erupt Bar](https://www.erupt.ch/)<br>Parkterrasse 14<br>3012 Bern</td>
     </tr>
   </tbody>
 </table>
@@ -521,7 +521,7 @@ details p {
     <tr>
       <td class="highlight-lightyellow">15:30 – 17:00</td>
       <td class="highlight-lightyellow">Visit of the Museum of Communication</td>
-      <td class="highlight-lightyellow">Museum für Kommunikation<br>Helvetiastrasse 16<br>3000 Bern 6</td>
+      <td class="highlight-lightyellow">[Museum für Kommunikation](https://www.mfk.ch/en/)<br>Helvetiastrasse 16<br>3000 Bern 6</td>
     </tr>
   </tbody>
 </table>
@@ -537,19 +537,66 @@ Coming soon...
 
 ### Getting to Bern
 
-By train: Travel to Bern station. For timetables and tickets, visit [sbb.ch](https://sbb.ch) or use [this (very good) app](https://www.sbb.ch/en/travel-information/apps/sbb-mobile.html).
-By plane: Arrival via Geneva, Zurich, or Basel airports. Direct trains connect with Bern at least once an hour from Zurich and Basel. For train timetables and tickets, visit sbb.ch.
 
-By car: If you plan to use the highway, remember to purchase the national yearly vignette at the border (40 CHF).
+* By train: Travel to Bern station. For timetables and tickets, visit [sbb.ch](https://sbb.ch) or use [this (very good) app](https://www.sbb.ch/en/travel-information/apps/sbb-mobile.html).
+
+* By plane: Arrival via Geneva, Zurich, or Basel airports. Direct trains connect with Bern at least once an hour from Zurich and Basel. For train time tables and tickets, visit [sbb.ch](https://sbb.ch).
+
+* By car: If you plan to use the highway, remember to purchase the [national yearly vignette](https://www.ch.ch/en/vehicles-and-traffic/how-to-behave-in-road-traffic/motorway-vignette) at the border (40 CHF).
 
 ### Getting to the Conference Room
 
 From Bern trainstation you can take the elevator directly from the platforms to the "Grosse Schanze" and the follow the map to Hallerstrasse 6. The conference will take place on the second floor at University of Bern in [Hallerstrasse 6](https://www.google.com/maps/place/Hallerstrasse+6,+3012+Bern/@46.952198,7.4350987,17z/data=!3m1!4b1!4m6!3m5!1s0x478e39bda3730301:0x49b8d69502c2f1a!8m2!3d46.952198!4d7.4350987!16s%2Fg%2F11cs68s_mk?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D).
 
-![Hallerstrasse](./06_Hallerstr_Lage.jpg){width=80%}
+![](./06_Hallerstr_Lage.jpg){width=80%}
 
 
-More information coming soon...
+### Giving Your Talk
+
+Each presentation should not exceed 30 minutes in duration, followed by a 10-minute Q&A session. We encourage a constructive and inclusive attitude during this time.
+Please send your presentation at least 1 day before your presentation to Addrich Mauch (<addrich.mauch@unibe.ch>) and Guillaume Guenat (<guillaume.guenat@unil.ch>) to optimize the flow of the conference.
+
+### Catering: What is Included or Not
+
+* Coffee breaks, lunches, and dinner on September 11 are included for speakers and the Organizing Committee.<br>Coffee breaks will be provided in front of the conference room.
+* Lunches will be provided by the Restaurant [Grosse Schanze](https://www.grosseschanze.ch/) and the Mensa [Gesellschaftsstrasse](https://www.gastro-unibern.ch/standorte/mensa-gesellschaftsstrasse/) at the University of Bern . You will receive a voucher covering the meal (and a drink at the Mensa – at the “Grosse Schanze” there will be free water).
+* Apéro riche and dinner on September 11 will be held at [Erupt](https://www.erupt.ch/) in the same building as the train station. Vegetarian, vegan, and gluten-free options are available. The menu and one drink are included, with additional drinks at your own expense.
+* Breakfasts are not included.
+
+### Social activities
+
+Beside the talks and meals, we would like to invite you to join us for three social activities:
+
+* On September 10, in the evening, we will gather in town for an optional drink at 20:00 at the [Restaurant Beaulieu](https://www.restaurantbeaulieu.ch/), Erlachstrasse 3, 3012 Bern (at your own expense).
+* On September 11, in the evening, the [Erupt Gaming-Loung/Bar](https://www.erupt.ch/) (Parkterasse 14, 3012 Bern) organized a game-pub-quiz specially for us after dinner. Food, one drink and the pub-quiz are free for speakers and Organizing Committee.
+* On September 12, after the last panel, we will organize a visit of the [Museum of Communication](https://www.mfk.ch/en/). The guided visit will be free for speakers and Organizing Committee.
+
+### Getting Around
+
+Upon checking in at your hotel, remember to ask for your free public transport card ([more information here](https://bern.com/en/inform/tickets-offers/bern-ticket/?srsltid=AfmBOoofqgTzy287gkjZjr5-bHa4SCIxdofRq4ArGO-2XU080uX1WIZ_)).
+If you haven’t obtained a free public transport card for Bern’s public transport network, tickets can be purchased at all stops. Alternatively, tickets can be bought using the [Bern public transport mobile app](https://www.bernmobil.ch/de/abos-tickets/oev-plus-app) or the [Swiss Federal Railways app](https://www.sbb.ch/en/travel-information/apps/sbb-mobile.html).
+
+### Staying in Bern
+
+We recommend accommodations within walking distance or a short public transport ride from the Bern train station.
+
+There is a youth hostel within a 20 minutes walk from the conference site, close to the Aare (river) ([website](https://www.youthhostel.ch/de/hostels/jugendherberge-bern)).
+
+The Airbnb options in Bern are also worth considering.
+
+For assistance with accommodation locations, please contact <addrich.mauch@unibe.ch>.
+
+### What to Do in Bern
+
+If you are accompanied by family members or wish to explore Bern on your own, consider:
+
+*	Visiting the [old town of Bern](https://bern.com/en/explore/tourist-attractions/attractions/bern-s-old-city), 10 minutes from the conference site.
+*	Exploring the various attractions in Bern ([link](https://bern.com/en/home)).
+*	Have a stroll around the river “Aare”.
+*	Families may enjoy visiting the Gurten ([link](https://www.gurtenpark.ch/en/)).
+
+
+
 :::
 
 ::: {#pills-cfp .tab-pane .fade role="tabpanel" aria-labelledby="pills-cfp-tab" tabindex="0"}
