@@ -546,7 +546,7 @@ Coming soon...
 
 ### Getting to the Conference Room
 
-From Bern trainstation you can take the elevator directly from the platforms to the "Grosse Schanze" and the follow the map to Hallerstrasse 6. The conference will take place on the second floor at University of Bern in [Hallerstrasse 6](https://www.google.com/maps/place/Hallerstrasse+6,+3012+Bern/@46.952198,7.4350987,17z/data=!3m1!4b1!4m6!3m5!1s0x478e39bda3730301:0x49b8d69502c2f1a!8m2!3d46.952198!4d7.4350987!16s%2Fg%2F11cs68s_mk?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D).
+From Bern trainstation you can take the elevator directly from the platforms to the "Grosse Schanze" and then follow the map to Hallerstrasse 6. The conference will take place on the second floor at University of Bern in [Hallerstrasse 6](https://www.google.com/maps/place/Hallerstrasse+6,+3012+Bern/@46.952198,7.4350987,17z/data=!3m1!4b1!4m6!3m5!1s0x478e39bda3730301:0x49b8d69502c2f1a!8m2!3d46.952198!4d7.4350987!16s%2Fg%2F11cs68s_mk?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D).
 
 ![](./06_Hallerstr_Lage.jpg){width=80%}
 
@@ -554,7 +554,7 @@ From Bern trainstation you can take the elevator directly from the platforms to 
 ### Giving Your Talk
 
 Each presentation should not exceed 30 minutes in duration, followed by a 10-minute Q&A session. We encourage a constructive and inclusive attitude during this time.
-Please send your presentation at least 1 day before your presentation to Addrich Mauch (<addrich.mauch@unibe.ch>) and Guillaume Guenat (<guillaume.guenat@unil.ch>) to optimize the flow of the conference.
+Please send your presentation at least 1 day in advance to Addrich Mauch (<addrich.mauch@unibe.ch>) and Guillaume Guenat (<guillaume.guenat@unil.ch>) to optimize the flow of the conference.
 
 ### Catering: What is Included or Not
 
