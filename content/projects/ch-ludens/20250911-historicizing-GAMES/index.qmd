@@ -37,16 +37,6 @@ Conference program
 
 <li class="nav-item" role="presentation">
 
-<button class="nav-link" id="pills-keynote-tab" data-bs-toggle="pill" data-bs-target="#pills-keynote" type="button" role="tab" aria-controls="pills-keynote" aria-selected="false">
-
-Keynote
-
-</button>
-
-</li>
-
-<li class="nav-item" role="presentation">
-
 <button class="nav-link" id="pills-guide-tab" data-bs-toggle="pill" data-bs-target="#pills-guide" type="button" role="tab" aria-controls="pills-guide" aria-selected="false">
 
 Speakers’ guide
@@ -79,7 +69,6 @@ Call for papers
 Welcome to our website! Here, you will find:
 
 - <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-program-tab')).show(); return false;"> The conference program (including extended abstracts coming soon) </a>.
-- <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-keynote-tab')).show(); return false;"> A presentation of the keynote speaker </a>.
 - <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-guide-tab')).show(); return false;"> The speakers’ guide </a>.
 - <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-cfp-tab')).show(); return false;"> The call for papers (including organizing and scientific committees) </a>.
 
@@ -190,6 +179,7 @@ details p {
       <td><b>Keynote - Vincent Berry:</b><br>
         <details>
           <summary>Play culture and social distinction: what can we learn from a longitudinal study of play?</summary>
+          <p>![](./berry.jpg){width=50%}</p>
           <p>Doctor in education science and professor at University Sorbonne Paris Nord, Vincent Berry is a sociologist of play, of players and of contemporary play culture. He works on all sorts of game practices : toys, board games, video games, roleplaying games, with a clear focus on the notion of experience.</p>
           <p>In his post doctoral degree research presented in 2022, "Le sens du jeu : culture et pratiques ludiques en France (1960-2000)" (The meaning of play : play cultures and practices in France, 1960-2000), Vincent Berry offers a vast and comprehensive social history of play in french society, from card games to video games.</p>
           <p>In this keynote, Vincent Berry will cover some of the soicological and historical results of his research, from the general increase of gaming practices at the turn of the 80s to the emergence of a "fun morality" as a way of legitimation of play and entertainement practices.</p>
@@ -527,9 +517,6 @@ details p {
 </table>
 :::
 
-::: {#pills-keynote .tab-pane .fade role="tabpanel" aria-labelledby="pills-keynote-tab" tabindex="0"}
-Coming soon...
-:::
 
 ::: {#pills-guide .tab-pane .fade role="tabpanel" aria-labelledby="pills-guide-tab" tabindex="0"}
 
@@ -546,7 +533,7 @@ Coming soon...
 
 ### Getting to the Conference Room
 
-From Bern trainstation you can take the elevator directly from the platforms to the "Grosse Schanze" and then follow the map to Hallerstrasse 6. The conference will take place on the second floor at University of Bern in [Hallerstrasse 6](https://www.google.com/maps/place/Hallerstrasse+6,+3012+Bern/@46.952198,7.4350987,17z/data=!3m1!4b1!4m6!3m5!1s0x478e39bda3730301:0x49b8d69502c2f1a!8m2!3d46.952198!4d7.4350987!16s%2Fg%2F11cs68s_mk?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D).
+From Bern train station you can take the elevator directly from the platforms to the "Grosse Schanze" and then follow the map to Hallerstrasse 6. The conference will take place on the second floor at University of Bern in [Hallerstrasse 6](https://www.google.com/maps/place/Hallerstrasse+6,+3012+Bern/@46.952198,7.4350987,17z/data=!3m1!4b1!4m6!3m5!1s0x478e39bda3730301:0x49b8d69502c2f1a!8m2!3d46.952198!4d7.4350987!16s%2Fg%2F11cs68s_mk?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D).
 
 ![Map showing the location of Hallerstrasse 6, University of Bern](./06_Hallerstr_Lage.jpg){width=80%}
 
@@ -595,6 +582,16 @@ If you are accompanied by family members or wish to explore Bern on your own, co
 *	Have a stroll around the river “Aare”.
 *	Families may enjoy visiting the Gurten ([link](https://www.gurtenpark.ch/en/)).
 
+### Electric Plugs
+
+Something that gets often forgotten:
+
+* The voltage in Switzerland, as in most of Europe, is 230V/50 Hz.<br>
+Switzerland uses type C (2-pin) and Type J (3-pin) plugs. (Type C 2-pin plugs also fit J sockets.)
+
+![Source: https://world-power-plugs.com/switzerland](./electric_plug.png){width=80%}
+
+Most power sockets are designed for three pin round plugs. The standard continental type plug with two round pins, applied for many electrical travel products, may be used without problem. Adaptors are available in most hotels.
 
 
 :::
