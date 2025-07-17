@@ -66,18 +66,21 @@ Call for papers
 
 ### International conference, 11-12 September 2025, Bern, Switzerland
 
+![](GAMES-2025.avif){fig-align="center"}
+
 Welcome to our website! Here, you will find:
 
 - <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-program-tab')).show(); return false;"> The conference program (including extended abstracts coming soon) </a>.
 - <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-guide-tab')).show(); return false;"> The speakers’ guide </a>.
 - <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-cfp-tab')).show(); return false;"> The call for papers (including organizing and scientific committees) </a>.
 
-This conference is co-organized by the [DH, University of Bern](https://www.dh.unibe.ch) and the research project [Confoederatio Ludens](https://chludens.ch/).
+This conference is co-organized by the [DH, University of Bern](https://www.dh.unibe.ch), the research project [Confoederatio Ludens](https://chludens.ch/), the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/) and the [University of Lausanne](https://www.unil.ch/unil/en/home.html).
 
 You are more than welcome to attend on-site in room 205, Hallerstrasse 6, 3012 Bern.\
 No registration needed.
 
-![](GAMES-2025.avif){fig-align="center"}
+![](poster.jpg){fig-align="center"}
+
 :::
 
 ::: {#pills-program .tab-pane .fade role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"}
