@@ -9,7 +9,7 @@ location: University of Bern
 author: 
   - name: Addrich Mauch
     orcid: 0009-0002-5089-6223
-    email: addrich.mauch.unibe.ch
+    email: addrich.mauch@unibe.ch
     role: author
 ---
 
