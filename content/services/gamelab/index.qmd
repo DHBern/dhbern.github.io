@@ -14,7 +14,7 @@ author:
   - name: Digital Humanities / Confoederatio Ludens (SNF)
 ---
 
-![GameLab Logo](Gamelab_Logo-03.png){fig-align="left" width=30% .lightbox}  
+![](Gamelab_Logo-03.png){fig-align="left" width=30%}  
 
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 
