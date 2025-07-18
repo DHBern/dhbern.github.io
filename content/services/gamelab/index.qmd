@@ -14,7 +14,7 @@ author:
   - name: Digital Humanities / Confoederatio Ludens (SNF)
 ---
 
-![](Gamelab_Logo-03.png){fig-align="left" width=30%}  
+![](Gamelab_Logo-03.png){fig-align="left" width=30% fig-alt="GameLab Logo"}  
 
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 
@@ -49,7 +49,7 @@ Video Game Magazines
 The GameLab at the University of Bern is an academic collection of video games, hardware platforms, <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-magazines-tab')).show(); return false;"> Game Magazines </a>, and everything else connected to digital games. It is a collaboration between the University of Bern, the SNF-project "[Confoederatio Ludens](https://chludens.ch/)", and the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/).
 
 
-![](cartridges.jpg){width=100%}
+![](cartridges.jpg){width=100% fig-alt="A table full of video game cartridges"}
 
 Accessibility is the key concept for the GameLab. Video games as academic subjects gain more and more attention in diverse institutions at the University of Bern. The GameLab serves not only as a first point of contact for anyone interested in game studies at the University, but also as a physical center for experiencing video game culture in an academic framework. The University of Bern team’s plan for the GameLab’s future lies within creating an openly accessible archive where both researchers and students can come together to test, analyse and discuss video games and video game related material. All platforms, that is consoles and computers with their respective monitors (there is a various collection of CRT-monitors and televisions), are installed usable in a time frame of 20 minutes to guarantee a functioning workflow.
 
