@@ -17,8 +17,8 @@ The CONFOEDERATIO LUDENS team explores this largely ignored games industry from 
 
 [Blog](https://chludens.hypotheses.org)
 
-[GameLab](https://dhbern.github.io/content/services/gamelab)
+[GameLab](../services/gamelab)
 
-[Conference "Historicizing G.A.M.E.S. 2025"](https://dhbern.github.io/content/projects/ch-ludens/20250911-historicizing-GAMES/)
+[Conference "Historicizing G.A.M.E.S. 2025"](./20250911-historicizing-GAMES/)
 
 ![](Banner.png)
