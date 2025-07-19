@@ -9,7 +9,7 @@ location: University of Bern
 author: 
   - name: Addrich Mauch
     orcid: 0009-0002-5089-6223
-    email: addrich.mauch.unibe.ch
+    email: addrich.mauch@unibe.ch
     role: author
 ---
 
@@ -66,7 +66,7 @@ Call for papers
 
 ### International conference, 11-12 September 2025, Bern, Switzerland
 
-![](GAMES-2025.avif){fig-align="center"}
+![](GAMES-2025.avif){fig-align="center" fig-alt="Moving Conference Logo"}
 
 Welcome to our website! Here, you will find:
 
@@ -79,7 +79,7 @@ This conference is co-organized by the [DH, University of Bern](https://www.dh.u
 You are more than welcome to attend on-site in room 205, Hallerstrasse 6, 3012 Bern.\
 No registration needed.
 
-![](poster.jpg){fig-align="center"}
+![](poster.jpg){fig-align="center" fig-alt="Conference Poster"}
 
 :::
 

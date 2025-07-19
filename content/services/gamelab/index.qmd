@@ -1,0 +1,85 @@
+---
+title: GameLab
+date: "2025-07-18"
+categories:
+- Services
+- Confoederatio Ludens
+- GameLab
+location: University of Bern
+author: 
+  - name: Addrich Mauch
+    orcid: 0009-0002-5089-6223
+    email: addrich.mauch@unibe.ch
+    role: author
+  - name: Digital Humanities / Confoederatio Ludens (SNF)
+---
+
+![](Gamelab_Logo-03.png){fig-align="left" width=30% fig-alt="GameLab Logo"}  
+
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+
+<li class="nav-item" role="presentation">
+
+<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+
+Home
+
+</button>
+
+</li>
+
+<li class="nav-item" role="presentation">
+
+<button class="nav-link" id="pills-magazines-tab" data-bs-toggle="pill" data-bs-target="#pills-magazines" type="button" role="tab" aria-controls="pills-magazines" aria-selected="false">
+
+Video Game Magazines
+
+</button>
+
+</li>
+
+
+
+:::::::: {#pills-tabContent .tab-content}
+::: {#pills-home .tab-pane .fade .show .active role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"}
+
+
+## Welcome
+
+The GameLab at the University of Bern is an academic collection of video games, hardware platforms, <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-magazines-tab')).show(); return false;"> Game Magazines </a>, and everything else connected to digital games. It is a collaboration between the University of Bern, the SNF-project "[Confoederatio Ludens](https://chludens.ch/)", and the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/).
+
+
+![](cartridges.jpg){width=100% fig-alt="A table full of video game cartridges"}
+
+Accessibility is the key concept for the GameLab. Video games as academic subjects gain more and more attention in diverse institutions at the University of Bern. The GameLab serves not only as a first point of contact for anyone interested in game studies at the University, but also as a physical center for experiencing video game culture in an academic framework. The University of Bern team’s plan for the GameLab’s future lies within creating an openly accessible archive where both researchers and students can come together to test, analyse and discuss video games and video game related material. All platforms, that is consoles and computers with their respective monitors (there is a various collection of CRT-monitors and televisions), are installed usable in a time frame of 20 minutes to guarantee a functioning workflow.
+
+From the mystic Cassette 50 on Amstrad CPC464 to Banjo-Kazooie on Nintendo 64, from the Parachute Game & Watch to Pokémon Gold on Game Boy, and some very rare gems like the Swiss-made games [Aldebaran](https://swissgames.garden/games/aldebaran) and [Secret of the Obelisk](https://www.youtube.com/watch?v=j9-PAUzEFtw), the GameLab already exhibits a huge variety of different digital games and hardware. Currently, new platform and game acquisitions are made according to the [Swiss Gamescape+](https://chludens.hypotheses.org/3464#more-3464) project, teaching courses, and other events organized by the GameLab. However, on the broader horizon, it is our aim to depict a more comprehensive gaming culture landscape and we receive.
+
+If you happen to have a collection of old games, hardware, magazines, or anything else connected to digital games that you wish to donate, or if you are just genuinely interested in visiting our GameLab in Bern, don’t hesitate to contact us.
+
+
+#### Contact
+Universität Bern<br>
+Digital Humanities/Walter Benjamin Kolleg<br>
+GameLab (Room D214)<br>
+Addrich Mauch, <addrich.mauch@unibe.ch><br>
+Muesmattstrasse 45<br>
+CH-3012 Bern
+:::
+
+::: {#pills-magazines .tab-pane .fade role="tabpanel" aria-labelledby="pills-magazines-tab" tabindex="0"}
+## Video Game Magazines
+
+<img src="./magazines.jpeg" alt="Video Game Magazines" style="width: 40%; float: left; margin-right: 20px; margin-top: 8px;" />
+
+[Since April 2024](https://chludens.hypotheses.org/2386), we have started to systematically collect not only games and hardware, but also gaming magazines. Especially in the 1980s and 1990s, but also beyond, these magazines were crucial in establishing the necessary language and culture to talk about digital games as something that was perceived as new and even revolutionary, but many local magazine cultures like the German one are rarely researched or even professionally archived. Our collection aims at closing some of the gaps since gaming magazines in German are also part of the research conducted by the Bern team of Confoederatio Ludens at Uni Bern and HKB.
+
+As of Summer 2025, our magazine collection consists out of over 3000 items which includes not only over 2500 issues of print magazines published since the 1980s, but also additional objects like Posters, CD ROMs, Stickers and more that were often sold with the magazines but are often difficult to come by now since they also tend to be the first parts of an issue to get lost. Each item is being catalogued in an internal database that not only dates each item if possible, but also tracks its current condition like damages or other remarkable features like posters that can still be found within the issue.
+
+The collection has also been rapidly growing in part due to generous donations by the public which are a significant reason why we were able to build such a large collection with so many different, sometimes even genuinely rare magazines over such a short time. Gaming magazines, especially old ones from the early days of gaming journalism in the 1980s and 1990s, are often a niche occupied by fans and collectors which means that, while there is a relatively small group interested in these magazines, it still can be difficult to acquire individual issues since they tend to sale at high prices. In this context, the aforementioned donations have been truly invaluable to us since they are the reason why we were able to collect rarities such as the last issue of Video Games from 2001 which was never officially published since the publisher abruptly pulled out of the German market although the last issue was practically finished which lead the editing team to circulate a few copies among fans of the magazine as a goodbye.
+
+Yet, while we started with the collection with a focus that lays mainly on magazines in German from 1980 to 2000, we are not limited to it. Right now, the magazine collection contains magazines in German, French, English, and Swedish and while [the first (printed) gaming magazine from Switzerland, PONG, was only published in 2002](https://www.gameswelt.ch/sonstiges-aus-der-welt-der-spiele/news/neues-print-magazin-in-der-schweiz-68989), we were able to collect at least digitized versions of Swiss gaming fanzines from the 1990s and preprint files of PONG. Furthermore, the collection also contains multiple magazines and issues that are less known or draw less interest from fan communities which tend to digitize magazines they liked in their youth which effectively makes the Gamelab also an important archiving initiative in preserving especially German gaming magazines beyond what can be considered a cultural mainstream.
+
+:::
+
+::::::::
