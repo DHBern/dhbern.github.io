@@ -32,7 +32,7 @@ Home
 
 <button class="nav-link" id="pills-magazines-tab" data-bs-toggle="pill" data-bs-target="#pills-magazines" type="button" role="tab" aria-controls="pills-magazines" aria-selected="false">
 
-Video Game Magazines
+Gaming Magazines
 
 </button>
 
@@ -46,7 +46,7 @@ Video Game Magazines
 
 ## Welcome
 
-The GameLab at the University of Bern is an academic collection of video games, hardware platforms, <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-magazines-tab')).show(); return false;"> Game Magazines </a>, and everything else connected to digital games. It is a collaboration between the University of Bern, the SNF-project "[Confoederatio Ludens](https://chludens.ch/)", and the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/).
+The GameLab at the University of Bern is an academic collection of video games, hardware platforms, <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-magazines-tab')).show(); return false;"> Gaming Magazines </a>, and everything else connected to digital games. It is a collaboration between the University of Bern, the SNF-project "[Confoederatio Ludens](https://chludens.ch/)", and the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/).
 
 
 ![](cartridges.jpg){width=100% fig-alt="A table full of video game cartridges"}
@@ -68,9 +68,9 @@ CH-3012 Bern
 :::
 
 ::: {#pills-magazines .tab-pane .fade role="tabpanel" aria-labelledby="pills-magazines-tab" tabindex="0"}
-## Video Game Magazines
+## Gaming Magazines
 
-![](./magazines.jpeg){fig-alt="Video Game Magazines" fig-align="left" width=40%}
+![](magazines.jpg){width=100% fig-alt="Gaming Magazines on a Shelf"}
 
 [Since April 2024](https://chludens.hypotheses.org/2386), we have started to systematically collect not only games and hardware, but also gaming magazines. Especially in the 1980s and 1990s, but also beyond, these magazines were crucial in establishing the necessary language and culture to talk about digital games as something that was perceived as new and even revolutionary, but many local magazine cultures like the German one are rarely researched or even professionally archived. Our collection aims at closing some of the gaps since gaming magazines in German are also part of the research conducted by the Bern team of Confoederatio Ludens at Uni Bern and HKB.
 
