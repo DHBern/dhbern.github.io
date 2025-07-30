@@ -6,7 +6,7 @@ author:
     orcid: 0009-0003-7269-6780
     affiliation: University of Bern
   - name: Alessandra Fedrigo
-    email: alessandrafedrigo@unibe.ch
+    email: alessandra.fedrigo@unibe.ch
     orcid: 0009-0005-0968-7376
     affiliation: University of Bern
 categories: [Services]
@@ -15,6 +15,8 @@ other-links:
     icon: globe
     href: ./de/
 ---
+
+<a href="./de/" class="btn btn-sm btn-outline-secondary">German version</a>
 
 ## Welcome to the OA Lab!
 
@@ -36,13 +38,12 @@ We support you in:
 
 -   deciding on formats (HTML, PDF, XML), publishing platforms (e.g. [OJS](https://pkp.sfu.ca/software/ojs/)), hosting solutions, and software
 -   transforming existing print or online journals to OA/DOA (Flipping)
--   including your OA journal in relevant databases and metric-based indices (e.g. [DOAJ](https://doaj.org/), [Scopus](https://www.scopus.com/search/form.uri?display=basic&zone=header&origin=searchbasic#basic), [Web of Science Core Collection](https://mjl.clarivate.com/home), [EBSCO](https://www.ebsco.com/), [ERIH PLUS](https://kanalregister.hkdir.no/publiseringskanaler/erihplus/), [WorldCat](https://search.worldcat.org/de), etc.)
+-   including your OA journal in relevant databases and metric-based indices (e.g. [DOAJ](https://doaj.org/), [Scopus](https://www.scopus.com/sources.uri?RN_AG_Sourced_400000654), [Web of Science Core Collection](https://mjl.clarivate.com/home), [EBSCO](https://www.ebsco.com/), [ERIH PLUS](https://kanalregister.hkdir.no/publiseringskanaler/erihplus/), [WorldCat](https://search.worldcat.org/de), etc.)
 -   deciding on suitable OA licenses ([Creative Commons](https://creativecommons.org/share-your-work/cclicenses/))
 
 For questions about:
 
 -   [funding options for open access publications](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html)
-
 -   [open access requirements of funding organisations](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html#pane1224714) (SNF)
 
 please contact the Open Science Team of the University Library of Bern UB: [openaccess\@ub.unibe.ch](mailto:openaccess@ub.unibe.ch)
@@ -57,7 +58,7 @@ We share our expertise on the following topics:
 -   best practices: workflow in OJS, image management (image rights and image editing)
 -   communication with authors and editorial board, time management…
 -   plagiarism check: software and handling of plagiarism
--   marketing strategies (Social Media)
+-   marketing strategies (social media).
 
 We offer:
 
@@ -87,9 +88,7 @@ We offer tips on:
 For questions about:
 
 -   [funding options for open access publications](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html)
-
 -   [open access requirements of research funding institutions](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html#pane1224714)
-
 -   [Article Processing Charges (APC) and Book Processing Charges (BPC)](https://www.ub.unibe.ch/service/open_science/dienstleistungen/index_ger.html#collapse_pane780347)
 
 please contact the Open Science Team at University Library of Bern UB: [openaccess\@ub.unibe.ch](mailto:openaccess@ub.unibe.ch)
@@ -104,4 +103,3 @@ We look forward to hearing from you!
 [Katharina Böhmer](https://www.dh.unibe.ch/about_us/people/ma_boehmer_katharina/index_eng.html)\
 [Alessandra Fedrigo](https://www.dh.unibe.ch/about_us/people/fedrigo_alessandra/index_eng.html)\
 [oa-lab.dh\@unibe.ch](mailto:oa-lab.dh@unibe.ch)\
-[www.dh.unibe.ch/services/oa_lab/index_eng.html](https://www.dh.unibe.ch/services/oa_lab/index_eng.html){.uri}

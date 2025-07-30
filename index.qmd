@@ -19,6 +19,12 @@ listing:
     fields: [date, title, location, author]
     field-display-names: 
       author: 'Organizer'
+  - id: projects
+    contents: content
+    type: grid
+    sort: "date desc"
+    include:
+      categories: Project
 ---
 
 ::: {#blog}
@@ -27,4 +33,9 @@ listing:
 ## Events
 
 ::: {#events}
+:::
+
+## Projects
+
+::: {#projects}
 :::

@@ -17,6 +17,8 @@ other-links:
     href: ./../
 ---
 
+<a href="./../" class="btn btn-sm btn-outline-secondary">English version</a>
+
 ## Herzlich willkommen beim OA Lab!
 
 Wir bieten Beratung und Unterstützung für Wissenschaftler:innen, die unabhängig von kommerziellen Verlagen im Diamond Open Access (DOA) publizieren möchten: als Herausgeber:innen, Redaktor:innen oder Autor:innen von wissenschaftlichen Zeitschriften.
@@ -24,6 +26,7 @@ Wir bieten Beratung und Unterstützung für Wissenschaftler:innen, die unabhäng
 ::: {.btn-group .d-flex .justify-content-center role="group" aria-label="Navigation für Zielgruppen"}
 <a href="#für-herausgeberinnen" class="btn btn-outline-primary">Für Herausgeber:innen</a> <a href="#für-redaktorinnen" class="btn btn-outline-primary">Für Redaktor:innen</a> <a href="#für-autorinnen" class="btn btn-outline-primary">Für Autor:innen</a>
 :::
+
 
 ## Für Herausgeber:innen
 
@@ -37,14 +40,13 @@ Wir unterstützen Sie bei der:
 
 -   Wahl von Formaten (HTML, PDF, XML), Veröffentlichungsplattformen (z. B. [OJS](https://pkp.sfu.ca/software/ojs/)), Hosting-Lösungen und Software
 -   Transformation von bestehenden Print- oder Online-Journals zu OA/DOA (Flipping)
--   Aufnahme Ihrer OA-Zeitschrift in relevante Datenbanken und metrikbasierte Indizes (z. B. [DOAJ](https://doaj.org/), [Scopus](https://www.scopus.com/search/form.uri?display=basic&zone=header&origin=searchbasic#basic), [Web of Science Core Collection](https://mjl.clarivate.com/home), [EBSCO](https://www.ebsco.com/), [ERIH PLUS](https://kanalregister.hkdir.no/publiseringskanaler/erihplus/), [WorldCat](https://search.worldcat.org/de) etc.)
+-   Aufnahme Ihrer OA-Zeitschrift in relevante Datenbanken und metrikbasierte Indizes (z. B. [DOAJ](https://doaj.org/), [Scopus](https://www.scopus.com/sources.uri?RN_AG_Sourced_400000654), [Web of Science Core Collection](https://mjl.clarivate.com/home), [EBSCO](https://www.ebsco.com/), [ERIH PLUS](https://kanalregister.hkdir.no/publiseringskanaler/erihplus/), [WorldCat](https://search.worldcat.org/de) etc.)
 -   Entscheidung für geeignete OA-Lizenzen ([Creative Commons](https://creativecommons.org/share-your-work/cclicenses/))
 
 Bei Fragen zu:
 
--   [Finanzierungsmöglichkeiten für Open-Access-Publikationen](https://www.ub.unibe.ch/service/open_science/open_access/index_ger.html#pane967852)
-
--   [Open-Access-Vorgaben von Forschungsförderinstitutionen](https://www.ub.unibe.ch/service/open_science/open_access/index_ger.html#pane1224714) (SNF)
+-   Finanzierungsmöglichkeiten für [Open-Access-Publikationen](https://www.ub.unibe.ch/service/open_science/open_access/index_ger.html#pane967852)
+-   [Open-Access-Vorgaben](https://www.ub.unibe.ch/service/open_science/open_access/index_ger.html#pane1224714) von Forschungsförderinstitutionen (SNF)
 
 wenden Sie sich an das Open-Science-Team der Universitätsbibliothek Bern UB: [openaccess\@ub.unibe.ch](mailto:openaccess@ub.unibe.ch)
 
@@ -87,10 +89,8 @@ Wir geben Tipps zur:
 
 Bei Fragen zu:
 
--   [Finanzierungsmöglichkeiten für Open-Access-Publikationen](https://www.ub.unibe.ch/service/open_science/open_access/index_ger.html#pane967852)
-
--   [Open-Access-Vorgaben von Forschungsförderinstitutionen](https://www.ub.unibe.ch/service/open_science/open_access/index_ger.html#pane1224714)
-
+-   Finanzierungsmöglichkeiten für [Open-Access-Publikationen](https://www.ub.unibe.ch/service/open_science/open_access/index_ger.html#pane967852)
+-   [Open-Access-Vorgaben](https://www.ub.unibe.ch/service/open_science/open_access/index_ger.html#pane1224714) von Forschungsförderinstitutionen (SNF)
 -   [Article Processing Charges (APC) und Book Processing Charges (BPC)](https://www.ub.unibe.ch/service/open_science/dienstleistungen/index_ger.html#collapse_pane780347)
 
 wenden Sie sich an das Open-Science-Team der UB Bern: [openaccess\@ub.unibe.ch](mailto:openaccess@ub.unibe.ch)
@@ -104,5 +104,4 @@ Wir freuen uns auf Ihre Kontaktaufnahme!
 **Kontakt:**\
 [Katharina Böhmer](https://www.dh.unibe.ch/ueber_uns/personen/ma_boehmer_katharina/index_ger.html)\
 [Alessandra Fedrigo](https://www.dh.unibe.ch/ueber_uns/personen/fedrigo_alessandra/index_ger.html)\
-[oa-lab.dh\@unibe.ch](mailto:oa-lab.dh@unibe.ch)\
-[www.dh.unibe.ch/dienstleistungen/oa_lab/index_ger.html](https://www.dh.unibe.ch/dienstleistungen/oa_lab/index_ger.html){.uri}
+[oa-lab.dh\@unibe.ch](mailto:oa-lab.dh@unibe.ch)
