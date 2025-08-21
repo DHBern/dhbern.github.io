@@ -70,11 +70,11 @@ Call for papers
 
 Welcome to our website! Here, you will find:
 
-- <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-program-tab')).show(); return false;"> The conference program (including extended abstracts coming soon) </a>.
+- <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-program-tab')).show(); return false;"> The conference program </a>.
 - <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-guide-tab')).show(); return false;"> The speakers’ guide </a>.
 - <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-cfp-tab')).show(); return false;"> The call for papers (including organizing and scientific committees) </a>.
 
-This conference is co-organized by the [DH, University of Bern](https://www.dh.unibe.ch), the research project [Confoederatio Ludens](https://chludens.ch/), the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/) and the [University of Lausanne](https://www.unil.ch/unil/en/home.html).
+This conference is co-organized by the [DH, University of Bern](https://www.dh.unibe.ch), the research project [Confoederatio Ludens](https://chludens.ch/), the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/), and the [University of Lausanne](https://www.unil.ch/unil/en/home.html) and funded by the [Swiss National Science Foundation (SNF)](https://www.snf.ch/en).
 
 You are more than welcome to attend on-site in room 205, Hallerstrasse 6, 3012 Bern.\
 No registration needed.
@@ -86,6 +86,8 @@ No registration needed.
 ::: {#pills-program .tab-pane .fade role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"}
 
 <h2 style="text-align:center;">Historicizing G.A.M.E.S. – Conference Program</h2>
+
+<p style="text-align:center;">[Download as PDF.](program.pdf)</p>
 
 <h3 style="text-align:center;">Day 0 - Wednesday 10 September 2025</h3>
 
