@@ -11,7 +11,6 @@ This repository contains the website of the Digital Humanities at the University
 The structure of this repository follows the [Advanced Structure for Data Analysis](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) of _The Turing Way_ and is organized as follows:
 
 - `.github/` - GitHub configuration files (issue templates, workflows).
-- `.husky/` - Husky configuration (pre-commit hooks).
 - `.venv/` - Python virtual environment for website build.
 - `assets/` - Images, stylesheets, JavaScript files.
 - `docs/` - Documentation assets for README.md.
@@ -176,12 +175,6 @@ Format all files:
 
 ```bash
 npm run format
-```
-
-Generate conventional commits:
-
-```bash
-npm run commit
 ```
 
 Generate `CHANGELOG.md`:
