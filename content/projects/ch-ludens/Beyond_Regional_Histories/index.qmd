@@ -17,6 +17,6 @@ author:
 
 Welcome to our website!
 
-This conference is the final conference of the research project [Confoederatio Ludens](https://chludens.ch/), co-organized by the [Digital Humanities of the University of Bern](https://www.dh.unibe.ch), the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/), the [Zurich University of the Arts Zurich University of the Arts](https://www.zhdk.ch/en/zurich-university-of-the-arts-1), and the [University of Lausanne](https://www.unil.ch/unil/en/home.html) and funded by the [Swiss National Science Foundation (SNSF)](https://www.snf.ch/en).
+This conference is the final conference of the research project [Confoederatio Ludens](https://chludens.ch/), co-organized by the [Digital Humanities of the University of Bern](https://www.dh.unibe.ch), the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/), the [Zurich University of the Arts](https://www.zhdk.ch/en/zurich-university-of-the-arts-1), and the [University of Lausanne](https://www.unil.ch/unil/en/home.html) and funded by the [Swiss National Science Foundation (SNSF)](https://www.snf.ch/en).
 
 #### More information will follow soon.
