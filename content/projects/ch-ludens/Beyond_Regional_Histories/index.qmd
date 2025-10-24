@@ -1,0 +1,22 @@
+---
+title: Beyond Regional Histories
+subtitle: Digital Game Design & Ludic Cultures Around the World
+date: "2025-10-23"
+categories:
+- Event
+- Confoederatio Ludens
+location: Monte Verità
+author: 
+  - name: Dominik Kilchmann
+    orcid: 0009-0001-6655-401X
+    email: dominik.kilchmann@unibe.ch
+    role: author
+---
+
+### International conference, 27-30 September 2026, Monte Verità, Switzerland
+
+Welcome to our website!
+
+This conference is the final conference of the research project [Confoederatio Ludens](https://chludens.ch/), co-organized by the [Digital Humanities of the University of Bern](https://www.dh.unibe.ch), the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/), the [Zurich University of the Arts](https://www.zhdk.ch/en/zurich-university-of-the-arts-1), and the [University of Lausanne](https://www.unil.ch/unil/en/home.html) and funded by the [Swiss National Science Foundation (SNSF)](https://www.snf.ch/en).
+
+#### More information will follow soon.
