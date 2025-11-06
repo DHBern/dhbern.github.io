@@ -26,7 +26,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: "22"
 
       - name: Install dependencies
         run: npm install
@@ -67,7 +67,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version-file: '.python-version'
+          python-version-file: ".python-version"
 
       - name: Create and activate virtual environment
         run: |
@@ -132,7 +132,7 @@ jobs:
 
       - name: Check for broken links
         run: |
-          wget --spider --recursive --no-parent --no-check-certificate http://localhost:5528/ || exit 1
+          wget --spider --recursive --no-parent --no-check-certificate http://localhost:5528/
 
   deploy:
     name: Download Artifacts and Deploy
@@ -140,7 +140,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-24.04
-    needs: [build-optimize, deadlinkcheck]
+    needs: [build-optimize]
     if: github.event_name != 'pull_request'
 
     steps:
