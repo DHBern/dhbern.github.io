@@ -140,7 +140,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-24.04
-    needs: [build-optimize, deadlinkcheck]
+    needs: [build-optimize]
     if: github.event_name != 'pull_request'
 
     steps:
