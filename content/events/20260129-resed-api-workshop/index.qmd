@@ -1,0 +1,21 @@
+---
+title: Re-use of Editions and Text Collections. The Role of APIs
+subtitle: Workshop organised by the swissuniversities ORD project "ReSED API - Re-Use Standards for Editions Data with Application Programming Interfaces"
+date: "2026-01-29"
+categories:
+- Event
+location: University of Zurich
+author:
+  - name: Elena Spadini
+    orcid: 0000-0002-4522-2833
+    email: elena.spadini@unibe.ch
+    affiliations:
+      - University of Bern
+    role: author
+other-links:
+  - text: Event website
+    icon: info-circle
+    href: https://workshop.resed.digitaleditions.ch
+---
+
+For information and registration please see [https://workshop.resed.digitaleditions.ch](https://workshop.resed.digitaleditions.ch).
