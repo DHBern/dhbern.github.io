@@ -13,11 +13,14 @@ listing:
       categories: Event
     type: table
     categories: false
-    sort: "date desc"
+    sort: "event-date desc"
     sort-ui: false
     filter-ui: false
-    fields: [date, title, location, author]
+    fields: [event-date, title, location, author]
     field-display-names: 
+      event-date: 'Date'
+      title: 'Title'
+      location: 'Location'
       author: 'Organizer'
   - id: projects
     contents: content
