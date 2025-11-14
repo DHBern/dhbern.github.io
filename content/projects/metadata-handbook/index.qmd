@@ -1,0 +1,70 @@
+---
+title: Metadata Handbook
+subtitle: Handbook for creating non-discriminatory metadata for historical sources and research data
+author:
+  - name: Levyn Bürki
+    orcid: 0009-0009-7602-0714
+    email: levyn.buerki@unibe.ch
+    affiliation: University of Bern
+    roles:
+      - writing
+    corresponding: true
+  - name: Moritz Mähr
+    orcid: 0000-0002-1367-1618
+    email: moritz.maehr@unibas.ch
+    affiliation:
+    - University of Basel
+    - University of Bern
+    roles:
+      - writing
+      - project management
+      - research data management
+    corresponding: true
+  - name: Noëlle Schnegg
+    orcid: 0009-0008-5207-6652
+    email: noelle.schnegg@unibas.ch
+    affiliation: University of Basel
+    roles:
+      - writing
+      - data curation
+    corresponding: true
+categories:
+- Metadata Handbook
+status: active
+other-links:
+  - text: Handbook (HTML)
+    icon: filetype-html
+    href: 'https://maehr.github.io/diskriminierungsfreie-metadaten/'
+  - text: Handbook (PDF)
+    icon: filetype-pdf
+    href: 'https://maehr.github.io/diskriminierungsfreie-metadaten/handbuch-diskriminierungsfreie-metadaten.pdf'
+  - text: Handbook (Word)
+    icon: filetype-docx
+    href: 'https://maehr.github.io/diskriminierungsfreie-metadaten/handbuch-diskriminierungsfreie-metadaten.docx'
+  - text: Discussion Forum
+    icon: github
+    href: https://github.com/maehr/diskriminierungsfreie-metadaten/discussions
+code-links:
+  - text: GitHub Code Repository
+    icon: github
+    href: https://github.com/maehr/diskriminierungsfreie-metadaten
+---
+
+This handbook is a guide to creating non-discriminatory metadata for historical sources and research data, developed as part of the research project Stadt.Geschichte.Basel. It is aimed at professional historians, archivists, librarians, and anyone involved with Open Research Data in the historical sciences. Authors Moritz Mähr and Noëlle Schnegg lead through the practical aspects of creating metadata based on the FAIR principles, to make research data findable, accessible, interoperable, and reusable. Through practical instructions and illustrated case studies, the handbook demonstrates how machine-readable metadata can enrich research and teaching and influence the interpretation of historical sources. As a publicly accessible "Living Document," it is designed for continuous development by the community and is committed to an inclusive and non-discriminatory representation of historical content. The handbook is a fundamental resource for anyone interested in modern digital historical science and Open Research Data.
+
+::: {.callout-tip title="View Handbook" icon="false" collapse="true"}
+<iframe src="./handbuch-diskriminierungsfreie-metadaten.pdf" width="100%" height="600px" loading="lazy" allowfullscreen title="Metadata Handbook">
+
+This browser does not support PDFs. Please download the PDF <a href="./handbuch-diskriminierungsfreie-metadaten.pdf">here</a> to view it.
+
+</iframe>
+:::
+
+::: {.callout-note title="Work on Version 2 Underway"}
+Since its first publication in June 2024, this handbook has been used and discussed by a growing community of researchers, archivists, and data professionals. Based on the extensive feedback received, a second, significantly expanded and reorganized version is currently in development.
+
+Levyn Bürki has joined the author team to support this next phase. Their contributions focus on improving inclusive metadata practices, refining data standards, and updating the handbook’s structure to better support practical use in historical research and cultural heritage institutions.
+
+Version 2 will continue the handbook’s role as an open, living document—publicly available and collaboratively maintained on [GitHub](https://github.com/maehr/diskriminierungsfreie-metadaten)—with the goal of fostering
+:::
+
