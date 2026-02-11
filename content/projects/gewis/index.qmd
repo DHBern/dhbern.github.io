@@ -16,7 +16,7 @@ other-links:
     href: "https://www.dh.unibe.ch/research/linked_data__relational_databases_gewis/index_eng.html"
 ---
 
-![](gewis_teaser.jpg){fig-alt="GeWiS – Linked Data and Relational Databases"}
+![](gewis_teaser.gif){fig-alt="GeWiS – Linked Data and Relational Databases"}
 
 ## Linked Data & Relational Databases: Grounded Knowledge (GeWiS)
 

@@ -15,8 +15,6 @@ author:
         country: "Switzerland"
     role: "Organiser"
 other-links:
-  - text: "Download: KI_als_Bildungsrevolution-Pfiffner-HANDOUT_ger.pdf"
-    href: "KI_als_Bildungsrevolution-Pfiffner-HANDOUT_ger.pdf"
   - text: "Download: KI-Referat-RogerMader_ger.pdf"
     href: "KI-Referat-RogerMader_ger.pdf"
 ---
@@ -29,6 +27,4 @@ Topics include:
 - perspectives on the future of education and AI
 
 ## Downloads
-- [Download KI_als_Bildungsrevolution-Pfiffner-HANDOUT_ger.pdf](KI_als_Bildungsrevolution-Pfiffner-HANDOUT_ger.pdf){download}
 - [Download KI-Referat-RogerMader_ger.pdf](KI-Referat-RogerMader_ger.pdf){download}
-
