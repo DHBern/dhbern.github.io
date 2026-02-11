@@ -1,0 +1,18 @@
+---
+title: "Economies of Space"
+subtitle: "Practices, Discourses and Actors on the Basel Real Estate Market (1400-1700)"
+image: "oekonomien_des_raumes_visual.jpg"
+author: 
+ - Tobias Hodel
+type: "Application of Text Recognition, Named Entities and Event Extraction"
+status: active
+tags: [HTR, NLP, NER, Geo-Visualization]
+categories:
+- Project
+- Cooperation
+- Historisches Grundbuch Basel
+---
+
+The project uses the example of Basel to research the management of urban real estate. The interest is directed towards economic discourses and practices as well as actors, whereby the analysis takes place in the perspective of a longue durée of 300 years. This is made possible by the use of digital technologies, AI-based methods to access data and computer-assisted evaluation procedures with which the Historical Land Register of the City of Basel (HGB) is processed. This makes it possible to combine innovative methods with tried and tested approaches in order to address historical research questions: machine evaluations complement each other with case studies that analyse economic practices and their linguistic repertoires down to the micro level of individual transactions and the actors involved. In this way, results and procedures emerge that are meaningful far beyond the individual case.
+
+For more information see the official webpage: [UNIBAS: Ökonomien des Raums](https://dg.philhist.unibas.ch/de/bereiche/mittelalter/forschung/oekonomien-des-raums/)

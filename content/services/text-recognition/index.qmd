@@ -1,0 +1,37 @@
+---
+title: Handwriting and Text Recognition
+author: "Digital Humanities"
+categories: [Services]
+---
+The Digital Humanities at the University of Bern offers different solutions for text recognition
+
+## TrOCR
+For large scale data processing (e.g. within the FLOW project), we use [Transformer OCR](https://github.com/microsoft/unilm/tree/master/trocr).
+For this we provide support on demand and publish our models open source: [huggingface.co/dh-unibe/models](https://huggingface.co/dh-unibe/models).
+
+## eScriptorium
+[eScriptorium](https://escriptorium.readthedocs.io/en/latest/) is a web application offering a workspace to manage the various steps of a transcription campaign.
+
+eScriptorium is open source but needs to be deployed on a server infrastructure.
+For the FLOW-project, the University of Bielefeld offers an eScriptorium instance.
+
+Please get in touch if you would like to use eScriptorium.
+
+
+## Transkribus
+[Transkribus](https://www.transkribus.org/) is an machine learning-based platform for the automated recognition and transcription of handwritten and historical documents. 
+It is widely used in the humanities and archives to digitize and make accessible historical texts. 
+
+The University of Bern (through the Walter Benjamin Kolleg) is member of the READ Cooperative, which is responsible for the maintenance of Transkribus.
+
+Transkribus enables users to:
+-   **Automatically transcribe handwritten documents** using pre-trained AI models or custom-trained models tailored to specific handwriting styles.
+-   **Manually transcribe and correct texts** within its user-friendly interface.
+-   **Train custom AI models** to recognize specific handwriting, which is particularly useful for unique or challenging scripts.
+-   **Search and annotate documents**, facilitating detailed analysis and research.
+-   **Publish collections online** through [Transkribus Sites](https://www.transkribus.org/sites), making them accessible to a broader audience.
+
+
+## Contact
+
+For support and further information, please contact us at [digitalhumanities\@unibe.ch](mailto:digitalhumanities@unibe.ch).

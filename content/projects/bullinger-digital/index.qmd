@@ -1,7 +1,8 @@
 ---
 title: Bullinger digital
+image: "bullinger.jpg"
 type: "Digitale Edition"
-status: active
+status: archived
 categories:
 - Benasch
 - Project
