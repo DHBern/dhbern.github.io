@@ -38,7 +38,15 @@ Gaming Magazines
 
 </li>
 
+<li class="nav-item" role="presentation">
 
+<button class="nav-link" id="pills-VR-tab" data-bs-toggle="pill" data-bs-target="#pills-VR" type="button" role="tab" aria-controls="pills-VR" aria-selected="false">
+
+VR Equipment
+
+</button>
+
+</li>
 
 :::::::: {#pills-tabContent .tab-content}
 ::: {#pills-home .tab-pane .fade .show .active role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"}
@@ -48,6 +56,7 @@ Gaming Magazines
 
 The GameLab at the University of Bern is an academic collection of video games, hardware platforms, <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-magazines-tab')).show(); return false;"> Gaming Magazines </a>, and everything else connected to digital games. It is a collaboration between the University of Bern, the SNF-project "[Confoederatio Ludens](https://chludens.ch/)", and the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/).
 
+We also provide the 4 VR headsets (Pico 4 Ultra) and corresponing hardware from the DH, which is accesible for the whole faculty. If you are interested in using them, please contact us.
 
 ![](cartridges.jpg){width=100% fig-alt="A table full of video game cartridges"}
 
@@ -79,6 +88,19 @@ As of Summer 2025, our magazine collection consists out of over 3000 items which
 The collection has also been rapidly growing in part due to generous donations by the public which are a significant reason why we were able to build such a large collection with so many different, sometimes even genuinely rare magazines over such a short time. Gaming magazines, especially old ones from the early days of gaming journalism in the 1980s and 1990s, are often a niche occupied by fans and collectors which means that, while there is a relatively small group interested in these magazines, it still can be difficult to acquire individual issues since they tend to sale at high prices. In this context, the aforementioned donations have been truly invaluable to us since they are the reason why we were able to collect rarities such as the last issue of Video Games from 2001 which was never officially published since the publisher abruptly pulled out of the German market although the last issue was practically finished which lead the editing team to circulate a few copies among fans of the magazine as a goodbye.
 
 Yet, while we started with the collection with a focus that lays mainly on magazines in German from 1980 to 2000, we are not limited to it. Right now, the magazine collection contains magazines in German, French, English, and Swedish and while [the first (printed) gaming magazine from Switzerland, PONG, was only published in 2002](https://www.gameswelt.ch/sonstiges-aus-der-welt-der-spiele/news/neues-print-magazin-in-der-schweiz-68989), we were able to collect at least digitized versions of Swiss gaming fanzines from the 1990s and preprint files of PONG. Furthermore, the collection also contains multiple magazines and issues that are less known or draw less interest from fan communities which tend to digitize magazines they liked in their youth which effectively makes the Gamelab also an important archiving initiative in preserving especially German gaming magazines beyond what can be considered a cultural mainstream.
+
+:::
+
+::: {#pills-VR .tab-pane .fade role="tabpanel" aria-labelledby="pills-VR-tab" tabindex="0"}
+## VR Equipment
+
+There are 4 Virtual Reality sets provided by the DH. If you are interested in using them, please contact:<br>
+
+Addrich Mauch, <addrich.mauch@unibe.ch><br>
+
+- Pico 4 Ultra
+- Pico Motion Tracker
+- OMEN MAX Gaming Laptop 16-ah0999nz (Intel® Core™ Ultra 9 - 275HX, 64 GB RAM, NVIDIA® GeForce RTX™ 5090 (24 GB))
 
 :::
 
