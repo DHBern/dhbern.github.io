@@ -57,7 +57,7 @@ This handbook provides practical guidance for discrimination-sensitive metadata 
 
 ## Beschreibung (Französisch)
 
-Ce manuel propose un guide pratique pour une description des métadonnées sensible aux discriminations appliquée aux sources historiques et aux données de recherche. Il articule des réflexions théoriques sur la normativité, les biais et l'oppression avec des recommandations concrètes couvrant l'ensemble du cycle de vie des données. Il aide les chercheur·euses et les institutions à repérer les pratiques discriminatoires dans les métadonnées et à mettre en oeuvre des alternatives plus inclusives.
+Ce manuel propose un guide pratique pour une description des métadonnées sensible aux discriminations appliquée aux sources historiques et aux données de recherche. Il articule des réflexions théoriques sur la normativité, les biais et l'oppression avec des recommandations concrètes couvrant l'ensemble du cycle de vie des données. Il aide les chercheur·euses et les institutions à repérer les pratiques discriminatoires dans les métadonnées et à mettre en œuvre des alternatives plus inclusives.
 
 ::: {.callout-tip title="Aktuelle Version"}
 Die aktuelle Vorabversion (Living Handbook) ist online verfügbar:
