@@ -6,38 +6,38 @@ author:
     orcid: 0000-0002-1367-1618
     email: moritz.maehr@gmail.com
     affiliation:
-    - University of Bern
-    - ETH Zurich
+    - Universität Bern
+    - ETH Zürich
     roles:
-      - writing
-      - editing
+      - verfassen
+      - redaktion
     corresponding: true
   - name: Noëlle Schnegg
     orcid: 0009-0008-5207-6652
     email: noelleschnegg@gmail.com
-    affiliation: University of Basel
+    affiliation: Universität Basel
     roles:
-      - writing
-      - editing
+      - verfassen
+      - redaktion
     corresponding: true
 categories:
-- Metadata Handbook
+- Metadaten-Handbuch
 status: active
 image: post-image.png
 other-links:
   - text: Aktuelle Version (HTML)
     icon: filetype-html
     href: 'https://moritz-maehr.quarto.pub/diskriminierungssensible-metadatenpraxis/'
-  - text: Aktuelle Version (Word)
+  - text: Aktuelle Version (DOCX)
     icon: filetype-docx
     href: 'https://moritz-maehr.quarto.pub/diskriminierungssensible-metadatenpraxis/index.docx'
-  - text: Letzte veroeffentlichte Version
+  - text: Letzte veröffentlichte Version
     icon: filetype-html
     href: 'https://maehr.github.io/diskriminierungsfreie-metadaten/'
-  - text: Letzte veroeffentlichte Version (Zenodo)
+  - text: Letzte veröffentlichte Version (Zenodo)
     icon: link-45deg
     href: 'https://zenodo.org/records/17073511'
-  - text: DOI der letzten veroeffentlichten Version
+  - text: DOI der letzten veröffentlichten Version
     icon: link-45deg
     href: 'https://doi.org/10.5281/zenodo.17073511'
   - text: Diskussionsforum
@@ -49,27 +49,27 @@ code-links:
     href: https://github.com/maehr/diskriminierungsfreie-metadaten
 ---
 
-Dieses Handbuch bietet eine praxisorientierte Anleitung fuer die diskriminierungssensible Beschreibung von Metadaten zu historischen Quellen und Forschungsdaten. Es richtet sich an Forschende Historiker*innen, Archivar*innen, Bibliothekar*innen und Daten-Kurator*innen in der Geschichtswissenschaft und in Gedaechtnisinstitutionen (GLAM). Das Handbuch verbindet theoretische Reflexionen zu Normativitaet, Bias und Oppression mit konkreten Handlungsempfehlungen fuer den gesamten Forschungsdatenlebenszyklus. Durch die Kombination von Theorie und Praxis unterstuetzt es Institutionen und Projekte dabei, Diskriminierung in der Metadatenpraxis zu erkennen und diskriminierungssensible Alternativen umzusetzen.
+Dieses Handbuch bietet eine praxisorientierte Anleitung für die diskriminierungssensible Beschreibung von Metadaten zu historischen Quellen und Forschungsdaten. Es richtet sich an Forschende Historiker*innen, Archivar*innen, Bibliothekar*innen und Daten-Kurator*innen in der Geschichtswissenschaft und in Gedächtnisinstitutionen (GLAM). Das Handbuch verbindet theoretische Reflexionen zu Normativität, Bias und Oppression mit konkreten Handlungsempfehlungen für den gesamten Forschungsdatenlebenszyklus. Durch die Kombination von Theorie und Praxis unterstützt es Institutionen und Projekte dabei, Diskriminierung in der Metadatenpraxis zu erkennen und diskriminierungssensible Alternativen umzusetzen.
 
-## Description (English)
+## Beschreibung (Englisch)
 
 This handbook provides practical guidance for discrimination-sensitive metadata work with historical sources and research data. It combines conceptual reflections on normativity, bias, and oppression with concrete recommendations across the full research data lifecycle. The guide supports researchers and institutions in identifying discriminatory practices in metadata and implementing more inclusive alternatives.
 
-## Description (Français)
+## Beschreibung (Französisch)
 
 Ce manuel propose un guide pratique pour une description des métadonnées sensible aux discriminations appliquée aux sources historiques et aux données de recherche. Il articule des réflexions théoriques sur la normativité, les biais et l'oppression avec des recommandations concrètes couvrant l'ensemble du cycle de vie des données. Il aide les chercheur·euses et les institutions à repérer les pratiques discriminatoires dans les métadonnées et à mettre en oeuvre des alternatives plus inclusives.
 
 ::: {.callout-tip title="Aktuelle Version"}
-Die aktuelle Vorabversion (Living Handbook) ist online verfuegbar:
+Die aktuelle Vorabversion (Living Handbook) ist online verfügbar:
 
 - [HTML](https://moritz-maehr.quarto.pub/diskriminierungssensible-metadatenpraxis/)
-- [MS Word (DOCX)](https://moritz-maehr.quarto.pub/diskriminierungssensible-metadatenpraxis/index.docx)
+- [DOCX](https://moritz-maehr.quarto.pub/diskriminierungssensible-metadatenpraxis/index.docx)
 
-Diese Version wird laufend weiterentwickelt; Rueckmeldungen sind im [Diskussionsforum](https://github.com/maehr/diskriminierungsfreie-metadaten/discussions) willkommen.
+Diese Version wird laufend weiterentwickelt; Rückmeldungen sind im [Diskussionsforum](https://github.com/maehr/diskriminierungsfreie-metadaten/discussions) willkommen.
 :::
 
-::: {.callout-note title="Letzte veroeffentlichte Version"}
-Die zuletzt publizierte Ausgabe (Version 1.0.1) ist weiterhin verfuegbar unter:
+::: {.callout-note title="Letzte veröffentlichte Version"}
+Die zuletzt publizierte Ausgabe (Version 1.0.1) ist weiterhin verfügbar unter:
 
 - [Projektseite](https://maehr.github.io/diskriminierungsfreie-metadaten/)
 - [Zenodo-Eintrag](https://zenodo.org/records/17073511)
@@ -77,5 +77,5 @@ Die zuletzt publizierte Ausgabe (Version 1.0.1) ist weiterhin verfuegbar unter:
 :::
 
 ::: {.callout-warning title="Hinweis"}
-Dieses Dokument enthaelt historische Quellen und Beispiele, die diskriminierende Sprache, Bilder oder Darstellungen enthalten koennen. Diese Inhalte werden zur kritischen Einordnung und Analyse kontextualisiert dokumentiert.
+Dieses Dokument enthält historische Quellen und Beispiele, die diskriminierende Sprache, Bilder oder Darstellungen enthalten können. Diese Inhalte werden zur kritischen Einordnung und Analyse kontextualisiert dokumentiert.
 :::
