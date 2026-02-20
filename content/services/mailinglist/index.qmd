@@ -11,10 +11,10 @@ Would you like to receive information about Bern DH by email?
 You can sign up to our mailing list to receive news about digital humanities—particularly in Bern, but also beyond—and of course, you can also send your own contributions.
 Start discussions, help shape the content, or simply read along.
 
-To register
+To register:
 
-    UNIBE internal: [listserv.unibe.ch/mailman/listinfo/dh.wbkolleg](https://listserv.unibe.ch/mailman/listinfo/dh.wbkolleg)
-    External: [dh.wbkolleg-join@lists.unibe.ch](mailto:dh.wbkolleg-join@lists.unibe.ch)
+- UNIBE internal: [listserv.unibe.ch/mailman/listinfo/dh.wbkolleg](https://listserv.unibe.ch/mailman/listinfo/dh.wbkolleg)
+- External: [dh.wbkolleg-join@lists.unibe.ch](mailto:dh.wbkolleg-join@lists.unibe.ch)
 
 
 ## Contact

@@ -1,0 +1,34 @@
+---
+title: "digitaleditions.ch: A hub for scholarly editions"
+author: Digital Humanities
+date: 2026.02.12
+image: logo.png
+image-alt: "Status dashboard for digitaleditions.ch"
+categories:
+- Post
+other-links:
+  - text: Visit digitaleditions.ch
+    icon: globe
+    href: https://digitaleditions.ch/
+  - text: Service status
+    icon: activity
+    href: https://status.digitaleditions.ch/
+  - text: Contact us
+    icon: envelope
+    href: mailto:digitalhumanities@unibe.ch
+---
+
+digitaleditions.ch is a shared hub of the Digital Humanities and the Data Science Lab to publish and maintain scholarly editions. It brings projects, documentation, and workflows together so editions can be produced, curated, and kept available over time.
+
+The hub supports scholars who are starting new editions and teams who are looking to sustain existing ones. It aims to make editions more discoverable and reusable by providing a clear, consistent place to find projects, guidance, and updates.
+
+## What you can expect
+
+- Project and edition landing pages
+- Guidance on workflows, data models, and citation practices
+- Shared infrastructure for publishing and long-term maintenance
+- A point of contact for collaboration and support
+
+If you are planning a new edition or want to connect an existing project, get in touch and we will help you find the right path on digitaleditions.ch.
+
+Edition availability is monitored by the University Library. Live status can be checked at [status.digitaleditions.ch](https://status.digitaleditions.ch/).
