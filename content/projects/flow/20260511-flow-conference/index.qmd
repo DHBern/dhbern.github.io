@@ -68,6 +68,19 @@ Central questions include:
 
 By bringing a variety of digital perspectives together, the conference invites us to think about what it means to “work in flow” — to move between documents and algorithms, between human interpretation and machine learning — and how such movement can expand the horizons of historical inquiry. As a result of the conference, a joint publication will be submitted to the peer-reviewed series “Digital Humanities Research” (Bielefeld University Press).
 
+## Partners and supporters
+
+<div style="display:flex; flex-wrap:wrap; gap:24px; align-items:center; margin: 16px 0 8px 0;">
+  <img src="snsf_logo.jpg" alt="Swiss National Science Foundation (SNSF) logo" style="height:64px;" />
+  <img src="logo-unibe.png" alt="University of Bern logo" style="height:64px;" />
+  <a href="https://www.uni-bielefeld.de/fakultaeten/geschichtswissenschaft/abteilung/arbeitsbereiche/digital-history/">
+    <img src="uni-bielefeld-logo.png" alt="University of Bielefeld logo" style="height:64px;" />
+  </a>
+  <a href="https://fgho.eu/">
+    <img src="fgho_logo.svg" alt="FGHO logo" style="height:64px;" />
+  </a>
+</div>
+
 :::
 
 ::: {#pills-program .tab-pane .fade role="tabpanel" aria-labelledby="pills-program-tab" tabindex="0"}
@@ -89,17 +102,28 @@ By bringing a variety of digital perspectives together, the conference invites u
   }
 </style>
 
-| Time  | Thu. 11 June 2026 | Fri. 12 June 2026 |
-| --- | --- | --- |
-| 09:00 | Welcome |  |
-| 09:15 | Intro by the organizers<br>Serena, Silke, Angela, Tobias | Corpus & Text Re-Use — Peter Verkinderen<br>Sefer — Inga |
-| 09:45 | Input by Developers<br>From Preprocessing to Text Recognition; from Language Modeling to Information Extraction — Dana & Jonas<br>Malte Meister |  |
-| 11:00 | Coffee Break | Coffee Break |
-| 11:30 | Text Recognition Pipelines — Michael Schonhardt<br>Melvin & Christopher | LLM & Final Discussion — Sarah Oberbirchler |
-| 13:00 | Lunch Break |  |
-| 14:00 | Named Entities — Maud Ehrmann<br>Dominic<br>Dana & Silke | End of Conference |
-| 16:00 | Break |  |
-| 17:00 | Barbara McGillivray |  |
+### Thursday, 11 June 2026
+
+| Time  | Session |
+| --- | --- |
+| 09:00 | Welcome |
+| 09:15 | Intro by the organizers<br>Serena, Silke, Angela, Tobias |
+| 09:45 | Input by Developers<br>From Preprocessing to Text Recognition; from Language Modeling to Information Extraction — Dana & Jonas<br>Malte Meister |
+| 11:00 | Coffee Break |
+| 11:30 | Text Recognition Pipelines — Michael Schonhardt<br>Melvin & Christopher |
+| 13:00 | Lunch Break |
+| 14:00 | Named Entities — Maud Ehrmann<br>Dominic<br>Dana & Silke |
+| 16:00 | Break |
+| 17:00 | Barbara McGillivray |
+
+### Friday, 12 June 2026
+
+| Time  | Session |
+| --- | --- |
+| 09:15 | Corpus & Text Re-Use — Peter Verkinderen<br>Sefer — Inga |
+| 11:00 | Coffee Break |
+| 11:30 | LLM & Final Discussion — Sarah Oberbirchler |
+| 14:00 | End of Conference |
 
 :::
 ::::::::
