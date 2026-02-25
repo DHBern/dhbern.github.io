@@ -57,6 +57,7 @@ author:
 
   .flow-hero h1,
   .flow-hero h2 {
+  .flow-hero h1 {
     margin: 0 0 8px 0;
     font-size: clamp(2rem, 3.2vw, 3.2rem);
     color: var(--flow-ink);
@@ -80,16 +81,29 @@ author:
 
   .flow-meta li {
     display: flex;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    margin: 12px 0 20px 0;
+  }
+
+  .flow-meta-item {
+    display: flex;
     flex-direction: column;
     gap: 4px;
   }
 
   .flow-meta strong {
+  .flow-meta-label {
     text-transform: uppercase;
     letter-spacing: 0.12em;
     font-size: 0.7rem;
     color: var(--flow-muted);
     font-weight: 600;
+  }
+
+  .flow-meta-value {
+    font-weight: 600;
+    color: var(--flow-ink);
   }
 
   .flow-cta-row {
@@ -271,6 +285,20 @@ author:
     <li><strong>Dates</strong> 11–12 June 2026</li>
     <li><strong>Location</strong> University of Bern, Mittelstrasse 43, 3012 Bern</li>
   </ul>
+<section class="flow-hero" aria-labelledby="flow-hero-title">
+  <p class="flow-eyebrow">Conference</p>
+  <h1 id="flow-hero-title">The FLOW Conference</h1>
+  <p class="flow-subtitle">From Deep Learning to Digital Analysis and their Role in the Humanities</p>
+  <div class="flow-meta">
+    <div class="flow-meta-item">
+      <span class="flow-meta-label">Dates</span>
+      <span class="flow-meta-value">11–12 June 2026</span>
+    </div>
+    <div class="flow-meta-item">
+      <span class="flow-meta-label">Location</span>
+      <span class="flow-meta-value">University of Bern, Mittelstrasse 43, 3012 Bern</span>
+    </div>
+  </div>
   <div class="flow-cta-row">
     <a class="btn btn-primary flow-cta" data-bs-toggle="pill" href="#pills-program" role="tab" aria-controls="pills-program">View program</a>
     <a class="btn flow-cta-secondary" href="#partners-supporters">Partners</a>
@@ -442,6 +470,35 @@ By bringing a variety of digital perspectives together, the conference invites u
     </tbody>
   </table>
 </div>
+
+::: { .program-day }
+### Thursday, 11 June 2026
+
+| Time  | Session |
+| --- | --- |
+| 09:00 | Welcome |
+| 09:15 | Intro by the organizers<br>Serena, Silke, Angela, Tobias |
+| 09:45 | Input by Developers<br>From Preprocessing to Text Recognition; from Language Modeling to Information Extraction — Dana & Jonas<br>Malte Meister |
+| 11:00 | <span class="program-break">Coffee break</span> |
+| 11:30 | Text Recognition Pipelines — Michael Schonhardt<br>Melvin & Christopher |
+| 13:00 | <span class="program-break">Lunch break</span> |
+| 14:00 | Named Entities — Maud Ehrmann<br>Dominic<br>Dana & Silke |
+| 16:00 | <span class="program-break">Break</span> |
+| 17:00 | Barbara McGillivray |
+{: .program-table}
+:::
+
+::: { .program-day }
+### Friday, 12 June 2026
+
+| Time  | Session |
+| --- | --- |
+| 09:15 | Corpus & Text Re-Use — Peter Verkinderen<br>Sefer — Inga |
+| 11:00 | <span class="program-break">Coffee break</span> |
+| 11:30 | LLM & Final Discussion — Sarah Oberbirchler |
+| 14:00 | <span class="program-break">End of conference</span> |
+{: .program-table}
+:::
 
 :::
 ::::::::
