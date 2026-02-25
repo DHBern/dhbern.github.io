@@ -97,8 +97,12 @@ jobs:
           path: .
 
       - name: JamPack Optimization
+        env:
+          NPM_CONFIG_USERCONFIG: ${{ runner.temp }}/.npmrc
         run: |
-          npx @divriots/jampack ./_site
+          echo "registry=https://registry.npmjs.org/" > "$NPM_CONFIG_USERCONFIG"
+          echo "always-auth=false" >> "$NPM_CONFIG_USERCONFIG"
+          npx --yes @divriots/jampack ./_site
 
       - name: Upload Built Artifacts
         uses: actions/upload-artifact@v4
