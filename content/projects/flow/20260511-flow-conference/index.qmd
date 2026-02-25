@@ -70,14 +70,35 @@ By bringing a variety of digital perspectives together, the conference invites u
 
 ## Partners and supporters
 
-<div style="display:flex; flex-wrap:wrap; gap:24px; align-items:center; margin: 16px 0 8px 0;">
-  <img src="snsf_logo.jpg" alt="Swiss National Science Foundation (SNSF) logo" style="height:64px;" />
-  <img src="logo-unibe.png" alt="University of Bern logo" style="height:64px;" />
+<style>
+  .partner-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+    margin: 16px 0 8px 0;
+  }
+  .partner-logos img {
+    height: 64px;
+    width: auto;
+    max-width: 220px;
+    object-fit: contain;
+    display: block;
+  }
+  .partner-logos a {
+    display: inline-flex;
+    align-items: center;
+  }
+</style>
+
+<div class="partner-logos">
+  <img src="snsf_logo.jpg" alt="Swiss National Science Foundation (SNSF) logo" />
+  <img src="logo-unibe.png" alt="University of Bern logo" />
   <a href="https://www.uni-bielefeld.de/fakultaeten/geschichtswissenschaft/abteilung/arbeitsbereiche/digital-history/">
-    <img src="uni-bielefeld-logo.png" alt="University of Bielefeld logo" style="height:64px;" />
+    <img src="uni-bielefeld-logo.png" alt="University of Bielefeld logo" />
   </a>
   <a href="https://fgho.eu/">
-    <img src="fgho_logo.svg" alt="FGHO logo" style="height:64px;" />
+    <img src="fgho_logo.svg" alt="FGHO logo" />
   </a>
 </div>
 

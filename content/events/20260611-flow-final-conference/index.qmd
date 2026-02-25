@@ -10,8 +10,11 @@ author:
     role: "Organiser"
   - name: "Tobias Hodel"
     role: "Organiser"
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=/content/projects/flow/20260511-flow-conference/">
 ---
 
-The Flow Final Conference will take place on June 11–12, 2026, at the University of Bern (Mittelstrasse).
-
-Further details will be shared closer to the event.
+This page redirects to the conference site. If you are not redirected, visit: [The FLOW Conference](/content/projects/flow/20260511-flow-conference/).
