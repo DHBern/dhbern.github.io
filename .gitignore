@@ -3,6 +3,7 @@
 renv/restore.complete
 _site/
 _freeze/
+.venv/
 
 # Exclude example.env
 !example.env
