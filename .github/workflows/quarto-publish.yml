@@ -18,8 +18,6 @@ jobs:
   lint:
     name: Lint with Prettier
     runs-on: ubuntu-24.04
-    env:
-      NPM_CONFIG_USERCONFIG: ${{ runner.temp }}/.npmrc
 
     steps:
       - name: Check out repository
@@ -32,8 +30,9 @@ jobs:
 
       - name: Configure npm registry
         run: |
-          echo "registry=https://registry.npmjs.org/" > "$NPM_CONFIG_USERCONFIG"
-          echo "always-auth=false" >> "$NPM_CONFIG_USERCONFIG"
+          echo "NPM_CONFIG_USERCONFIG=$RUNNER_TEMP/.npmrc" >> "$GITHUB_ENV"
+          echo "registry=https://registry.npmjs.org/" > "$RUNNER_TEMP/.npmrc"
+          echo "always-auth=false" >> "$RUNNER_TEMP/.npmrc"
 
       - name: Install dependencies
         run: npm install
@@ -104,11 +103,10 @@ jobs:
           path: .
 
       - name: JamPack Optimization
-        env:
-          NPM_CONFIG_USERCONFIG: ${{ runner.temp }}/.npmrc
         run: |
-          echo "registry=https://registry.npmjs.org/" > "$NPM_CONFIG_USERCONFIG"
-          echo "always-auth=false" >> "$NPM_CONFIG_USERCONFIG"
+          export NPM_CONFIG_USERCONFIG="$RUNNER_TEMP/.npmrc"
+          echo "registry=https://registry.npmjs.org/" > "$RUNNER_TEMP/.npmrc"
+          echo "always-auth=false" >> "$RUNNER_TEMP/.npmrc"
           npx --yes @divriots/jampack ./_site
 
       - name: Upload Built Artifacts
