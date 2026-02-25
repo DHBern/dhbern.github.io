@@ -12,11 +12,277 @@ author:
     role: "Organiser"
   - name: "Tobias Hodel"
     role: "Organiser"
-other-links:
-  - text: "Download program (DOCX)"
-    icon: file-earmark-word
-    href: "FLOW_Conference.docx"
 ---
+
+<style>
+  :root {
+    --flow-ink: #1b1b1b;
+    --flow-muted: #5d6168;
+    --flow-accent: #0f5d4a;
+    --flow-accent-strong: #0b4b3c;
+    --flow-surface: #f5f1ea;
+    --flow-panel: #ffffff;
+    --flow-border: #e2e2e2;
+  }
+
+  .flow-hero {
+    background: linear-gradient(135deg, #f8f2e8 0%, #eaf2f1 45%, #f8f2e8 100%);
+    border: 1px solid var(--flow-border);
+    border-radius: 18px;
+    padding: 32px;
+    margin: 8px 0 24px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .flow-hero::after {
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: -60px;
+    width: 220px;
+    height: 220px;
+    background: radial-gradient(circle, rgba(15, 93, 74, 0.18) 0%, rgba(15, 93, 74, 0) 70%);
+    pointer-events: none;
+  }
+
+  .flow-eyebrow {
+    margin: 0 0 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 0.75rem;
+    color: var(--flow-muted);
+    font-weight: 600;
+  }
+
+  .flow-hero h1 {
+    margin: 0 0 8px 0;
+    font-size: clamp(2rem, 3.2vw, 3.2rem);
+    color: var(--flow-ink);
+  }
+
+  .flow-subtitle {
+    margin: 0 0 16px 0;
+    max-width: 700px;
+    color: var(--flow-muted);
+    font-size: 1.05rem;
+  }
+
+  .flow-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    margin: 12px 0 20px 0;
+  }
+
+  .flow-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .flow-meta-label {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.7rem;
+    color: var(--flow-muted);
+    font-weight: 600;
+  }
+
+  .flow-meta-value {
+    font-weight: 600;
+    color: var(--flow-ink);
+  }
+
+  .flow-cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .flow-cta {
+    background: var(--flow-accent);
+    border-color: var(--flow-accent);
+  }
+
+  .flow-cta:hover,
+  .flow-cta:focus {
+    background: var(--flow-accent-strong);
+    border-color: var(--flow-accent-strong);
+  }
+
+  .flow-cta-secondary {
+    border: 1px solid var(--flow-accent);
+    color: var(--flow-accent);
+    background: transparent;
+  }
+
+  .flow-cta-secondary:hover,
+  .flow-cta-secondary:focus {
+    color: #ffffff;
+    background: var(--flow-accent);
+  }
+
+  .quick-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    background: var(--flow-panel);
+    border: 1px solid var(--flow-border);
+    border-radius: 14px;
+    padding: 16px;
+    margin: 16px 0 24px 0;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.04);
+  }
+
+  .quick-info-item {
+    background: #f7f7f5;
+    border-radius: 10px;
+    padding: 10px 12px;
+  }
+
+  .quick-info-label {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.7rem;
+    color: var(--flow-muted);
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .quick-info-value {
+    font-weight: 600;
+    color: var(--flow-ink);
+  }
+
+  .question-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+    margin: 16px 0 24px 0;
+  }
+
+  .question-card {
+    border-left: 4px solid var(--flow-accent);
+    border-radius: 12px;
+    background: #f8f8f7;
+    padding: 12px 14px;
+    color: var(--flow-ink);
+  }
+
+  .partner-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+    margin: 16px 0 8px 0;
+  }
+
+  .partner-logos img {
+    height: 56px;
+    width: auto;
+    max-width: 220px;
+    object-fit: contain;
+    display: block;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: filter 0.2s ease, opacity 0.2s ease;
+  }
+
+  .partner-logos a {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .partner-logos a:hover img,
+  .partner-logos img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+
+  .program-note {
+    margin: 8px 0 16px 0;
+    color: var(--flow-muted);
+    font-weight: 600;
+  }
+
+  .program-day {
+    background: var(--flow-panel);
+    border: 1px solid var(--flow-border);
+    border-radius: 16px;
+    padding: 16px;
+    margin: 16px 0 24px 0;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
+  }
+
+  .program-day h3 {
+    margin-top: 0;
+  }
+
+  .program-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .program-table th,
+  .program-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e4e4e4;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .program-table th {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.7rem;
+    color: var(--flow-muted);
+    background: #f1f3f5;
+  }
+
+  .program-table tbody tr:nth-child(odd) td {
+    background: #fafafa;
+  }
+
+  .program-table td:first-child,
+  .program-table th:first-child {
+    width: 90px;
+    font-weight: 600;
+    color: var(--flow-ink);
+  }
+
+  .program-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .program-break {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--flow-muted);
+  }
+</style>
+
+<section class="flow-hero" aria-labelledby="flow-hero-title">
+  <p class="flow-eyebrow">Conference</p>
+  <h1 id="flow-hero-title">The FLOW Conference</h1>
+  <p class="flow-subtitle">From Deep Learning to Digital Analysis and their Role in the Humanities</p>
+  <div class="flow-meta">
+    <div class="flow-meta-item">
+      <span class="flow-meta-label">Dates</span>
+      <span class="flow-meta-value">11–12 June 2026</span>
+    </div>
+    <div class="flow-meta-item">
+      <span class="flow-meta-label">Location</span>
+      <span class="flow-meta-value">University of Bern, Mittelstrasse 43, 3012 Bern</span>
+    </div>
+  </div>
+  <div class="flow-cta-row">
+    <a class="btn btn-primary flow-cta" data-bs-toggle="pill" href="#pills-program" role="tab" aria-controls="pills-program">View program</a>
+    <a class="btn flow-cta-secondary" href="#partners-supporters">Partners</a>
+  </div>
+</section>
 
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 
@@ -47,11 +313,24 @@ Conference program
 
 ## Welcome
 
-# The FLOW Conference
-
-### Bern, 11–12 June 2026
-
-### University of Bern, Mittelstrasse 43, 3012 Bern
+<div class="quick-info" aria-label="Quick info">
+  <div class="quick-info-item">
+    <div class="quick-info-label">Dates</div>
+    <div class="quick-info-value">11–12 June 2026</div>
+  </div>
+  <div class="quick-info-item">
+    <div class="quick-info-label">Venue</div>
+    <div class="quick-info-value">University of Bern, Mittelstrasse 43, 3012 Bern</div>
+  </div>
+  <div class="quick-info-item">
+    <div class="quick-info-label">Organisers</div>
+    <div class="quick-info-value">Serena Tolino, Tobias Hodel</div>
+  </div>
+  <div class="quick-info-item">
+    <div class="quick-info-label">Program</div>
+    <div class="quick-info-value">Schedule below</div>
+  </div>
+</div>
 
 The Flow project – *From Deep Learning to Digital Analysis and their Role in the Humanities* – is exploring how digital workflows can transform the study of historical sources. Over the past years, the project has brought together historians, linguists, and computer scientists to develop, evaluate, and critique workflows that connect the interpretive traditions of the humanities with the methodological rigor of data science. At its heart, FLOW is about creating, evaluating, and reflecting on the workflows themselves — the sequence of processes that link source material to digital interpretation. Beginning with text recognition, through text annotation, model training, and ultimately publishing, the project has sought to make each step transparent, reusable, and critically informed. By developing models for Handwritten Text Recognition (HTR) and Natural Language Processing (NLP) and publishing them openly on platforms such as Hugging Face, The Flow contributes to the broader digital humanities community and to the principle of reproducible, collaborative research.
 
@@ -61,23 +340,25 @@ This final conference in Bern marks both a conclusion and a beginning. It offers
 
 Central questions include:
 
-- What kinds of digital workflows exist, and how are they structured?
-- At which stages of a research project can specific questions or tasks meaningfully be addressed through digital or automated methods?
-- Which strategies support reproducibility and long-term usability of digital research?
-- Which resources — both equipment and different expertises — are needed to design and implement digital workflows for a variety of digital tasks in historical research?
+<div class="question-grid">
+  <div class="question-card">What kinds of digital workflows exist, and how are they structured?</div>
+  <div class="question-card">At which stages of a research project can specific questions or tasks meaningfully be addressed through digital or automated methods?</div>
+  <div class="question-card">Which strategies support reproducibility and long-term usability of digital research?</div>
+  <div class="question-card">Which resources — both equipment and different expertises — are needed to design and implement digital workflows for a variety of digital tasks in historical research?</div>
+</div>
 
 By bringing a variety of digital perspectives together, the conference invites us to think about what it means to “work in flow” — to move between documents and algorithms, between human interpretation and machine learning — and how such movement can expand the horizons of historical inquiry. As a result of the conference, a joint publication will be submitted to the peer-reviewed series “Digital Humanities Research” (Bielefeld University Press).
 
-## Partners and supporters
+## Partners and supporters {#partners-supporters}
 
-<div style="display:flex; flex-wrap:wrap; gap:24px; align-items:center; margin: 16px 0 8px 0;">
-  <img src="snsf_logo.jpg" alt="Swiss National Science Foundation (SNSF) logo" style="height:64px;" />
-  <img src="logo-unibe.png" alt="University of Bern logo" style="height:64px;" />
+<div class="partner-logos">
+  <img src="snsf_logo.jpg" alt="Swiss National Science Foundation (SNSF) logo" />
+  <img src="logo-unibe.png" alt="University of Bern logo" />
   <a href="https://www.uni-bielefeld.de/fakultaeten/geschichtswissenschaft/abteilung/arbeitsbereiche/digital-history/">
-    <img src="uni-bielefeld-logo.png" alt="University of Bielefeld logo" style="height:64px;" />
+    <img src="uni-bielefeld-logo.png" alt="University of Bielefeld logo" />
   </a>
   <a href="https://fgho.eu/">
-    <img src="fgho_logo.svg" alt="FGHO logo" style="height:64px;" />
+    <img src="fgho_logo.svg" alt="FGHO logo" />
   </a>
 </div>
 
@@ -87,21 +368,9 @@ By bringing a variety of digital perspectives together, the conference invites u
 
 ## Conference program
 
-[Download program (DOCX)](FLOW_Conference.docx)
+<p class="program-note">Schedule at a glance (subject to minor updates).</p>
 
-<style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  th, td {
-    padding: 8px 12px;
-    border: 1px solid #ccc;
-    vertical-align: top;
-    text-align: left;
-  }
-</style>
-
+::: { .program-day }
 ### Thursday, 11 June 2026
 
 | Time  | Session |
@@ -109,21 +378,26 @@ By bringing a variety of digital perspectives together, the conference invites u
 | 09:00 | Welcome |
 | 09:15 | Intro by the organizers<br>Serena, Silke, Angela, Tobias |
 | 09:45 | Input by Developers<br>From Preprocessing to Text Recognition; from Language Modeling to Information Extraction — Dana & Jonas<br>Malte Meister |
-| 11:00 | Coffee Break |
+| 11:00 | <span class="program-break">Coffee break</span> |
 | 11:30 | Text Recognition Pipelines — Michael Schonhardt<br>Melvin & Christopher |
-| 13:00 | Lunch Break |
+| 13:00 | <span class="program-break">Lunch break</span> |
 | 14:00 | Named Entities — Maud Ehrmann<br>Dominic<br>Dana & Silke |
-| 16:00 | Break |
+| 16:00 | <span class="program-break">Break</span> |
 | 17:00 | Barbara McGillivray |
+{: .program-table}
+:::
 
+::: { .program-day }
 ### Friday, 12 June 2026
 
 | Time  | Session |
 | --- | --- |
 | 09:15 | Corpus & Text Re-Use — Peter Verkinderen<br>Sefer — Inga |
-| 11:00 | Coffee Break |
+| 11:00 | <span class="program-break">Coffee break</span> |
 | 11:30 | LLM & Final Discussion — Sarah Oberbirchler |
-| 14:00 | End of Conference |
+| 14:00 | <span class="program-break">End of conference</span> |
+{: .program-table}
+:::
 
 :::
 ::::::::
