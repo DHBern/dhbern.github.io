@@ -56,7 +56,7 @@ VR Equipment
 
 The GameLab at the University of Bern is an academic collection of video games, hardware platforms, <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-magazines-tab')).show(); return false;"> Gaming Magazines </a>, and everything else connected to digital games. It is a collaboration between the University of Bern, the SNF-project "[Confoederatio Ludens](https://chludens.ch/)", and the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/).
 
-We also provide the 4 VR headsets (Pico 4 Ultra) and corresponing hardware from the DH, which is accesible for the whole faculty. If you are interested in using them, please contact us.
+We also provide the 4 VR headsets (Pico 4 Ultra) and corresponding hardware from the DH, which is accessible for the whole faculty. If you are interested in using them, please contact us.
 
 ![](cartridges.jpg){width=100% fig-alt="A table full of video game cartridges"}
 
