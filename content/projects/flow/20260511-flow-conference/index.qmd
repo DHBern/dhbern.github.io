@@ -55,6 +55,8 @@ author:
     font-weight: 600;
   }
 
+  .flow-hero h1,
+  .flow-hero h2 {
   .flow-hero h1 {
     margin: 0 0 8px 0;
     font-size: clamp(2rem, 3.2vw, 3.2rem);
@@ -69,6 +71,15 @@ author:
   }
 
   .flow-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px 24px;
+    margin: 12px 0 20px 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .flow-meta li {
     display: flex;
     flex-wrap: wrap;
     gap: 16px 24px;
@@ -81,6 +92,7 @@ author:
     gap: 4px;
   }
 
+  .flow-meta strong {
   .flow-meta-label {
     text-transform: uppercase;
     letter-spacing: 0.12em;
@@ -98,6 +110,7 @@ author:
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
+    margin: 0;
   }
 
   .flow-cta {
@@ -264,6 +277,14 @@ author:
   }
 </style>
 
+<section id="flow-hero" class="flow-hero" aria-labelledby="flow-hero-title">
+  <p class="flow-eyebrow">Conference</p>
+  <h2 id="flow-hero-title">The FLOW Conference</h2>
+  <p class="flow-subtitle">From Deep Learning to Digital Analysis and their Role in the Humanities</p>
+  <ul class="flow-meta">
+    <li><strong>Dates</strong> 11–12 June 2026</li>
+    <li><strong>Location</strong> University of Bern, Mittelstrasse 43, 3012 Bern</li>
+  </ul>
 <section class="flow-hero" aria-labelledby="flow-hero-title">
   <p class="flow-eyebrow">Conference</p>
   <h1 id="flow-hero-title">The FLOW Conference</h1>
@@ -369,6 +390,86 @@ By bringing a variety of digital perspectives together, the conference invites u
 ## Conference program
 
 <p class="program-note">Schedule at a glance (subject to minor updates).</p>
+
+<div class="program-day">
+  <h3>Thursday, 11 June 2026</h3>
+  <table class="program-table">
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Session</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>09:00</td>
+        <td>Welcome</td>
+      </tr>
+      <tr>
+        <td>09:15</td>
+        <td>Intro by the organizers<br>Serena, Silke, Angela, Tobias</td>
+      </tr>
+      <tr>
+        <td>09:45</td>
+        <td>Input by Developers<br>From Preprocessing to Text Recognition; from Language Modeling to Information Extraction — Dana &amp; Jonas<br>Malte Meister</td>
+      </tr>
+      <tr>
+        <td>11:00</td>
+        <td><span class="program-break">Coffee break</span></td>
+      </tr>
+      <tr>
+        <td>11:30</td>
+        <td>Text Recognition Pipelines — Michael Schonhardt<br>Melvin &amp; Christopher</td>
+      </tr>
+      <tr>
+        <td>13:00</td>
+        <td><span class="program-break">Lunch break</span></td>
+      </tr>
+      <tr>
+        <td>14:00</td>
+        <td>Named Entities — Maud Ehrmann<br>Dominic<br>Dana &amp; Silke</td>
+      </tr>
+      <tr>
+        <td>16:00</td>
+        <td><span class="program-break">Break</span></td>
+      </tr>
+      <tr>
+        <td>17:00</td>
+        <td>Barbara McGillivray</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="program-day">
+  <h3>Friday, 12 June 2026</h3>
+  <table class="program-table">
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Session</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>09:15</td>
+        <td>Corpus &amp; Text Re-Use — Peter Verkinderen<br>Sefer — Inga</td>
+      </tr>
+      <tr>
+        <td>11:00</td>
+        <td><span class="program-break">Coffee break</span></td>
+      </tr>
+      <tr>
+        <td>11:30</td>
+        <td>LLM &amp; Final Discussion — Sarah Oberbirchler</td>
+      </tr>
+      <tr>
+        <td>14:00</td>
+        <td><span class="program-break">End of conference</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ::: { .program-day }
 ### Thursday, 11 June 2026
