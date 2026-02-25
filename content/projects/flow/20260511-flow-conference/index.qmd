@@ -20,7 +20,6 @@ author:
     --flow-muted: #5d6168;
     --flow-accent: #0f5d4a;
     --flow-accent-strong: #0b4b3c;
-    --flow-surface: #f5f1ea;
     --flow-panel: #ffffff;
     --flow-border: #e2e2e2;
   }
@@ -57,7 +56,6 @@ author:
 
   .flow-hero h1,
   .flow-hero h2 {
-  .flow-hero h1 {
     margin: 0 0 8px 0;
     font-size: clamp(2rem, 3.2vw, 3.2rem);
     color: var(--flow-ink);
@@ -81,19 +79,11 @@ author:
 
   .flow-meta li {
     display: flex;
-    flex-wrap: wrap;
-    gap: 16px 24px;
-    margin: 12px 0 20px 0;
-  }
-
-  .flow-meta-item {
-    display: flex;
     flex-direction: column;
     gap: 4px;
   }
 
   .flow-meta strong {
-  .flow-meta-label {
     text-transform: uppercase;
     letter-spacing: 0.12em;
     font-size: 0.7rem;
@@ -101,7 +91,7 @@ author:
     font-weight: 600;
   }
 
-  .flow-meta-value {
+  .flow-meta span {
     font-weight: 600;
     color: var(--flow-ink);
   }
@@ -282,23 +272,9 @@ author:
   <h2 id="flow-hero-title">The FLOW Conference</h2>
   <p class="flow-subtitle">From Deep Learning to Digital Analysis and their Role in the Humanities</p>
   <ul class="flow-meta">
-    <li><strong>Dates</strong> 11–12 June 2026</li>
-    <li><strong>Location</strong> University of Bern, Mittelstrasse 43, 3012 Bern</li>
+    <li><strong>Dates</strong><span>11–12 June 2026</span></li>
+    <li><strong>Location</strong><span>University of Bern, Mittelstrasse 43, 3012 Bern</span></li>
   </ul>
-<section class="flow-hero" aria-labelledby="flow-hero-title">
-  <p class="flow-eyebrow">Conference</p>
-  <h1 id="flow-hero-title">The FLOW Conference</h1>
-  <p class="flow-subtitle">From Deep Learning to Digital Analysis and their Role in the Humanities</p>
-  <div class="flow-meta">
-    <div class="flow-meta-item">
-      <span class="flow-meta-label">Dates</span>
-      <span class="flow-meta-value">11–12 June 2026</span>
-    </div>
-    <div class="flow-meta-item">
-      <span class="flow-meta-label">Location</span>
-      <span class="flow-meta-value">University of Bern, Mittelstrasse 43, 3012 Bern</span>
-    </div>
-  </div>
   <div class="flow-cta-row">
     <a class="btn btn-primary flow-cta" data-bs-toggle="pill" href="#pills-program" role="tab" aria-controls="pills-program">View program</a>
     <a class="btn flow-cta-secondary" href="#partners-supporters">Partners</a>
@@ -306,199 +282,151 @@ author:
 </section>
 
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-
-<li class="nav-item" role="presentation">
-
-<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-
-Home
-
-</button>
-
-</li>
-
-<li class="nav-item" role="presentation">
-
-<button class="nav-link" id="pills-program-tab" data-bs-toggle="pill" data-bs-target="#pills-program" type="button" role="tab" aria-controls="pills-program" aria-selected="false">
-
-Conference program
-
-</button>
-
-</li>
-
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-program-tab" data-bs-toggle="pill" data-bs-target="#pills-program" type="button" role="tab" aria-controls="pills-program" aria-selected="false">Conference program</button>
+  </li>
 </ul>
 
-:::::::: {#pills-tabContent .tab-content}
-::: {#pills-home .tab-pane .fade .show .active role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"}
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+    <h2>Welcome</h2>
 
-## Welcome
+    <div class="quick-info" aria-label="Quick info">
+      <div class="quick-info-item">
+        <div class="quick-info-label">Dates</div>
+        <div class="quick-info-value">11–12 June 2026</div>
+      </div>
+      <div class="quick-info-item">
+        <div class="quick-info-label">Venue</div>
+        <div class="quick-info-value">University of Bern, Mittelstrasse 43, 3012 Bern</div>
+      </div>
+      <div class="quick-info-item">
+        <div class="quick-info-label">Organisers</div>
+        <div class="quick-info-value">Serena Tolino, Tobias Hodel</div>
+      </div>
+      <div class="quick-info-item">
+        <div class="quick-info-label">Program</div>
+        <div class="quick-info-value">Schedule below</div>
+      </div>
+    </div>
 
-<div class="quick-info" aria-label="Quick info">
-  <div class="quick-info-item">
-    <div class="quick-info-label">Dates</div>
-    <div class="quick-info-value">11–12 June 2026</div>
+    <p>The Flow project – <em>From Deep Learning to Digital Analysis and their Role in the Humanities</em> – is exploring how digital workflows can transform the study of historical sources. Over the past years, the project has brought together historians, linguists, and computer scientists to develop, evaluate, and critique workflows that connect the interpretive traditions of the humanities with the methodological rigor of data science. At its heart, FLOW is about creating, evaluating, and reflecting on the workflows themselves — the sequence of processes that link source material to digital interpretation. Beginning with text recognition, through text annotation, model training, and ultimately publishing, the project has sought to make each step transparent, reusable, and critically informed. By developing models for Handwritten Text Recognition (HTR) and Natural Language Processing (NLP) and publishing them openly on platforms such as Hugging Face, The Flow contributes to the broader digital humanities community and to the principle of reproducible, collaborative research.</p>
+
+    <p>The project’s historical case studies form the practical testing ground for these workflows. The four doctoral projects investigate distinct legal and administrative corpora — from medieval England and the Hanseatic cities of Northern Europe, to the early modern records of Bern and the sijill registers of Jerusalem. Together, they demonstrate how digital methods can uncover patterns of institutional practice and social interaction that are otherwise difficult to discern in premodern texts.</p>
+
+    <p>This final conference in Bern marks both a conclusion and a beginning. It offers a platform for external experts to discuss the epistemological and methodological implications of digital workflows in the humanities, while giving the Flow doctoral researchers the opportunity to present their findings and reflect on the integration of machine learning in historical research. The different experts will engage in a discussion on the infrastructural, methodological, and data-driven foundations of scholarly work, with particular attention to the role of clearly structured digital workflows in an era of growing AI hype. To ensure targeted and transparent digital text practices, the papers explore key workflow components such as automated handwriting recognition, text recognition and processing, named entity recognition, and language modelling.</p>
+
+    <p>Central questions include:</p>
+
+    <div class="question-grid">
+      <div class="question-card">What kinds of digital workflows exist, and how are they structured?</div>
+      <div class="question-card">At which stages of a research project can specific questions or tasks meaningfully be addressed through digital or automated methods?</div>
+      <div class="question-card">Which strategies support reproducibility and long-term usability of digital research?</div>
+      <div class="question-card">Which resources — both equipment and different expertises — are needed to design and implement digital workflows for a variety of digital tasks in historical research?</div>
+    </div>
+
+    <p>By bringing a variety of digital perspectives together, the conference invites us to think about what it means to “work in flow” — to move between documents and algorithms, between human interpretation and machine learning — and how such movement can expand the horizons of historical inquiry. As a result of the conference, a joint publication will be submitted to the peer-reviewed series “Digital Humanities Research” (Bielefeld University Press).</p>
+
+    <h2 id="partners-supporters">Partners and supporters</h2>
+
+    <div class="partner-logos">
+      <img src="snsf_logo.jpg" alt="Swiss National Science Foundation (SNSF) logo" />
+      <img src="logo-unibe.png" alt="University of Bern logo" />
+      <a href="https://www.uni-bielefeld.de/fakultaeten/geschichtswissenschaft/abteilung/arbeitsbereiche/digital-history/">
+        <img src="uni-bielefeld-logo.png" alt="University of Bielefeld logo" />
+      </a>
+      <a href="https://fgho.eu/">
+        <img src="fgho_logo.svg" alt="FGHO logo" />
+      </a>
+    </div>
   </div>
-  <div class="quick-info-item">
-    <div class="quick-info-label">Venue</div>
-    <div class="quick-info-value">University of Bern, Mittelstrasse 43, 3012 Bern</div>
+
+  <div class="tab-pane fade" id="pills-program" role="tabpanel" aria-labelledby="pills-program-tab" tabindex="0">
+    <h2>Conference program</h2>
+
+    <p class="program-note">Schedule at a glance (subject to minor updates).</p>
+
+    <div class="program-day">
+      <h3>Thursday, 11 June 2026</h3>
+      <table class="program-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Session</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>09:00</td>
+            <td>Welcome</td>
+          </tr>
+          <tr>
+            <td>09:15</td>
+            <td>Intro by the organizers<br>Serena, Silke, Angela, Tobias</td>
+          </tr>
+          <tr>
+            <td>09:45</td>
+            <td>Input by Developers<br>From Preprocessing to Text Recognition; from Language Modeling to Information Extraction — Dana &amp; Jonas<br>Malte Meister</td>
+          </tr>
+          <tr>
+            <td>11:00</td>
+            <td><span class="program-break">Coffee break</span></td>
+          </tr>
+          <tr>
+            <td>11:30</td>
+            <td>Text Recognition Pipelines — Michael Schonhardt<br>Melvin &amp; Christopher</td>
+          </tr>
+          <tr>
+            <td>13:00</td>
+            <td><span class="program-break">Lunch break</span></td>
+          </tr>
+          <tr>
+            <td>14:00</td>
+            <td>Named Entities — Maud Ehrmann<br>Dominic<br>Dana &amp; Silke</td>
+          </tr>
+          <tr>
+            <td>16:00</td>
+            <td><span class="program-break">Break</span></td>
+          </tr>
+          <tr>
+            <td>17:00</td>
+            <td>Barbara McGillivray</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="program-day">
+      <h3>Friday, 12 June 2026</h3>
+      <table class="program-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Session</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>09:15</td>
+            <td>Corpus &amp; Text Re-Use — Peter Verkinderen<br>Sefer — Inga</td>
+          </tr>
+          <tr>
+            <td>11:00</td>
+            <td><span class="program-break">Coffee break</span></td>
+          </tr>
+          <tr>
+            <td>11:30</td>
+            <td>LLM &amp; Final Discussion — Sarah Oberbirchler</td>
+          </tr>
+          <tr>
+            <td>14:00</td>
+            <td><span class="program-break">End of conference</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
-  <div class="quick-info-item">
-    <div class="quick-info-label">Organisers</div>
-    <div class="quick-info-value">Serena Tolino, Tobias Hodel</div>
-  </div>
-  <div class="quick-info-item">
-    <div class="quick-info-label">Program</div>
-    <div class="quick-info-value">Schedule below</div>
-  </div>
 </div>
-
-The Flow project – *From Deep Learning to Digital Analysis and their Role in the Humanities* – is exploring how digital workflows can transform the study of historical sources. Over the past years, the project has brought together historians, linguists, and computer scientists to develop, evaluate, and critique workflows that connect the interpretive traditions of the humanities with the methodological rigor of data science. At its heart, FLOW is about creating, evaluating, and reflecting on the workflows themselves — the sequence of processes that link source material to digital interpretation. Beginning with text recognition, through text annotation, model training, and ultimately publishing, the project has sought to make each step transparent, reusable, and critically informed. By developing models for Handwritten Text Recognition (HTR) and Natural Language Processing (NLP) and publishing them openly on platforms such as Hugging Face, The Flow contributes to the broader digital humanities community and to the principle of reproducible, collaborative research.
-
-The project’s historical case studies form the practical testing ground for these workflows. The four doctoral projects investigate distinct legal and administrative corpora — from medieval England and the Hanseatic cities of Northern Europe, to the early modern records of Bern and the sijill registers of Jerusalem. Together, they demonstrate how digital methods can uncover patterns of institutional practice and social interaction that are otherwise difficult to discern in premodern texts.
-
-This final conference in Bern marks both a conclusion and a beginning. It offers a platform for external experts to discuss the epistemological and methodological implications of digital workflows in the humanities, while giving the Flow doctoral researchers the opportunity to present their findings and reflect on the integration of machine learning in historical research. The different experts will engage in a discussion on the infrastructural, methodological, and data-driven foundations of scholarly work, with particular attention to the role of clearly structured digital workflows in an era of growing AI hype. To ensure targeted and transparent digital text practices, the papers explore key workflow components such as automated handwriting recognition, text recognition and processing, named entity recognition, and language modelling.
-
-Central questions include:
-
-<div class="question-grid">
-  <div class="question-card">What kinds of digital workflows exist, and how are they structured?</div>
-  <div class="question-card">At which stages of a research project can specific questions or tasks meaningfully be addressed through digital or automated methods?</div>
-  <div class="question-card">Which strategies support reproducibility and long-term usability of digital research?</div>
-  <div class="question-card">Which resources — both equipment and different expertises — are needed to design and implement digital workflows for a variety of digital tasks in historical research?</div>
-</div>
-
-By bringing a variety of digital perspectives together, the conference invites us to think about what it means to “work in flow” — to move between documents and algorithms, between human interpretation and machine learning — and how such movement can expand the horizons of historical inquiry. As a result of the conference, a joint publication will be submitted to the peer-reviewed series “Digital Humanities Research” (Bielefeld University Press).
-
-## Partners and supporters {#partners-supporters}
-
-<div class="partner-logos">
-  <img src="snsf_logo.jpg" alt="Swiss National Science Foundation (SNSF) logo" />
-  <img src="logo-unibe.png" alt="University of Bern logo" />
-  <a href="https://www.uni-bielefeld.de/fakultaeten/geschichtswissenschaft/abteilung/arbeitsbereiche/digital-history/">
-    <img src="uni-bielefeld-logo.png" alt="University of Bielefeld logo" />
-  </a>
-  <a href="https://fgho.eu/">
-    <img src="fgho_logo.svg" alt="FGHO logo" />
-  </a>
-</div>
-
-:::
-
-::: {#pills-program .tab-pane .fade role="tabpanel" aria-labelledby="pills-program-tab" tabindex="0"}
-
-## Conference program
-
-<p class="program-note">Schedule at a glance (subject to minor updates).</p>
-
-<div class="program-day">
-  <h3>Thursday, 11 June 2026</h3>
-  <table class="program-table">
-    <thead>
-      <tr>
-        <th>Time</th>
-        <th>Session</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>09:00</td>
-        <td>Welcome</td>
-      </tr>
-      <tr>
-        <td>09:15</td>
-        <td>Intro by the organizers<br>Serena, Silke, Angela, Tobias</td>
-      </tr>
-      <tr>
-        <td>09:45</td>
-        <td>Input by Developers<br>From Preprocessing to Text Recognition; from Language Modeling to Information Extraction — Dana &amp; Jonas<br>Malte Meister</td>
-      </tr>
-      <tr>
-        <td>11:00</td>
-        <td><span class="program-break">Coffee break</span></td>
-      </tr>
-      <tr>
-        <td>11:30</td>
-        <td>Text Recognition Pipelines — Michael Schonhardt<br>Melvin &amp; Christopher</td>
-      </tr>
-      <tr>
-        <td>13:00</td>
-        <td><span class="program-break">Lunch break</span></td>
-      </tr>
-      <tr>
-        <td>14:00</td>
-        <td>Named Entities — Maud Ehrmann<br>Dominic<br>Dana &amp; Silke</td>
-      </tr>
-      <tr>
-        <td>16:00</td>
-        <td><span class="program-break">Break</span></td>
-      </tr>
-      <tr>
-        <td>17:00</td>
-        <td>Barbara McGillivray</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="program-day">
-  <h3>Friday, 12 June 2026</h3>
-  <table class="program-table">
-    <thead>
-      <tr>
-        <th>Time</th>
-        <th>Session</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>09:15</td>
-        <td>Corpus &amp; Text Re-Use — Peter Verkinderen<br>Sefer — Inga</td>
-      </tr>
-      <tr>
-        <td>11:00</td>
-        <td><span class="program-break">Coffee break</span></td>
-      </tr>
-      <tr>
-        <td>11:30</td>
-        <td>LLM &amp; Final Discussion — Sarah Oberbirchler</td>
-      </tr>
-      <tr>
-        <td>14:00</td>
-        <td><span class="program-break">End of conference</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-::: { .program-day }
-### Thursday, 11 June 2026
-
-| Time  | Session |
-| --- | --- |
-| 09:00 | Welcome |
-| 09:15 | Intro by the organizers<br>Serena, Silke, Angela, Tobias |
-| 09:45 | Input by Developers<br>From Preprocessing to Text Recognition; from Language Modeling to Information Extraction — Dana & Jonas<br>Malte Meister |
-| 11:00 | <span class="program-break">Coffee break</span> |
-| 11:30 | Text Recognition Pipelines — Michael Schonhardt<br>Melvin & Christopher |
-| 13:00 | <span class="program-break">Lunch break</span> |
-| 14:00 | Named Entities — Maud Ehrmann<br>Dominic<br>Dana & Silke |
-| 16:00 | <span class="program-break">Break</span> |
-| 17:00 | Barbara McGillivray |
-{: .program-table}
-:::
-
-::: { .program-day }
-### Friday, 12 June 2026
-
-| Time  | Session |
-| --- | --- |
-| 09:15 | Corpus & Text Re-Use — Peter Verkinderen<br>Sefer — Inga |
-| 11:00 | <span class="program-break">Coffee break</span> |
-| 11:30 | LLM & Final Discussion — Sarah Oberbirchler |
-| 14:00 | <span class="program-break">End of conference</span> |
-{: .program-table}
-:::
-
-:::
-::::::::
