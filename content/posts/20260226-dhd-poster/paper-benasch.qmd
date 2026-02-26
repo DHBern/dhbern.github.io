@@ -1,0 +1,79 @@
+---
+title: "Nicht nur Namen und Orte: Warum historische Annotation mehr kann (und soll)"
+author:
+  - name: "Ismail Prada Ziegler"
+  - name: "Dominic Weber"
+date: 2026.02.26
+categories: []
+format:
+  html:
+    toc: true
+---
+
+**Prada Ziegler, Ismail**  
+ismail.prada@unibe.ch  
+Universität Bern, Schweiz  
+ORCID: 0000-0003-4229-8688
+
+**Weber, Dominic**  
+dominic.weber@unibe.ch  
+Universität Bern, Schweiz  
+ORCID: 0000-0002-9265-3388
+
+## Einleitung
+
+Annotationen in den Geschichtswissenschaften – zum Beispiel im Rahmen von Editionen – orientieren sich meist an einem generell zu erwartenden Minimum, welches benötigt wird, um Register für das jeweilige Korpus herzustellen (siehe z. B. Halter-Pernet et al., 2017–2020). Oder aber die Annotation zielt auf einen ganz spezifischen Forschungszweck ab, z. B. das Hervorheben von Wetterereignissen. Wir argumentieren, dass eine komplexere Annotation, welche mehr Informationen festhält, trotz des grösseren Arbeitsaufwandes gerechtfertigt sein kann.
+
+In diesem Rahmen stellen wir das Berner (früh-)neuhochdeutsche Annotationsschema (BeNASch) vor. Nach BeNASch werden nicht nur Referenzen auf bestimmte Entitäten wie Personen, Orte und Organisationen vermerkt, sondern durch einen verschachtelten Aufbau auch Informationen dazu, auf welche Weise jene Entitäten erwähnt und näher beschrieben werden, z. B. durch Namen, Beruf oder Lage. Zusätzlich ist BeNASch darauf ausgelegt, ebenfalls Beziehungs- und Ereignisannotationen zu ermöglichen, wenn diese gewünscht werden. Dementsprechend folgt es in seinen Grundzügen den ACE Guidelines.
+
+## Generelle Funktionsweise
+
+Die Entitätenannotation im Text kann in drei grobe Gruppen unterschieden werden: Referenzen, beschreibende Elemente und Werte.
+
+Eine Referenz konstituiert die Nennung einer Entität im Text. Hierbei wird die gesamte Nominalphrase als Nennung erfasst, z. B. „Herr Hans Studer, der Schneider am Gerbertor“ oder „das Haus in der Eisengasse gegenüber dem Brunnen“. Bei Referenzen wird zudem ihre Entitätenklasse festgehalten, z. B. „Person“.
+
+Beschreibende Elemente sind die Textspannen, welche die Entität näher beschreiben, im Schema grammatikalisch unterschieden in Kerne, Appositionen und Attribute. Für die oben genannten Beispiele wären „Hans Studer“ und „Haus“ Kerne, „der Schneider am Gerbertor“ eine Apposition und „in der Eisengasse gegenüber dem Brunnen“ ein Attribut. Appositionen wiederum enthalten selbst beschreibende Elemente: „der Schneider am Gerbertor“ enthält einen Kern „Schneider“ und ein Attribut „am Gerbertor“.
+
+Attribute enthalten häufig andere Referenzen. Praktischerweise können dadurch in der weiteren Verarbeitung des Texts Beziehungen zwischen den über- und untergeordneten Referenzen ausgelesen werden. Referenzen können auch andere Referenzen enthalten, wenn der Kern sich auf diese bezieht, z. B. in „die Witwe von Hans Studer“. Ähnlich wie in Attributen wird dadurch eine Beziehung impliziert, deren Art sich durch den Kern „Witwe“ herleiten lässt. Beschreibende Elemente erhalten eine Klassifikation, welche die Art der Beschreibung erläutert, z. B. „Beruf“ oder „Topographisch“.
+
+Werte umfassen schliesslich quantifizierbare Angaben wie Geldmengen oder Datumsangaben.
+
+## Praktische Anwendung
+
+Die verschachtelte Annotation erzeugt einen Mehraufwand, der sich nicht leugnen lässt. Mit der Software INCEpTION (Klie et al., 2018) lässt sich jedoch verschachtelte Annotation gut bewältigen und die Recommender, die einen Text bereits vorannotieren, können den Annotationsprozess beschleunigen. Im Rahmen der Arbeit am Schema findet sich auch eine Sammlung von Skripten, mit denen die exportierten Dateien aus INCEpTION praktisch nachbereitet und in andere Formate, z. B. Trainingsdaten für Machine Learning oder TEI-konforme XML, umgewandelt werden können.
+
+## Anwendungsbeispiele
+
+Das Schema kommt derzeit in den Projekten Ökonomien des Raums und The Flow zum Einsatz. Im Ökonomien des Raums-Projekt (Hodel et al., 2024) konnte bereits ein händisch annotiertes Korpus von über 800 Dokumenten produziert werden, auf dessen Basis KI-Modelle trainiert wurden, welche die automatische Annotation von über 70'000 weiteren Dokumenten ermöglichten (Prada Ziegler et al., 2025; Prada Ziegler, 2024a, 2024b). Das Schema bot in den Auswertungen Möglichkeiten, welche mit bisherigen Annotationspraktiken nicht möglich gewesen wären. So können z. B. Akteur:innen in den Dokumenten mitsamt ihrer Berufsbezeichnung erkannt werden, was Analysen ermöglicht, in welchen die Höhe von Liegenschaftspreisen oder Zinsobligationen nach Berufsgruppen verglichen werden. Auch die Informationen zu Zinsobligationen auf Liegenschaften konnten durch BeNASch in einer konsistenten Weise vermerkt werden (Hitz et al., 2024). Aber auch einfachere Auswertungen basierend auf gefundenen Nennungen bleiben mit BeNASch problemlos möglich (Hitz und Aeby, 2025).
+
+In The Flow wurden bereits je rund 250 Seiten aus den Berner Turmbüchern sowie aus Court Rolls des englischen Mittelalters manuell annotiert. Auch hier ist das Ziel, KI-Modelle zu trainieren, mit welchen auch das restliche Korpus verarbeitet werden kann. Historische Analysen mit dem Korpus stehen in diesem Fall noch aus, da sich das Projekt in der Phase der Datengenerierung befindet.
+
+Obwohl in den Turmbüchern ausschliesslich Entitäten und Relationen annotiert werden und bei den Court Rolls aufgrund der sprachlichen Anforderungen Anpassungen vorgenommen wurden, vereinfacht ein grundlegendes gemeinsames Schema die Interoperabilität und Wiederverwendbarkeit der Forschungsdaten. Dies bietet sowohl für die Geschichtswissenschaft als auch das Training von KI-Modellen erhebliche Vorteile.
+
+## Fußnoten
+
+1. ACE (Automatic Content Extraction) English Annotation Guidelines for Entities, https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-entities-guidelines-v5.6.6.pdf
+2. Das vollständige Schema kann unter https://dhbern.github.io/BeNASch/ aufgerufen werden.
+3. https://github.com/raykyn/benasch-postprocess
+4. Mehr Informationen zu den beiden Projekten sind unter https://dg.philhist.unibas.ch/de/bereiche/mittelalter/forschung/oekonomien-des-raums/ beziehungsweise https://www.flow-project.net/ zu finden.
+5. Sowohl ÖdR als auch The Flow verwenden dafür flairNLP, vgl. Akbik et al., 2019.
+
+## Bibliographie
+
+Aeby, Jonas, und Benjamin Hitz. 2025. „Bleibt die Kirche in der Stadt?“ *ArcGIS StoryMaps*. https://storymaps.arcgis.com/stories/34ef391bd4fa419cb82d488906608154 (zugegriffen: 12.12.2025).
+
+Akbik, Alan, Duncan Blythe, und Roland Vollgraf. 2018. „Contextual String Embeddings for Sequence Labeling“. In *Proceedings of the 27th International Conference on Computational Linguistics*, herausgegeben von Emily M. Bender, Leon Derczynski, und Pierre Isabelle. Association for Computational Linguistics. https://aclanthology.org/C18-1139/.
+
+Halter-Pernet, Colette, und Tobias Hodel. 2017–2020. *Digitale Edition Königsfelden. Kloster und Hofmeisterei Königsfelden: Urkunden und Akten, 1300–1662.* Bearbeitet von L. Barwitzki, S. Egloff, C. Halter-Pernet, F. Henggeler, T. Hodel, M. Nadig, A. Steinmann und S. Stettler. Herausgegeben von Simon Teuscher. https://koenigsfelden.sources-online.org (zugegriffen: 10.12.2025).
+
+Hitz, Benjamin, Ismail Prada Ziegler, und Aline Vonwiller. 2024. „From Record Cards to the Dynamics of Real Estate Transactions: Working with Automatically Extracted Information from Basel’s Historical Land Register, 1400–1700“. *Digital History Switzerland 2024 (DigiHistCH24)*, Universität Basel. https://doi.org/10.5281/zenodo.13907882.
+
+Hodel, Tobias, Lucas Burkart, Benjamin Hitz, Jonas Aeby, Ismail Prada Ziegler, und Aline Vonwiller. 2024. „Ökonomien des Raums: Ein historisches Findmittel digital denken“. *Digital Humanities im deutschsprachigen Raum 2024*, Universität Passau. https://doi.org/10.5281/zenodo.10698311.
+
+Klie, Jan-Christoph, Michael Bugert, Beto Boullosa, Richard Eckart de Castilho, und Iryna Gurevych. 2018. „The INCEpTION Platform: Machine-Assisted and Knowledge-Oriented Interactive Annotation“. *Proceedings of the 27th International Conference on Computational Linguistics: System Demonstrations*, Santa Fe. http://tubiblio.ulb.tu-darmstadt.de/106270/.
+
+Prada Ziegler, Ismail. 2024a. „Exploration of Event Extraction Techniques in Late Medieval and Early Modern Administrative Records“. *Proceedings of the Computational Humanities Research Conference 2024*, Aarhus, 761–71.
+
+Prada Ziegler, Ismail. 2024b. „What’s in an Entity? Exploring Nested Named Entity Recognition in the Historical Land Register of Basel (1400–1700).“ *DH Benelux 2024*, Leuven. https://doi.org/10.5281/zenodo.11500543.
+
+Prada Ziegler, Ismail, Benjamin Hitz, Katrin Fuchs, Aline Vonwiller, und Jonas Aeby. 2025. „The Basel Land Records Ground Truth: An Annotated Dataset for Information Extraction on German-Language Administrative Records.“ Version 0.1. Zenodo. https://doi.org/10.5281/zenodo.16919653.

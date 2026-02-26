@@ -131,7 +131,7 @@ We recommend using **GitHub Codespaces** for a quick and reproducible setup.
    </div>
 
 <details>
-<summary>👩‍💻 Setup Locally (Advanced Users)</summary>
+  <summary>👩‍💻 Setup Locally (Advanced Users)</summary>
 
 ### Prerequisites
 
