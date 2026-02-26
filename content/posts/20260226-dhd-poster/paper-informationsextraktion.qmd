@@ -1,0 +1,73 @@
+---
+title: "Informationsextraktion serieller Quellen"
+author:
+  - name: "Jan Blarer"
+  - name: "Tobias Hodel"
+  - name: "Katarina Matthes"
+date: 2026.02.26
+categories: []
+format:
+  html:
+    toc: true
+---
+
+**Blarer, Jan**  
+jan.blarer@unibe.ch  
+Universität Bern, Walter Benjamin Kolleg, Schweiz
+
+**Hodel, Tobias**  
+tobias.hodel@unibe.ch  
+Universität Bern, Walter Benjamin Kolleg, Schweiz  
+ORCID: 0000-0002-2071-6407
+
+**Matthes, Katarina**  
+katarina.matthes@iem.uzh.ch  
+Universität Zürich, Institute of Evolutionary Medicine, Schweiz  
+ORCID: 0000-0002-5263-3542
+
+Das Poster demonstriert, wie serielle Quellen vom Digitalisat in weiterverarbeitbare Daten umgewandelt werden können. Anhand der Sterberegister der Stadt Zürich werden Ansätze der Computer Vision und Automatic Text Recognition mit Large Language Models kombiniert, um ohne manuelle Korrektur tabellarische Daten zu produzieren. Das Poster zeigt die technischen Ansätze und den aktuellen Stand eines konkreten Projekts. Im Einsatz evaluiert wurden Modelle der Transkribus Plattform sowie offene YOLO- und TrOCR-Modelle und LLMs, die von OpenAI bereitgestellt werden. Es stehen damit geschlossene und offene Umsetzungen zur Verfügung.
+
+Serielle Quellen wie Kirchenbücher und Zivilstandsregister (Tauf-, Ehe- und Sterberegister) sind interessante, aber schwierig zu bearbeitende Quellen. Am Beispiel der Zürcher Sterberegister des späten 19. Jahrhunderts zeigen wir den aktuellen Stand der Informationsextraktion serieller Quellen. Das Poster stellt unseren Workflow zur automatisierten Extraktion aus diesen historischen Materialien vor. Diese Zielsetzung verbindet Text- und Datenebene, um aus unstrukturierten historischen Texten (als Scans) via ATR (Automatic Text Recognition) strukturierte Daten (in Form von Tabellen) zu erzeugen. Dadurch wird es möglich, die Quellen quantitativ zu analysieren.
+
+## 1. Material und Herausforderungen
+
+Die Sterberegister der Stadt Zürich aus der zweiten Hälfte des 19. Jahrhunderts lagern heute im Stadtarchiv Zürich und wurden bislang nur auszugsweise untersucht. In diesen Büchern wurden über Jahrzehnte alle Todesfälle mit Details wie Namen, Datum, Alter, Herkunft und teils Todesursache verzeichnet. Mehrere tausend Einträge sind aktuell in Bearbeitung, eine genaue Bezifferung ist noch nicht möglich. Technische Herausforderungen stellen die Kombination von Layoutinformation und Text dar, die in tabellenförmige Auswertungen überführt werden sollen.
+
+## 2. Methodik: Toolchain für ATR und Textextraktion
+
+Die folgenden vier Schritte bilden aktuell den Workflow des Projekts.
+
+1. **Layout- und Zeilensegmentierung:** Mittels eines spezifisch trainierten Modells zur Identifikation von Textregionen werden die einzelnen Einträge separiert und gleichzeitig in einen „Namens-“ und einen „Textteil“ aufgeteilt. Als Tests wurden dafür Transkribus (Mühlberger, Günter u. a. 2014) und ein sogenanntes Fields-Modell sowie ein eigens erstelltes YOLO-Modell (Publikation in Vorbereitung) trainiert; beides wurde mit 203 Seiten Trainingsmaterial erstellt (Mean Average Precision von 85.65%; siehe Abbildung 1). Anfänglich wurden auch ein Tabellenmodell sowie ein feingliedrigeres Fields-Modell (= ein auf visuelle Faktoren trainiertes Modell) trainiert, welche die Informationen rein aufgrund der visuellen Informationen separieren sollten. Während das Tabellenmodell komplett scheiterte, war das Fields-Modell einigermassen erfolgreich, stellte sich aber als zu wenig robust heraus, falls Inhalte an falscher Stelle eingetragen wurden.  
+   *Abbildung 1: Dokument mit markierten Layoutinformationen. Screenshot aus Transkribus. Basis: Selbsttrainiertes Fields Modell. Digitalisat Stadtarchiv Zürich. Jahrgang 1876. Seite 1. Eintrag Nr. 1.*
+
+2. **Texterkennung (ATR):** Für die eigentliche Erkennung der hand- wie auch maschinengeschriebenen Daten nutzen wir zwei grosse Modelle, einerseits mit der Benennung Text Titan I bis, welches Transkribus auf Basis eines Transformer-OCR-Modells (TrOCR) anbietet (Li u. a. 2021). Andererseits wurde das TrOCR-Modell „Kurrent“ der Universität Bern (Widmer und Hodel, 2023) eingesetzt. Die Kombination von ATR mit einem grossen Sprachmodell (Basis von TrOCR ist BERT, Devlin u. a. 2019) ermöglicht eine hohe Erkennungsgenauigkeit ohne eigenes Fine-Tuning, womit eine Anpassung an die unterschiedlichen Schreiberhände nicht notwendig ist (siehe Abbildung 2).  
+   *Abbildung 2: Quelleneintrag nach Layout- und Zeilensegmentierung und Texterkennung. Zu sehen ist hier, dass die Zeilensegmentierung die innere Ordnung des Quelleneintrags ins Durcheinander bringt. Screenshot aus Transkribus.*
+
+3. **Datenextraktion und Post-Processing:** Nachdem der Text jeder Seite erkannt wurde, muss aus dem fortlaufenden Fliesstext der strukturierte Inhalt jedes einzelnen Eintrags extrahiert werden. In einem ersten Schritt rekonstruieren wir mithilfe von gpt-4-turbo von OpenAI die innere Logik des extrahierten Fliesstexts. Dieser Schritt ist nötig, da die Zeilensegmentierung von Transkribus den originalen Aufbau des Fliesstexts ignoriert. Eine einheitliche Ordnung aller Einträge ist zudem zentral, damit das Python-Skript zur Extraktion von elementaren Teilen wie Name, Adresse, Todesursache reibungslos funktioniert. Jeder zu extrahierende Textteil wird innerhalb des Textes mittels festdefinierter Suchwörter (mit wenigen Varianten), d. h. der jeweils unmittelbar vor- bzw. nachgestellten Begriffe, identifiziert, extrahiert und in einem CSV abgelegt.
+
+4. **Validierung und Korrektur:** Um allfällige Fehler in der Textrecognition abzufangen, lassen wir erneut ein LLM über die extrahierten Texte laufen mit der Aufgabe, Rechtschreibfehler gängiger Wörter zu korrigieren. Die automatisch erkannten Daten werden stichprobenartig mit den Originalen verglichen, um Fehlerquoten für ATR und Extraktion zu ermitteln. Gegebenenfalls werden Fehlklassifikationen durch das Nachtraining der Modelle oder regelbasierte Korrekturen verbessert. Das Poster wird hier z. B. zeigen, wie häufig Personennamen oder Datumsangaben falsch erkannt wurden und wie solche Fehler mit den gewählten Tools minimiert werden können (siehe Abbildung 3).  
+   *Abbildung 3: Der Quelleneintrag als CSV nach Segmentierung, Texterkennung, Datenextraktion und Post-Processing. Auszug aus einem Band. Screenshot aus Visual Studio Code.*
+
+## 3. Erste Ergebnisse und Ausblick
+
+Obwohl das Projekt noch im Gange ist, lassen sich bereits einige vorläufige Ergebnisse skizzieren. Zum einen zeigt sich, dass die Kombination aus spezialisierter ATR und LLM-gestütztem Post-Processing sehr hohe Automatisierungsansätze erlaubt. Der manuelle Aufwand reduziert sich drastisch, da CSV hocheffizient auf Fehler durchsucht werden können. Gleichzeitig kann auf der Datenbasis quantitativ und qualitativ weitergearbeitet werden.
+
+Während die kommerziellen Systeme (Transkribus und OpenAI) geschlossene Systeme sind, die sich bei der grossen Menge an zu bearbeitenden Daten doch beträchtlich aufsummieren (pro Seite aktuell ca. 80 Cent), war die Nutzung von Open-Source-Tools ein Desiderat, um neben der finanziellen Entlastung den interessierten Forschenden die Workflows zur Verfügung zu stellen.
+
+Aktuell werden LLM-Implementationen mittels vLLM (Kwon u. a. 2023) getestet. Ausserdem soll der vorgestellte Workflow publiziert und dokumentiert werden (die Publikation via GitHub ist in Vorbereitung).
+
+## Bibliografie
+
+Clérice, Thibault. 2022. „You Actually Look Twice At It (YALTAi): Using an Object Detection Approach Instead of Region Segmentation within the Kraken Engine“. *arXiv* 2207.11230.
+
+Devlin, Jacob, Ming-Wei Chang, Kenton Lee, und Kristina Toutanova. 2019. „BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding“. *arXiv* 1810.04805.
+
+Kiessling, Benjamin. 2019. „Kraken - an Universal Text Recognizer for the Humanities“. Conference paper presented at DH2019, Utrecht. *Digital Humanities 2019 Conference Papers*.
+
+Kwon, Woosuk, Zhuohan Li, Siyuan Zhuang, u. a. 2023. „Efficient Memory Management for Large Language Model Serving with PagedAttention“. *arXiv* 2309.06180.
+
+Li, Minghao, Tengchao Lv, Lei Cui, u. a. 2021. „TrOCR: Transformer-Based Optical Character Recognition with Pre-Trained Models“. *arXiv* 2109.10282.
+
+Mühlberger, Günter, Kahle, Philip, und Colutto, Sebastian. 2014. „Handwritten Text Recognition (HTR) of Historical Documents as a Shared Task for Archivists, Computer Scientists and Humanities Scholars: The Model of a Transcription & Recognition Platform (TRP).“ *HistoInformatics 2014*.
+
+Widmer, Jonas, und Tobias Hodel. 2023. „Dh-Unibe/Trocr-Kurrent · Hugging Face“. Zugegriffen 4. Juli 2023. https://huggingface.co/dh-unibe/trocr-kurrent.
