@@ -35,14 +35,12 @@ graph TD
 _Diagram: Overview of content domains for the public site and official university site._
 
 - Content at **[https://dhbern.github.io/](https://dhbern.github.io/)** includes:
-
   - 📰 News and blog posts
   - 📅 Events
   - 🧪 Projects
   - 🛠 Services
 
 - The official DH Bern university pages at **[https://www.dh.unibe.ch/](https://www.dh.unibe.ch/)** cover:
-
   - 📚 Study programs
   - 👥 Team information
     - ➤ Changes to the team page are made via [this Office form](https://forms.office.com/Pages/ResponsePage.aspx?id=ejgA1C8h6kOsf3eqEteXfhgnFcqTSVtNvO8z2rg4-SZUQlBGMUFZOFQyWElFWk5JRUpTWUdNSFY5Ty4u) (contact: Dominik Kilchmann).
@@ -113,7 +111,6 @@ We recommend using **GitHub Codespaces** for a quick and reproducible setup.
 
 3. Select the **“Codespaces”** tab and click **“Create codespace on `main`”**.
    GitHub will now build a container that includes:
-
    - ✅ Node.js (via `npm`)
    - ✅ Python with `uv`
    - ✅ R with `renv`

@@ -18,8 +18,8 @@ jobs:
   lint:
     name: Lint with Prettier
     runs-on: ubuntu-24.04
-    env:
-      NPM_CONFIG_USERCONFIG: ${{ runner.temp }}/.npmrc
+    #    env:
+    #      NPM_CONFIG_USERCONFIG: ${{ runner.temp }}/.npmrc
 
     steps:
       - name: Check out repository
@@ -32,8 +32,9 @@ jobs:
 
       - name: Configure npm registry
         run: |
-          echo "registry=https://registry.npmjs.org/" > "$NPM_CONFIG_USERCONFIG"
-          echo "always-auth=false" >> "$NPM_CONFIG_USERCONFIG"
+          echo "registry=https://registry.npmjs.org/" > "$RUNNER_TEMP/.npmrc"
+          echo "always-auth=false" >> "$RUNNER_TEMP/.npmrc"
+          echo "NPM_CONFIG_USERCONFIG=$RUNNER_TEMP/.npmrc" >> $GITHUB_ENV
 
       - name: Install dependencies
         run: npm install
@@ -60,7 +61,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           # To install LaTeX to build PDF book outputs, uncomment below
-          tinytex: true
+          # tinytex: true
         # uncomment below and fill to pin a version
         # version: SPECIFIC-QUARTO-VERSION-HERE
 
