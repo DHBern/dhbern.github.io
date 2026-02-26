@@ -19,7 +19,7 @@ jobs:
     name: Lint with Prettier
     runs-on: ubuntu-24.04
     env:
-      NPM_CONFIG_USERCONFIG: ${RUNNER_TEMP}/.npmrc
+      NPM_CONFIG_USERCONFIG: ${{ runner.temp }}/.npmrc
 
     steps:
       - name: Check out repository
