@@ -22,13 +22,19 @@ Das Poster argumentiert für reichhaltigere Annotationen in den Geschichtswissen
 
 ## Poster previews
 
-### Benasch poster
-
-[![](benasch_poster_dhd_preview.jpg){fig-alt="Preview image of the Benasch DHD 2026 poster"}](benasch_poster_dhd.jpg)
-
-### Wien Sterbedaten poster
+::: {.poster-grid}
+::: {.poster-card}
+### Informationsextraktion serieller Quellen
 
 [![](dhd2026_Poster_Wien_Sterbedaten_preview.png){fig-alt="Preview image of the DHD 2026 Wien Sterbedaten poster"}](Poster_Wien_Sterbedaten.png)
+:::
+
+::: {.poster-card}
+### Nicht nur Namen und Orte: Warum historische Annotation mehr kann (und soll)
+
+[![](benasch_poster_dhd_preview.jpg){fig-alt="Preview image of the BeNASch DHD 2026 poster"}](benasch_poster_dhd.jpg)
+:::
+:::
 
 ::: {.callout-note collapse="true" title="Full poster paper (expand)"}
 **Informationsextraktion serieller Quellen.**
