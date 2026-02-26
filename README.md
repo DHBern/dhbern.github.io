@@ -133,30 +133,31 @@ We recommend using **GitHub Codespaces** for a quick and reproducible setup.
 <details>
   <summary>👩‍💻 Setup Locally (Advanced Users)</summary>
 
-  ### Prerequisites
+### Prerequisites
 
-  - [Node.js](https://nodejs.org/en/download/)
-  - [R](https://cran.r-project.org/) and Rtools (on Windows)
-  - [uv (Python manager)](https://github.com/astral-sh/uv#installation)
-  - [Quarto](https://quarto.org/docs/get-started/)
+- [Node.js](https://nodejs.org/en/download/)
+- [R](https://cran.r-project.org/) and Rtools (on Windows)
+- [uv (Python manager)](https://github.com/astral-sh/uv#installation)
+- [Quarto](https://quarto.org/docs/get-started/)
 
-  > _Note: `uv` installs and manages the correct Python version automatically._
+> _Note: `uv` installs and manages the correct Python version automatically._
 
-  ### Setup Steps
+### Setup Steps
 
-  ```bash
-  # 1. Install Node.js dependencies
-  npm install
+```bash
+# 1. Install Node.js dependencies
+npm install
 
-  # 2. Setup Python environment
-  uv sync
+# 2. Setup Python environment
+uv sync
 
-  # 3. Setup R environment
-  Rscript -e 'install.packages("renv"); renv::restore()'
+# 3. Setup R environment
+Rscript -e 'install.packages("renv"); renv::restore()'
 
-  # 4. Preview documentation
-  uv run quarto preview
-  ```
+# 4. Preview documentation
+uv run quarto preview
+```
+
 </details>
 
 ## 🛠 Usage
