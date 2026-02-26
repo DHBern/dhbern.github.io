@@ -4,7 +4,7 @@ author: Digital Humanities
 date: 2026.02.26
 image: benasch_poster_dhd_preview.jpg
 image-alt: "Preview of the DHD 2026 poster by Benasch"
-categories: conference, poster
+categories:
 - Post
 ---
 
