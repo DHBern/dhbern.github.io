@@ -1,5 +1,6 @@
 ---
-title: "Blog"
+title: "Digital Humanities Bern"
+title-block: false
 listing:
   - id: blog
     contents: content
@@ -30,15 +31,34 @@ listing:
       categories: Project
 ---
 
-::: {#blog}
+::: {.home-hero}
+# Digital Humanities Bern
+
+We are a research and teaching unit at the University of Bern, connecting humanities scholarship with digital methods. We support projects, services, and training that make cultural data accessible, reusable, and impactful.
+
+::: {.hero-actions}
+[Explore Projects](content/projects/index.qmd){.hero-cta .hero-cta-primary}
+[View Services](content/services/index.qmd){.hero-cta .hero-cta-secondary}
+:::
 :::
 
+::: {.home-section}
+## News & Updates
+
+::: {#blog}
+:::
+:::
+
+::: {.home-section .is-alt}
 ## Events
 
 ::: {#events}
 :::
+:::
 
+::: {.home-section}
 ## Projects
 
 ::: {#projects}
+:::
 :::
