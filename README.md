@@ -35,6 +35,7 @@ graph TD
 _Diagram: Overview of content domains for the public site and official university site._
 
 - Content at **[https://dhbern.github.io/](https://dhbern.github.io/)** includes:
+
   - 📰 News and blog posts
   - 📅 Events
   - 🧪 Projects
@@ -111,6 +112,7 @@ We recommend using **GitHub Codespaces** for a quick and reproducible setup.
 
 3. Select the **“Codespaces”** tab and click **“Create codespace on `main`”**.
    GitHub will now build a container that includes:
+
    - ✅ Node.js (via `npm`)
    - ✅ Python with `uv`
    - ✅ R with `renv`
@@ -162,13 +164,13 @@ uv run quarto preview
 
 ## 🛠 Usage
 
-Check file formatting:
+Lint files (Prettier check):
 
 ```bash
 npm run check
 ```
 
-Format all files:
+Format all files (Prettier):
 
 ```bash
 npm run format

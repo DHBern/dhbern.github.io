@@ -70,7 +70,7 @@ By bringing a variety of digital perspectives together, the conference invites u
 ::: {.partner-logos}
 |  |  |  |  |
 | --- | --- | --- | --- |
-| ![Swiss National Science Foundation (SNSF) logo](snsf_logo.jpg) | ![University of Bern logo](logo-unibe.png) | [![University of Bielefeld logo](uni-bielefeld-logo.png)](https://www.uni-bielefeld.de/fakultaeten/geschichtswissenschaft/abteilung/arbeitsbereiche/digital-history/) | [![FGHO logo](fgho_logo.svg)](https://fgho.eu/) |
+| ![Swiss National Science Foundation (SNSF) logo](snsf_logo.jpg) | ![University of Bern logo](logo-unibe.png) | [![University of Bielefeld logo](uni-bielefeld-logo.png)](https://www.uni-bielefeld.de/fakultaeten/geschichtswissenschaft/abteilung/arbeitsbereiche/digital-history/) | [![FGHO logo](FGHO_Logo.jpg)](https://fgho.eu/) |
 :::
 
 ## Conference program
@@ -90,7 +90,7 @@ Schedule at a glance (subject to minor updates).
 | 11:00 | *Coffee break* |
 | 11:30 | Text Recognition Pipelines — Michael Schonhardt (TU Darmstadt); Melvin Wilde & Christopher Kuhlman |
 | 13:00 | *Lunch break* |
-| 14:00 | Named Entities — Maud Ehrmann (EPFL); Dominic; Dana Meyer & Silke Schwandt |
+| 14:00 | Named Entities — Maud Ehrmann (EPFL); Dominic Weber; Dana Meyer & Silke Schwandt |
 | 16:00 | *Break* |
 | 17:00 | Barbara McGillivray (King's College London) |
 :::
