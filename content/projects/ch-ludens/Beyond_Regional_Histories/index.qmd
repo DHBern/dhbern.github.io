@@ -8,8 +8,7 @@ categories:
 - Confoederatio Ludens
 location: Monte Verità
 author: 
-  - name: Dominik Kilchmann
-    orcid: 0009-0001-6655-401X
+  - name: CH Ludens
     email: dominik.kilchmann@unibe.ch
     role: author
 ---
