@@ -1,5 +1,6 @@
 ---
 title: Bit Philology
+image: "floppy.png"
 status: active
 type: Research project
 categories:
@@ -7,7 +8,7 @@ categories:
 - Project
 ---
 
-*Today, much literature is created digitally. Literary archives, which preserve the manuscripts of writers, increasingly include digital documents (known as ‘born-digital’), which pose challenges for their study. The Bit Philology project will propose innovative solutions for describing, editing and analysing digital literary archives, while meeting the scientific and societal needs of our digital age.*
+Today, much literature is created digitally. Literary archives, which preserve the manuscripts of writers, increasingly include digital documents (known as ‘born-digital’), which pose challenges for their study. The Bit Philology project will propose innovative solutions for describing, editing and analysing digital literary archives, while meeting the scientific and societal needs of our digital age.
 
 Philology is a discipline that is thousands of years old. Textual scholars have studied and continue to study papyri, manuscripts, epigraphic and printed sources, and have developed methodological tools to work with texts preserved in different forms and on different media. But what happens when a text is born digital? A growing number of born-digital texts are currently being archived, including documents of historical importance and literary material. This project focuses on the latter, the born-digital literary archive, as a source for the philology of the present and the future.
 
