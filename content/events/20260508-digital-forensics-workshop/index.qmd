@@ -1,8 +1,8 @@
 ---
-title: Digital Forensics Workshop
-subtitle: Organized by the Bit Philology project team
+title: Digital Forensics in the Humanities
+subtitle: Workshop organized by the Bit Philology project team
 event-date: "2026-05-08"
-date: "2026-03-09"
+date: "2026-03-18"
 categories:
 - Event
 - Bit Philology
@@ -57,7 +57,7 @@ Logistics
 
 ### 8 May 2026, University of Bern, Switzerland
 
-![](floppy.png){fig-align="center"}
+![](floppy_150dpi.png){fig-align="center"}
 
 Welcome to our event website! Here, you will find:
 
@@ -159,12 +159,12 @@ details p {
     <tr>
       <td rowspan="4">10:45</td>
       <td>Elena Barchielli, Simon Willemin and Elena Spadini</td>
-      <td>From electronic word processors to computers: Experiences with the archives of Swiss writers</td>
+      <td>From Electronic Word Processors to Computers: Experiences with the Archives of Swiss writers</td>
       <td>20'</td>
     </tr>
     <tr>
       <td>Emmanuela Carbé and Mariangela Giglio</td>
-      <td>Authors' floppy disks: The case of Franco Fortini</td>
+      <td>Authors' Floppy Disks: The Case of Franco Fortini</td>
       <td>20'</td>
     </tr>
     <tr>
