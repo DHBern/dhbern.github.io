@@ -114,9 +114,9 @@ details p {
 
 
 <p style="text-align:left;">
-  **Date:** Friday 8 May 2026<br>
-  **Location:** University of Bern, Unitobler F-112<br>
-  **Program:** [PDF version](20260508_DigitalForensicsWorkshop_Program.pdf)
+  <strong>Date:</strong> Friday 8 May 2026<br>
+  <strong>Location:</strong> University of Bern, Unitobler F-112<br>
+  <strong>Program:</strong> [PDF version](20260508_DigitalForensicsWorkshop_Program.pdf)
 </p>
 
 <table>
