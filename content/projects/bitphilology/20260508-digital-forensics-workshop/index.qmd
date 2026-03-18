@@ -9,7 +9,7 @@ categories:
 location: University of Bern
 author: 
   - name: Bit Philology
-    email: elena.barchielli@unibe.ch
+    email: elena.spadini@unibe.ch
     role: author
 ---
 
@@ -71,7 +71,7 @@ This workshop is a registration‑only event. If you are interested in participa
 
 :::
 
-::: {#pills-program .tab-pane .fade role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"}
+::: {#pills-program .tab-pane .fade role="tabpanel" aria-labelledby="pills-program-tab" tabindex="0"}
 
 <h2 style="text-align:center;">Workshop "Digital Forensics in the Humanities"<br>Program</h2>
 
@@ -106,17 +106,8 @@ details p {
   color: #555; /* optional, etwas dezenter */
   margin-top: 6px;
 }
-
-
-  /* Helle Hintergrundfarben für einzelne Zeilen */
   .highlight-gray {
-    background-color: #F0F0F0; /* sehr helles Blau */
-  }
-  .highlight-darkcolor {
-    background-color: #ffffff; */ #FAE6A3;  */
-  }
-   .highlight-lightcolor {
-    background-color: #fffff; */ #fff9e6; */
+    background-color: #F0F0F0;
   }
 </style>
 
@@ -163,7 +154,7 @@ details p {
     </tr>
     <tr class="highlight-gray">
       <td>10:15</td>
-      <td colspan="4" style="text-align: center;">Coffee Break (30')</td>
+      <td colspan="3" style="text-align: center;">Coffee Break (30')</td>
     </tr>
     <tr>
       <td rowspan="4">10:45</td>
@@ -176,6 +167,7 @@ details p {
       <td>Authors' floppy disks: The case of Franco Fortini</td>
       <td>20'</td>
     </tr>
+    <tr>
       <td>Kristel Roder</td>
       <td>Digitale Archivierung im Schweizerischen Literaturarchiv – aktueller Stand und Vergehensweisen</td>
       <td>20'</td>
