@@ -1,0 +1,240 @@
+---
+title: Digital Forensics in the Humanities
+subtitle: Workshop organized by the Bit Philology project team
+event-date: "2026-05-08"
+date: "2026-03-18"
+categories:
+- Event
+- Bit Philology
+location: University of Bern
+author: 
+  - name: Bit Philology
+    email: elena.spadini@unibe.ch
+    role: author
+---
+
+
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+
+<li class="nav-item" role="presentation">
+
+<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+
+Home
+
+</button>
+
+</li>
+
+<li class="nav-item" role="presentation">
+
+<button class="nav-link" id="pills-program-tab" data-bs-toggle="pill" data-bs-target="#pills-program" type="button" role="tab" aria-controls="pills-program" aria-selected="false">
+
+Program
+
+</button>
+
+</li>
+
+<li class="nav-item" role="presentation">
+
+<button class="nav-link" id="pills-guide-tab" data-bs-toggle="pill" data-bs-target="#pills-guide" type="button" role="tab" aria-controls="pills-guide" aria-selected="false">
+
+Logistics
+
+</button>
+
+</li>
+
+</ul>
+
+:::::::: {#pills-tabContent .tab-content}
+::: {#pills-home .tab-pane .fade .show .active role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"}
+
+## Welcome
+
+# Workshop "Digital Forensics in the Humanities"
+
+### 8 May 2026, University of Bern, Switzerland
+
+![](floppy_150dpi.png){fig-align="center"}
+
+Welcome to our event website! Here, you will find:
+
+- <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-program-tab')).show(); return false;">Program</a>
+- <a href="#" onclick="new bootstrap.Tab(document.getElementById('pills-guide-tab')).show(); return false;">Logistics</a>
+
+This workshop is organized in the context of the [Bit Philology](https://dhbern.github.io/content/projects/bitphilology) project, a project funded by the [Swiss National Science Foundation (SNSF)](https://www.snf.ch/en).
+
+This workshop is a registration‑only event. If you are interested in participating, please [contact us](mailto:elena.spadini@unibe.ch) to register.
+
+
+:::
+
+::: {#pills-program .tab-pane .fade role="tabpanel" aria-labelledby="pills-program-tab" tabindex="0"}
+
+<h2 style="text-align:center;">Workshop "Digital Forensics in the Humanities"<br>Program</h2>
+
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    text-align: left;
+  }
+  details {
+    margin: 0;
+  }
+  summary {
+    cursor: pointer;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+  details summary {
+  font-weight: 400 !important; /* "normal" mit !important zum Überschreiben */
+  color: #333; /* optional, etwas weniger kontrastreich */
+}
+
+details p {
+  font-weight: 300; /* leichter als normal */
+  color: #555; /* optional, etwas dezenter */
+  margin-top: 6px;
+}
+  .highlight-gray {
+    background-color: #F0F0F0;
+  }
+</style>
+
+
+
+<p style="text-align:left;">
+  <strong>Date:</strong> Friday 8 May 2026<br>
+  <strong>Location:</strong> University of Bern, Unitobler F-112<br>
+  <strong>Program:</strong> [PDF version](20260508_DigitalForensicsWorkshop_Program.pdf)
+</p>
+
+<table>
+  <thead>
+    <tr class="highlight-gray">
+      <th>Time</th>
+      <th>Speaker</th>
+      <th>Title</th>
+      <th>Duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>09:00</td>
+      <td></td>
+      <td>Welcome</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>09:10</td>
+      <td></td>
+      <td>Introduction</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2">09:15</td>
+      <td>Bruce Nikkel</td>
+      <td>Digital Forensics and Vintage Computing</td>
+      <td>40'</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Q&A</td>
+      <td>20'</td>
+    </tr>
+    <tr class="highlight-gray">
+      <td>10:15</td>
+      <td colspan="3" style="text-align: center;">Coffee Break (30')</td>
+    </tr>
+    <tr>
+      <td rowspan="4">10:45</td>
+      <td>Elena Barchielli, Simon Willemin and Elena Spadini</td>
+      <td>From Electronic Word Processors to Computers: Experiences with the Archives of Swiss writers</td>
+      <td>20'</td>
+    </tr>
+    <tr>
+      <td>Emmanuela Carbé and Mariangela Giglio</td>
+      <td>Authors' Floppy Disks: The Case of Franco Fortini</td>
+      <td>20'</td>
+    </tr>
+    <tr>
+      <td>Kristel Roder</td>
+      <td>Digitale Archivierung im Schweizerischen Literaturarchiv – aktueller Stand und Vergehensweisen</td>
+      <td>20'</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Q&A</td>
+      <td>45'</td>
+    </tr>
+    <tr class="highlight-gray">
+      <td>12:30</td>
+      <td colspan="3" style="text-align: center;">Lunch break (90')</td>
+    </tr>
+    <tr>
+      <td rowspan="3">14:05</td>
+      <td>Moritz Feichtinger</td>
+      <td>Levels, Limits and Ethics of Forensic Approaches in the Social Sciences and Humanities</td>
+      <td>20'</td>
+    </tr>
+    <tr>
+      <td>Moritz Mähr</td>
+      <td>Manuals as Forensic Evidence: Reconstructing Digital Systems and Administrative Practice</td>
+      <td>20'</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Q&A</td>
+      <td>30'</td>
+    </tr>
+    <tr class="highlight-gray">
+      <td>15:15</td>
+      <td colspan="3" style="text-align: center;">Coffee Break (30')</td>
+    </tr>
+    <tr>
+      <td >15:45</td>
+      <td></td>
+      <td>Discussion</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td >16:30</td>
+      <td></td>
+      <td>Visit to the GameLab</td>
+      <td></td>
+    </tr>
+    <tr class="highlight-gray">
+      <td>17:00</td>
+      <td colspan="3" style="text-align: center;">Aperitif</td>
+    </tr>
+  </tbody>
+</table>
+:::
+
+
+::: {#pills-guide .tab-pane .fade role="tabpanel" aria-labelledby="pills-guide-tab" tabindex="0"}
+
+## Logistics
+
+### Getting to the Workshop location
+
+From Bern train station you can take the elevator directly from the platforms to the "Grosse Schanze" and then follow the map to Unitobler. The workshop will take place on the lower ground floor at University of Bern in [Unitobler, Lerchenweg 36](https://www.google.com/maps/place/Lerchenweg+36,+3012+Bern), Room F-112.
+
+
+### Contact
+
+Feel free to [contact us](mailto:elena.spadini@unibe.ch) if you have any questions.
+
+
+:::
+::::::::
