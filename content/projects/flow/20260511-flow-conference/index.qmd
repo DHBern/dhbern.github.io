@@ -2,7 +2,7 @@
 title: "The FLOW Conference"
 subtitle: "From Deep Learning to Digital Analysis and their Role in the Humanities"
 event-date: "2026-06-11"
-date: "2026-02-12"
+date: "2026-06-11"
 categories:
   - Event
   - Flow
@@ -100,7 +100,7 @@ Schedule at a glance (subject to minor updates).
 
 | Time  | Session |
 | --- | --- |
-| 09:15 | Corpus & Text Re-Use — TBD; Sefer Korkmaz & Inga Lange |
+| 09:15 | Corpus & Text Re-Use — session with Sefer Korkmaz & Inga Lange |
 | 11:00 | *Coffee break* |
 | 11:30 | LLM & Final Discussion — Sarah Oberbirchler |
 | 14:00 | *End of conference* |

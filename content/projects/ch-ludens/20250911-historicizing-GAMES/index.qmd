@@ -383,7 +383,7 @@ details p {
     </tr>
     <tr class="highlight-lightyellow">
       <td>30'</td>
-      <td>Activity (TBD)</td>
+      <td>Interactive activity</td>
       <td>Room 203/205, Uni Bern</td>
     </tr>
     <tr class="highlight-lightyellow">

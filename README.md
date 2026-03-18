@@ -203,7 +203,7 @@ This project is maintained by [@DHBern](https://github.com/DHBern). We encourage
 
 ## 🗺 Roadmap
 
-TBA
+Upcoming priorities are tracked through the issue tracker and ongoing site development work.
 
 ## 🤝 Contributing
 
