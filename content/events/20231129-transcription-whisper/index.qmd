@@ -2,7 +2,7 @@
 title: "Transcription & Data Archiving Workshop"
 subtitle: "Whisper AI on UBELIX and archiving with SWISSUbase"
 event-date: "2023-11-29"
-date: "2025-12-29"
+date: "2023-11-29"
 categories:
   - Event
 location: "Unitobler, F-107 (University of Bern)"
@@ -27,4 +27,3 @@ Place: Unitobler, F-107 (Bern)
 
 ## Downloads
 - [Download Workshop_PosterDigi-Ling_HS23_corr_ger.pdf](Workshop_PosterDigi-Ling_HS23_corr_ger.pdf){download}
-
