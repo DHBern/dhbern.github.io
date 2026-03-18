@@ -2,7 +2,7 @@
 title: "Biased Data, Models, and Algorithms"
 subtitle: "Perspectives from data science on bias, representation, and responsible ML"
 event-date: "2022-10-31"
-date: "2025-12-29"
+date: "2022-10-31"
 categories:
   - Event
 location: "Mittelstrasse 43, Room 320, University of Bern"
@@ -25,4 +25,3 @@ The event is part of the series “Critical Perspectives on Digitization”.
 
 ## Downloads
 - [Download Biased_Data_Models_2022-final_ger.pdf](Biased_Data_Models_2022-final_ger.pdf){download}
-

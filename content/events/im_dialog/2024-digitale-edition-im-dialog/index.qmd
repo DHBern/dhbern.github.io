@@ -73,7 +73,7 @@ Because digital editing at the University of Bern is often taught across discipl
 
 ## Thomas Nehrlich: Humboldt digital for students — the Bern Humboldt edition as a teaching project
 
-Abstract TBD.
+This contribution reflects on the Bern Humboldt edition as a teaching project and discusses how students can engage with digital editorial methods through hands-on work.
 
 ## Andreas Kränzle: TEI Publisher, e-editiones, and Sources Online — a rapid tour
 
@@ -97,7 +97,7 @@ This contribution presents different options for making data from digital editio
 
 ## Christian von Zimmermann: Philology in the digital age — tasks for future digital editing and examples from the digital Gotthelf edition
 
-Abstract TBD.
+This contribution reflects on future tasks for digital editing and illustrates them with examples from the digital Gotthelf edition.
 
 ## Helena Bermúdez Sabel: Introduction to TEI Publisher: how to make a scholarly edition in 60 minutes (EN)
 
