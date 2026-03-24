@@ -164,7 +164,7 @@ details p {
     </tr>
     <tr>
       <td>Emmanuela Carbé and Mariangela Giglio</td>
-      <td>Authors' Floppy Disks: The Case of Franco Fortini</td>
+      <td>Between Philology and Digital Forensics: The Case of Franco Fortini</td>
       <td>20'</td>
     </tr>
     <tr>
