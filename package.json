@@ -5,8 +5,8 @@
 	"url": "https://github.com/DHBern/dhbern.github.io/issues",
 	"license": "AGPL-3.0",
 	"scripts": {
-		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBY.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock,.venv,renv}'",
-		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBY.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock,.venv,renv}'",
+		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBY.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock,.venv,renv,content/intro-lecture/_src/**,content/intro-lecture/quiz/**,package.json}'",
+		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBY.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock,.venv,renv,content/intro-lecture/_src/**,content/intro-lecture/quiz/**}'",
 		"changelog": "npm exec git-cliff -- --config cliff.toml"
 	},
 	"devDependencies": {

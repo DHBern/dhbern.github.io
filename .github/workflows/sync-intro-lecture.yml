@@ -4,8 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 6 * * *'
-  push:
-    branches: [main]
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -14,41 +12,15 @@ jobs:
   update-submodule:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
 
     steps:
       - name: Checkout with submodules
         uses: actions/checkout@v5
         with:
           submodules: recursive
-          # Use PAT if repo is private; falls back to GITHUB_TOKEN for public repos.
-          # Add secret INTRO_LECTURE_PAT (classic PAT with repo scope) in DHBern repo settings
-          # if thodel/intro-lecture remains private.
-          token: ${{ secrets.INTRO_LECTURE_PAT || secrets.GITHUB_TOKEN }}
 
-      - name: Configure git for HTTPS submodule access
+      - name: Report submodule status
         run: |
-          git config --global url."https://${{ secrets.INTRO_LECTURE_PAT || github.token }}@github.com/".insteadOf "https://github.com/"
-          git config --global url."https://${{ secrets.INTRO_LECTURE_PAT || github.token }}@github.com/".insteadOf "git@github.com:"
-
-      - name: Update intro-lecture submodule to latest
-        run: |
-          git submodule update --remote content/intro-lecture/_src
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet; then
-            echo "No submodule changes — skipping commit."
-          else
-            git add content/intro-lecture/_src .gitmodules
-            git commit -m "chore: update intro-lecture submodule [skip ci]"
-            git push
-          fi
-
-      - name: Setup Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Render intro-lecture pages only
-        run: |
-          # Only render the intro-lecture subdirectory to avoid full site rebuild
-          quarto render content/intro-lecture/ --output-dir ../../_site/intro-lecture/ 2>/dev/null || \
-          quarto render content/intro-lecture/
+          echo "intro-lecture submodule:"
+          git -C content/intro-lecture/_src log --oneline -3

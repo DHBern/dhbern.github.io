@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+renv/
+
+# Build output
+_site/
+docs/
+
+# Generated / external content — do not lint
+content/intro-lecture/
+.github/workflows/.sync-trigger
+
+# Data files
+**/*.json
+**/*.h5p
+**/*.csv
+**/*.tsv
