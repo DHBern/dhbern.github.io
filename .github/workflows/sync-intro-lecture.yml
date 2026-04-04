@@ -1,12 +1,9 @@
 name: Sync intro-lecture submodule
 
 on:
-  # Manual trigger
   workflow_dispatch:
-  # Daily at 06:00 UTC
   schedule:
     - cron: '0 6 * * *'
-  # Also trigger when dhbern.github.io itself is pushed
   push:
     branches: [main]
 
@@ -18,12 +15,21 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout with submodules
         uses: actions/checkout@v5
         with:
           submodules: recursive
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # Use PAT if repo is private; falls back to GITHUB_TOKEN for public repos.
+          # Add secret INTRO_LECTURE_PAT (classic PAT with repo scope) in DHBern repo settings
+          # if thodel/intro-lecture remains private.
+          token: ${{ secrets.INTRO_LECTURE_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Configure git for HTTPS submodule access
+        run: |
+          git config --global url."https://${{ secrets.INTRO_LECTURE_PAT || github.token }}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://${{ secrets.INTRO_LECTURE_PAT || github.token }}@github.com/".insteadOf "git@github.com:"
 
       - name: Update intro-lecture submodule to latest
         run: |
@@ -31,9 +37,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if git diff --quiet; then
-            echo "No submodule changes."
+            echo "No submodule changes — skipping commit."
           else
-            git add content/intro-lecture/_src
+            git add content/intro-lecture/_src .gitmodules
             git commit -m "chore: update intro-lecture submodule [skip ci]"
             git push
           fi
@@ -41,11 +47,8 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render site
-        run: quarto render
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+      - name: Render intro-lecture pages only
+        run: |
+          # Only render the intro-lecture subdirectory to avoid full site rebuild
+          quarto render content/intro-lecture/ --output-dir ../../_site/intro-lecture/ 2>/dev/null || \
+          quarto render content/intro-lecture/
