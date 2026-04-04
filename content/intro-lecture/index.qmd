@@ -57,7 +57,9 @@ The *Digital Humanities — Introductions* lecture series brings together 17 res
 
 ## Series Introduction (Podcast)
 
-*Audio introduction to the lecture series — coming soon.*
+<audio controls style="width:100%;margin-top:8px"><source src="https://raw.githubusercontent.com/thodel/intro-lecture/main/podcast/intro-podcast.mp3" type="audio/mpeg"></audio>
+
+[📥 Download script](https://raw.githubusercontent.com/thodel/intro-lecture/main/podcast/intro-script.md) · *Generated with Gemini 2.5 Flash TTS · 8 min 12 sec*
 
 ---
 
