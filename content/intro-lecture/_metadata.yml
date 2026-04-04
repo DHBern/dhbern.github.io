@@ -5,3 +5,30 @@ bread-crumbs: false
 back-to-top-navigation: false
 page-navigation: false
 sidebar: false
+
+include-in-header:
+  - text: |
+      <style>
+        .breadcrumb-bar {
+          margin: 0 0 1.2rem 0;
+          padding: 0;
+        }
+        .breadcrumb-link {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          font-size: 0.85rem;
+          font-weight: 600;
+          color: #6366f1 !important;
+          text-decoration: none !important;
+          padding: 5px 14px;
+          background: rgba(99,102,241,0.10);
+          border: 1px solid rgba(99,102,241,0.30);
+          border-radius: 20px;
+          transition: background 0.15s;
+        }
+        .breadcrumb-link:hover {
+          background: rgba(99,102,241,0.20);
+          text-decoration: none !important;
+        }
+      </style>

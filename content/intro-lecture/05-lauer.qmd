@@ -3,6 +3,11 @@ title: "Course 5: Digital Book Studies"
 subtitle: "Gerhard Lauer · University of Mainz"
 ---
 
+
+::: {.breadcrumb-bar}
+[← DH Introductions](/content/intro-lecture/){.breadcrumb-link}
+:::
+
 ## Lecturer
 
 ::: {.columns}

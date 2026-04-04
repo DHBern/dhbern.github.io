@@ -3,6 +3,11 @@ title: "Course 6: Open Linked Data and the Semantic Web"
 subtitle: "Lukas Rosenthaler · University of Basel"
 ---
 
+
+::: {.breadcrumb-bar}
+[← DH Introductions](/content/intro-lecture/){.breadcrumb-link}
+:::
+
 ## Lecturer
 
 ::: {.columns}

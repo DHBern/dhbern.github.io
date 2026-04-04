@@ -3,6 +3,11 @@ title: "Course 13: Digital Musicology"
 subtitle: "Stefan Münnich · University of Basel"
 ---
 
+
+::: {.breadcrumb-bar}
+[← DH Introductions](/content/intro-lecture/){.breadcrumb-link}
+:::
+
 ## Lecturer
 
 ::: {.columns}

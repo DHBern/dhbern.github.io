@@ -3,6 +3,11 @@ title: "Course 14: Early Modern History after the Machine Learning Turn"
 subtitle: "Tobias Hodel · University of Bern / DARIAH"
 ---
 
+
+::: {.breadcrumb-bar}
+[← DH Introductions](/content/intro-lecture/){.breadcrumb-link}
+:::
+
 ## Lecturer
 
 ::: {.columns}

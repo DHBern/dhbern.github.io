@@ -3,6 +3,11 @@ title: "Course 1: Text Recognition"
 subtitle: "Andreas Fischer · HES-SO / University of Fribourg"
 ---
 
+
+::: {.breadcrumb-bar}
+[← DH Introductions](/content/intro-lecture/){.breadcrumb-link}
+:::
+
 ## Lecturer
 
 ::: {.columns}

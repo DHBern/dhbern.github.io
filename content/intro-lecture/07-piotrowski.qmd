@@ -3,6 +3,11 @@ title: "Course 7: Theory and Epistemology of Digital Humanities"
 subtitle: "Michael Piotrowski · University of Lausanne"
 ---
 
+
+::: {.breadcrumb-bar}
+[← DH Introductions](/content/intro-lecture/){.breadcrumb-link}
+:::
+
 ## Lecturer
 
 ::: {.columns}

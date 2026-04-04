@@ -3,6 +3,11 @@ title: "Course 12: Digitization and Data Materialism in Digital Humanities"
 subtitle: "Selena Savic · FHNW"
 ---
 
+
+::: {.breadcrumb-bar}
+[← DH Introductions](/content/intro-lecture/){.breadcrumb-link}
+:::
+
 ## Lecturer
 
 ::: {.columns}

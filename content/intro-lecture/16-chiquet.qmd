@@ -3,6 +3,11 @@ title: "Course 16: Digital Photography"
 subtitle: "Vera Chiquet · University of Basel"
 ---
 
+
+::: {.breadcrumb-bar}
+[← DH Introductions](/content/intro-lecture/){.breadcrumb-link}
+:::
+
 ## Lecturer
 
 ::: {.columns}
