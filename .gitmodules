@@ -1,0 +1,3 @@
+[submodule "content/intro-lecture/_src"]
+	path = content/intro-lecture/_src
+	url = git@github.com:thodel/intro-lecture.git

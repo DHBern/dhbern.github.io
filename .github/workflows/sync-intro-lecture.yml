@@ -1,0 +1,48 @@
+name: Sync intro-lecture submodule
+
+on:
+  # Manual trigger
+  workflow_dispatch:
+  # Daily at 06:00 UTC
+  schedule:
+    - cron: '0 6 * * *'
+  # Also trigger when dhbern.github.io itself is pushed
+  push:
+    branches: [main]
+
+jobs:
+  update-submodule:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout with submodules
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update intro-lecture submodule to latest
+        run: |
+          git submodule update --remote content/intro-lecture/_src
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No submodule changes."
+          else
+            git add content/intro-lecture/_src
+            git commit -m "chore: update intro-lecture submodule [skip ci]"
+            git push
+          fi
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render site
+        run: quarto render
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site

@@ -1,0 +1,64 @@
+---
+title: "Digital Humanities — Introductions"
+subtitle: "FS 2026 · University of Bern · 3 ECTS"
+page-layout: full
+toc: false
+---
+
+::: {.callout-note appearance="minimal"}
+This page is not part of the main dhbern.github.io navigation. It is a companion resource for the lecture series **Digital Humanities — Introductions** (FS 2026). Bios on this page are AI-generated from public academic profiles and marked accordingly.
+:::
+
+## About the Series
+
+The *Digital Humanities — Introductions* lecture series brings together 17 researchers from Swiss and European universities to present major research areas and methods in Digital Humanities. Lectures are fully online, can be worked through in any order, and are assessed via an open-book multiple-choice exam.
+
+**Exam:** June 1, 2026 · 60 minutes · 20 randomly selected questions · 4 options each · no negative marking  
+**Consultation:** April 21 & May 27, 2026 · 12:15–14:00 · via Zoom/ILIAS
+
+---
+
+## Lectures
+
+| # | Lecturer | Institution | Topic |
+|---|---------|------------|-------|
+| [1](01-fischer.qmd) | Andreas Fischer | HES-SO / Univ. Fribourg | Text Recognition |
+| [2](02-prietl.qmd) | Bianca Prietl | Univ. Basel | Gender & Digitalization |
+| [3](03-mahlow.qmd) | Cerstin Mahlow | ZHAW | Digital Linguistics |
+| [4](04-chestnova.qmd) | Elena Chestnova | USI | Digital Editing |
+| [5](05-lauer.qmd) | Gerhard Lauer | Univ. Mainz | Digital Book Studies |
+| [6](06-rosenthaler.qmd) | Lukas Rosenthaler | Univ. Basel | Open Linked Data |
+| [7](07-piotrowski.qmd) | Michael Piotrowski | Univ. Lausanne | Theory & Epistemology |
+| [8](08-bubenhofer.qmd) | Noah Bubenhofer | Univ. Zurich | Corpus Linguistics |
+| [9](09-fornaro.qmd) | Peter Fornaro | Univ. Basel | Imaging Technologies *(DE only, not for exam)* |
+| [10](10-roller.qmd) | Ramona Roller | ETH Zurich | Network Analysis |
+| [11](11-sennrich.qmd) | Rico Sennrich | Univ. Zurich / DARIAH | Natural Language Processing |
+| [12](12-savic.qmd) | Selena Savic | FHNW | Data Materialism |
+| [13](13-munnich.qmd) | Stefan Münnich | Univ. Basel | Digital Musicology |
+| [14](14-hodel.qmd) | Tobias Hodel | Univ. Bern / DARIAH | ML & History |
+| [15](15-wildi.qmd) | Tobias Wildi | FH Graubünden | Archives & Preservation |
+| [16](16-chiquet.qmd) | Vera Chiquet | Univ. Basel | Digital Photography |
+| [17](17-rochat.qmd) | Yannick Rochat | Univ. Lausanne | Game Studies |
+
+---
+
+## Exam Preparation
+
+:::: {.columns}
+::: {.column width="60%"}
+**[→ Interactive Quiz](quiz/index.html)** — practice all 80 exam questions in Kahoot-style format. Filter by lecture, choose single- or multi-answer mode.
+:::
+::: {.column width="40%"}
+**[→ H5P / ILIAS version](quiz/exam-questions.h5p)** — download for offline practice or import into ILIAS.
+:::
+::::
+
+---
+
+## Series Introduction (Podcast)
+
+*Audio introduction to the lecture series — coming soon.*
+
+---
+
+*Source: [thodel/intro-lecture](https://github.com/thodel/intro-lecture) · Built with Quarto*

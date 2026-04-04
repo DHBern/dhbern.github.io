@@ -1,0 +1,7 @@
+# Scoped metadata for intro-lecture subpage
+# This folder is intentionally NOT linked from the main navigation.
+navbar: false
+bread-crumbs: false
+back-to-top-navigation: false
+page-navigation: false
+sidebar: false
