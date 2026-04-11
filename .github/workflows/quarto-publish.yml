@@ -152,7 +152,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-24.04
     needs: [build-optimize]
-    if: github.event_name != 'pull_request'
+    if: github.event_name != 'pull_request' && github.repository == 'DHBern/dhbern.github.io'
 
     steps:
       - name: Deploy to GitHub Pages
