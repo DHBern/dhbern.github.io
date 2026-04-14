@@ -1,0 +1,26 @@
+name: Sync intro-lecture submodule
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  update-submodule:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout with submodules
+        uses: actions/checkout@v5
+        with:
+          submodules: recursive
+
+      - name: Report submodule status
+        run: |
+          echo "intro-lecture submodule:"
+          git -C content/intro-lecture/_src log --oneline -3

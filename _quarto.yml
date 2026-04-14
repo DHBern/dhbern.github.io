@@ -1,5 +1,8 @@
 project:
   type: website
+  resources:
+    - content/intro-lecture/quiz/questions.json
+    - content/intro-lecture/quiz/exam-questions.h5p
 
 website:
   title: dhbern.github.io

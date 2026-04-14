@@ -1,0 +1,175 @@
+---
+title: "Digital Humanities — Introductions"
+subtitle: "FS 2026 · University of Bern · 3 ECTS"
+page-layout: full
+toc: false
+---
+
+::: {.callout-note appearance="minimal"}
+This page is not part of the main dhbern.github.io navigation. It is a companion resource for the lecture series **Digital Humanities — Introductions** (FS 2026). Bios on this page are AI-generated from public academic profiles and marked accordingly.
+:::
+
+## About the Series
+
+The *Digital Humanities — Introductions* lecture series brings together 17 researchers from Swiss and European universities to present major research areas and methods in Digital Humanities. Lectures are fully online, can be worked through in any order, and are assessed via an open-book multiple-choice exam.
+
+**Exam:** June 1, 2026 · 60 minutes · 20 randomly selected questions · 4 options each · no negative marking  
+**Consultation:** April 21 & May 27, 2026 · 12:15–14:00 · via Zoom/ILIAS
+
+---
+
+## Thematic Overview
+
+<figure style="margin:0 0 8px">
+<img src="https://raw.githubusercontent.com/thodel/intro-lecture/main/docs/dh-visualization.png"
+     alt="Network visualization of Digital Humanities topics: glowing nodes connecting text recognition, NLP, semantic web, gender studies, corpus linguistics, digital preservation, and more"
+     style="width:100%;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.3)">
+<figcaption style="font-size:12px;color:#64748b;margin-top:6px;text-align:center">
+Thematic network of the lecture series — generated with Google Imagen 4 · 🤖 AI-generated
+</figcaption>
+</figure>
+
+The 17 lectures span four interconnected themes drawn from the introductory podcast:
+
+- **Text** — digitization, recognition, editing, and linguistic analysis of texts (Lectures 1, 3, 4, 8, 11, 14)
+- **Data & Infrastructure** — imaging, linked data, network analysis, archives (Lectures 9, 6, 10, 15)
+- **Critical Perspectives** — theory, gender, materiality, photography (Lectures 2, 7, 12, 16)
+- **Case Studies** — book history, musicology, game studies (Lectures 5, 13, 17)
+
+---
+
+## Lectures
+
+| # | Lecturer | Institution | Topic |
+|---|---------|------------|-------|
+| [1](01-fischer.qmd) | Andreas Fischer | HES-SO / Univ. Fribourg | Text Recognition |
+| [2](02-prietl.qmd) | Bianca Prietl | Univ. Basel | Gender & Digitalization |
+| [3](03-mahlow.qmd) | Cerstin Mahlow | ZHAW | Digital Linguistics |
+| [4](04-chestnova.qmd) | Elena Chestnova | USI | Digital Editing |
+| [5](05-lauer.qmd) | Gerhard Lauer | Univ. Mainz | Digital Book Studies |
+| [6](06-rosenthaler.qmd) | Lukas Rosenthaler | Univ. Basel | Open Linked Data |
+| [7](07-piotrowski.qmd) | Michael Piotrowski | Univ. Lausanne | Theory & Epistemology |
+| [8](08-bubenhofer.qmd) | Noah Bubenhofer | Univ. Zurich | Corpus Linguistics |
+| [9](09-fornaro.qmd) | Peter Fornaro | Univ. Basel | Imaging Technologies *(DE only, not for exam)* |
+| [10](10-roller.qmd) | Ramona Roller | ETH Zurich | Network Analysis |
+| [11](11-sennrich.qmd) | Rico Sennrich | Univ. Zurich / DARIAH | Natural Language Processing |
+| [12](12-savic.qmd) | Selena Savic | FHNW | Data Materialism |
+| [13](13-munnich.qmd) | Stefan Münnich | Univ. Basel | Digital Musicology |
+| [14](14-hodel.qmd) | Tobias Hodel | Univ. Bern / DARIAH | ML & History |
+| [15](15-wildi.qmd) | Tobias Wildi | FH Graubünden | Archives & Preservation |
+| [16](16-chiquet.qmd) | Vera Chiquet | Univ. Basel | Digital Photography |
+| [17](17-rochat.qmd) | Yannick Rochat | Univ. Lausanne | Game Studies |
+
+---
+
+## Exam Preparation
+
+:::: {.columns}
+::: {.column width="60%"}
+**[→ Interactive Quiz](quiz/index.html)** — practice all 80 exam questions in Kahoot-style format. Filter by lecture, choose single- or multi-answer mode.
+:::
+::: {.column width="40%"}
+**[→ H5P / ILIAS version](quiz/exam-questions.h5p)** — download for offline practice or import into ILIAS.
+:::
+::::
+
+---
+
+## Series Introduction (Podcast)
+
+<audio controls style="width:100%;margin-top:8px"><source src="https://raw.githubusercontent.com/thodel/intro-lecture/main/podcast/intro-podcast.mp3" type="audio/mpeg"></audio>
+
+[📥 Download script](https://raw.githubusercontent.com/thodel/intro-lecture/main/podcast/intro-script.md) · *Generated with Gemini 2.5 Flash TTS · 8 min 12 sec*
+
+---
+
+## Where the Lecturers Are Based
+
+```{=html}
+<div id="lecturer-map" style="height:420px;border-radius:12px;overflow:hidden;margin-bottom:8px"></div>
+<p style="font-size:12px;color:#64748b;text-align:center;margin-top:4px">
+  17 lecturers from 11 institutions across Switzerland, Germany, and beyond ·
+  <a href="https://leafletjs.com" target="_blank" style="color:#6366f1">Leaflet</a> /
+  <a href="https://www.openstreetmap.org/copyright" target="_blank" style="color:#6366f1">OpenStreetMap</a>
+</p>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function() {
+  const map = L.map('lecturer-map', { scrollWheelZoom: false }).setView([47.2, 8.0], 7);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 18
+  }).addTo(map);
+
+  const THEME = {
+    text:     '#6366f1',
+    data:     '#06b6d4',
+    critical: '#ec4899',
+    case:     '#f59e0b'
+  };
+
+  const lecturers = [
+    { num:1,  name:'Andreas Fischer',    inst:'HES-SO / Univ. Fribourg', topic:'Text Recognition',        lat:46.806,  lng:7.162,  theme:'text'     },
+    { num:2,  name:'Bianca Prietl',      inst:'University of Basel',      topic:'Gender & Digitalization', lat:47.559,  lng:7.588,  theme:'critical'  },
+    { num:3,  name:'Cerstin Mahlow',     inst:'ZHAW Winterthur',          topic:'Digital Linguistics',     lat:47.500,  lng:8.722,  theme:'text'     },
+    { num:4,  name:'Elena Chestnova',    inst:'USI Lugano',               topic:'Digital Editing',         lat:46.004,  lng:8.951,  theme:'text'     },
+    { num:5,  name:'Gerhard Lauer',      inst:'University of Mainz',      topic:'Digital Book Studies',    lat:49.993,  lng:8.247,  theme:'case'     },
+    { num:6,  name:'Lukas Rosenthaler',  inst:'University of Basel',      topic:'Open Linked Data',        lat:47.562,  lng:7.591,  theme:'data'     },
+    { num:7,  name:'Michael Piotrowski', inst:'University of Lausanne',   topic:'Theory & Epistemology',   lat:46.519,  lng:6.568,  theme:'critical'  },
+    { num:8,  name:'Noah Bubenhofer',    inst:'University of Zurich',     topic:'Corpus Linguistics',      lat:47.374,  lng:8.550,  theme:'text'     },
+    { num:9,  name:'Peter Fornaro',      inst:'University of Basel',      topic:'Imaging Technologies',    lat:47.557,  lng:7.585,  theme:'data'     },
+    { num:10, name:'Ramona Roller',      inst:'ETH Zurich',               topic:'Network Analysis',        lat:47.377,  lng:8.548,  theme:'data'     },
+    { num:11, name:'Rico Sennrich',      inst:'University of Zurich',     topic:'Natural Language Processing', lat:47.371, lng:8.554, theme:'text'  },
+    { num:12, name:'Selena Savic',       inst:'FHNW',                     topic:'Data Materialism',        lat:47.476,  lng:8.211,  theme:'critical'  },
+    { num:13, name:'Stefan Münnich',     inst:'University of Basel',      topic:'Digital Musicology',      lat:47.554,  lng:7.582,  theme:'case'     },
+    { num:14, name:'Tobias Hodel',       inst:'University of Bern',       topic:'ML & History',            lat:46.951,  lng:7.439,  theme:'text'     },
+    { num:15, name:'Tobias Wildi',       inst:'FH Graubünden, Chur',      topic:'Archives & Preservation', lat:46.850,  lng:9.531,  theme:'data'     },
+    { num:16, name:'Vera Chiquet',       inst:'University of Basel',      topic:'Digital Photography',     lat:47.565,  lng:7.594,  theme:'critical'  },
+    { num:17, name:'Yannick Rochat',     inst:'University of Lausanne',   topic:'Game Studies',            lat:46.522,  lng:6.572,  theme:'case'     }
+  ];
+
+  const themeLabel = { text:'Text & Language', data:'Data & Infrastructure', critical:'Critical Perspectives', case:'Case Studies' };
+
+  // Jitter overlapping markers slightly
+  const seen = {};
+  lecturers.forEach(l => {
+    const key = `${l.lat.toFixed(2)},${l.lng.toFixed(2)}`;
+    seen[key] = (seen[key] || 0) + 1;
+    if (seen[key] > 1) { l.lat += (Math.random()-0.5)*0.02; l.lng += (Math.random()-0.5)*0.02; }
+  });
+
+  lecturers.forEach(l => {
+    const color = THEME[l.theme];
+    const icon = L.divIcon({
+      className: '',
+      html: `<div style="width:30px;height:30px;border-radius:50%;background:${color};
+               border:3px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.4);
+               display:flex;align-items:center;justify-content:center;
+               font-size:11px;font-weight:800;color:white;cursor:pointer">${l.num}</div>`,
+      iconSize: [30, 30], iconAnchor: [15, 15]
+    });
+    L.marker([l.lat, l.lng], { icon })
+      .addTo(map)
+      .bindPopup(`<strong>${l.num}. ${l.name}</strong><br>${l.inst}<br><em>${l.topic}</em><br>
+        <span style="font-size:11px;color:#6366f1">${themeLabel[l.theme]}</span>`);
+  });
+
+  // Legend
+  const legend = L.control({ position: 'bottomright' });
+  legend.onAdd = () => {
+    const d = L.DomUtil.create('div');
+    d.style.cssText = 'background:white;padding:10px 12px;border-radius:8px;font-size:12px;line-height:1.8;box-shadow:0 2px 8px rgba(0,0,0,0.2)';
+    d.innerHTML = Object.entries(themeLabel).map(([k,v]) =>
+      `<span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:${THEME[k]};margin-right:6px;vertical-align:middle"></span>${v}`
+    ).join('<br>');
+    return d;
+  };
+  legend.addTo(map);
+})();
+</script>
+```
+
+---
+
+*Source: [thodel/intro-lecture](https://github.com/thodel/intro-lecture) · Built with Quarto*
