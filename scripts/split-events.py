@@ -50,7 +50,10 @@ def collect_events() -> list[tuple[date, dict]]:
 
         # Normalize to date object
         if isinstance(event_date, str):
-            event_date = date.fromisoformat(event_date)
+            try:
+                event_date = date.fromisoformat(event_date)
+            except ValueError:
+                continue  # Skip events with invalid date format
 
         # Build path relative to content/ with a POSIX-style .html output path
         rel_path = qmd.relative_to(CONTENT_DIR.parent).with_suffix(".html").as_posix()
