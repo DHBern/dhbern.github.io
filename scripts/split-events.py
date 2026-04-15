@@ -13,12 +13,15 @@ TODAY = date.today()
 def parse_frontmatter(path: Path) -> dict | None:
     """Extract YAML frontmatter from a .qmd file."""
     text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+    lines = text.splitlines(keepends=True)
+    if not lines or lines[0].strip() != "---":
         return None
-    end = text.index("---", 3)
-    return yaml.safe_load(text[3:end])
 
+    for i in range(1, len(lines)):
+        if lines[i].strip() == "---":
+            return yaml.safe_load("".join(lines[1:i]))
 
+    return None
 def _flatten_author(author) -> str:
     """Convert author field (string, dict, or list) to a plain string."""
     if isinstance(author, str):
