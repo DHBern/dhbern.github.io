@@ -52,8 +52,8 @@ def collect_events() -> list[tuple[date, dict]]:
         if isinstance(event_date, str):
             event_date = date.fromisoformat(event_date)
 
-        # Build path relative to project root (Quarto expects .html output path)
-        rel_path = str(qmd).replace(".qmd", ".html")
+        # Build path relative to content/ with a POSIX-style .html output path
+        rel_path = qmd.relative_to(CONTENT_DIR.parent).with_suffix(".html").as_posix()
 
         item = {
             "title": fm.get("title", ""),
