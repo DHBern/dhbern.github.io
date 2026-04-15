@@ -31,9 +31,9 @@ def _flatten_author(author) -> str:
     return str(author)
 
 
-def collect_events() -> list[dict]:
-    """Walk content/ for .qmd files with categories containing 'Event'."""
-    events = []
+def collect_events() -> list[tuple[date, dict]]:
+    """Walk content/ for event .qmd files and return (event_date, item) tuples."""
+    events: list[tuple[date, dict]] = []
     for qmd in CONTENT_DIR.rglob("*.qmd"):
         fm = parse_frontmatter(qmd)
         if fm is None:
