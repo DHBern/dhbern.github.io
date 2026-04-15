@@ -1,6 +1,7 @@
 ---
 title: "Digital Humanities Bern"
 title-block: false
+sidebar: false
 listing:
   - id: blog
     contents: content
@@ -18,7 +19,7 @@ listing:
     sort-ui: false
     filter-ui: false
     fields: [event-date, title, location, author]
-    field-display-names: 
+    field-display-names:
       event-date: 'Date'
       title: 'Title'
       location: 'Location'
