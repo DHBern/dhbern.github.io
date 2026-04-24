@@ -169,7 +169,7 @@ details p {
     </tr>
     <tr>
       <td>Kristel Roder (Swiss National Library)</td>
-      <td>Digitale Archivierung im Schweizerischen Literaturarchiv – aktueller Stand und Vergehensweisen</td>
+      <td>Digitale Archivierung im Schweizerischen Literaturarchiv – aktueller Stand und Vorgehensweise</td>
       <td>20'</td>
     </tr>
     <tr>
