@@ -168,8 +168,8 @@ details p {
       <td>20'</td>
     </tr>
     <tr>
-      <td>Kristel Roder</td>
-      <td>Digitale Archivierung im Schweizerischen Literaturarchiv – aktueller Stand und Vergehensweisen (Swiss National Library)</td>
+      <td>Kristel Roder (Swiss National Library)</td>
+      <td>Digitale Archivierung im Schweizerischen Literaturarchiv – aktueller Stand und Vergehensweisen</td>
       <td>20'</td>
     </tr>
     <tr>
@@ -183,8 +183,8 @@ details p {
     </tr>
     <tr>
       <td rowspan="3">14:05</td>
-      <td>Moritz Feichtinger</td>
-      <td>Levels, Limits and Ethics of Forensic Approaches in the Social Sciences and Humanities (University of Basel)</td>
+      <td>Moritz Feichtinger (University of Basel)</td>
+      <td>Levels, Limits and Ethics of Forensic Approaches in the Social Sciences and Humanities</td>
       <td>20'</td>
     </tr>
     <tr>
