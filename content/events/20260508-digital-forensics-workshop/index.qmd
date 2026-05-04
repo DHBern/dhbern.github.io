@@ -116,7 +116,6 @@ details p {
 <p style="text-align:left;">
   <strong>Date:</strong> Friday 8 May 2026<br>
   <strong>Location:</strong> University of Bern, Unitobler F-112<br>
-  <strong>Program:</strong> [PDF version](20260508_DigitalForensicsWorkshop_Program.pdf)
 </p>
 
 <table>
@@ -159,7 +158,7 @@ details p {
     <tr>
       <td rowspan="4">10:45</td>
       <td>Elena Barchielli, Simon Willemin and Elena Spadini (University of Bern)</td>
-      <td>From Electronic Word Processors to Computers: Experiences with the Archives of Swiss writers</td>
+      <td>From Electronic Word Processors to Computers: Experiences with the Archives of Swiss Writers</td>
       <td>20'</td>
     </tr>
     <tr>
