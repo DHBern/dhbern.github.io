@@ -92,7 +92,7 @@ Schedule at a glance (subject to minor updates).
 | 13:00 | *Lunch break* |
 | 14:00 | Named Entities — Maud Ehrmann (EPFL); Dominic Weber; Dana Meyer & Silke Schwandt |
 | 16:00 | *Break* |
-| 17:00 | Barbara McGillivray (King's College London) |
+| 17:00 | Barbara McGillivray (King's College London): What Did They Mean? Computational Approaches to Word Meaning in Historical Texts |
 :::
 
 ::: {.program-day}
