@@ -91,7 +91,8 @@ Schedule at a glance (subject to minor updates).
 | 11:30 | Text Recognition Pipelines — Michael Schonhardt (TU Darmstadt); Melvin Wilde & Christopher Kuhlman |
 | 13:00 | *Lunch break* |
 | 14:00 | Named Entities — Maud Ehrmann (EPFL); Dominic Weber; Dana Meyer & Silke Schwandt |
-| 16:00 | *Break* |
+| 15:45 | Workflow Demo: Preprocessing and Inference — Jonas Widmer & Dana Meyer |
+| 16:15 | *Break* |
 | 17:00 | Barbara McGillivray (King's College London): What Did They Mean? Computational Approaches to Word Meaning in Historical Texts |
 :::
 
@@ -102,7 +103,8 @@ Schedule at a glance (subject to minor updates).
 | --- | --- |
 | 09:15 | Corpus & Text Re-Use — session with Peter Verkinderen (Aga Khan University, London), Sefer Korkmaz & Inga Lange |
 | 11:00 | *Coffee break* |
-| 11:30 | LLM & Final Discussion — Sarah Oberbirchler |
+| 11:30 | Sarah Oberbirchler (Uni Luxembourg, C2DH): Workflows after LLMs |
+| 13:00 | Final Discussion |
 | 14:00 | *End of conference* |
 :::
 :::
