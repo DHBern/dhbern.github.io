@@ -86,7 +86,8 @@ Schedule at a glance (subject to minor updates).
 | --- | --- |
 | 09:00 | Welcome |
 | 09:15 | Intro by the organizers: Serena Tolino, Silke Schwandt, Angela Huang, Tobias Hodel |
-| 09:45 | Input by Developers: From Preprocessing to Text Recognition; from Language Modeling to Information Extraction — Dana Meyer & Jonas Widmer; Malte Meister (TU Darmstadt) |
+| 09:45 | Input by Developers: From Preprocessing to Text Recognition; from Language Modeling to Information Extraction — Dana Meyer & Jonas Widmer; <lb/>
+Malte Meister (TU Darmstadt): The Technical Workflow Developed in FLOW - An Outsider's Perspective |
 | 11:00 | *Coffee break* |
 | 11:30 | Text Recognition Pipelines — Michael Schonhardt (TU Darmstadt); Melvin Wilde & Christopher Kuhlman |
 | 13:00 | *Lunch break* |
