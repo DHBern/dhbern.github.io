@@ -6,7 +6,7 @@ date: "2026-06-11"
 categories:
   - Event
   - Flow
-location: "University of Bern, Mittelstrasse 43, 3012 Bern"
+location: "University of Bern, Mittelstrasse 43, 1st Floor, Room 124, 3012 Bern"
 author:
   - name: "Serena Tolino"
     role: "Organiser"
@@ -30,6 +30,7 @@ From Deep Learning to Digital Analysis and their Role in the Humanities
 ::: {.flow-meta}
 - **Dates:** 11–12 June 2026
 - **Location:** University of Bern, Mittelstrasse 43, 3012 Bern
+- **Room:** 1st floor, 124
 :::
 
 ::: {.flow-cta-row}
@@ -91,7 +92,8 @@ Schedule at a glance (subject to minor updates).
 | 11:00 | *Coffee break* |
 | 11:30 | Text Recognition Pipelines — Michael Schonhardt (TU Darmstadt); Melvin Wilde & Christopher Kuhlman |
 | 13:00 | *Lunch break* |
-| 14:00 | Named Entities — Maud Ehrmann (EPFL); Dominic Weber; Dana Meyer & Silke Schwandt |
+| 14:00 | Named Entities — Panel; Dominic Weber; Dana Meyer & Silke Schwandt |
+| 14:25 | Maud Ehrmann (EPF Lausanne): How Far Can We Rely? Evaluating, Understanding, and Improving NE Processing on Historical Documents |
 | 15:45 | Workflow Demo: Preprocessing and Inference — Jonas Widmer & Dana Meyer |
 | 16:15 | *Break* |
 | 17:00 | Barbara McGillivray (King's College London): What Did They Mean? Computational Approaches to Word Meaning in Historical Texts |
