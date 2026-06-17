@@ -1,6 +1,7 @@
 ---
 title: "Digital Humanities Bern"
 title-block: false
+sidebar: false
 listing:
   - id: blog
     contents: content
@@ -9,16 +10,27 @@ listing:
     include:
       categories: Post
   - id: events
-    contents: content
-    include:
-      categories: Event
+    contents:
+      - upcoming-events.yml
     type: table
     categories: false
-    sort: "event-date desc"
+    sort: "event-date asc"
     sort-ui: false
     filter-ui: false
     fields: [event-date, title, location, author]
-    field-display-names: 
+    field-display-names:
+      event-date: 'Date'
+      title: 'Title'
+      location: 'Location'
+      author: 'Organizer'
+  - id: past-events
+    contents:
+      - past-events.yml
+    type: table
+    categories: false
+    sort: "event-date desc"
+    fields: [event-date, title, location, author]
+    field-display-names:
       event-date: 'Date'
       title: 'Title'
       location: 'Location'
@@ -54,6 +66,14 @@ We are a research and teaching unit at the University of Bern, connecting humani
 
 ::: {#events}
 :::
+
+<details>
+<summary>Past Events</summary>
+
+::: {#past-events}
+:::
+
+</details>
 :::
 
 ::: {.home-section}

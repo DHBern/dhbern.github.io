@@ -1,5 +1,6 @@
 project:
   type: website
+  pre-render: python scripts/split-events.py
   resources:
     - content/intro-lecture/quiz/questions.json
     - content/intro-lecture/quiz/exam-questions.h5p
@@ -25,6 +26,8 @@ website:
       - icon: github
         url: https://github.com/DHBern/dhbern.github.io/
     left:
+      - text: Events
+        href: /#events
       - text: Studies
         href: https://www.dh.unibe.ch/studium/index_ger.html
       - text: Research
@@ -43,10 +46,6 @@ website:
     style: 'docked'
     collapse-level: 1
     contents:
-      - text: Blog
-        href: /
-      - text: Events
-        href: /#events
       - text: Projects
         href: content/projects/index.qmd
         contents: content/projects/*/index.qmd
