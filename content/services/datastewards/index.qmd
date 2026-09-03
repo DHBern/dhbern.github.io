@@ -1,0 +1,25 @@
+---
+title: "Data Stewards for the (Digital) Humanities"
+author: "Open Science Team"
+categories: [Services]
+---
+
+Whatever questions or uncertainties you have about your research data, we're here to help. Whether you're just starting to plan a project, stuck on how to organize your files, or wondering where (and whether) you should publish your data, your **Data Stewards** are your first point of contact.
+
+Data Stewards offer domain-specific research data support for the (digital) humanities, covering the entire data lifecycle, from planning to publication and beyond.
+
+## Services
+
+-   Feedback on Data Management Plans (DMPs) for SNSF, EU, and other funders
+-   Advice on file organization, documentation, data formats, and standards
+-   Guidance on data protection and secure handling of personal data, e.g. in interview studies
+-   Support in deciding which data can, should, or must be published, and where
+-   Support with your submission on BORIS Portal
+-   Workshops and training on research data management topics
+-   General consultation on any question related to handling your research data
+
+Find an overview of our most popular Data Steward services on our website: <https://www.ub.unibe.ch/services/open_science/open_science_a_z/index_eng.html>
+
+## Contact
+
+No question is too small, and no project too early-stage. Reach out to your Data Stewards (Gero Schreier & Ursula Loosli) via [researchdata\@unibe.ch](mailto:researchdata@unibe.ch)
