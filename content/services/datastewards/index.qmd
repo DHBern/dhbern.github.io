@@ -11,15 +11,18 @@ Data Stewards offer domain-specific research data support for the (digital) huma
 ## Services
 
 -   Feedback on Data Management Plans (DMPs) for SNSF, EU, and other funders
+-   Support in complying with regulatory and legal requirements, as well as with policies and guidelines of research funding agencies
 -   Advice on file organization, documentation, data formats, and standards
 -   Guidance on data protection and secure handling of personal data, e.g. in interview studies
 -   Support in deciding which data can, should, or must be published, and where
--   Support with your submission on BORIS Portal
+-   Support with your research data submission on BORIS Portal
 -   Workshops and training on research data management topics
 -   General consultation on any question related to handling your research data
 
-Find an overview of our most popular Data Steward services on our website: <https://www.ub.unibe.ch/services/open_science/open_science_a_z/index_eng.html>
+Find an overview of our most popular Data Steward services on our [website](https://www.ub.unibe.ch/services/open_science/open_science_a_z/index_eng.html#e1809562)
 
 ## Contact
 
-No question is too small, and no project too early-stage. Reach out to your Data Stewards (Gero Schreier & Ursula Loosli) via [researchdata\@unibe.ch](mailto:researchdata@unibe.ch)
+No question is too small, and no project too early-stage. Reach out to your Data Stewards (Ursula Loosli & Gero Schreier) via [researchdata\@unibe.ch](mailto:researchdata@unibe.ch)
+
+Or come by for a consultation in our **Research Data WALK-IN** between 1 – 2 pm in the meeting room D021 at WBK on 23 September, 7 October, 28 October, 18 November, 2 December, or 16 December.
