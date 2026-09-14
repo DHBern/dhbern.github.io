@@ -3,13 +3,17 @@ title: "CAREing for Data in Dialogue (2026)"
 subtitle: "Perspectives on social, cultural data and beyond — the seventh edition of the “… in Dialogue” series"
 event-date: "2026.12.09"
 date: "2026.12.09"
-location: "University of Bern — venue to be confirmed"
+location: "Dome Room (Kuppelraum), Main Building (H4), University of Bern"
 image: careing-for-data_banner.jpg
 author:
   - name: Christa Schneider
     affiliations:
       - University of Bern (Digital Humanities)
     role: author
+other-links:
+  - text: Registration
+    icon: pencil-square
+    href: https://www.ub.unibe.ch/service/open_science/os_veranstaltungen/veranstaltungsformulare/careing_for_data_in_dialogue/index_ger.html
 ---
 
 ![](careing-for-data_banner.jpg){fig-alt="Abstract blue waves" width="100%"}
@@ -25,7 +29,7 @@ some less sensitive, some highly sensitive — and discuss how they handle the e
 each one raises. Short pitches are combined with hands-on work and with perspectives from law
 and information security.
 
-**9 December 2026 · the event is held in English.**
+**9 December 2026 · Dome Room (Kuppelraum), Main Building (H4), University of Bern · the event is held in English.**
 
 ::: {.callout-note}
 This programme is provisional. Several contributions are confirmed but still without a title,
@@ -92,9 +96,15 @@ witch trials.
 letters, University of Geneva and University of Zurich, where the project has developed its own
 discrimination-sensitive editorial guidelines.
 
+## Registration
+
+Registration is free and runs through the University Library Bern:
+
+👉 [**Register for CAREing for Data in Dialogue**](https://www.ub.unibe.ch/service/open_science/os_veranstaltungen/veranstaltungsformulare/careing_for_data_in_dialogue/index_ger.html)
+
 ## Contact
 
-The programme, the venue and the registration details will be announced here.
+Further details are announced here as the programme is settled.
 
 ::: {.callout-tip collapse="true" title="Image credit"}
 Header image by [Simon Lee](https://unsplash.com/@simonppt) on
