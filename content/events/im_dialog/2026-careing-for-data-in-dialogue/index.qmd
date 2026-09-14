@@ -73,8 +73,7 @@ and some slots are open; these are marked "to be announced" below.
 | 15:00–16:10 | **Hands-on** (parallel, coffee served) | |
 | | *Learning to See the Problem: Discrimination-Sensitive Metadata in Practice* | Moritz Mähr |
 | | *Bring your own data* | Christa Schneider |
-| 16:10–17:00 | *Title to be announced* | to be announced (cc digital law) |
-| | *Title to be announced* | to be announced (CISO) |
+| 16:10–17:00 | *Two contributions — titles to be announced* | to be announced |
 | 17:00 | Closing & apéro | |
 
 ## Speakers
