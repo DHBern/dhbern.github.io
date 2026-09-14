@@ -1,0 +1,103 @@
+---
+title: "CAREing for Data in Dialogue (2026)"
+subtitle: "Perspectives on social, cultural data and beyond — the seventh edition of the “… in Dialogue” series"
+event-date: "2026.12.09"
+date: "2026.12.09"
+location: "University of Bern — venue to be confirmed"
+image: careing-for-data_banner.jpg
+author:
+  - name: Christa Schneider
+    affiliations:
+      - University of Bern (Digital Humanities)
+    role: author
+---
+
+![](careing-for-data_banner.jpg){fig-alt="Abstract blue waves" width="100%"}
+
+Research data in the humanities and social sciences is rarely simply "open" or "closed". Much of
+it describes people — their words, their images, their suffering — and asking what it means to
+*care* for such data is a question of ethics as much as of infrastructure. The **CARE
+principles** put collective benefit, authority to control, responsibility and ethics beside the
+FAIR ones, and this workshop asks what that looks like in practice.
+
+For the seventh edition of "… in Dialogue", researchers bring concrete datasets to the table —
+some less sensitive, some highly sensitive — and discuss how they handle the ethical questions
+each one raises. Short pitches are combined with hands-on work and with perspectives from law
+and information security.
+
+**9 December 2026 · the event is held in English.**
+
+::: {.callout-note}
+This programme is provisional. Several contributions are confirmed but still without a title,
+and some slots are open; these are marked "to be announced" below.
+:::
+
+## Programme
+
+| Time | Session | Speakers |
+|---:|---|---|
+| 09:00–09:15 | Welcome | |
+| 09:15–10:05 | Keynote — *title to be announced* | to be announced |
+| 10:05–11:05 | **Dataset pitches: "less sensitive"** | |
+| | *The Case of Digital Scholarly Editing: How to Mediate Discrimination in Annemarie Schwarzenbach's Texts and Photographs* | Elias Zimmermann |
+| | *Title to be announced* | Markus Schiegg |
+| | *Who CAREs about Witches?* | Christa Schneider |
+| | *Title to be announced* | Stefan Leins |
+| | *Data Steward's perspective* | Data Stewards, University of Bern |
+| 11:05–11:35 | Coffee break | |
+| 11:35–12:30 | *Title to be announced* | Cristina Grisot |
+| 12:30–14:00 | Lunch break | |
+| 14:00–15:00 | **Dataset pitches: highly sensitive data** | |
+| | *Securing Data Vulnerabilities* | Elisa Fornalé |
+| | *A Safe Space for Testimony: CARE and the Research Infrastructure for Studying Sexual Abuse in the Environment of the Catholic Church in Switzerland* | Moritz Mähr & Magda Kaspar |
+| | *"There was a time when demons just did the trick." — CAREing for cultural property in the Information Age* | Sebastian Borkowsky |
+| | *When Every Minute Identifies: Emergency Medicine Data at the Boundary of Openness* | Martin Müller |
+| 15:00–16:10 | **Hands-on** (parallel, coffee served) | |
+| | *Learning to See the Problem: Discrimination-Sensitive Metadata in Practice* | Moritz Mähr |
+| | *Bring your own data* | Christa Schneider |
+| 16:10–17:00 | *Title to be announced* | to be announced (cc digital law) |
+| | *Title to be announced* | to be announced (CISO) |
+| 17:00 | Closing & apéro | |
+
+## Speakers
+
+**Sebastian Borkowsky** — University of Bern.
+
+**Elisa Fornalé** — Associate Professor at the World Trade Institute, University of Bern, working
+on international law, human rights, migration and the environment.
+
+**Cristina Grisot** — Linguistic Research Infrastructure (LiRI), University of Zurich, and
+national coordinator of CLARIN-CH.
+
+**Magda Kaspar** — historian at the Department of History, University of Zurich, researching
+sexual abuse in the context of the Catholic Church in Switzerland.
+
+**Stefan Leins** — Professor of Social Anthropology at the University of Bern, working on the
+cultural practices of financial markets and commodity trading.
+
+**Moritz Mähr** — Digital Humanities, University of Bern and University of Basel; works on
+research infrastructures for sensitive historical data.
+
+**Martin Müller** — Department of Emergency Medicine, Inselspital, University Hospital Bern,
+where he leads the Resource & Risk Management group.
+
+**Markus Schiegg** — Professor of German Linguistics at the University of Fribourg; his research
+on patient letters from psychiatric institutions works closely with highly sensitive personal
+records.
+
+**Christa Schneider** — Digital Humanities, University of Bern; her research includes the Basel
+witch trials.
+
+**Elias Zimmermann** — editor of the digital edition of Annemarie Schwarzenbach's short forms and
+letters, University of Geneva and University of Zurich, where the project has developed its own
+discrimination-sensitive editorial guidelines.
+
+## Contact
+
+The programme, the venue and the registration details will be announced here.
+
+::: {.callout-tip collapse="true" title="Image credit"}
+Header image by [Simon Lee](https://unsplash.com/@simonppt) on
+[Unsplash](https://unsplash.com/photos/zft-W1kVEhg), used under the
+[Unsplash licence](https://unsplash.com/license). Cropped to a banner format.
+:::
