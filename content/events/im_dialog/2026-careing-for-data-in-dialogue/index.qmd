@@ -38,9 +38,8 @@ it describes people — their words, their images, their suffering — and askin
 principles** put collective benefit, authority to control, responsibility and ethics beside the
 FAIR ones, and this workshop asks what that looks like in practice.
 
-For the seventh edition of "… in Dialogue", researchers bring concrete datasets to the table —
-some less sensitive, some highly sensitive — and discuss how they handle the ethical questions
-each one raises. Short pitches are combined with hands-on work and with perspectives from law
+For the seventh edition of "… in Dialogue", researchers bring concrete datasets to the table and
+discuss how they handle the ethical questions each one raises. Short pitches are combined with hands-on work and with perspectives from law
 and information security.
 
 **9 December 2026 · Dome Room (Kuppelraum), Main Building (H4), University of Bern · the event is held in English.**
@@ -56,7 +55,7 @@ and some slots are open; these are marked "to be announced" below.
 |---:|---|---|
 | 09:00–09:15 | Welcome | |
 | 09:15–10:05 | Keynote — *title to be announced* | to be announced |
-| 10:05–11:05 | **Dataset pitches: "less sensitive"** | |
+| 10:05–11:05 | **Dataset pitches** | |
 | | *The Case of Digital Scholarly Editing: How to Mediate Discrimination in Annemarie Schwarzenbach's Texts and Photographs* | Elias Zimmermann |
 | | *Title to be announced* | Markus Schiegg |
 | | *Who CAREs about Witches?* | Christa Schneider |
@@ -65,7 +64,7 @@ and some slots are open; these are marked "to be announced" below.
 | 11:05–11:35 | Coffee break | |
 | 11:35–12:30 | *Title to be announced* | Cristina Grisot |
 | 12:30–14:00 | Lunch break | |
-| 14:00–15:00 | **Dataset pitches: highly sensitive data** | |
+| 14:00–15:00 | **Dataset pitches** | |
 | | *Securing Data Vulnerabilities* | Elisa Fornalé |
 | | *A Safe Space for Testimony: CARE and the Research Infrastructure for Studying Sexual Abuse in the Environment of the Catholic Church in Switzerland* | Moritz Mähr & Magda Kaspar |
 | | *"There was a time when demons just did the trick." — CAREing for cultural property in the Information Age* | Sebastian Borkowsky |
