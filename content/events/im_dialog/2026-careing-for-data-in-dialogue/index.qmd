@@ -10,6 +10,20 @@ author:
     affiliations:
       - University of Bern (Digital Humanities)
     role: author
+  - name: Ursula Loosli
+    affiliations:
+      - University Library Bern (Open Science)
+    email: imdialog@ub.unibe.ch
+    role: author
+  - name: Gero Schreier
+    affiliations:
+      - University Library Bern (Open Science)
+    email: imdialog@ub.unibe.ch
+    role: author
+  - name: Tobias Hodel
+    affiliations:
+      - University of Bern (Digital Humanities)
+    role: author
 other-links:
   - text: Registration
     icon: pencil-square
@@ -102,9 +116,16 @@ Registration is free and runs through the University Library Bern:
 
 👉 [**Register for CAREing for Data in Dialogue**](https://www.ub.unibe.ch/service/open_science/os_veranstaltungen/veranstaltungsformulare/careing_for_data_in_dialogue/index_ger.html)
 
-## Contact
+## Contact & Organisers
 
-Further details are announced here as the programme is settled.
+If you have questions, please contact **imdialog@ub.unibe.ch**. Further details are announced
+here as the programme is settled.
+
+Organisers:
+
+- Dr. des. Christa Schneider (Digital Humanities)
+- M.A. Ursula Loosli; Dr. Gero Schreier (Open Science, University Library Bern)
+- Prof. Dr. Tobias Hodel (Digital Humanities)
 
 ::: {.callout-tip collapse="true" title="Image credit"}
 Header image by [Simon Lee](https://unsplash.com/@simonppt) on
