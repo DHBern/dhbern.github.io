@@ -75,10 +75,10 @@ Schedule at a glance (subject to minor updates).
 | 11:00-11:30 |                                                 | Speed Date Walk                                                                                                                                                                                                                                                                                                                                                |
 | 11:30-12:30 | **File\_2**<br>*Chair*:  **Arno Görgen**        | **Sources and how to find them: “History has a beginning in sources, but also in the gaps within and between sources.”** <br>- *Before and after Gaming the Iron Curtain: How new findings expand and recontextualize Czechoslovak game history* by **Jaroslav Svelch** <br>- *The Reghex Method: Streamlining Video Game Excavation* by **Pierre-Yves Hurel** |
 | 12:30–14:00 |                                                 | *Lunch*                                                                                                                                                                                                                                                                                                                                                        |
-| 14:00–15:00 | **File\_3**<br>*Chair*: **Pierre-Yves Hurel**   | **Hardware / Local Platforms**<br>- *Local History and History of Local Platforms in Video Games History: Quickly Issues and Express Perspectives* by **Alexis Blanchet**<br>- **TBA**                                                                                                                                                                         |
+| 14:00–15:00 | **File\_3**<br>*Chair*: **Pierre-Yves Hurel**   | **Hardware / Local Platforms**<br>- *Local History and History of Local Platforms in Video Games History: Quickly Issues and Express Perspectives* by **Alexis Blanchet**<br>- *The role of platforms in the study of local game histories* by **Yannick Rochat**                                                                                              |
 | 15:00–15:30 |                                                 | **Peer Walk**                                                                                                                                                                                                                                                                                                                                                  |
 | 15:30-16:00 |                                                 | *Coffee Break*                                                                                                                                                                                                                                                                                                                                                 |
-| 16:00–17:00 | **File\_4**<br>*Chair*: **Mela Kocher**         | **Software / Game Design / Culture**<br>- *A Grassroots Oral History of Video Games in Quebec: From Written to Crowdsourced Data* by **Bernard Perron** & **Dominic Arsenault**<br>- *Feeling Play - Ludemes as Tacit Knowledge* by **Adrian Demleitner**                                                                                              |
+| 16:00–17:00 | **File\_4**<br>*Chair*: **Yannick Rochat**      | **Software / Game Design / Culture**<br>- *A Grassroots Oral History of Video Games in Quebec: From Written to Crowdsourced Data* by **Bernard Perron** & **Dominic Arsenault**<br>- *Feeling Play - Ludemes as Tacit Knowledge* by **Adrian Demleitner**                                                                                                      |
 | 17:15–18:15 | **File\_5**<br>*Chair*: **Aurelia Brandenburg** | **Game Legacy / Preservation / Game Labs**<br>- *Video Game Heritage in Switzerland: a landscape of practices* by **Magalie Vetter**<br>- *The game archive of the GameLab ZHdK: preservation on the sidelines* by **Beat Suter** & **Noémie Chow**                                                                                                            |
 | 19:00       |                                                 | *Dinner*                                                                                                                                                                                                                                                                                                                                                       |
 
@@ -127,8 +127,27 @@ Schedule at a glance (subject to minor updates).
 * Shuttle Bus:  
   The shuttle bus stops next to the end of platform 4 (close to where public transport is leaving). Look for the white bus with the Monte Verità logo.
 
-  Time table for the shuttle busses follows soon.  
+![](image3.png)
 
+- Shuttle timetable:
+  
+  Arrival
+	  
+	- 03:00 pm
+	- 04:00 pm
+	- 04:40 pm
+	- 05:20 pm
+	- 06:00 pm
+	- 06:40 pm
+
+	Departure
+
+	- 08:00 am
+	- 08:40 am
+	- 09:20 am
+	- 10:00 am
+	- 10:40 am
+	- 11:20 am
 
 * Public bus  
     
