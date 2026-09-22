@@ -43,7 +43,7 @@ These scenarios leverage nodegoat’s built-in data modeling, temporal–spatial
 | Developer studio (LAB1100) | <https://lab1100.com/> |
 | Community mailing list (UniBE) | nodegoat.hist-join\@lists.unibe.ch |
 | ILIAS support group | request via sebastian.borkowski\@unibe.ch |
-| SWITCHtube channel “Closer to the Edge” | <https://tube.switch.ch/channels/unE1loPMPW> |
+| Tobira channel “Closer to the Edge” | <https://tobira.unibe.ch/!s/:unE1loPMPW> |
 
 ## Use-case videos
 
