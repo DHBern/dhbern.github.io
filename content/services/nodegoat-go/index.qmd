@@ -44,6 +44,7 @@ These scenarios leverage nodegoat’s built-in data modeling, temporal–spatial
 | Community mailing list (UniBE) | nodegoat.hist-join\@lists.unibe.ch |
 | ILIAS support group | request via sebastian.borkowski\@unibe.ch |
 | Tobira channel “Closer to the Edge” | <https://tobira.unibe.ch/!s/:unE1loPMPW> |
+| nodegoat Tutorials und News auf dem HistData-Blog von Kaspar Gubler | <https://histdata.hypotheses.org/>
 
 ## Use-case videos
 
