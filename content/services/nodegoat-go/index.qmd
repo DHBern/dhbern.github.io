@@ -52,4 +52,4 @@ A curated playlist showcases concrete applications—from digital editions to ar
 ## Contact
 
 Sebastian Borkowski\
-[nodegoat.support\@unibe.ch](mailto:nodegoat.support@unibe.ch)
+[support.dsl\@unibe.ch](mailto:support.dsl@unibe.ch)
