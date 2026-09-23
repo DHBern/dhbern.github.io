@@ -5,10 +5,6 @@ author:
     email: katharina.boehmer@unibe.ch
     orcid: 0009-0003-7269-6780
     affiliation: University of Bern
-  - name: Alessandra Fedrigo
-    email: alessandra.fedrigo@unibe.ch
-    orcid: 0009-0005-0968-7376
-    affiliation: University of Bern
 categories: [Services]
 other-links:
   - text: "German version"
@@ -30,21 +26,21 @@ We provide advice and support for researchers who wish to publish in Diamond Ope
 
 Together with you we design:
 
--   new OA journals
--   innovative features for your OA journal
--   strategies for the further development of existing OA journals
+- new OA journals
+- innovative features for your OA journal
+- strategies for the further development of existing OA journals
 
 We support you in:
 
--   deciding on formats (HTML, PDF, XML), publishing platforms (e.g. [OJS](https://pkp.sfu.ca/software/ojs/)), hosting solutions, and software
--   transforming existing print or online journals to OA/DOA (Flipping)
--   including your OA journal in relevant databases and metric-based indices (e.g. [DOAJ](https://doaj.org/), [Scopus](https://www.scopus.com/sources.uri?RN_AG_Sourced_400000654), [Web of Science Core Collection](https://mjl.clarivate.com/home), [EBSCO](https://www.ebsco.com/), [ERIH PLUS](https://kanalregister.hkdir.no/publiseringskanaler/erihplus/), [WorldCat](https://search.worldcat.org/de), etc.)
--   deciding on suitable OA licenses ([Creative Commons](https://creativecommons.org/share-your-work/cclicenses/))
+- deciding on formats (HTML, PDF, XML), publishing platforms (e.g. [OJS](https://pkp.sfu.ca/software/ojs/)), hosting solutions, and software
+- transforming existing print or online journals to OA/DOA (Flipping)
+- including your OA journal in relevant databases and metric-based indices (e.g. [DOAJ](https://doaj.org/), [Scopus](https://www.scopus.com/sources.uri?RN_AG_Sourced_400000654), [Web of Science Core Collection](https://mjl.clarivate.com/home), [EBSCO](https://www.ebsco.com/), [ERIH PLUS](https://kanalregister.hkdir.no/publiseringskanaler/erihplus/), [WorldCat](https://search.worldcat.org/de), etc.)
+- deciding on suitable OA licenses ([Creative Commons](https://creativecommons.org/share-your-work/cclicenses/))
 
 For questions about:
 
--   [funding options for open access publications](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html)
--   [open access requirements of funding organizations](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html#pane1224714) (SNF)
+- [funding options for open access publications](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html)
+- [open access requirements of funding organizations](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html#pane1224714) (SNF)
 
 please contact the Open Science Team of the University Library of Bern UB: [openaccess\@ub.unibe.ch](mailto:openaccess@ub.unibe.ch)
 
@@ -52,22 +48,22 @@ please contact the Open Science Team of the University Library of Bern UB: [open
 
 We share our expertise on the following topics:
 
--   designing OA-journal workflows
--   editorial process: guidelines for peer review, proofreading, stylesheet…
--   production process: formatting, typesetting, proofreading, publication…
--   best practices: workflow in OJS, image management (image rights and image editing)
--   communication with authors and editorial board, time management…
--   plagiarism check: software and handling of plagiarism
--   marketing strategies (social media).
+- designing OA-journal workflows
+- editorial process: guidelines for peer review, proofreading, stylesheet…
+- production process: formatting, typesetting, proofreading, publication…
+- best practices: workflow in OJS, image management (image rights and image editing)
+- communication with authors and editorial board, time management…
+- plagiarism check: software and handling of plagiarism
+- marketing strategies (social media).
 
 We offer:
 
--   regular consultation and training for editorial teams of OA journals
--   assistance in optimizing editorial workflows
+- regular consultation and training for editorial teams of OA journals
+- assistance in optimizing editorial workflows
 
 For questions about:
 
--   technical infrastructure for scholar-led open access journal projects such as [BOP Serials](https://bop.unibe.ch/), [Open Journal Systems](https://pkp.sfu.ca/software/ojs/) (OJS), [SciFlow Publish](https://sciflow.net/en/sciflow-publish), and [identifiers](https://www.ub.unibe.ch/services/open_science/identifiers/index_eng.html) (DOI, ISBN, ISSN, GND)
+- technical infrastructure for scholar-led open access journal projects such as [BOP Serials](https://bop.unibe.ch/), [Open Journal Systems](https://pkp.sfu.ca/software/ojs/) (OJS), [SciFlow Publish](https://sciflow.net/en/sciflow-publish), and [identifiers](https://www.ub.unibe.ch/services/open_science/identifiers/index_eng.html) (DOI, ISBN, ISSN, GND)
 
 please contact the Open Science Team of the University Library of Bern UB: [openaccess\@ub.unibe.ch](mailto:openaccess@ub.unibe.ch)
 
@@ -75,21 +71,21 @@ please contact the Open Science Team of the University Library of Bern UB: [open
 
 We advise you on:
 
--   image management (image rights and image editing)
--   communication with museums, libraries, archives, etc.
--   communication with editorial teams of OA journals
--   legal questions (copyright)
+- image management (image rights and image editing)
+- communication with museums, libraries, archives, etc.
+- communication with editorial teams of OA journals
+- legal questions (copyright)
 
 We offer tips on:
 
--   innovative presentation of image material
--   embedding multimedia features into texts (video, audio, etc.)
+- innovative presentation of image material
+- embedding multimedia features into texts (video, audio, etc.)
 
 For questions about:
 
--   [funding options for open access publications](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html)
--   [open access requirements of research funding institutions](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html#pane1224714)
--   [Article Processing Charges (APC) and Book Processing Charges (BPC)](https://www.ub.unibe.ch/service/open_science/dienstleistungen/index_ger.html#collapse_pane780347)
+- [funding options for open access publications](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html)
+- [open access requirements of research funding institutions](https://www.ub.unibe.ch/services/open_science/open_access/index_eng.html#pane1224714)
+- [Article Processing Charges (APC) and Book Processing Charges (BPC)](https://www.ub.unibe.ch/service/open_science/dienstleistungen/index_ger.html#collapse_pane780347)
 
 please contact the Open Science Team at University Library of Bern UB: [openaccess\@ub.unibe.ch](mailto:openaccess@ub.unibe.ch)
 
@@ -101,5 +97,4 @@ We look forward to hearing from you!
 
 **Contact:**\
 [Katharina Böhmer](https://www.dh.unibe.ch/about_us/people/ma_boehmer_katharina/index_eng.html)\
-[Alessandra Fedrigo](https://www.dh.unibe.ch/about_us/people/fedrigo_alessandra/index_eng.html)\
 [oa-lab.dh\@unibe.ch](mailto:oa-lab.dh@unibe.ch)\
