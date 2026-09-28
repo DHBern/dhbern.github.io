@@ -41,11 +41,12 @@ Digital Game Design & Ludic Cultures Around the World
 
 Welcome to our website\! Here, you will find:
 
-- [The conference program](#conference-program).
-- [The participant’s guide](#participants-guide)
+- The conference program
+- The participant’s guide
 
 This conference is the final conference of the research project [Confoederatio Ludens](https://chludens.ch/), co-organized by the [Digital Humanities of the University of Bern](https://www.dh.unibe.ch/), the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/), the [Zurich University of the Arts](https://www.zhdk.ch/en/zurich-university-of-the-arts-1), and the [University of Lausanne](https://www.unil.ch/unil/en/home.html) and funded by the [Swiss National Science Foundation (SNSF)](https://www.snf.ch/en).
 
+We would like to express our sincere thanks to the Swiss National Science Foundation (SNSF) and the Burgergemeinde Bern for their support.
 ## Conference program
 
 ::: {.program-note}
