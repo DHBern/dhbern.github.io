@@ -5,7 +5,7 @@ event-date: "2026.10.23"
 date: "2026.10.06"
 categories:
   - Event
-location: Universität Bern
+location: "Kuppelraum, Hauptgebäude, Universität Bern"
 author:
   - name: Tobias Hodel
     orcid: 0000-0002-2071-6407
@@ -28,7 +28,7 @@ Neben den Projektpräsentationen stehen zwei Formate im Zentrum, die selten nebe
 sehen sind: ein **Toolmarktplatz** mit laufenden Werkzeugen und **Fail Pitches**, in denen
 Beteiligte zeigen, was *nicht* funktioniert hat und was sich daraus lernen liess.
 
-**23. Oktober 2026, 9:00–16:30 Uhr, Universität Bern.**
+**23. Oktober 2026, 9:00–16:30 Uhr, Kuppelraum, Hauptgebäude, Universität Bern.**
 
 ::: {.callout-note title="Anmeldung"}
 Anmeldung und weitere Informationen über die
