@@ -7,11 +7,7 @@ categories:
   - Event
 location: "Kuppelraum, Hauptgebäude, Universität Bern"
 author:
-  - name: Tobias Hodel
-    orcid: 0000-0002-2071-6407
-    email: tobias.hodel@unibe.ch
-    affiliations:
-      - Universität Bern (Digital Humanities)
+  - name: SGG and DHCenter
     role: author
 other-links:
   - text: Programm und Anmeldung (SGG)
@@ -63,3 +59,5 @@ Anmeldung und weitere Informationen über die
 | 15:30 | **Ein kritischer Blick auf «künstliche Intelligenz»** — Monika Dommann (Universität Zürich)<br>*Moderation: Tim Rüdiger* |
 | 16:00 | **Roundtable und Schlussdiskussion** — Gunnar Knutsen, Tobias Steiner, Monika Dommann, Franziska Zaugg<br>*Moderation: Tobias Hodel* |
 | 16:30 | Schlusswort und Apéro |
+
+: {tbl-colwidths="[10,90]"}
