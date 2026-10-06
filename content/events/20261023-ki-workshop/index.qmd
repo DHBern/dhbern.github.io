@@ -1,0 +1,65 @@
+---
+title: "Künstliche Intelligenz, historische Materialien und Methoden"
+subtitle: "Etablierte Anwendung, Misserfolge und tolle Entdeckungen — ein Workshop der SGG-Abteilung «Grundlagenerschliessung und Digitalisierung»"
+event-date: "2026.10.23"
+date: "2026.10.06"
+categories:
+  - Event
+location: Universität Bern
+author:
+  - name: Tobias Hodel
+    orcid: 0000-0002-2071-6407
+    email: tobias.hodel@unibe.ch
+    affiliations:
+      - Universität Bern (Digital Humanities)
+    role: author
+other-links:
+  - text: Programm und Anmeldung (SGG)
+    icon: info-circle
+    href: https://www.sgg-ssh.ch/news/ki-workshop/
+---
+
+Wie verändert generative KI die historische Forschung? Der Workshop der SGG-Abteilung
+«Grundlagenerschliessung und Digitalisierung» geht dieser Frage an konkreten
+Anwendungsszenarien nach — von der Handschriftenerkennung über die Erschliessung von
+Archivbeständen bis zur Quellenanalyse.
+
+Neben den Projektpräsentationen stehen zwei Formate im Zentrum, die selten nebeneinander zu
+sehen sind: ein **Toolmarktplatz** mit laufenden Werkzeugen und **Fail Pitches**, in denen
+Beteiligte zeigen, was *nicht* funktioniert hat und was sich daraus lernen liess.
+
+**23. Oktober 2026, 9:00–16:30 Uhr, Universität Bern.**
+
+::: {.callout-note title="Anmeldung"}
+Anmeldung und weitere Informationen über die
+[Veranstaltungsseite der SGG](https://www.sgg-ssh.ch/news/ki-workshop/); Fragen an
+[info\@sgg-ssh.ch](mailto:info@sgg-ssh.ch).
+:::
+
+## Programm
+
+| Zeit | Beitrag |
+|---:|---|
+| 09:00 | **Begrüssung** durch die Präsidentin der SGG, Franziska Zaugg (Universität Freiburg) |
+| 09:15 | **Keynote: LLMs for History** — Gunnar W. Knutsen (University of Bergen)<br>*Moderation: Tobias Hodel* |
+| 10:15 | Kaffeepause |
+| 10:45 | **Projektpräsentationen** *(Moderation: Silke Bellanger)* |
+| | *impresso.ch* — Maud Ehrmann, Martin Grandjean (Impresso) |
+| | *Metagrid Plugin* — Lena Heizmann, Luca Kummer, Sacha Zala (Dodis) |
+| | *Video- und Bildsuche in Archivbeständen* — Daniela Rölli (Stadtarchiv Bern & Archipanion) |
+| | *AI-Evaluation* — Maximilian Hindermann (RISE) |
+| | *AI Explainer* — Enrico Natale, Jan Baumann (infoclio.ch) |
+| | *Three ways of being wrong: a provenance discipline for AI-assisted source curation* — Olga Serbaeva (EGRAPSA) |
+| | *TextLab* — Ahmad Alhineid (Data Science Lab, Universität Bern) |
+| 13:00 | Mittagessen |
+| 14:00 | **Fail Pitches** und **Tool Pitches** *(Moderation: Noah Regenass)* |
+| | *Eigenes RAG — 9'100 Artikel der Swissair* — Vera Bieri (Schweizerisches Wirtschaftsarchiv) |
+| | *E-Rara Entity Linking* — Melanie Lerch (ETH-Bibliothek) |
+| | *Orte in Turmbüchern geographisch verorten* — Tobias Hodel (Digital Humanities, Universität Bern) |
+| | *Recherche-Zugriff auf historische Texte* — Tim Rüdiger (Staatsarchiv Zürich) |
+| | *The Swiss Knife for Editors of Diplomatic Documents* — Lena Heizmann, Luca Kummer, Sacha Zala (Dodis) |
+| | *KI-gestützte Informationsextraktion aus Fotos* — Markus Stauffiger (Archipanion) |
+| 15:00 | Kaffeepause |
+| 15:30 | **Ein kritischer Blick auf «künstliche Intelligenz»** — Monika Dommann (Universität Zürich)<br>*Moderation: Tim Rüdiger* |
+| 16:00 | **Roundtable und Schlussdiskussion** — Gunnar Knutsen, Tobias Steiner, Monika Dommann, Franziska Zaugg<br>*Moderation: Tobias Hodel* |
+| 16:30 | Schlusswort und Apéro |
