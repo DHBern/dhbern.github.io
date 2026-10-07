@@ -16,6 +16,7 @@ description: "How 'Gamer Culture' emerged as a male-coded, patriarchal culture t
 
 After establishing its theoretical and methodological framework and reconstructing the largely unwritten history of the German gaming-magazine market, its editors and publishers, the study examines three formative discourses: debates over violence, war and youth protection that drew a boundary between Gamer Culture and its outside; myths of sexism and misogyny that cast women and girls as disruptors of a supposed men's domain; and the magazines' cultivation of their own fandoms through devices such as editor personas. In doing so, it shows how these magazines became facilitators of a culture that would later underpin reactionary backlashes such as GamerGate, and asks how far insights from research on anglophone audiences transfer to a non-English-speaking market before the rise of the internet.
 
+Aurelia Brandenburg completed this dissertation within the [CH-Ludens](../../ch-ludens/index.qmd) project.
 The dissertation was supervised by Prof. Dr. Tobias Hodel ([Digital Humanities](../../../../index.qmd), University of Bern) and Dr. Eugen Pfister (Institute of Design Research, Bern Academy of the Arts, HKB).
 
 **Links:** [Personal website](https://aureliabrandenburg.de/)
