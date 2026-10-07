@@ -6,7 +6,6 @@ event-date: 2026.09.27
 categories:
   - Event
   - Confoederatio Ludens
-  - Project
 location: Monte Verità, Ticino
 author:
   - name: Addrich Mauch
