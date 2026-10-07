@@ -1,8 +1,26 @@
 ---
 title: "Projects"
 listing:
-  type: grid
-  contents: "./*/index.qmd"
-  image-lazy-loading: true
-  sort: "status asc"
+  - id: projects
+    type: grid
+    contents: "./*/index.qmd"
+    image-lazy-loading: true
+    sort: "status asc"
+  - id: dissertations
+    type: grid
+    contents: "dissertations/*/index.qmd"
+    image-lazy-loading: true
+    sort: "title asc"
+    categories: false
+    fields: [title, author, description]
 ---
+
+::: {#projects}
+:::
+
+## Finished dissertation projects
+
+Completed PhD dissertations supervised or hosted at Digital Humanities Bern.
+
+::: {#dissertations}
+:::
