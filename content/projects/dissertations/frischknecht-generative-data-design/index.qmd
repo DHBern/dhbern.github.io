@@ -1,0 +1,23 @@
+---
+title: "Generative Data Design: Data Visualization as Argumentative Process in the Digital Humanities"
+author:
+  - name: Max Frischknecht
+    role: author
+status: finished
+type: "PhD dissertation"
+categories:
+  - Dissertation
+description: "A critical method that reframes data visualization as an argumentative, interpretative process for digital cultural heritage collections. PhD dissertation, University of Bern, 2024."
+---
+
+**PhD dissertation · University of Bern · completed autumn semester 2024**
+
+> This study introduces Generative Data Design, a critical method for data visualization in the digital humanities that conceptualizes data visualization as an argumentative process supporting the interpretation of digital cultural heritage collections. As cultural heritage collections become increasingly digitized, interfaces and data visualizations become central for access, exploration, analysis and interpretation. However, data visualizations have been critiqued for implying a false sense of neutrality and objectivity that obscures the interpretative framework that underpins them. Generative Data Design challenges this paradigm by reframing visualizations as arguments and by examining how the process of visualization is essentially an argumentative process. It understands and conceptualizes design as iterative and interpretative practice with parallels to hermeneutics. The method provides a framework to interrogate the conditions of production of the visualization process by examining, on the one hand, the socio-technical systems that produce and shape cultural data, and, on the other, the questions, prejudice and motivation that underpin the visualization. The method offers three forms of iteration and three principles of generativity that support the creation of different visual perspectives on data.
+>
+> At the centre of the study are the following three research questions: 1) How can Generative Data Design as a hermeneutical design process interrogate its conditions of production? 2) How can iteration, generativity and interaction contribute to a process and to data visualizations that create different perspectives on data? 3) How can this contribute to the framing of data visualizations as arguments? These questions are examined through a historical analysis of the history of generative design and art, a theoretical grounding of the method in the context of the (digital) humanities, and the practical application within two case studies – the Atlas of Swiss Folklore (approximately 1936-1995) and the photographic collection Ernst Brunner (1901-1979) – providing insights into the method's applicability, effectiveness, efficiency and limitations.
+>
+> The study hopes to contribute to the critical discourse in digital humanities by providing a practical design framework for creating exploratory visualizations. It underscores the need for visualization methods that embrace the constructedness and complexity of digital cultural heritage data and data visualization processes centred around humanities interpretation.
+
+The dissertation was carried out at the Institute of Design Research of the Bern Academy of the Arts (HKB), within the SNSF Sinergia project *Participatory Knowledge Practices in Analog and Digital Image Archives*.
+
+**Links:** [Institute of Design Research (HKB)](https://www.hkb.bfh.ch/de/forschung/forschungsbereiche/institute-of-design-research/ueber-uns/) · [Personal website](https://maxfrischknecht.ch/about/)
