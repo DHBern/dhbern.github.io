@@ -67,7 +67,7 @@ and some slots are open; these are marked "to be announced" below.
 | 14:00–15:00 | **Dataset pitches** | |
 | | *Securing Data Vulnerabilities* | Elisa Fornalé |
 | | *A Safe Space for Testimony: CARE and the Research Infrastructure for Studying Sexual Abuse in the Environment of the Catholic Church in Switzerland* | Moritz Mähr & Magda Kaspar |
-| | *"There was a time when demons just did the trick." — CAREing for cultural property in the Information Age* | Sebastian Borkowsky |
+| | *"There was a time when demons just did the trick." — CAREing for cultural property in the Information Age* | Sebastian Borkowski |
 | | *When Every Minute Identifies: Emergency Medicine Data at the Boundary of Openness* | Martin Müller |
 | 15:00–16:10 | **Hands-on** (parallel, coffee served) | |
 | | *Learning to See the Problem: Discrimination-Sensitive Metadata in Practice* | Moritz Mähr |
@@ -77,7 +77,28 @@ and some slots are open; these are marked "to be announced" below.
 
 ## Abstracts
 
-Abstracts are published here as they are confirmed.
+Abstracts are published here as they are confirmed. The keynote, the Data Stewards' pitch,
+Elisa Fornalé's pitch and the "Bring your own data" session are still to come.
+
+### The Case of Digital Scholarly Editing: How to Mediate Discrimination in Annemarie Schwarzenbach's Texts and Photographs
+
+**Elias Zimmermann & Levyn Bürki**
+
+Once a corpus has been defined on the basis of scientific and legal considerations, scholarly
+editions face less of a challenge in selecting which sensitive data to collect or display. Their
+task might be to edit data that is ethically problematic but — sometimes precisely for that
+reason — historically and philologically important. Our focus is therefore on the question of how
+to mediate such material from the data level up to its display in the frontend.
+
+Since 2025, the Schwarzenbach Edition (in particular Levyn Bürki, Daniela Kohler and Elias
+Zimmermann) has developed its own discrimination-sensitive editorial guidelines in consultation
+with postcolonial researchers and GLAM institutions. The guidelines set out fundamental
+considerations regarding the presentation of content and translate them into specific policies for
+tagging, annotation and presentation. For example, discriminatory expressions are marked up in
+TEI/XML to enable the automated and targeted display of content notes with references to
+explanatory editorial comments in the frontend. We argue that discrimination-sensitive editing
+should not be viewed merely as a technical, presentational or philological challenge, but that all
+three aspects should be considered in close conjunction with one another.
 
 ### Patient texts from German psychiatric hospitals of the 19th- and early 20th centuries
 
@@ -107,20 +128,136 @@ metadata and any resulting ahistorical or voyeuristic misuse.
 - Schiegg, Markus (2022): *Flexible Schreiber in der Sprachgeschichte. Intraindividuelle Variation
   in Patientenbriefen (1850–1936).* Heidelberg: Winter.
 
+### Who CAREs about Witches?
+
+**Christa Schneider**
+
+How much ethical responsibility do researchers have towards individuals who died centuries ago,
+particularly when their personal histories are preserved in records of criminal prosecution?
+Drawing on research with early modern witch-trial records from Switzerland and beyond, this talk
+explores how the ethical treatment of historical data varies across national and institutional
+contexts. While Swiss archival practices impose very little restrictions on working with these
+records, access to e.g. comparable Scottish material has required ethical procedures similar to
+those applied to contemporary court records. This contrast raises questions about the relevance of
+anonymisation, the identifiability of historical individuals, and the extent to which contextual
+information should be preserved or disclosed. Using concrete examples, the talk considers how the
+CARE Principles might inform our responsibilities towards individuals represented in historical
+records, even centuries after their deaths.
+
+### Ethnographic Data: Between In-Depth Description and the Need to Protect Interlocutors
+
+**Stefan Leins**
+
+As social anthropologists, we often generate ethnographic data through participation in other
+people's everyday lives, work routines, and social situations. We also generate data through
+interviews, as well as through informal conversations that are often not standardized and not even
+recorded. The idea is that the closer we get to our interlocutors, the better we can portray their
+lives and practices through what we call thick description. However, these data are often highly
+personal and intimate. How can we navigate the discrepancy between our desire to provide detailed,
+personal accounts and our responsibility to protect our interlocutors? This tension will be at the
+center of my data pitch.
+
+### Whose Data, Whose Benefit? The values behind CARE — and what they demand of the scientific community and of infrastructures like CLARIN
+
+**Cristina Grisot**
+
+Language resources shared through infrastructures like CLARIN are usually judged by FAIR criteria
+— Findable, Accessible, Interoperable, Reusable — but FAIR never asks who the data serves,
+controls, or benefits. This talk turns to the CARE Principles for Indigenous Data Governance and
+asks: what do CARE's underlying values — collective benefit, authority to control, responsibility,
+ethics — demand of the scientific community, and of infrastructures like CLARIN, when the
+community isn't Indigenous? Drawing on work done in the CLARIN community and Swiss dialectology
+research, it proposes practical steps.
+
+### A Safe Space for Testimony: CARE and the Research Infrastructure for Studying Sexual Abuse in the Environment of the Catholic Church in Switzerland
+
+**Moritz Mähr & Magda Kaspar**
+
+The research project on the history of sexual abuse in the Catholic Church in Switzerland uses
+highly sensitive data from church and state archives, as well as many interviews with affected
+persons. These data are subject to strict data protection and privacy requirements and can
+therefore be made accessible only with restrictions. At the same time, the research findings must
+remain transparent and verifiable for other researchers. This contribution addresses this tension
+and asks how the necessary protection of affected and accused persons can be reconciled with
+scientific verifiability and long-term archiving.
+
+### "There was a time when demons just did the trick." — CAREing for cultural property in the Information Age
+
+**Sebastian Borkowski**
+
+Capitalism and colonial exploitation converted day-to-day objects of past societies into a
+monetisable resource with unregulated profit margins and heralded nationalist and fascist coping
+strategies for postcolonial identity crisis. By destroying the archaeological context, illicit
+excavations of antiquities destroy the primary source of information about the ancient social and
+cultural customs fossilised in archaeological objects. To prevent looting and the illicit trade in
+antiquities, the location and dating of archaeological sites are treated as sensitive data by
+governments and archaeologists. This secrecy conflicts with open research data policies and
+ethical responsibilities for knowledge dissemination and public education — a debate that does not
+necessarily involve the voices of descendant communities.
+
+In the input presentation, I provide a short outline of the general problematic of illicit
+excavations and current (best practice) solutions, before I turn the attention toward the current
+state of negotiations about the reuse and open access publication of unpublished and published
+archaeological data from Southern Iraq between the SNSF Sinergia project
+[HyMes](https://hymes.ch) and the Iraqi State Board of Antiquities and Heritage.
+
+### When Every Minute Identifies: Emergency Medicine Data at the Boundary of Openness
+
+**Martin Müller**
+
+Emergency medicine depends on detailed information: exact times and locations, clinical
+narratives, images, treatment sequences and information about relatives or witnesses. These
+details are essential for accurate diagnosis and meaningful research, but they can also make
+patients identifiable even after names have been removed. Using fictional cases and examples from
+emergency medicine registries, this short talk examines which data are particularly sensitive, who
+may be affected by their disclosure, and how public availability could lead to individual and
+systemic harm — from violence, discrimination and coercion to loss of trust, delayed care and
+biased research. It argues that valuable knowledge, metadata, code and aggregate findings should
+be shared openly, while person-level emergency records require purpose-limited, secure and
+accountable access.
+
+### Learning to See the Problem: Discrimination-Sensitive Metadata in Practice
+
+**Moritz Mähr** · hands-on session
+
+Metadata are not neutral: the ways in which historical sources and research data are described
+shape what can be found, how people and events are represented, and which historical power
+relations are reproduced. This hands-on session introduces the *Handbook for
+Discrimination-Sensitive Metadata Practice*, which combines critical reflection on discrimination,
+bias, representation, and power with practical guidance and checklists for working with metadata.
+Participants will use these checklists to examine examples from their own institution, or an
+institution of their choice, and identify potentially problematic descriptions, classifications,
+omissions, and contextualisations. The aim is not to provide a simple checklist of "right" and
+"wrong" terms, but to develop awareness of how discrimination can become embedded in metadata
+practices and to strengthen participants' ability to recognise and critically discuss problematic
+cases.
+
+### Open, but Not at All Costs: Balancing Openness, Data Protection, and Ethical Responsibility in Research Data
+
+**Gianfranco Valsecchi**
+
+What does it mean to share research data fairly and responsibly? It is now widely recognised that
+research data should be as open as possible and as restricted as necessary, while legal and
+ethical considerations may require additional safeguards and restrictions. Different degrees of
+openness can help balance these two principles by allowing data to be shared and reused under
+varying conditions, depending on the level of access provided and the types of reuse permitted,
+while taking into account the legal, ethical, and social considerations at stake.
+
 ## Speakers
 
 **Anita Auer** — Professor of English Linguistics at the University of Lausanne; her work in
 historical sociolinguistics includes the language of the labouring poor in Late Modern England.
 
-**Sebastian Borkowsky** — University of Bern.
+**Sebastian Borkowski** — doctoral researcher at the Institute of Archaeological Sciences,
+University of Bern, and a member of the HyMes project.
 
 **Levyn Bürki** — Digital Humanities Center, University of Bern.
 
 **Elisa Fornalé** — Associate Professor at the World Trade Institute, University of Bern, working
 on international law, human rights, migration and the environment.
 
-**Cristina Grisot** — Linguistic Research Infrastructure (LiRI), University of Zurich, and
-national coordinator of CLARIN-CH.
+**Cristina Grisot** — Linguistic Research Infrastructure (LiRI), University of Zurich; national
+coordinator of CLARIN-CH and scientific coordinator of DARIAH-CH at DaSCH.
 
 **Magda Kaspar** — historian at the Department of History, University of Zurich, researching
 sexual abuse in the context of the Catholic Church in Switzerland.
@@ -146,8 +283,8 @@ records.
 witch trials.
 
 **Elias Zimmermann** — editor of the digital edition of Annemarie Schwarzenbach's short forms and
-letters, University of Geneva and University of Zurich, where the project has developed its own
-discrimination-sensitive editorial guidelines.
+letters, University of Geneva and University of Zurich, and the Swiss Literary Archives; the
+project has developed its own discrimination-sensitive editorial guidelines.
 
 ## Registration
 
