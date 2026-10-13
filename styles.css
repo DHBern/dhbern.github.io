@@ -613,3 +613,84 @@
 		content: 'Organizer';
 	}
 }
+
+/**
+ * Collapsible disclosure lists — used for abstracts and speaker bios on event
+ * pages, where a long page is easier to scan as a list of titles that open on
+ * demand. Native <details>/<summary>, so it works without JavaScript and stays
+ * keyboard- and screen-reader-accessible; the default marker is replaced by a
+ * chevron that rotates when the item opens.
+ */
+
+.disclosure-list {
+	max-width: 72ch;
+	margin: 1rem 0 2rem;
+	border-top: 1px solid #e4e6ea;
+}
+
+.disclosure-list details {
+	border-bottom: 1px solid #e4e6ea;
+}
+
+.disclosure-list summary {
+	position: relative;
+	display: block;
+	padding: 0.85rem 2rem 0.85rem 0;
+	cursor: pointer;
+	list-style: none;
+}
+
+/* Safari still paints its own triangle without this */
+.disclosure-list summary::-webkit-details-marker {
+	display: none;
+}
+
+.disclosure-list summary::after {
+	content: '';
+	position: absolute;
+	right: 0.6rem;
+	top: 1.15rem;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-right: 2px solid #6a6f77;
+	border-bottom: 2px solid #6a6f77;
+	transform: rotate(45deg);
+	transition: transform 0.15s ease;
+}
+
+.disclosure-list details[open] > summary::after {
+	transform: rotate(-135deg);
+	top: 1.35rem;
+}
+
+.disclosure-list .d-title {
+	display: block;
+	font-weight: 600;
+	line-height: 1.35;
+}
+
+.disclosure-list .d-who {
+	display: block;
+	margin-top: 0.15rem;
+	font-size: 0.9rem;
+	color: #6a6f77;
+}
+
+.disclosure-list summary:hover .d-title,
+.disclosure-list summary:focus-visible .d-title {
+	color: var(--bs-primary);
+}
+
+.disclosure-list details[open] > summary {
+	padding-bottom: 0.45rem;
+}
+
+.disclosure-list details > :not(summary):last-child {
+	margin-bottom: 1.15rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.disclosure-list summary::after {
+		transition: none;
+	}
+}
