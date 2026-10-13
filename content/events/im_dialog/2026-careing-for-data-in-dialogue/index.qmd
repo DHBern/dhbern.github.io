@@ -5,10 +5,12 @@ event-date: "2026.12.09"
 date: "2026.12.09"
 location: "Dome Room (Kuppelraum), Main Building (H4), University of Bern"
 image: careing-for-data_banner.jpg
+categories:
+  - Event
 author:
   - name: Christa Schneider
     affiliations:
-      - University of Bern (Digital Humanities)
+      - University of Bern (Institute of German Studies)
     role: author
   - name: Ursula Loosli
     affiliations:
@@ -75,7 +77,7 @@ and some slots are open; these are marked "to be announced" below.
 | | *Learning to See the Problem: Discrimination-Sensitive Metadata in Practice* | Moritz Mähr |
 | | *Bring your own data* | Christa Schneider |
 | 16:10–17:00 | *Open, but Not at All Costs: Balancing Openness, Data Protection, and Ethical Responsibility in Research Data* | Gianfranco Valsecchi |
-| 17:00 | Closing & apéro | |
+| Afterwards | Closing & apéro | |
 
 ## Abstracts
 
@@ -267,8 +269,8 @@ sexual abuse in the context of the Catholic Church in Switzerland.
 **Stefan Leins** — Professor of Social Anthropology at the University of Bern, working on the
 cultural practices of financial markets and commodity trading.
 
-**Moritz Mähr** — Digital Humanities, University of Bern and University of Basel; works on
-research infrastructures for sensitive historical data.
+**Moritz Mähr** — Institute of History & Digital Humanities, University of Bern, and Department
+of History, University of Zurich; works on research infrastructures for sensitive historical data.
 
 **Martin Müller** — Department of Emergency Medicine, Inselspital, University Hospital Bern,
 where he leads the Resource & Risk Management group.
@@ -281,8 +283,8 @@ data protection, copyright and open science.
 on patient letters from psychiatric institutions works closely with highly sensitive personal
 records.
 
-**Christa Schneider** — Digital Humanities, University of Bern; her research includes the Basel
-witch trials.
+**Christa Schneider** — Institute of German Studies, University of Bern; her research includes
+the Basel witch trials.
 
 **Elias Zimmermann** — editor of the digital edition of Annemarie Schwarzenbach's short forms and
 letters, University of Geneva and University of Zurich, and the Swiss Literary Archives; the
@@ -301,7 +303,7 @@ here as the programme is settled.
 
 Organisers:
 
-- Dr. des. Christa Schneider (Digital Humanities)
+- Dr. des. Christa Schneider (Institute of German Studies)
 - M.A. Ursula Loosli; Dr. Gero Schreier (Open Science, University Library Bern)
 - Prof. Dr. Tobias Hodel (Digital Humanities)
 
