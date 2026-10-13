@@ -84,9 +84,10 @@ and some slots are open; these are marked "to be announced" below.
 Abstracts are published here as they are confirmed. The keynote, the Data Stewards' pitch,
 Elisa Fornalé's pitch and the "Bring your own data" session are still to come.
 
-### The Case of Digital Scholarly Editing: How to Mediate Discrimination in Annemarie Schwarzenbach's Texts and Photographs
+::: {.disclosure-list}
 
-**Elias Zimmermann & Levyn Bürki**
+<details>
+<summary><span class="d-title">The Case of Digital Scholarly Editing: How to Mediate Discrimination in Annemarie Schwarzenbach's Texts and Photographs</span><span class="d-who">Elias Zimmermann & Levyn Bürki</span></summary>
 
 Once a corpus has been defined on the basis of scientific and legal considerations, scholarly
 editions face less of a challenge in selecting which sensitive data to collect or display. Their
@@ -104,9 +105,10 @@ explanatory editorial comments in the frontend. We argue that discrimination-sen
 should not be viewed merely as a technical, presentational or philological challenge, but that all
 three aspects should be considered in close conjunction with one another.
 
-### Patient texts from German psychiatric hospitals of the 19th- and early 20th centuries
+</details>
 
-**Markus Schiegg**
+<details>
+<summary><span class="d-title">Patient texts from German psychiatric hospitals of the 19th- and early 20th centuries</span><span class="d-who">Markus Schiegg</span></summary>
 
 The Corpus of Historical Patient Documents (CoPaDocs) is based on texts written by patients from
 19th- and early 20th-century psychiatric hospitals in Germany. Despite being over 100 years old,
@@ -132,9 +134,10 @@ metadata and any resulting ahistorical or voyeuristic misuse.
 - Schiegg, Markus (2022): *Flexible Schreiber in der Sprachgeschichte. Intraindividuelle Variation
   in Patientenbriefen (1850–1936).* Heidelberg: Winter.
 
-### Who CAREs about Witches?
+</details>
 
-**Christa Schneider**
+<details>
+<summary><span class="d-title">Who CAREs about Witches?</span><span class="d-who">Christa Schneider</span></summary>
 
 How much ethical responsibility do researchers have towards individuals who died centuries ago,
 particularly when their personal histories are preserved in records of criminal prosecution?
@@ -148,9 +151,10 @@ information should be preserved or disclosed. Using concrete examples, the talk 
 CARE Principles might inform our responsibilities towards individuals represented in historical
 records, even centuries after their deaths.
 
-### Ethnographic Data: Between In-Depth Description and the Need to Protect Interlocutors
+</details>
 
-**Stefan Leins**
+<details>
+<summary><span class="d-title">Ethnographic Data: Between In-Depth Description and the Need to Protect Interlocutors</span><span class="d-who">Stefan Leins</span></summary>
 
 As social anthropologists, we often generate ethnographic data through participation in other
 people's everyday lives, work routines, and social situations. We also generate data through
@@ -161,9 +165,10 @@ personal and intimate. How can we navigate the discrepancy between our desire to
 personal accounts and our responsibility to protect our interlocutors? This tension will be at the
 center of my data pitch.
 
-### Whose Data, Whose Benefit? The values behind CARE — and what they demand of the scientific community and of infrastructures like CLARIN
+</details>
 
-**Cristina Grisot**
+<details>
+<summary><span class="d-title">Whose Data, Whose Benefit? The values behind CARE — and what they demand of the scientific community and of infrastructures like CLARIN</span><span class="d-who">Cristina Grisot</span></summary>
 
 Language resources shared through infrastructures like CLARIN are usually judged by FAIR criteria
 — Findable, Accessible, Interoperable, Reusable — but FAIR never asks who the data serves,
@@ -173,9 +178,10 @@ ethics — demand of the scientific community, and of infrastructures like CLARI
 community isn't Indigenous? Drawing on work done in the CLARIN community and Swiss dialectology
 research, it proposes practical steps.
 
-### A Safe Space for Testimony: CARE and the Research Infrastructure for Studying Sexual Abuse in the Environment of the Catholic Church in Switzerland
+</details>
 
-**Moritz Mähr & Magda Kaspar**
+<details>
+<summary><span class="d-title">A Safe Space for Testimony: CARE and the Research Infrastructure for Studying Sexual Abuse in the Environment of the Catholic Church in Switzerland</span><span class="d-who">Moritz Mähr & Magda Kaspar</span></summary>
 
 The research project on the history of sexual abuse in the Catholic Church in Switzerland uses
 highly sensitive data from church and state archives, as well as many interviews with affected
@@ -185,9 +191,10 @@ remain transparent and verifiable for other researchers. This contribution addre
 and asks how the necessary protection of affected and accused persons can be reconciled with
 scientific verifiability and long-term archiving.
 
-### "There was a time when demons just did the trick." — CAREing for cultural property in the Information Age
+</details>
 
-**Sebastian Borkowski**
+<details>
+<summary><span class="d-title">"There was a time when demons just did the trick." — CAREing for cultural property in the Information Age</span><span class="d-who">Sebastian Borkowski</span></summary>
 
 Capitalism and colonial exploitation converted day-to-day objects of past societies into a
 monetisable resource with unregulated profit margins and heralded nationalist and fascist coping
@@ -205,9 +212,10 @@ state of negotiations about the reuse and open access publication of unpublished
 archaeological data from Southern Iraq between the SNSF Sinergia project
 [HyMes](https://hymes.ch) and the Iraqi State Board of Antiquities and Heritage.
 
-### When Every Minute Identifies: Emergency Medicine Data at the Boundary of Openness
+</details>
 
-**Martin Müller**
+<details>
+<summary><span class="d-title">When Every Minute Identifies: Emergency Medicine Data at the Boundary of Openness</span><span class="d-who">Martin Müller</span></summary>
 
 Emergency medicine depends on detailed information: exact times and locations, clinical
 narratives, images, treatment sequences and information about relatives or witnesses. These
@@ -220,9 +228,10 @@ biased research. It argues that valuable knowledge, metadata, code and aggregate
 be shared openly, while person-level emergency records require purpose-limited, secure and
 accountable access.
 
-### Learning to See the Problem: Discrimination-Sensitive Metadata in Practice
+</details>
 
-**Moritz Mähr** · hands-on session
+<details>
+<summary><span class="d-title">Learning to See the Problem: Discrimination-Sensitive Metadata in Practice</span><span class="d-who">Moritz Mähr · hands-on session</span></summary>
 
 Metadata are not neutral: the ways in which historical sources and research data are described
 shape what can be found, how people and events are represented, and which historical power
@@ -236,9 +245,10 @@ omissions, and contextualisations. The aim is not to provide a simple checklist 
 practices and to strengthen participants' ability to recognise and critically discuss problematic
 cases.
 
-### Open, but Not at All Costs: Balancing Openness, Data Protection, and Ethical Responsibility in Research Data
+</details>
 
-**Gianfranco Valsecchi**
+<details>
+<summary><span class="d-title">Open, but Not at All Costs: Balancing Openness, Data Protection, and Ethical Responsibility in Research Data</span><span class="d-who">Gianfranco Valsecchi</span></summary>
 
 What does it mean to share research data fairly and responsibly? It is now widely recognised that
 research data should be as open as possible and as restricted as necessary, while legal and
@@ -247,48 +257,106 @@ openness can help balance these two principles by allowing data to be shared and
 varying conditions, depending on the level of access provided and the types of reuse permitted,
 while taking into account the legal, ethical, and social considerations at stake.
 
+</details>
+
+:::
+
 ## Speakers
 
-**Anita Auer** — Professor of English Linguistics at the University of Lausanne; her work in
-historical sociolinguistics includes the language of the labouring poor in Late Modern England.
+::: {.disclosure-list}
 
-**Sebastian Borkowski** — doctoral researcher at the Institute of Archaeological Sciences,
-University of Bern, and a member of the HyMes project.
+<details>
+<summary><span class="d-title">Anita Auer</span></summary>
 
-**Levyn Bürki** — Digital Humanities Center, University of Bern.
+Professor of English Linguistics at the University of Lausanne; her work in historical sociolinguistics includes the language of the labouring poor in Late Modern England.
 
-**Elisa Fornalé** — Associate Professor at the World Trade Institute, University of Bern, working
-on international law, human rights, migration and the environment.
+</details>
 
-**Cristina Grisot** — Linguistic Research Infrastructure (LiRI), University of Zurich; national
-coordinator of CLARIN-CH and scientific coordinator of DARIAH-CH at DaSCH.
+<details>
+<summary><span class="d-title">Sebastian Borkowski</span></summary>
 
-**Magda Kaspar** — historian at the Department of History, University of Zurich, researching
-sexual abuse in the context of the Catholic Church in Switzerland.
+doctoral researcher at the Institute of Archaeological Sciences, University of Bern, and a member of the HyMes project.
 
-**Stefan Leins** — Professor of Social Anthropology at the University of Bern, working on the
-cultural practices of financial markets and commodity trading.
+</details>
 
-**Moritz Mähr** — Institute of History & Digital Humanities, University of Bern, and Department
-of History, University of Zurich; works on research infrastructures for sensitive historical data.
+<details>
+<summary><span class="d-title">Levyn Bürki</span></summary>
 
-**Martin Müller** — Department of Emergency Medicine, Inselspital, University Hospital Bern,
-where he leads the Resource & Risk Management group.
+Digital Humanities Center, University of Bern.
 
-**Gianfranco Valsecchi** — lawyer with the Competence Center in Digital Law (CCdigitallaw),
-Università della Svizzera italiana; advises and trains Swiss higher education institutions on
-data protection, copyright and open science.
+</details>
 
-**Markus Schiegg** — Professor of German Linguistics at the University of Fribourg; his research
-on patient letters from psychiatric institutions works closely with highly sensitive personal
-records.
+<details>
+<summary><span class="d-title">Elisa Fornalé</span></summary>
 
-**Christa Schneider** — Institute of German Studies, University of Bern; her research includes
-the Basel witch trials.
+Associate Professor at the World Trade Institute, University of Bern, working on international law, human rights, migration and the environment.
 
-**Elias Zimmermann** — editor of the digital edition of Annemarie Schwarzenbach's short forms and
-letters, University of Geneva and University of Zurich, and the Swiss Literary Archives; the
-project has developed its own discrimination-sensitive editorial guidelines.
+</details>
+
+<details>
+<summary><span class="d-title">Cristina Grisot</span></summary>
+
+Linguistic Research Infrastructure (LiRI), University of Zurich; national coordinator of CLARIN-CH and scientific coordinator of DARIAH-CH at DaSCH.
+
+</details>
+
+<details>
+<summary><span class="d-title">Magda Kaspar</span></summary>
+
+historian at the Department of History, University of Zurich, researching sexual abuse in the context of the Catholic Church in Switzerland.
+
+</details>
+
+<details>
+<summary><span class="d-title">Stefan Leins</span></summary>
+
+Professor of Social Anthropology at the University of Bern, working on the cultural practices of financial markets and commodity trading.
+
+</details>
+
+<details>
+<summary><span class="d-title">Moritz Mähr</span></summary>
+
+Institute of History & Digital Humanities, University of Bern, and Department of History, University of Zurich; works on research infrastructures for sensitive historical data.
+
+</details>
+
+<details>
+<summary><span class="d-title">Martin Müller</span></summary>
+
+Department of Emergency Medicine, Inselspital, University Hospital Bern, where he leads the Resource & Risk Management group.
+
+</details>
+
+<details>
+<summary><span class="d-title">Markus Schiegg</span></summary>
+
+Professor of German Linguistics at the University of Fribourg; his research on patient letters from psychiatric institutions works closely with highly sensitive personal records.
+
+</details>
+
+<details>
+<summary><span class="d-title">Christa Schneider</span></summary>
+
+Institute of German Studies, University of Bern; her research includes the Basel witch trials.
+
+</details>
+
+<details>
+<summary><span class="d-title">Gianfranco Valsecchi</span></summary>
+
+lawyer with the Competence Center in Digital Law (CCdigitallaw), Università della Svizzera italiana; advises and trains Swiss higher education institutions on data protection, copyright and open science.
+
+</details>
+
+<details>
+<summary><span class="d-title">Elias Zimmermann</span></summary>
+
+editor of the digital edition of Annemarie Schwarzenbach's short forms and letters, University of Geneva and University of Zurich, and the Swiss Literary Archives; the project has developed its own discrimination-sensitive editorial guidelines.
+
+</details>
+
+:::
 
 ## Registration
 
