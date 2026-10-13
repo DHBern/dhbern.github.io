@@ -714,5 +714,14 @@
 		max-width: 100%;
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
+		/* Set in step with the padding below: together they bring a three-column
+		   programme within a 375px screen, so every column stays on screen and
+		   the scroll above is only a fallback for tables that are wider still. */
+		font-size: 0.85rem;
+	}
+
+	main.content table :is(td, th) {
+		padding-left: 0.35rem;
+		padding-right: 0.35rem;
 	}
 }
