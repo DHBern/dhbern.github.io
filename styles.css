@@ -694,3 +694,25 @@
 		transition: none;
 	}
 }
+
+/**
+ * Wide tables on small screens
+ *
+ * A table whose columns cannot shrink any further — a long session title, a long
+ * name — makes the whole page wider than the viewport, and then every section of
+ * the page scrolls sideways, not just the table. Below Bootstrap's `md`
+ * breakpoint the table becomes its own scroll area instead: the page stays put
+ * and the table keeps its column widths and ordinary word wrapping.
+ *
+ * `overflow-wrap: anywhere` on the cells also removes the overflow, but it breaks
+ * words mid-syllable ("Discrimin|ation", "Annemari|e"), so it is not used here.
+ */
+
+@media (max-width: 767.98px) {
+	main.content table {
+		display: block;
+		max-width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+}
