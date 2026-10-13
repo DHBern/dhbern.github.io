@@ -54,15 +54,15 @@ and some slots are open; these are marked "to be announced" below.
 | Time | Session | Speakers |
 |---:|---|---|
 | 09:00–09:15 | Welcome | |
-| 09:15–10:05 | Keynote — *title to be announced* | to be announced |
+| 09:15–10:05 | Keynote — *title to be announced* | Anita Auer |
 | 10:05–11:05 | **Dataset pitches** | |
-| | *The Case of Digital Scholarly Editing: How to Mediate Discrimination in Annemarie Schwarzenbach's Texts and Photographs* | Elias Zimmermann |
-| | *Title to be announced* | Markus Schiegg |
+| | *The Case of Digital Scholarly Editing: How to Mediate Discrimination in Annemarie Schwarzenbach's Texts and Photographs* | Elias Zimmermann & Levyn Bürki |
+| | *Patient texts from German psychiatric hospitals of the 19th- and early 20th centuries* | Markus Schiegg |
 | | *Who CAREs about Witches?* | Christa Schneider |
-| | *Title to be announced* | Stefan Leins |
+| | *Ethnographic Data: Between In-Depth Description and the Need to Protect Interlocutors* | Stefan Leins |
 | | *Data Steward's perspective* | Data Stewards, University of Bern |
 | 11:05–11:35 | Coffee break | |
-| 11:35–12:30 | *Title to be announced* | Cristina Grisot |
+| 11:35–12:30 | *Whose Data, Whose Benefit? The values behind CARE — and what they demand of the scientific community and of infrastructures like CLARIN* | Cristina Grisot |
 | 12:30–14:00 | Lunch break | |
 | 14:00–15:00 | **Dataset pitches** | |
 | | *Securing Data Vulnerabilities* | Elisa Fornalé |
@@ -72,12 +72,49 @@ and some slots are open; these are marked "to be announced" below.
 | 15:00–16:10 | **Hands-on** (parallel, coffee served) | |
 | | *Learning to See the Problem: Discrimination-Sensitive Metadata in Practice* | Moritz Mähr |
 | | *Bring your own data* | Christa Schneider |
-| 16:10–17:00 | *Two contributions — titles to be announced* | to be announced |
+| 16:10–17:00 | *Open, but Not at All Costs: Balancing Openness, Data Protection, and Ethical Responsibility in Research Data* | Gianfranco Valsecchi |
 | 17:00 | Closing & apéro | |
+
+## Abstracts
+
+Abstracts are published here as they are confirmed.
+
+### Patient texts from German psychiatric hospitals of the 19th- and early 20th centuries
+
+**Markus Schiegg**
+
+The Corpus of Historical Patient Documents (CoPaDocs) is based on texts written by patients from
+19th- and early 20th-century psychiatric hospitals in Germany. Despite being over 100 years old,
+consulting these sources means entering the realm of medical confidentiality. Their high
+scientific relevance, however, justifies their archiving and use (Fichtner 1997: 116). This
+presentation shows how CoPaDocs deals with this tension in practice. The sociolinguistic focus of
+my research (see Schiegg 2022) contradicted with a full pseudonymisation, meaning that only a
+patient's surnames was abbreviated to the first letter, and the first name, together with a large
+amount contextual information relating to the individuals, has been published. However, access to
+certain contextual data, in particular a patient's medical diagnosis, was made more difficult by
+limiting the search options. They were designed to prevent quick searches within the illness
+metadata and any resulting ahistorical or voyeuristic misuse.
+
+**References**
+
+- CoPaDocs = Schiegg, Markus (ed.) (2023): *Corpus of Patient Documents.*
+  <https://deutschestextarchiv.github.io/copadocs/>;
+  <https://www.dwds.de/d/korpora/copadocs>
+- Fichtner, Gerhard (1997): Das Problem der Schweigepflicht und der Historiker. In: Dietrich Meyer
+  & Bernd Hey (eds.): *Akten betreuter Personen als archivische Aufgabe. Beratungs- und
+  Patientenakten im Spannungsfeld von Persönlichkeitsschutz und historischer Forschung.*
+  Neustadt/Aisch: Degener, 111–122.
+- Schiegg, Markus (2022): *Flexible Schreiber in der Sprachgeschichte. Intraindividuelle Variation
+  in Patientenbriefen (1850–1936).* Heidelberg: Winter.
 
 ## Speakers
 
+**Anita Auer** — Professor of English Linguistics at the University of Lausanne; her work in
+historical sociolinguistics includes the language of the labouring poor in Late Modern England.
+
 **Sebastian Borkowsky** — University of Bern.
+
+**Levyn Bürki** — Digital Humanities Center, University of Bern.
 
 **Elisa Fornalé** — Associate Professor at the World Trade Institute, University of Bern, working
 on international law, human rights, migration and the environment.
@@ -96,6 +133,10 @@ research infrastructures for sensitive historical data.
 
 **Martin Müller** — Department of Emergency Medicine, Inselspital, University Hospital Bern,
 where he leads the Resource & Risk Management group.
+
+**Gianfranco Valsecchi** — lawyer with the Competence Center in Digital Law (CCdigitallaw),
+Università della Svizzera italiana; advises and trains Swiss higher education institutions on
+data protection, copyright and open science.
 
 **Markus Schiegg** — Professor of German Linguistics at the University of Fribourg; his research
 on patient letters from psychiatric institutions works closely with highly sensitive personal
