@@ -45,7 +45,8 @@ Welcome to our website\! Here, you will find:
 
 This conference is the final conference of the research project [Confoederatio Ludens](https://chludens.ch/), co-organized by the [Digital Humanities of the University of Bern](https://www.dh.unibe.ch/), the [Bern Academy of the Arts](https://www.hkb.bfh.ch/en/), the [Zurich University of the Arts](https://www.zhdk.ch/en/zurich-university-of-the-arts-1), and the [University of Lausanne](https://www.unil.ch/unil/en/home.html) and funded by the [Swiss National Science Foundation (SNSF)](https://www.snf.ch/en).
 
-We would like to express our sincere thanks to the Swiss National Science Foundation (SNSF) and the Burgergemeinde Bern for their support.
+We would like to express our sincere thanks to the Swiss National Science Foundation (SNSF), the Proposal for the Congressi Stefano Franscini (CSF), and the Burgergemeinde Bern for their support.
+
 ## Conference program
 
 ::: {.program-note}
@@ -79,8 +80,8 @@ Schedule at a glance (subject to minor updates).
 | 15:00–15:30 |                                                 | **Peer Walk**                                                                                                                                                                                                                                                                                                                                                  |
 | 15:30-16:00 |                                                 | *Coffee Break*                                                                                                                                                                                                                                                                                                                                                 |
 | 16:00–17:00 | **File\_4**<br>*Chair*: **Yannick Rochat**      | **Software / Game Design / Culture**<br>- *A Grassroots Oral History of Video Games in Quebec: From Written to Crowdsourced Data* by **Bernard Perron** & **Dominic Arsenault**<br>- *Feeling Play - Ludemes as Tacit Knowledge* by **Adrian Demleitner**                                                                                                      |
-| 17:15–18:15 | **File\_5**<br>*Chair*: **Aurelia Brandenburg** | **Game Legacy / Preservation / Game Labs**<br>- *Video Game Heritage in Switzerland: a landscape of practices* by **Magalie Vetter**<br>- *The game archive of the GameLab ZHdK: preservation on the sidelines* by **Beat Suter** & **Noémie Chow**  
-| 18:15–18:30 | **Group photo** |
+| 17:15–18:15 | **File\_5**<br>*Chair*: **Aurelia Brandenburg** | **Game Legacy / Preservation / Game Labs**<br>- *Video Game Heritage in Switzerland: a landscape of practices* by **Magalie Vetter**<br>- *The game archive of the GameLab ZHdK: preservation on the sidelines* by **Beat Suter** & **Noémie Chow**  																								|
+| 18:15–18:30 |													|  *Group photo* 										|
 | 19:00       |                                                 | *Dinner*                                                                                                                                                                                                                                                                                                                                                       |
 
 :::
@@ -191,3 +192,4 @@ Something that gets often forgotten:
 Source: https://world-power-plugs.com/switzerland
 
 Most power sockets are designed for three pin round plugs. The standard continental type plug with two round pins, applied for many electrical travel products, may be used without problem. We can provide some adapters and more should be available by the hotel.
+:::
