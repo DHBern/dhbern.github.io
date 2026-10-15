@@ -49,8 +49,7 @@ and information security.
 Short link to this page: <https://bit.ly/imdialog2026>
 
 ::: {.callout-note}
-This programme is provisional. Several contributions are confirmed but still without a title,
-and some slots are open; these are marked "to be announced" below.
+This programme is provisional and may still change.
 :::
 
 ## Programme
@@ -80,9 +79,6 @@ and some slots are open; these are marked "to be announced" below.
 | Afterwards | Closing & apéro | |
 
 ## Abstracts
-
-Abstracts are published here as they are confirmed. The Data Stewards' pitch, Elisa Fornalé's
-pitch and the "Bring your own data" session are still to come.
 
 ::: {.disclosure-list}
 
@@ -205,6 +201,21 @@ research, it proposes practical steps.
 </details>
 
 <details>
+<summary><span class="d-title">Securing Data Vulnerabilities</span><span class="d-who">Elisa Fornalé</span></summary>
+
+Building on the fieldwork conducted in Mexico, Italy and Bangladesh, the presentation aims to
+discuss how ensuring data protection of vulnerable subjects (e.g. irregular migrants/asylum
+seekers/returnees) in vulnerable contexts. Data protection practices require the adoption of
+significant steps to ensure that people are not exposed to additional harms. The presentation
+will describe some practical challenges and ethical concerns faced during the first phase of data
+collection efforts, storage and transfer of data. Our SNSF Resisting Human Erosion research
+project aims to collect qualitative data in multiple sites and this presentation will offer the
+opportunity to get feedback and to exchange good practices for handling data in a safe and
+reliable manner.
+
+</details>
+
+<details>
 <summary><span class="d-title">A Safe Space for Testimony: CARE and the Research Infrastructure for Studying Sexual Abuse in the Environment of the Catholic Church in Switzerland</span><span class="d-who">Moritz Mähr & Magda Kaspar</span></summary>
 
 The research project on the history of sexual abuse in the Catholic Church in Switzerland uses
@@ -313,7 +324,7 @@ Digital Humanities Center, University of Bern.
 <details>
 <summary><span class="d-title">Elisa Fornalé</span></summary>
 
-Associate Professor at the World Trade Institute, University of Bern, working on international law, human rights, migration and the environment.
+Professor at the University of Bern and gender coordinator at the World Trade Institute; works on international law, human rights, migration and the environment.
 
 </details>
 
