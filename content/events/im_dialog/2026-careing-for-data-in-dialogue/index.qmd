@@ -48,10 +48,6 @@ and information security.
 
 Short link to this page: <https://bit.ly/imdialog2026>
 
-::: {.callout-note}
-This programme is provisional and may still change.
-:::
-
 ## Programme
 
 | Time | Session | Speakers |
