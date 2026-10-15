@@ -58,7 +58,7 @@ and some slots are open; these are marked "to be announced" below.
 | Time | Session | Speakers |
 |---:|---|---|
 | 09:00–09:15 | Welcome | |
-| 09:15–10:05 | Keynote — *title to be announced* | Anita Auer |
+| 09:15–10:05 | Keynote — *Beyond FAIR: CARE, Community Responsibility, and the Challenges of (Historical) Sociolinguistic Data* | Anita Auer |
 | 10:05–11:05 | **Dataset pitches** | |
 | | *The Case of Digital Scholarly Editing: How to Mediate Discrimination in Annemarie Schwarzenbach's Texts and Photographs* | Elias Zimmermann & Levyn Bürki |
 | | *Patient texts from German psychiatric hospitals of the 19th- and early 20th centuries* | Markus Schiegg |
@@ -81,10 +81,34 @@ and some slots are open; these are marked "to be announced" below.
 
 ## Abstracts
 
-Abstracts are published here as they are confirmed. The keynote, the Data Stewards' pitch,
-Elisa Fornalé's pitch and the "Bring your own data" session are still to come.
+Abstracts are published here as they are confirmed. The Data Stewards' pitch, Elisa Fornalé's
+pitch and the "Bring your own data" session are still to come.
 
 ::: {.disclosure-list}
+
+<details>
+<summary><span class="d-title">Beyond FAIR: CARE, Community Responsibility, and the Challenges of (Historical) Sociolinguistic Data</span><span class="d-who">Anita Auer · keynote</span></summary>
+
+(Historical) Sociolinguistic research presents a range of challenges concerning the
+collection, representation, and ethical handling of linguistic data. While the FAIR
+principles (Findable, Accessible, Interoperable, and Reusable) provide guidelines for
+research data management, the CARE principles (Collective Benefit, Authority to Control,
+Responsibility, and Ethics) foreground questions of representation, ownership, and community
+responsibility.
+
+This talk explores the opportunities and tensions between these principles through two
+sociolinguistic case studies. The first – historical sociolinguistic – case study examines
+pauper letters from 1795-1834, highlighting challenges of archival regulations, questions of
+copyright, and the creation of reusable historical corpora. The second focuses on Swiss
+Heritage Tamil, where the question of responsible (meta) data sharing raises ethical
+considerations. Drawing on practical experiences from both projects, I discuss data
+collection, curation, as well as the ethical considerations that place limits on data
+sharing. In particular, I highlight how commitments to CARE may conflict with expectations of
+openness and reuse under FAIR, making certain data unsuitable for public access. Ultimately,
+the talk asks how we can navigate these tensions while creating sociolinguistic datasets that
+are both scientifically valuable and ethically responsible.
+
+</details>
 
 <details>
 <summary><span class="d-title">The Case of Digital Scholarly Editing: How to Mediate Discrimination in Annemarie Schwarzenbach's Texts and Photographs</span><span class="d-who">Elias Zimmermann & Levyn Bürki</span></summary>
