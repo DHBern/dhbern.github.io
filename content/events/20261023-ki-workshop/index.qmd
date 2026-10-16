@@ -42,7 +42,7 @@ Anmeldung und weitere Informationen über die
 | 10:45 | **Projektpräsentationen** *(Moderation: Silke Bellanger)* |
 | | *impresso.ch* — Maud Ehrmann, Martin Grandjean (Impresso) |
 | | *Metagrid Plugin* — Lena Heizmann, Luca Kummer, Sacha Zala (Dodis) |
-| | *Video- und Bildsuche in Archivbeständen* — Daniela Rölli (Stadtarchiv Bern & Archipanion) |
+| | *Video/Bildsuche in Archivbeständen* — Daniela Rölli (Stadtarchiv Bern & Archipanion) |
 | | *AI-Evaluation* — Maximilian Hindermann (RISE) |
 | | *AI Explainer* — Enrico Natale, Jan Baumann (infoclio.ch) |
 | | *Three ways of being wrong: a provenance discipline for AI-assisted source curation* — Olga Serbaeva (EGRAPSA) |
