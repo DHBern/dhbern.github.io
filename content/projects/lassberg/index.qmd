@@ -92,8 +92,8 @@ The project builds on a pre-project of the two principal investigators. It compi
 
 ## Team
 
-- Prof. Dr. Tobias Hodel, Digital Humanities, University of Bern (PI)
+- [Prof. Dr. Tobias Hodel](https://www.dh.unibe.ch/about_us/people/prof_dr_hodel_tobias/index_eng.html), Digital Humanities, University of Bern (PI)
 - Prof. Dr. Michael Schonhardt, Digitale Editorik und Kulturgeschichte des Mittelalters, TU Darmstadt and Akademie der Wissenschaften und der Literatur | Mainz (PI)
-- Ismail Prada Ziegler, University of Bern (postdoctoral researcher)
+- [Ismail Prada Ziegler](https://www.dh.unibe.ch/about_us/people/prada_ziegler_ismail/index_eng.html), University of Bern (postdoctoral researcher)
 - Dr. Cindarella Petz, TU Darmstadt and Akademie der Wissenschaften und der Literatur | Mainz (postdoctoral researcher)
 - Mandy Lamb, TU Darmstadt (doctoral researcher)
