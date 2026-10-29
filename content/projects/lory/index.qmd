@@ -1,0 +1,40 @@
+---
+title: "Digital Edition Lory"
+subtitle: "The Address and Order Book of Gabriel Mathias Lory (1784–1846) as a Networked Edition"
+image: "lory-teaser.jpg"
+author:
+ - Tobias Hodel
+ - Jona Hassenbach
+type: "Digital Edition"
+status: active
+tags: [TEI, IIIF, Linked Data, HTR, Network Analysis]
+categories:
+- Project
+- Cooperation
+- Swiss National Library
+---
+
+The project prepares a digital edition of the address and order book of the Bernese artist and publisher Gabriel Mathias Lory (1784–1846). The book records Lory's clients, correspondents and orders and is a key source for his network and for the sales and market strategies of Swiss "Unternehmerkunst" around 1800.
+
+The edition is conceived as a networked edition: starting from the order book, persons are identified via authority data (GND, VIAF, Wikidata, metagrid) and linked to the prints and coloured and uncoloured sheets that resulted from the orders, held at the Swiss National Library, on Kleinmeister.ch and in other collections. Lory's correspondence, and that of his wife, is processed automatically and related to the edition. The edition is based on TEI-XML, IIIF and Linked Data and can be queried on the website as well as in machine-readable form (API and MCP).
+
+The project runs from 2026 to 2030 and is a cooperation between Digital Humanities (University of Bern), the Prints and Drawings Department of the Swiss National Library, the Institute of Art History (University of Bern) and the Data Science Lab (University of Bern). It is funded by the Graphica Helvetica Foundation (Stiftung Graphica Helvetica) and includes a doctoral project.
+
+## Team
+
+- [Tobias Hodel](https://www.dh.unibe.ch/about_us/people/prof_dr_hodel_tobias/index_eng.html) (Digital Humanities, University of Bern), project lead
+- Isabelle Kirgus (Prints and Drawings, Swiss National Library), project lead
+- Ann-Kathrin Seyffer (Prints and Drawings, Swiss National Library)
+- Jona Hassenbach (Digital Humanities, University of Bern), doctoral researcher
+- Tabea Schindler (Institute of Art History, University of Bern / SIK-ISEA)
+- [Peter Dängeli](https://www.dh.unibe.ch/about_us/people/daengeli_peter/index_eng.html) (Data Science Lab, University of Bern)
+
+## Links
+
+- [Swiss National Library, Prints and Drawings](https://www.nb.admin.ch/de/grafik)
+- [Kleinmeister.ch: Gabriel Mathias Lory — Ein Leben in Bildern](https://kleinmeister.ch/de/gabriel-matthias-lory-ein-leben-in-bildern)
+- [Kleinmeister.ch: works by Mathias Gabriel Lory](https://kleinmeister.ch/de/t/lory-mathias-gabriel)
+
+## Image credit
+
+Gabriel Mathias Lory "Fils", *Pont sur l'Aar au passage du Grimsel*, ca. 1822, watercolour. Swiss National Library, Gugelmann Collection, GS-GUGE-LORY-C-31, via [Kleinmeister.ch](https://kleinmeister.ch/index.php/de/media/pages/gs-guge-lory-c-31). Public domain; image file from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CH-NB_-_Grimselstrasse,_Aarebr%C3%BCcke_-_Collection_Gugelmann_-_GS-GUGE-LORY-C-31.tif).
