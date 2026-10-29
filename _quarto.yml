@@ -1,6 +1,8 @@
 project:
   type: website
-  pre-render: python scripts/split-events.py
+  pre-render:
+    - python scripts/split-events.py
+    - python scripts/fetch-einblicke.py
   resources:
     - content/intro-lecture/quiz/questions.json
     - content/intro-lecture/quiz/exam-questions.h5p
