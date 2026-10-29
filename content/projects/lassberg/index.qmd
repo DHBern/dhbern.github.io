@@ -1,0 +1,97 @@
+---
+title: "Bridging the Gap: The Laßberg Correspondence"
+subtitle: "Building a Symbolic AI Framework for Epistolary Network Analysis using the Laßberg Correspondence"
+image: "lassberg.jpg"
+author:
+  - name: Tobias Hodel
+    affiliations: University of Bern
+  - name: Michael Schonhardt
+    affiliations: TU Darmstadt / Akademie der Wissenschaften und der Literatur | Mainz
+type: "Research in Machine Learning and Artificial Intelligence"
+status: active
+tags:
+  [
+    Knowledge Graphs,
+    Large Language Models,
+    RAG,
+    NER,
+    Entity Linking,
+    Letters,
+    Network Analysis,
+  ]
+categories:
+  - Project
+  - Cooperation
+other-links:
+  - text: "The Laßberg Letters (lassberg.io)"
+    icon: envelope-paper
+    href: https://lassberg.io/
+  - text: "SNSF Data Portal: grant 10007882"
+    icon: bank
+    href: https://data.snf.ch/grants/grant/10007882
+  - text: "BeNASch annotation guidelines"
+    icon: tags
+    href: https://dhbern.github.io/BeNASch/
+---
+
+![Joseph von Laßberg (1770–1855), portrait by an unidentified painter, 19th century. Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Joseph_von_Lassberg.jpg).](lassberg.jpg){fig-align="center" fig-alt="Painted portrait of Joseph von Laßberg, an elderly man with white hair in a dark coat" width="320"}
+
+*A Weave/Lead Agency project funded by the Swiss National Science Foundation (SNSF), running from October 2026 to September 2029.*
+
+## Project description
+
+Computational knowledge representation has developed along two lines in recent years: **Large Language Models** (LLMs) and **Knowledge Graphs** (KGs). LLMs, built on subsymbolic statistical associations, offer flexible, context-sensitive language understanding but remain opaque and prone to hallucination. KGs, based on symbolic knowledge and formal ontologies, provide explicit and verifiable structure but require extensive curation and struggle to depict ambiguity. Historical inquiry needs both contextual sensitivity and formal grounding, yet the two technologies are rarely combined.
+
+The project closes this gap by developing a reusable **epistemic infrastructure** for historical research. It integrates Retrieval-Augmented Generation (RAG) with a domain-specific Knowledge Graph and offers a transparent conversational interface designed for critical scholarly inquiry. Historians can move between the *distant reading* of large-scale patterns and the *close reading* of specific passages, and so assemble scattered data points into a coherent research object that takes shape in the very process of interrogating the sources.
+
+Beyond the technical development, the project asks how such AI-mediated dialogue changes the practices of historical interpretation and the production of historical narratives. Systematic evaluation and methodological reflection lead to best practices for the responsible use of AI in historical research.
+
+## The Laßberg correspondence
+
+Joseph von Laßberg (1770–1855) was a German antiquarian, collector and a key figure in 19th-century medieval scholarship. He built one of the era's most important libraries for medieval studies, at his estates in Eppishausen (Thurgau) and later at Meersburg Castle on Lake Constance.
+
+His **3,250 surviving letters with 372 correspondents** map a wide network across Germany and Switzerland. It includes leading scholars such as the brothers Grimm, Ludwig Uhland, Wilhelm Wackernagel, Johann Caspar Zellweger, Bernhard Zeerleder and Ferdinand Keller, as well as prominent women such as Jenny von Laßberg, Annette von Droste-Hülshoff and Princess Elisabeth zu Fürstenberg, whose roles and intellectual agency call for renewed assessment.
+
+Many of Laßberg's relationships have been studied in partial editions, but the correspondence has never been analysed as one network. Its content is fragmented across letters and archives: a debate, a relationship or the history of a manuscript is often spread over dozens of letters, sometimes between people who never knew each other. This makes the corpus an ideal test case for an infrastructure that reassembles such fragments.
+
+## Approach: from distant to close view
+
+- **The distant view (Knowledge Graph).** Named Entity Recognition and Entity Linking identify persons, places, literary works and manuscripts in the letters and link them to authority files such as the Gemeinsame Normdatei (GND). The resulting Knowledge Graph lets researchers query the network as a whole, for example for all connections between scholars, booksellers and manuscripts. Built on the SDHSS ontology ecosystem, the graph also supports logical reasoning, for instance to flag automatically generated links that are implausible.
+- **The close view (Large Language Model).** From a pattern in the graph, researchers can zoom into individual letters. Graph-based retrieval follows the paths between correspondents and lets a language model synthesise the relevant passages, while citing every letter it draws on.
+
+A letter from Laßberg to Wilhelm Wackernagel of 30 June 1835 shows the idea: it contains a fragment of the story of the long-lost *Colmarer Liederhandschrift*, which only resurfaced in 1857. Such scattered traces can be followed across the corpus once graph and text are connected.
+
+The pipeline is **modular and fully open source**. Instead of prompting proprietary models, it combines fine-tuned models for entity recognition (BERT, Flair), locally hosted open-weight language models for entity linking and question answering, dedicated embedding models for retrieval, and the WissKI framework for the Knowledge Graph. Annotation follows the [BeNASch guidelines](https://dhbern.github.io/BeNASch/) developed at Digital Humanities Bern.
+
+## Research question
+
+> How can the complementary strengths of Large Language Models and Knowledge Graphs be synthesised into a transparent, verifiable and reusable epistemological framework, and how does this framework, applied to the Laßberg correspondence, transform the practice of historical inquiry?
+
+## Project structure
+
+The project is a collaboration between three institutions and is organised in three parts:
+
+| Part         | Focus                                                                                 | Lead                                                                       |
+| ------------ | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| **Data**     | Ontology and reasoning, enrichment and curation of the corpus, validation             | Akademie der Wissenschaften und der Literatur \| Mainz                     |
+| **System**   | Architecture of the RAG–KG pipeline, the Virtual Research Environment, feedback loops | University of Bern                                                         |
+| **Insights** | Historical research design, interpretation, synthesis                                 | TU Darmstadt                                                               |
+
+## Expected outputs
+
+1. A **Virtual Research Environment** for the Laßberg letters that can be queried in natural language and returns answers grounded in the sources.
+2. A **PhD thesis** on gender and the role of women in Laßberg's network.
+3. An **evaluation set** for testing how well Large Language Models and Knowledge Graph implementations structure and annotate historical information.
+4. An **edited volume** of peer-reviewed contributions on generative AI and Knowledge Graphs for historical documents.
+
+All data, models and software will be published openly and in line with the FAIR principles.
+
+## Pre-project
+
+The project builds on a pre-project of the two principal investigators, supported by the Burgergemeinde Bern and the Ernst Göhner Stiftung. It compiled a complete list of the letters, digitised the letters and the existing indices, trained text recognition models for Laßberg's handwriting and launched the public platform [lassberg.io](https://lassberg.io/), where the register of letters, persons, places and manuscripts and a first set of encoded letters can already be explored.
+
+## Team
+
+- Prof. Dr. Tobias Hodel, Digital Humanities, University of Bern (PI)
+- Prof. Dr. Michael Schonhardt, Digitale Editorik und Kulturgeschichte des Mittelalters, TU Darmstadt and Akademie der Wissenschaften und der Literatur | Mainz (PI)
+- Ismail Prada Ziegler, University of Bern (postdoctoral researcher)
