@@ -1,0 +1,41 @@
+---
+title: "Zotero Bibliography"
+subtitle: "The shared DH Bern literature collection, browsable by topic and searchable"
+author:
+  - name: "Digital Humanities, University of Bern"
+type: "Service"
+status: ongoing
+tags: [Zotero, Bibliography, Literature, Teaching, Research]
+categories:
+  - Service
+other-links:
+  - text: "Group library on zotero.org"
+    href: "https://www.zotero.org/groups/2386895/dh_unibe/"
+  - text: "Zotero (official website)"
+    href: "https://www.zotero.org/"
+resources:
+  - zotero.js
+  - zotero.css
+toc: false
+---
+
+The Digital Humanities unit at the University of Bern maintains a shared **Zotero group library** with literature on digital methods, theory, teaching and the disciplines that use them. It grows with our courses and projects and is open to everyone: the collection below is read live from the group, so it always shows the current state.
+
+Browse the bibliography by its collections – open a collection to see its subcollections and entries, and open an entry for its details – or search across all entries.
+
+## How to contribute
+
+Members of the University of Bern can **join the group** on [zotero.org](https://www.zotero.org/groups/2386895/dh_unibe/) and add literature themselves; please file new entries in the matching collection and use the existing tags. For questions, write to [digitalhumanities\@unibe.ch](mailto:digitalhumanities@unibe.ch).
+
+## Bibliography
+
+```{=html}
+<link rel="stylesheet" href="zotero.css" />
+<div id="zotero-bibliography" class="zb" data-group="2386895">
+	<noscript>
+		This view needs JavaScript. The bibliography is also available at
+		<a href="https://www.zotero.org/groups/2386895/dh_unibe/library">zotero.org</a>.
+	</noscript>
+</div>
+<script src="zotero.js"></script>
+```
