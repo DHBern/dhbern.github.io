@@ -9,6 +9,19 @@ listing:
     sort: "date desc"
     include:
       categories: Post
+  - id: einblicke
+    contents:
+      - einblicke-posts.yml
+    type: table
+    categories: false
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
+    fields: [date, title, author]
+    field-display-names:
+      date: 'Date'
+      title: 'Title'
+      author: 'Author'
   - id: events
     contents:
       - upcoming-events.yml
@@ -56,6 +69,17 @@ We are a research and teaching unit at the University of Bern, connecting humani
 
 ::: {.home-section}
 ## News & Updates
+
+::: {.einblicke-tile}
+### [Einblicke in die Digital Humanities / Insights into Digital Humanities](https://einblicke.hypotheses.org/) {.unlisted}
+
+Posts from the blog of the DH lecture series since September 2026.
+
+::: {#einblicke}
+:::
+
+[All posts on einblicke.hypotheses.org](https://einblicke.hypotheses.org/){.einblicke-more}
+:::
 
 ::: {#blog}
 :::

@@ -612,6 +612,28 @@
 	.quarto-listing-container-table .quarto-listing-table tbody td:nth-child(4)::before {
 		content: 'Organizer';
 	}
+
+	#listing-einblicke .quarto-listing-table tbody td:nth-child(3)::before {
+		content: 'Author';
+	}
+}
+
+/* Einblicke blog tile (News & Updates) */
+.einblicke-tile {
+	border-radius: 16px;
+	border: 1px solid #e4e6ea;
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+	padding: 24px;
+	margin-bottom: 32px;
+}
+
+.einblicke-tile > h3 {
+	margin-top: 0;
+}
+
+.einblicke-tile .einblicke-more {
+	display: inline-block;
+	margin-top: 8px;
 }
 
 /**
