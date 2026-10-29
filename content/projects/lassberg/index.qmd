@@ -36,7 +36,7 @@ other-links:
 
 ![Joseph von Laßberg (1770–1855), portrait by an unidentified painter, 19th century. Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Joseph_von_Lassberg.jpg).](lassberg.jpg){fig-align="center" fig-alt="Painted portrait of Joseph von Laßberg, an elderly man with white hair in a dark coat" width="320"}
 
-*A Weave/Lead Agency project funded by the Swiss National Science Foundation (SNSF), running from October 2026 to September 2029.*
+*A Weave/Lead Agency project funded by the Swiss National Science Foundation (SNSF), with further support from the Burgergemeinde Bern and the Ernst Göhner Stiftung, running from October 2026 to September 2029.*
 
 ## Project description
 
@@ -88,10 +88,12 @@ All data, models and software will be published openly and in line with the FAIR
 
 ## Pre-project
 
-The project builds on a pre-project of the two principal investigators, supported by the Burgergemeinde Bern and the Ernst Göhner Stiftung. It compiled a complete list of the letters, digitised the letters and the existing indices, trained text recognition models for Laßberg's handwriting and launched the public platform [lassberg.io](https://lassberg.io/), where the register of letters, persons, places and manuscripts and a first set of encoded letters can already be explored.
+The project builds on a pre-project of the two principal investigators. It compiled a complete list of the letters, digitised the letters and the existing indices, trained text recognition models for Laßberg's handwriting and launched the public platform [lassberg.io](https://lassberg.io/), where the register of letters, persons, places and manuscripts and a first set of encoded letters can already be explored.
 
 ## Team
 
 - Prof. Dr. Tobias Hodel, Digital Humanities, University of Bern (PI)
 - Prof. Dr. Michael Schonhardt, Digitale Editorik und Kulturgeschichte des Mittelalters, TU Darmstadt and Akademie der Wissenschaften und der Literatur | Mainz (PI)
 - Ismail Prada Ziegler, University of Bern (postdoctoral researcher)
+- Dr. Cindarella Petz, TU Darmstadt and Akademie der Wissenschaften und der Literatur | Mainz (postdoctoral researcher)
+- Mandy Lamb, TU Darmstadt (doctoral researcher)
