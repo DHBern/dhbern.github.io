@@ -747,3 +747,31 @@
 		padding-right: 0.35rem;
 	}
 }
+
+/* Project status pill on listing cards (field `status`: ongoing | finished) */
+.quarto-listing-container-grid .card-other-values {
+	margin-top: 0.6rem;
+	font-size: 0.8rem;
+}
+
+.quarto-listing-container-grid .card-other-values td:first-child {
+	display: none;
+}
+
+.quarto-listing-container-grid .card-other-values td.status {
+	display: inline-block;
+	padding: 0.1rem 0.6rem;
+	border-radius: 999px;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	border: 1px solid #c6cbd3;
+	color: #4c4f55;
+	background: #f3f4f6;
+}
+
+#ongoing .card-other-values td.status {
+	border-color: #9bd0b0;
+	color: #1f6b3f;
+	background: #e9f7ee;
+}

@@ -5,7 +5,7 @@ image: "aufgeschrieben.jpg"
 author:
  - Tobias Hodel
 type: "Digital Tool"
-status: ongoing
+status: finished
 tags: [AI, Text Generation, Machine Learning, Style Imitation, NLP]
 categories:
 - Project

@@ -5,7 +5,7 @@ image: "oekonomien_des_raumes_visual.jpg"
 author: 
  - Tobias Hodel
 type: "Application of Text Recognition, Named Entities and Event Extraction"
-status: active
+status: finished
 tags: [HTR, NLP, NER, Geo-Visualization]
 categories:
 - Project

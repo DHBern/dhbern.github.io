@@ -1,11 +1,26 @@
 ---
 title: "Projects"
 listing:
-  - id: projects
+  - id: ongoing
     type: grid
     contents: "./*/index.qmd"
+    include:
+      status: ongoing
     image-lazy-loading: true
-    sort: "status asc"
+    sort: "title asc"
+    fields: [image, title, description, author, status]
+    field-display-names:
+      status: "Status"
+  - id: finished
+    type: grid
+    contents: "./*/index.qmd"
+    include:
+      status: finished
+    image-lazy-loading: true
+    sort: "title asc"
+    fields: [image, title, description, author, status]
+    field-display-names:
+      status: "Status"
   - id: dissertations
     type: grid
     contents: "dissertations/*/index.qmd"
@@ -15,7 +30,14 @@ listing:
     fields: [title, author, description]
 ---
 
-::: {#projects}
+## Ongoing projects
+
+::: {#ongoing}
+:::
+
+## Finished projects
+
+::: {#finished}
 :::
 
 ## Finished dissertation projects
