@@ -8,7 +8,7 @@ author:
   - name: Michael Schonhardt
     affiliations: TU Darmstadt / Akademie der Wissenschaften und der Literatur | Mainz
 type: "Research in Machine Learning and Artificial Intelligence"
-status: active
+status: ongoing
 tags:
   [
     Knowledge Graphs,

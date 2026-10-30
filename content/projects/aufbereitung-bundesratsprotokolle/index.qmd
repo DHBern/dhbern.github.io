@@ -5,7 +5,7 @@ image: bar.png
 author: 
  - David Schoch
 type: "Digitale Edition"
-status: archived
+status: finished
 tags: [HTR, OCR]
 categories:
 - Project

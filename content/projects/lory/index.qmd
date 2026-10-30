@@ -6,7 +6,7 @@ author:
  - Tobias Hodel
  - Jona Hassenbach
 type: "Digital Edition"
-status: active
+status: ongoing
 tags: [TEI, IIIF, Linked Data, HTR, Network Analysis]
 categories:
 - Project

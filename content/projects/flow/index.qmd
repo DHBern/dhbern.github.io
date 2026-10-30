@@ -5,7 +5,7 @@ image: "flow-logo.png"
 author: 
  - Tobias Hodel
 type: "Research in Machine Learning and Artificial Intelligence"
-status: active
+status: ongoing
 tags: [HTR, NLP, NER, Visualization]
 categories:
 - Project

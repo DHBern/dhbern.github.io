@@ -1,7 +1,7 @@
 ---
 title: Bit Philology
 image: "floppy.png"
-status: active
+status: ongoing
 type: Research project
 categories:
 - Bit Philology
