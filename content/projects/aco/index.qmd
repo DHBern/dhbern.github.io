@@ -26,7 +26,7 @@ The acts of the Third Ecumenical Council of Ephesus (431) are the principal sour
 
 The long-term project (2016–2026) of the Department of Church History at the University of Bonn, funded by the German Research Foundation (DFG), translates the acts in full into a modern language for the first time, arranges them chronologically, and provides introductions and a commentary covering theological, historical and philological questions. The results are published in print and in digital form.
 
-Digital Humanities Bern is responsible for the technical implementation of the digital edition. The TEI data are processed with XSLT and published in a SvelteKit application: document view with critical apparatus, indices of persons and places, an index of biblical references, a list of abbreviations, and visualisations (network explorer, Sankey diagram of biblical references by document, geo map). The edition is currently under construction.
+Digital Humanities Bern and the Data Science Lab are responsible for the technical implementation of the digital edition. The TEI data are processed with XSLT and published in a SvelteKit application: document view with critical apparatus, indices of persons and places, an index of biblical references, a list of abbreviations, and visualisations (network explorer, Sankey diagram of biblical references by document, geo map). The edition is currently under construction.
 
 ## Participants
 
