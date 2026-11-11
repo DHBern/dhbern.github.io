@@ -1,0 +1,85 @@
+---
+title: "Teaching overview – Spring semester 2027"
+subtitle: "Courses, workshops and programme meetings of Digital Humanities, University of Bern (FS 2027)"
+date: "2026-11-11"
+date-modified: "2026-11-11"
+toc: true
+---
+
+This page brings together everything Digital Humanities at the University of Bern offers in the spring semester 2027 (FS 2027): seminars and colloquia, the workshops of the *Applied Digital Humanities* modules, and the meetings for students in their final year and in the doctoral programme.
+
+- **Lecture period:** 22 February – 4 June 2027
+- **Easter break:** 26 March – 4 April 2027 (no teaching)
+- **Whit Monday:** 17 May 2027 (no teaching)
+- **Registration:** all courses are booked via [KSL](https://www.ksl.unibe.ch/KSL/home); the course number is given for each course. Course material is made available on [ILIAS](https://ilias.unibe.ch/).
+- **Questions about the study programmes:** Adrian Demleitner, head of study programmes ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch))
+
+::: {.callout-note}
+There is no DH Lab in the spring semester. The final-year meetings take place as separate dates (see [below](#final-year-and-doctoral-programme)).
+:::
+
+## Seminars and colloquia
+
+| Course | Type | ECTS | Dates | Place | KSL |
+|---|---|---|---|---|---|
+| **Bots: Building and Evaluating Bots for Humanities Research** | Colloquium (EN) | 6 | Mondays 10:00–12:00, from 8 March; full-day block Mon 3 May; no sessions 29 March (Easter) and 17 May (Whit Monday) | Unitobler (room tba) | 530331 |
+| **Analysing a City: Stadtgeschichte Aarau (Image and Text)** | Seminar (DE) | 6 | Fri 30 April and Fri 7 May, 10:15–12:00 (online, Zoom) · Fri 14 May, 09:30–17:00 · Fri 21 May, 09:30–17:00 · Fri 28 May, 09:15–13:30 (presentations) | 14 May: Stadtmuseum Aarau; 21/28 May: Unitobler (room tba) | 530330 |
+| **Text Recognition: Working with Text Programmatically** | Seminar (EN) | 6 | Wednesdays 13:00–17:00: 7 April, 28 April, 5, 12, 19, 26 May, 2 June | Unitobler (room tba) | 530332 |
+
+### Lecture with DH participation
+
+| Course | Type | ECTS | Dates | Lecturers | KSL |
+|---|---|---|---|---|---|
+| **BMZ Lecture** (Bern Center for Medieval Studies) | Lecture (EN) | 3 | Thursdays 16:15–17:45 and 17:45–18:45, weekly | Annette Kern-Stähler, Christian Hesse, Michael Stolz, Cristina Urchueguía, Tobias Hodel | 530182 |
+
+## Applied Digital Humanities: workshops
+
+The workshops belong to the submodules *Publishing, Preserving, Presenting* (PPP) and *Project Management* (ProjM). Each workshop is worth 0.5 ECTS and is booked individually in KSL. Registration closes on the Friday of the week before the workshop.
+
+| Date | Time | Workshop | Submodule | Instructors | KSL |
+|---|---|---|---|---|---|
+| Wed 17 March 2027 | 09:00–12:30 | Data Management I: Active Research Data Management | PPP | Ursula Loosli, Gero Schreier | 515972 |
+| Wed 17 March 2027 | 13:30–17:00 | Data Management II: Publishing Data | PPP | Ursula Loosli, Gero Schreier | 515974 |
+| Thu 18 March 2027 | 09:00–12:30 | Data Management III: Planning Research Data Management | ProjM | Ursula Loosli, Gero Schreier | 515975 |
+| Wed 5 May 2027 | 09:00–13:00 | Publishing and Re-using Images: Introduction to the International Image Interoperability Framework (IIIF) | PPP | Ursula Loosli | 516158 |
+| tba | | Open Access II | PPP | | 530408 |
+| tba | | Introduction to HERMES | ProjM | | 530409 |
+| tba | | Knowledge Management | ProjM | | 530410 |
+| tba | | Project Organization | ProjM | | 530411 |
+
+The data management and IIIF workshops take place at the University Library Bern (room tba). Dates marked *tba* will be added here as soon as they are fixed.
+
+## Final year and doctoral programme
+
+Meetings for students writing their Master thesis (Major and Minor) and for doctoral students.
+
+| Date | Time | What | Place |
+|---|---|---|---|
+| Tue 16 March 2027 | 16:00–17:15 | Final-year meeting: progress report | tba |
+| Tue 20 April 2027 | 12:00–13:00 | Final-year meeting: status report | tba |
+| Tue 20 April 2027 | 14:15–17:00, followed by an apéro | DHCH doctoral afternoon | tba |
+| Tue 1 June 2027 | 14:00–17:15 | Final-year presentations (Major / Minor) | tba |
+| Tue 31 August 2027 | full day | Master thesis defences, together with a doctoral exchange | tba |
+
+## Calendar at a glance
+
+| Week of | Mon | Tue | Wed | Thu | Fri |
+|---|---|---|---|---|---|
+| 8 March | Bots | | | | |
+| 15 March | Bots | Final year: progress report | PPP: Data Management I + II | ProjM: Data Management III | |
+| 22 March | Bots | | | | |
+| *29 March* | *Easter break* | | | | |
+| 5 April | Bots | | Text Recognition | | |
+| 12 April | Bots | | | | |
+| 19 April | Bots | Final year: status report · DHCH doctoral afternoon | | | |
+| 26 April | Bots | | Text Recognition | | Aarau (online) |
+| 3 May | Bots (full day) | | Text Recognition · PPP: IIIF | | Aarau (online) |
+| 10 May | Bots | | Text Recognition | | Aarau (Stadtmuseum Aarau) |
+| 17 May | *Whit Monday* | | Text Recognition | | Aarau (Bern) |
+| 24 May | Bots | | Text Recognition | | Aarau (presentations) |
+| 31 May | Bots | Final-year presentations | Text Recognition | | |
+| 30 August | | Master thesis defences · doctoral exchange | | | |
+
+The weekly BMZ Lecture (Thursdays 16:15–18:45) is not shown in the calendar.
+
+*Last updated: 11 November 2026. Dates and rooms may still change; KSL is the binding source.*
