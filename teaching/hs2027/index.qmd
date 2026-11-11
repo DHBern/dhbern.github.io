@@ -5,8 +5,8 @@ date: "2026-11-11"
 date-modified: "2026-11-11"
 ---
 
-::: {.callout-warning title="Draft"}
-This overview is in preparation. Times follow the autumn semester 2026; dates and rooms are still to be confirmed. KSL is the binding source.
+::: {.callout-warning title="In development"}
+The programme for the autumn semester 2027 is in development. Times follow the autumn semester 2026; dates and rooms are still to be confirmed. KSL is the binding source.
 :::
 
 The autumn semester is where both programmes start: *Introduction to Digital Humanities*, the *DH Lab* and the lecture series form the **Introduction** block (13 ECTS) of the Major and the Minor (see [Studying DH in Bern](../index.qmd)). Major students in their 3rd semester take the **Application** block; Minor students in their 3rd semester complete their **final project**.
@@ -22,13 +22,17 @@ The autumn semester is where both programmes start: *Introduction to Digital Hum
 | **Introduction to Digital Humanities** | 3 | Tuesdays 10:15–12:00, 21 September – 21 December | Unitobler (room tba) | [introduction-to-dh](https://dhbern.github.io/introduction-to-dh/) |
 | **DH Lab** | 4 | Tuesdays 14:00–17:15, 21 September – 21 December | Unitobler (room tba) | [dh-lab](https://dhbern.github.io/dh-lab/) |
 | **Lecture series: Insights into the Digital Humanities** | 3 | Mondays 14:00–16:00, from 20 September; workshops 16:00–18:00 on selected dates | tba | [dh-lecture-series](https://dhbern.github.io/dh-lecture-series/) |
-| **Introduction to programming** | 3 | tba | tba | KSL |
+| **Introduction to programming** ([Grundkurs Programmieren](https://www.digitale-nachhaltigkeit.unibe.ch/studium/grundkurs_programmieren/index_ger.html)) | 3 | Fridays 13:15–15:00 (inverted classroom, can be followed online; offered every semester at least until HS 2027) | Hauptgebäude H4 | via ILIAS |
 
 ## Elective seminars and colloquia
 
-To be announced.
+To be announced. Colloquia are worth 3 ECTS, seminars 6 ECTS.
 
 ## Applied Digital Humanities: workshops (Application, Major)
+
+::: {.callout-warning title="Work in progress"}
+The PPP and Project Management programmes are still being put together.
+:::
 
 Half-day workshops, 0.5 ECTS each, booked individually in KSL. Planned on the basis of the autumn semester 2026; dates tba. Details in the [ILIAS course «Applied Digital Humanities»](https://ilias.unibe.ch/go/crs/3440360).
 

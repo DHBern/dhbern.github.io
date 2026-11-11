@@ -33,7 +33,7 @@ Major students can study broadly or choose one specialisation:
 |---|---|---|---|
 | **1st** (autumn) | **Introduction** · 13 ECTS | [Introduction to Digital Humanities](https://dhbern.github.io/introduction-to-dh/) | 3 |
 | | | [DH Lab](https://dhbern.github.io/dh-lab/) | 4 |
-| | | Introduction to programming | 3 |
+| | | [Introduction to programming](https://www.digitale-nachhaltigkeit.unibe.ch/studium/grundkurs_programmieren/index_ger.html) (Grundkurs Programmieren) | 3 |
 | | | [Lecture series: Insights into the Digital Humanities](https://dhbern.github.io/dh-lecture-series/) | 3 |
 | **2nd** (spring) | **Advanced studies** · 25 ECTS | Two elective seminars (6 + 6) | 12 |
 | | | Colloquium: Critical Algorithm Studies | 3 |
@@ -46,7 +46,7 @@ Major students can study broadly or choose one specialisation:
 | | | Applied working (at least four weeks, with report) | 9 |
 | **4th** (spring) | **Final phase** · 30 ECTS | Master's thesis and defence | 30 |
 
-**Elective seminars:** three seminars of 6 ECTS each, two in the 2nd and one in the 3rd semester, within or outside the specialisation. Courses with a digital focus from other programmes count after agreement with the study programme management.
+**Seminars and colloquia:** seminars are always worth 6 ECTS, colloquia 3 ECTS. **Elective seminars:** three seminars of 6 ECTS each, two in the 2nd and one in the 3rd semester, within or outside the specialisation. Courses with a digital focus from other programmes count after agreement with the study programme management.
 
 ### Application: from networking to thesis
 
@@ -57,6 +57,10 @@ The Application module (16 ECTS without the elective seminar) is practical work 
 3. **Applied working** – at least four weeks, followed by a report for the thesis advisor (9 ECTS).
 
 The data collected or the method used may become the foundation of the Master's thesis. Partners have included the City of Zurich, the City of Bern, the Staatsarchiv Bern, the Bernisches Historisches Museum, Schloss Kyburg and the PTT-Archiv.
+
+::: {.callout-warning title="Work in progress"}
+The PPP and Project Management programmes are being revised.
+:::
 
 **Project management** consists of five short workshops and a project plan; **PPP** of six half-day mini-modules (0.5 ECTS each), run with the University Library and the Data Science Lab. Both are described in the [ILIAS course «Applied Digital Humanities»](https://ilias.unibe.ch/go/crs/3440360).
 
@@ -70,7 +74,7 @@ In the semester of the thesis, students report in the final-year meetings: a **p
 |---|---|---|---|
 | **1st semester** (autumn) | **Introduction** · 13 ECTS | [Introduction to Digital Humanities](https://dhbern.github.io/introduction-to-dh/) | 3 |
 | | | [DH Lab](https://dhbern.github.io/dh-lab/) | 4 |
-| | | Introduction to programming | 3 |
+| | | [Introduction to programming](https://www.digitale-nachhaltigkeit.unibe.ch/studium/grundkurs_programmieren/index_ger.html) (Grundkurs Programmieren) | 3 |
 | | | [Lecture series: Insights into the Digital Humanities](https://dhbern.github.io/dh-lecture-series/) | 3 |
 | **2nd semester** (spring) | **Advanced studies** · 9 ECTS | Elective seminar (within or outside the specialisation) | 6 |
 | | | Colloquium: Critical Algorithm Studies | 3 |
@@ -87,11 +91,11 @@ Major and Minor students attend the same courses. The final project ideally link
 | DH Lab (incl. final-year meetings in the autumn) | autumn | [dhbern.github.io/dh-lab](https://dhbern.github.io/dh-lab/) |
 | Lecture series: Insights into the Digital Humanities | autumn | [dhbern.github.io/dh-lecture-series](https://dhbern.github.io/dh-lecture-series/) |
 | Lecture: Introduction to DH approaches (online only) | spring | [Digital Humanities — Introductions](/content/intro-lecture/index.qmd) |
-| Introduction to programming | tba | KSL |
+| Introduction to programming (Grundkurs Programmieren, Python) | every semester, Fridays 13:15–15:00, can be followed online | [digitale-nachhaltigkeit.unibe.ch](https://www.digitale-nachhaltigkeit.unibe.ch/studium/grundkurs_programmieren/index_ger.html) · registration via ILIAS |
 | Colloquium: Critical Algorithm Studies | spring | [Spring 2027](fs2027/index.qmd) |
 | Elective seminars | every semester | [Spring 2027](fs2027/index.qmd) · [Autumn 2027](hs2027/index.qmd) |
 | Project management · PPP | autumn and spring | [ILIAS «Applied Digital Humanities»](https://ilias.unibe.ch/go/crs/3440360) |
-| Networking meeting | first Tuesday of the spring semester | [Spring 2027](fs2027/index.qmd) |
+| Networking meeting | first Tuesday of the spring semester (2027: 23 February, 15:00–19:00) | [Spring 2027](fs2027/index.qmd) |
 
 ## Further links
 
