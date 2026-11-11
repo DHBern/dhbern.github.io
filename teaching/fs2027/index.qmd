@@ -25,6 +25,9 @@ There is no DH Lab in the spring semester. The final-year meetings take place as
 | **Bots: Building and Evaluating Bots for Humanities Research** | Colloquium (EN) | 6 | Mondays 10:00–12:00, from 8 March; full-day block Mon 3 May; no sessions 29 March (Easter) and 17 May (Whit Monday) | Unitobler (room tba) | 530331 |
 | **Analysing a City: Stadtgeschichte Aarau (Image and Text)** | Seminar (DE) | 6 | Fri 30 April and Fri 7 May, 10:15–12:00 (online, Zoom) · Fri 14 May, 09:30–17:00 · Fri 21 May, 09:30–17:00 · Fri 28 May, 09:15–13:30 (presentations) | 14 May: Stadtmuseum Aarau; 21/28 May: Unitobler (room tba) | 530330 |
 | **Text Recognition: Working with Text Programmatically** | Seminar (EN) | 6 | Wednesdays 13:00–17:00: 7 April, 28 April, 5, 12, 19, 26 May, 2 June | Unitobler (room tba) | 530332 |
+| **From Information to Insights: Introduction to Data Analysis Using Open Data** (Francesco Beretta) | Seminar | tba | Tuesdays 10:15–12:00, weekly | tba | not yet in KSL |
+| **Research Perspectives on Born-Digital** (Critical Algorithm Studies; with Digital History) – Moritz Mähr, Adrian Demleitner, Daniel Gammenthaler, Max Frischknecht and others | Colloquium | tba | Wednesday afternoons, weekly | tba | not yet in KSL |
+| **Alt-Soc** (with Digital In/Justice) | Microcourse | 0.5 | one half day, date tba | tba | not yet in KSL |
 
 ### Online lecture
 
@@ -49,6 +52,12 @@ The workshops belong to the submodules *Publishing, Preserving, Presenting* (PPP
 
 The data management and IIIF workshops take place at the University Library Bern (room tba). Dates marked *tba* will be added here as soon as they are fixed.
 
+## Networking meeting (Application module)
+
+| Date | What |
+|---|---|
+| Tue 23 February 2027 (first Tuesday of the semester), time tba | Networking meeting: institutions present projects for the applied working phase (Major, module Application) |
+
 ## Final year and doctoral programme
 
 Meetings for students writing their Master thesis (Major and Minor) and for doctoral students.
@@ -65,7 +74,9 @@ Meetings for students writing their Master thesis (Major and Minor) and for doct
 
 | Week of | Mon | Tue | Wed | Thu | Fri |
 |---|---|---|---|---|---|
-| 8 March | Bots | | | | |
+| 22 February | | Networking meeting | | | |
+| 1 March | | Data analysis (Beretta) | Born-Digital colloquium | | |
+| 8 March | Bots | Data analysis (Beretta) | Born-Digital colloquium | | |
 | 15 March | Bots | Final year: progress report | PPP: Data Management I + II | ProjM: Data Management III | |
 | 22 March | Bots | | | | |
 | *29 March* | *Easter break* | | | | |
@@ -80,6 +91,6 @@ Meetings for students writing their Master thesis (Major and Minor) and for doct
 | 31 May | Bots | Final-year presentations | Text Recognition | | |
 | 30 August | | Master thesis defences · doctoral exchange | | | |
 
-The online lecture *Digital Humanities — Introductions* runs throughout the semester and is not shown in the calendar.
+The online lecture *Digital Humanities — Introductions* runs throughout the semester and is not shown in the calendar. The weekly courses of Francesco Beretta (Tuesdays 10:15–12:00) and the Born-Digital colloquium (Wednesday afternoons) are shown only in the first weeks, as their exact dates are not yet fixed.
 
 *Last updated: 11 November 2026. Dates and rooms may still change; KSL is the binding source.*

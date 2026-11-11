@@ -1,0 +1,55 @@
+---
+title: "Teaching overview – Autumn semester 2027"
+subtitle: "Courses, workshops and programme meetings of Digital Humanities, University of Bern (HS 2027)"
+date: "2026-11-11"
+date-modified: "2026-11-11"
+---
+
+::: {.callout-warning title="Draft"}
+This overview is in preparation. Times follow the autumn semester 2026; dates and rooms are still to be confirmed. KSL is the binding source.
+:::
+
+The autumn semester is where both programmes start: *Introduction to Digital Humanities*, the *DH Lab* and the lecture series form the **Introduction** block (13 ECTS) of the Major and the Minor (see [Studying DH in Bern](../index.qmd)). Major students in their 3rd semester take the **Application** block; Minor students in their 3rd semester complete their **final project**.
+
+- **Lecture period:** 20 September – 24 December 2027
+- **Registration:** via [KSL](https://www.ksl.unibe.ch/KSL/home); course material on [ILIAS](https://ilias.unibe.ch/)
+- **Questions about the study programmes:** Adrian Demleitner, head of study programmes ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch))
+
+## Introduction (1st semester, Major and Minor)
+
+| Course | ECTS | Dates | Place | Website |
+|---|---|---|---|---|
+| **Introduction to Digital Humanities** | 3 | Tuesdays 10:15–12:00, 21 September – 21 December | Unitobler (room tba) | [introduction-to-dh](https://dhbern.github.io/introduction-to-dh/) |
+| **DH Lab** | 4 | Tuesdays 14:00–17:15, 21 September – 21 December | Unitobler (room tba) | [dh-lab](https://dhbern.github.io/dh-lab/) |
+| **Lecture series: Insights into the Digital Humanities** | 3 | Mondays 14:00–16:00, from 20 September; workshops 16:00–18:00 on selected dates | tba | [dh-lecture-series](https://dhbern.github.io/dh-lecture-series/) |
+| **Introduction to programming** | 3 | tba | tba | KSL |
+
+## Elective seminars and colloquia
+
+To be announced.
+
+## Applied Digital Humanities: workshops (Application, Major)
+
+Half-day workshops, 0.5 ECTS each, booked individually in KSL. Planned on the basis of the autumn semester 2026; dates tba. Details in the [ILIAS course «Applied Digital Humanities»](https://ilias.unibe.ch/go/crs/3440360).
+
+| Workshop | Submodule | Date |
+|---|---|---|
+| Introduction to Project Management | Project management | tba |
+| GitHub as a Project Management Tool | Project management | tba |
+| Research Cycle | Project management | tba |
+| Time and Resources Management | Project management | tba |
+| Open Access I | PPP | tba |
+| Jupyter Notebooks: Executing Code | PPP | tba |
+| Web-Basics I (online) | PPP | tba |
+
+## Final year
+
+In the autumn, the final-year meetings take place in the DH Lab (Tuesdays, 16:00). Proposed dates:
+
+| Date | Time | What |
+|---|---|---|
+| Tue 5 October 2027 (week 3) | 16:00 | Final-year meeting: project report |
+| Tue 9 November 2027 (week 8) | 16:00 | Final-year meeting: status report |
+| Tue 21 December 2027 (week 14) | 14:00–17:15 | Final-year presentations (Major / Minor) |
+
+*Last updated: 11 November 2026.*
