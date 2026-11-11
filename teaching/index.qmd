@@ -5,27 +5,37 @@ date: "2026-11-11"
 date-modified: "2026-11-11"
 ---
 
-The University of Bern offers Digital Humanities at Master's level as a **Major (90 ECTS, four semesters)** and as a **Minor (30 ECTS, three steps)** that is combined with a Major in another subject. Both are taught at the Digital Humanities Center (Walter Benjamin Kolleg).
+The University of Bern offers Digital Humanities at Master's level as a **Major (90 ECTS, four semesters)** and as a **Minor (30 ECTS)** that is combined with a Major in another subject. Both are taught at the Digital Humanities Center (Walter Benjamin Kolleg).
 
-This page explains how the two programmes are built and in which semester each course belongs. The binding rules are in the [study plan](https://www.dh.unibe.ch/studium/studium/studienplan/index_ger.html); dates, rooms and registration are in [KSL](https://www.ksl.unibe.ch/KSL/home).
+This page explains what the programmes aim at, how they are built and in which semester each course belongs. The binding rules are in the [study plan](https://www.dh.unibe.ch/studium/studium/studienplan/index_ger.html); dates, rooms and registration are in [KSL](https://www.ksl.unibe.ch/KSL/home).
 
 ::: {.callout-tip title="Start in the autumn"}
 *Introduction to Digital Humanities*, the *DH Lab* and the lecture series are taught in the **autumn semester**. The first semester of both programmes is therefore an autumn semester.
 :::
 
-**Semester overviews:** [Spring 2027](fs2027/index.qmd) · [Autumn 2027](hs2027/index.qmd)
+**Semester overviews:** [Spring 2027](fs2027/index.qmd) · [Autumn 2027](hs2027/index.qmd) · **[FAQ](#faq)**
 
 **Questions about your study plan:** Adrian Demleitner, head of study programmes ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch))
 
+## What you learn
+
+Digital Humanities is an interdisciplinary field with its own key topics. In Bern you work on three things:
+
+- **Data:** creating, modelling, analysing and criticising it
+- **Methods:** testing, applying, developing and contextualising them
+- **Projects:** developing, carrying out, evaluating and presenting them, and collaborating with others
+
 ## Specialisations
 
-Major students can study broadly or choose one specialisation:
+The Major can be studied broadly or with one of five specialisations:
 
-- Digital Scholarly Editing and Computational Literary Studies
-- Digital Histories
-- Digital Culture Studies
-- Data Science
-- Digital Sociolinguistics
+| Specialisation | Focus |
+|---|---|
+| Digital Scholarly Editing and Computational Literary Studies | Editions and literature in the digital age |
+| Digital Histories | Historical approaches |
+| Digital Culture Studies | Cultural studies go digital |
+| Data Science | Focus on data from the humanities |
+| Digital Sociolinguistics | Expanding sociolinguistics |
 
 ## MA Major (90 ECTS)
 
@@ -35,7 +45,7 @@ Major students can study broadly or choose one specialisation:
 | | | [DH Lab](https://dhbern.github.io/dh-lab/) | 4 |
 | | | [Introduction to programming](https://www.digitale-nachhaltigkeit.unibe.ch/studium/grundkurs_programmieren/index_ger.html) (Grundkurs Programmieren) | 3 |
 | | | [Lecture series: Insights into the Digital Humanities](https://dhbern.github.io/dh-lecture-series/) | 3 |
-| **2nd** (spring) | **Advanced studies** · 25 ECTS | Two elective seminars (6 + 6) | 12 |
+| **2nd** (spring) | **Advanced studies and reflection** · 25 ECTS | Two elective seminars (6 + 6) | 12 |
 | | | Colloquium: Critical Algorithm Studies | 3 |
 | | | Seminar: philosophy of science / media theory | 7 |
 | | | [Lecture: Introduction to DH approaches](/content/intro-lecture/index.qmd) (online, spring) | 3 |
@@ -43,18 +53,34 @@ Major students can study broadly or choose one specialisation:
 | | | Networking meeting and learning agreement | 1 |
 | | | Project management | 3 |
 | | | Presentation, Preservation, Publication (PPP) | 3 |
-| | | Applied working (at least four weeks, with report) | 9 |
+| | | Applied working (internship of at least four weeks, with report) | 9 |
 | **4th** (spring) | **Final phase** · 30 ECTS | Master's thesis and defence | 30 |
 
-**Seminars and colloquia:** seminars are always worth 6 ECTS, colloquia 3 ECTS. The seminar in philosophy of science / media theory (7 ECTS in the plan) may also be taken as a course worth 5, 6, 8 or 9 ECTS; missing ECTS are made up with Project Management or PPP workshops (0.5 ECTS each). **Elective seminars:** three seminars of 6 ECTS each, two in the 2nd and one in the 3rd semester, within or outside the specialisation. Courses with a digital focus from other programmes count after agreement with the study programme management.
+**Seminars and colloquia:** seminars are always worth 6 ECTS, colloquia 3 ECTS. The seminar in philosophy of science / media theory (7 ECTS in the plan) may also be taken as a course worth 5, 6, 8 or 9 ECTS; missing ECTS are made up with Project Management or PPP workshops (0.5 ECTS each).
+
+**Elective seminars:** three seminars of 6 ECTS each, two in the 2nd and one in the 3rd semester, within or outside the specialisation. Courses with a digital focus from other programmes count after agreement with the study programme management (see [Cooperations and mobility](#cooperations-and-mobility)).
+
+### The modules in brief
+
+**Introduction.** *Introduction to Digital Humanities* teaches the fundamentals of the field and a critical engagement with digital tools, their social embedding and sustainable data use. The *DH Lab* expands these skills in practice: students work on a project of their own and engage with current research approaches. In the *Introduction to programming* students learn Python, develop algorithmic thinking and apply it to problems in the humanities.
+
+**Theories, approaches and solutions.** The *lecture series* gives an overview of digital methods across the humanities; students document and critically reflect on the approaches presented. The *Introduction to DH approaches* deepens this overview with recorded lectures and two consultation sessions; alternatively, the lecture series can be attended twice.
+
+**Advanced studies.** In the *elective seminars* students specialise in a digital field, learn practical methods and reflect critically on digital aspects.
+
+**Reflection.** The *colloquium Critical Algorithm Studies* examines digital technologies critically, investigates their biases and discusses social and technical countermeasures. The *seminar in philosophy of science / media theory* focuses on the digital methods used and on reflection about one's own media and research practice.
+
+**Application.** See [below](#application-from-networking-to-thesis).
+
+**Final phase.** The Master's thesis applies, reflects on, expands or develops digital methods; its research question may grow out of the internship. The thesis is concluded with a **defence**: a 15-minute presentation followed by 15 minutes of questions from the supervisors and members of the Digital Humanities.
 
 ### Application: from networking to thesis
 
 The Application module (16 ECTS without the elective seminar) is practical work at an institution or in a project of the student's choice.
 
-1. **Networking** – on the first Tuesday of the spring semester, institutions present their projects.
+1. **Networking** – on the first Tuesday of the spring semester, institutions present their projects and possible ideas for internships.
 2. **Contract** – students contact an institution of their choice; topic and contract are checked with the thesis advisor (learning agreement, 1 ECTS).
-3. **Applied working** – at least four weeks, followed by a report for the thesis advisor (9 ECTS).
+3. **Applied working** – an internship of at least four weeks within the specialisation, followed by a report for the thesis advisor (9 ECTS).
 
 The data collected or the method used may become the foundation of the Master's thesis. Partners have included the City of Zurich, the City of Bern, the Staatsarchiv Bern, the Bernisches Historisches Museum, Schloss Kyburg and the PTT-Archiv.
 
@@ -62,26 +88,26 @@ The data collected or the method used may become the foundation of the Master's 
 The PPP and Project Management programmes are being revised.
 :::
 
-**Project management** consists of five short workshops and a project plan; **PPP** of six half-day mini-modules (0.5 ECTS each), run with the University Library and the Data Science Lab. Both are described in the [ILIAS course «Applied Digital Humanities»](https://ilias.unibe.ch/go/crs/3440360).
+**Project management** teaches how to carry out a digital project, as preparation for the thesis and for professional practice: five short workshops and a project plan. **PPP** (Presentation, Preservation, Publication) teaches academic writing with digital means (e.g. Jupyter Notebooks), the preparation of datasets and the sustainable publication of research results: six short workshops, run with the University Library and the Data Science Lab. All workshops are half-day mini-modules (about four hours, 0.5 ECTS each) and are described in the [ILIAS course «Applied Digital Humanities»](https://ilias.unibe.ch/go/crs/3440360).
 
 ### Final phase: thesis lab
 
-In the semester of the thesis, students report in the final-year meetings: a **project report in week 3**, a **status report in week 8**, and a **test run of the final presentation in the last week**. The thesis is concluded with a defence.
+In the semester of the thesis, students report in the final-year meetings: a **project report in week 3**, a **status report in week 8**, and a **test run of the final presentation in the last week**.
 
 ## MA Minor (30 ECTS)
 
-| Step | Block | Courses | ECTS |
+| Semester | Block | Courses | ECTS |
 |---|---|---|---|
-| **1st semester** (autumn) | **Introduction** · 13 ECTS | [Introduction to Digital Humanities](https://dhbern.github.io/introduction-to-dh/) | 3 |
+| **1st** (autumn) | **Introduction** · 13 ECTS | [Introduction to Digital Humanities](https://dhbern.github.io/introduction-to-dh/) | 3 |
 | | | [DH Lab](https://dhbern.github.io/dh-lab/) | 4 |
 | | | [Introduction to programming](https://www.digitale-nachhaltigkeit.unibe.ch/studium/grundkurs_programmieren/index_ger.html) (Grundkurs Programmieren) | 3 |
 | | | [Lecture series: Insights into the Digital Humanities](https://dhbern.github.io/dh-lecture-series/) | 3 |
-| **2nd semester** (spring) | **Advanced studies** · 9 ECTS | Elective seminar (within or outside the specialisation) | 6 |
+| **2nd** (spring) | **Advanced studies and reflection** · 9 ECTS | Elective seminar (within or outside the specialisation) | 6 |
 | | | Colloquium: Critical Algorithm Studies | 3 |
-| **3rd semester** (autumn) | **Final phase** · 8 ECTS | Final project | 7 |
+| **3rd** (autumn) | **Final phase** · 8 ECTS | Final project | 7 |
 | | | Presentation (in the final-year presentations) | 1 |
 
-Major and Minor students attend the same courses. The final project ideally links up with the Master's thesis in the Major subject; it is reported on in the final-year meetings and presented at the end of the semester.
+Major and Minor students attend the same courses. In the final project, Minor students apply what they have learnt in a digital project of their own, ideally linked to the Master's thesis in their Major subject. They report on it in the final-year meetings and present it at the end of the semester.
 
 ## Where the courses are
 
@@ -96,6 +122,91 @@ Major and Minor students attend the same courses. The final project ideally link
 | Elective seminars | every semester | [Spring 2027](fs2027/index.qmd) · [Autumn 2027](hs2027/index.qmd) |
 | Project management · PPP | autumn and spring | [ILIAS «Applied Digital Humanities»](https://ilias.unibe.ch/go/crs/3440360) |
 | Networking meeting | first Tuesday of the spring semester (2027: 23 February, 15:00–19:00) | [Spring 2027](fs2027/index.qmd) |
+
+## Cooperations and mobility
+
+The programme is run together with many institutes of the University of Bern. Seminars from these fields can count towards the specialisations:
+
+- **Faculty of Humanities:** Philosophy and Philosophy of Science, English, French, German, Italian, Hispanic and Slavic Studies, Classical Philology, History, Archaeological Sciences (incl. SAKS), Art History, Musicology, Theatre Studies, Linguistics (ISW), Gender Studies, CSLS
+- **Other faculties:** Communication and Media Studies, Political Science and Business Informatics (Business, Economics and Social Sciences), Computer Science (Science), Psychology of Digitalisation (Human Sciences)
+
+Courses outside the DH programme can be credited under certain conditions, always after agreement with the study programme management:
+
+- further courses with a digital focus at the University of Bern
+- courses at the Universities of Fribourg and Neuchâtel (published on the DH website; not yet part of BeNeFri)
+- exchange semesters: SEMP («Erasmus») agreements with Darmstadt, Graz, Berlin, Bielefeld and Marburg are being prepared, for stays from spring 2027
+
+## Admission and change of programme
+
+- **New applications** are made via the University of Bern (see the [faculty page](https://www.philhist.unibe.ch/studies/study_programs/master_s_in_digital_humanities/index_eng.html)). Admission requires a completed Bachelor's degree in the humanities or in computer science; for the Major, at least 60 ECTS in a relevant field. Master's credits can be taken in advance. As the programme does not follow directly from a Bachelor's programme, students are placed individually – please contact the head of study programmes.
+- **Changing programme** (for example from the Minor to the Major): change the field of study on the semester enrolment form, copy all DH credits in KSL to the clipboard (the head of study programmes can do this for you) and get in touch: you will be placed anew and the credits you already have are redistributed. Nothing gets lost.
+
+## FAQ {#faq}
+
+### Getting started
+
+**Do I need to know how to program?**
+No. No programming experience is expected when you start. The *Introduction to programming* in the first semester and the DH Lab teach what you need.
+
+**Can I start in the spring semester?**
+The introductory courses are only taught in the autumn, so the programme is designed to start in autumn. If you start in spring, contact the head of study programmes to plan your semesters.
+
+**In which language are the courses taught?**
+Most DH courses are taught in English; some seminars are in German, and discussion in German is welcome. Good command of both German and English is expected (C1 for the Minor).
+
+**Do I need my own laptop?**
+Yes. From the second week of the DH Lab you work on your own laptop (any operating system). If your machine is managed by an employer and you cannot install software, tell us at the start.
+
+### Planning your studies
+
+**What is the difference between the Major and the Minor?**
+Both start with the same Introduction block and attend the same courses. The Major adds three elective seminars, the Reflection module, the Application module with an internship, and the Master's thesis. The Minor ends with a digital final project, ideally linked to the thesis in your Major subject.
+
+**Which courses count as elective seminars?**
+All DH seminars, and courses with a digital focus from the cooperating institutes, from other programmes at the University of Bern, or from Fribourg and Neuchâtel – the latter always after agreement with the study programme management.
+
+**A course has fewer ECTS than the study plan foresees. What do I do?**
+Missing ECTS can be made up with Project Management or PPP workshops (0.5 ECTS each). This applies in particular to the seminar in philosophy of science / media theory, which can be taken for 5 to 9 ECTS.
+
+**Do I have to follow the semester order exactly?**
+No. The tables show the recommended order. Some courses are only offered in one semester (Introduction, Lab and lecture series in autumn; the online lecture in spring), so plan these first.
+
+**Where do I register for courses?**
+In [KSL](https://www.ksl.unibe.ch/KSL/home). Each Project Management and PPP workshop is booked individually there. The *Introduction to programming* is the exception: registration and exam sign-up are via ILIAS.
+
+**Are courses recorded?**
+The online lecture is recorded by design, and the *Introduction to programming* is available as a podcast. Other courses, such as the DH Lab, are generally not recorded.
+
+### Internship and thesis
+
+**How do I find an internship?**
+At the networking meeting on the first Tuesday of the spring semester, partner institutions present projects. You can also approach an institution of your own choice. Topic and learning agreement are checked with your thesis advisor.
+
+**When should I go to the networking meeting?**
+In the spring before your Application semester – for most Major students, in their second semester – so that the internship can follow in the semester break or the third semester.
+
+**Can my internship lead to my thesis?**
+Yes, that is the idea: the data you collect or the method you use may become the foundation of your Master's thesis.
+
+**How does the defence work?**
+You present your thesis in 15 minutes and then answer questions for 15 minutes from your supervisors and members of the Digital Humanities. The final-year presentation in the last week of the semester serves as a test run.
+
+**What are the final-year meetings?**
+In your last semester you report on your thesis or final project twice (week 3 and week 8) and present it at the end of the semester. In the autumn these meetings are part of the DH Lab; in the spring they are scheduled separately – see the [semester overview](fs2027/index.qmd#final-year-and-doctoral-programme).
+
+### Changes and beyond
+
+**Can I switch from the Minor to the Major?**
+Yes. Change your field of study at enrolment and contact the head of study programmes; your credits are reassigned and nothing gets lost.
+
+**Can I spend a semester abroad?**
+Exchange agreements with Darmstadt, Graz, Berlin, Bielefeld and Marburg are being prepared. Talk to the head of study programmes before you go, so the credits can be recognised.
+
+**Is there a doctoral programme?**
+Yes, the Digital Humanities Center runs a doctoral programme. Doctoral students meet regularly, for example at the DHCH doctoral afternoon.
+
+**Whom do I ask?**
+Adrian Demleitner, head of study programmes ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch)), for everything about your study plan, recognition of credits and placement.
 
 ## Further links
 
