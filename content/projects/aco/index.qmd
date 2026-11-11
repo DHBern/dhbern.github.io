@@ -31,6 +31,6 @@ Digital Humanities Bern is responsible for the technical implementation of the d
 ## Participants
 
 - University of Bonn, Faculty of Protestant Theology, Department of Church History: Prof. Dr. Wolfram Kinzig, Dr. Thomas Brüggemann (head of the research unit), Dr. Sabine Lütkemeyer, Dr. Julia Beier
-- Digital Humanities, University of Bern: technical implementation
+- Digital Humanities & Data Science Lab, University of Bern: technical implementation
 
 Funded by the Deutsche Forschungsgemeinschaft (DFG, project number 282331637).
