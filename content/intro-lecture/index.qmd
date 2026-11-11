@@ -1,20 +1,20 @@
 ---
 title: "Digital Humanities — Introductions"
-subtitle: "FS 2026 · University of Bern · 3 ECTS"
+subtitle: "FS 2027 · University of Bern · 3 ECTS"
 page-layout: full
 toc: false
 ---
 
 ::: {.callout-note appearance="minimal"}
-This page is not part of the main dhbern.github.io navigation. It is a companion resource for the lecture series **Digital Humanities — Introductions** (FS 2026). Bios on this page are AI-generated from public academic profiles and marked accordingly.
+This page is not part of the main dhbern.github.io navigation. It is a companion resource for the lecture series **Digital Humanities — Introductions** (FS 2027). Bios on this page are AI-generated from public academic profiles and marked accordingly.
 :::
 
 ## About the Series
 
 The *Digital Humanities — Introductions* lecture series brings together 17 researchers from Swiss and European universities to present major research areas and methods in Digital Humanities. Lectures are fully online, can be worked through in any order, and are assessed via an open-book multiple-choice exam.
 
-**Exam:** June 1, 2026 · 60 minutes · 20 randomly selected questions · 4 options each · no negative marking  
-**Consultation:** April 21 & May 27, 2026 · 12:15–14:00 · via Zoom/ILIAS
+**Exam:** date tba (end of the spring semester 2027) · 60 minutes · 20 randomly selected questions · 4 options each · no negative marking  
+**Consultation:** two sessions, dates tba (spring semester 2027) · via Zoom/ILIAS
 
 ---
 

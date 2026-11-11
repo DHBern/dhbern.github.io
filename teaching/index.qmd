@@ -25,7 +25,7 @@ The two compulsory introductory courses, *Introduction to Digital Humanities* an
 | DH Lab | autumn | 4 ECTS · Introduction | 4 ECTS · Introduction | [dh-lab](https://dhbern.github.io/dh-lab/) |
 | Basic programming course (Python) | see KSL | 3 ECTS · Introduction | 3 ECTS · Introduction | – |
 | Lecture series *Einblicke in die Digital Humanities* | autumn | 3 ECTS · Theories, Approaches & Solutions | 3 ECTS · Specialisation | [dh-lecture-series](https://dhbern.github.io/dh-lecture-series/) |
-| Lecture *Digital Humanities — Introductions* (online, blended learning) | spring | 3 ECTS · Theories, Approaches & Solutions | – | [intro-lecture](/content/intro-lecture/index.qmd) |
+| Lecture *Digital Humanities — Introductions* (online only) | spring | 3 ECTS · Theories, Approaches & Solutions | – | [intro-lecture](/content/intro-lecture/index.qmd) |
 | Colloquium (Critical Algorithm Studies / Theory of DH) | varies | 3 ECTS · Reflection | 3 ECTS · Specialisation | see semester overview |
 | Seminars | every semester | see below | 5 ECTS · Specialisation | see semester overview |
 | Applied Digital Humanities: Project Management and PPP workshops | autumn and spring | 3 + 3 ECTS · Work Experience | – | [ILIAS «Applied Digital Humanities»](https://ilias.unibe.ch/go/crs/3440360) |

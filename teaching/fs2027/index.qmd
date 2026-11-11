@@ -6,7 +6,7 @@ date-modified: "2026-11-11"
 toc: true
 ---
 
-This page brings together everything Digital Humanities at the University of Bern offers in the spring semester 2027 (FS 2027): seminars and colloquia, the workshops of the *Applied Digital Humanities* modules, and the meetings for students in their final year and in the doctoral programme.
+This page brings together everything Digital Humanities at the University of Bern offers in the spring semester 2027 (FS 2027): seminars and colloquia, the online lecture, the workshops of the *Applied Digital Humanities* modules, and the meetings for students in their final year and in the doctoral programme.
 
 - **Lecture period:** 22 February – 4 June 2027
 - **Easter break:** 26 March – 4 April 2027 (no teaching)
@@ -26,11 +26,11 @@ There is no DH Lab in the spring semester. The final-year meetings take place as
 | **Analysing a City: Stadtgeschichte Aarau (Image and Text)** | Seminar (DE) | 6 | Fri 30 April and Fri 7 May, 10:15–12:00 (online, Zoom) · Fri 14 May, 09:30–17:00 · Fri 21 May, 09:30–17:00 · Fri 28 May, 09:15–13:30 (presentations) | 14 May: Stadtmuseum Aarau; 21/28 May: Unitobler (room tba) | 530330 |
 | **Text Recognition: Working with Text Programmatically** | Seminar (EN) | 6 | Wednesdays 13:00–17:00: 7 April, 28 April, 5, 12, 19, 26 May, 2 June | Unitobler (room tba) | 530332 |
 
-### Lecture with DH participation
+### Online lecture
 
-| Course | Type | ECTS | Dates | Lecturers | KSL |
+| Course | Type | ECTS | Format | Exam | KSL |
 |---|---|---|---|---|---|
-| **BMZ Lecture** (Bern Center for Medieval Studies) | Lecture (EN) | 3 | Thursdays 16:15–17:45 and 17:45–18:45, weekly | Annette Kern-Stähler, Christian Hesse, Michael Stolz, Cristina Urchueguía, Tobias Hodel | 530182 |
+| **[Digital Humanities — Introductions](/content/intro-lecture/index.qmd)** | Lecture, online only (EN/DE) | 3 | 17 recorded lectures, to be worked through in any order; two consultation sessions via Zoom/ILIAS (dates tba) | Open-book multiple-choice exam, end of semester (date tba) | tba |
 
 ## Applied Digital Humanities: workshops
 
@@ -80,6 +80,6 @@ Meetings for students writing their Master thesis (Major and Minor) and for doct
 | 31 May | Bots | Final-year presentations | Text Recognition | | |
 | 30 August | | Master thesis defences · doctoral exchange | | | |
 
-The weekly BMZ Lecture (Thursdays 16:15–18:45) is not shown in the calendar.
+The online lecture *Digital Humanities — Introductions* runs throughout the semester and is not shown in the calendar.
 
 *Last updated: 11 November 2026. Dates and rooms may still change; KSL is the binding source.*
