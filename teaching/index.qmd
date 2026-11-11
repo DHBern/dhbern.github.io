@@ -1,0 +1,89 @@
+---
+title: "Studying Digital Humanities in Bern"
+subtitle: "MA Major (90 ECTS) and MA Minor (30 ECTS): what to take, and when"
+date: "2026-11-11"
+date-modified: "2026-11-11"
+---
+
+The University of Bern offers Digital Humanities at Master's level as a **Major (90 ECTS)** and as a **Minor (30 ECTS)** that is combined with a Major in another subject. Both are taught at the Digital Humanities Center (Walter Benjamin Kolleg) and are planned for **four semesters**.
+
+This page explains how the two programmes are built and in which order the courses are best taken. The binding rules are in the [study plan](https://www.dh.unibe.ch/studium/studium/studienplan/index_ger.html) ([PDF](https://www.dh.unibe.ch/unibe/portal/fak_historisch/fsuf/d_dh/content/e1644823/e1776786/e1776810/e1777708/Studienplan_DH_Master_Major_Minor_ger.pdf)); dates, rooms and registration are in [KSL](https://www.ksl.unibe.ch/KSL/home).
+
+::: {.callout-tip title="Start in the autumn"}
+The two compulsory introductory courses, *Introduction to Digital Humanities* and the *DH Lab*, are only taught in the **autumn semester**. Both programmes are best started in autumn, with both courses in the first semester.
+:::
+
+**Current semester:** [Teaching overview, spring semester 2027](fs2027/index.qmd)
+
+**Questions about your study plan:** Adrian Demleitner, head of study programmes ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch))
+
+## The courses
+
+| Course | Offered | Major | Minor | Website |
+|---|---|---|---|---|
+| Introduction to Digital Humanities | autumn | 3 ECTS · Introduction | 3 ECTS · Introduction | [introduction-to-dh](https://dhbern.github.io/introduction-to-dh/) |
+| DH Lab | autumn | 4 ECTS · Introduction | 4 ECTS · Introduction | [dh-lab](https://dhbern.github.io/dh-lab/) |
+| Basic programming course (Python) | see KSL | 3 ECTS · Introduction | 3 ECTS · Introduction | – |
+| Lecture series *Einblicke in die Digital Humanities* | autumn | 3 ECTS · Theories, Approaches & Solutions | 3 ECTS · Specialisation | [dh-lecture-series](https://dhbern.github.io/dh-lecture-series/) |
+| Lecture *Digital Humanities — Introductions* (online, blended learning) | spring | 3 ECTS · Theories, Approaches & Solutions | – | [intro-lecture](/content/intro-lecture/index.qmd) |
+| Colloquium (Critical Algorithm Studies / Theory of DH) | varies | 3 ECTS · Reflection | 3 ECTS · Specialisation | see semester overview |
+| Seminars | every semester | see below | 5 ECTS · Specialisation | see semester overview |
+| Applied Digital Humanities: Project Management and PPP workshops | autumn and spring | 3 + 3 ECTS · Work Experience | – | [ILIAS «Applied Digital Humanities»](https://ilias.unibe.ch/go/crs/3440360) |
+| Final-year meetings and presentations | every semester | thesis | final project | [semester overview](fs2027/index.qmd#final-year-and-doctoral-programme) |
+
+## MA Major (90 ECTS)
+
+The Major combines an introduction with courses on methods and theory, reflection on algorithmic and scientific practice, practical work experience, and a Master's thesis in the chosen specialisation. Students can graduate with a specialisation in *Digital Scholarly Editing and Computational Literary Sciences*, *Digital Sociolinguistics*, *Digital Histories*, *Digital Culture Studies* or *Data Science*.
+
+### Modules
+
+| Module | Courses | ECTS |
+|---|---|---|
+| **Introduction** | Introduction to Digital Humanities (3, graded) · DH Lab (4, graded) · Basic programming course (3, pass/fail) | 10 |
+| **Theories, Approaches & Solutions** | Lecture series *Einblicke in die Digital Humanities* (3) · Lecture *Introduction to DH approaches* (3; alternatively a second lecture series) · Elective seminar, within or outside the specialisation (6) | 12 |
+| **Reflection** | Colloquium Critical Algorithm Studies (3, pass/fail) · Seminar on philosophy of science or media theory (7) | 10 |
+| **Specialisation** | Elective seminars within the specialisation (6 each) | 12 |
+| **Work Experience** | Networking meeting and learning contract (1) · Project Management (3) · Presentation, Preservation & Publication (3) · Internship of at least four weeks with report (9) | 16 |
+| **Thesis** | Master's thesis, concluded with a presentation | 30 |
+
+### Suggested path
+
+| Semester | What to take |
+|---|---|
+| **1 (autumn)** | Introduction to Digital Humanities · DH Lab · lecture series · first Project Management and PPP workshops · in the Lab: individual consultation on specialisation and possible thesis topics |
+| **2 (spring)** | Basic programming course · online lecture *Digital Humanities — Introductions* · first seminars · further workshops · networking meeting: find an institution for the internship |
+| **3 (autumn)** | Seminars in the specialisation · Reflection module (colloquium, theory seminar) · internship, ideally in the semester break and linked to the thesis topic · settle thesis topic and supervision |
+| **4 (spring)** | Master's thesis · final-year meetings (progress and status report) · final-year presentation as a test run for the defence · defence |
+
+## MA Minor (30 ECTS)
+
+The Minor gives a grounded introduction to the central methods, tools and questions of the Digital Humanities: digitising sources, preparing and analysing text and image data, data literacy, text analysis, machine learning and the ethics of digital research. It ends with a digital project of your own, ideally linked to the Master's thesis in your Major.
+
+### Modules
+
+| Module | Courses | ECTS |
+|---|---|---|
+| **Introduction** (compulsory) | Introduction to Digital Humanities (3, graded) · DH Lab (4, graded) · Basic programming course (3, pass/fail) | 10 |
+| **Specialisation** (elective) | Lecture series *Einblicke in die Digital Humanities* (3, graded) · Colloquium Critical Algorithm Studies / Theory of DH (3, pass/fail) · Seminar on applications in the Digital Humanities (5, graded) | 11 |
+| **Final project** | Digital final project (8, graded) · Project presentation in the DH Lab / final-year presentations (1, graded) | 9 |
+
+### Suggested path
+
+| Semester | What to take |
+|---|---|
+| **1 (autumn)** | Introduction to Digital Humanities · DH Lab · lecture series |
+| **2 (spring)** | Basic programming course · a seminar on applications in the Digital Humanities |
+| **3 (autumn)** | Colloquium · start the final project (topic, data, supervision), ideally linked to the Master's thesis in your Major |
+| **4 (spring)** | Final project · final-year meetings · project presentation |
+
+## Final year
+
+Students in their last year, Major and Minor alike, meet with the course team twice per semester to report on their thesis or project, and present their results at the end of the semester. In the autumn these meetings are part of the [DH Lab](https://dhbern.github.io/dh-lab/); in the spring they are scheduled separately, see the [semester overview](fs2027/index.qmd#final-year-and-doctoral-programme). Major students defend their thesis at the end of the programme; the final-year presentation serves as a test run.
+
+## Further links
+
+- [Study plan and module descriptions](https://www.dh.unibe.ch/studium/studium/studienplan/index_ger.html) (dh.unibe.ch)
+- [Current courses](https://www.dh.unibe.ch/studium/lehrveranstaltungen/aktuell/index_ger.html), including external courses that can be credited (dh.unibe.ch)
+- [Master Digital Humanities](https://www.philhist.unibe.ch/studies/study_programs/master_s_in_digital_humanities/index_eng.html) and [Master Minor Digital Humanities](https://www.philhist.unibe.ch/studies/study_programs/master_minor_digital_humanities/index_eng.html) (Faculty of Humanities: admission, combinations)
+
+*Last updated: 11 November 2026. In case of doubt the study plan applies.*

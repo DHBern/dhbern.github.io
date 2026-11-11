@@ -1,0 +1,4 @@
+# Scoped metadata for the teaching pages.
+# This folder is intentionally NOT linked from the main navigation and kept out of the site search.
+search: false
+toc: true
