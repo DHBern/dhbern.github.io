@@ -1,0 +1,64 @@
+---
+title: "CAREing for Data in Dialogue: registration is open"
+subtitle: "The seventh «… in dialogue» workshop asks what the CARE principles mean in practice — 9 December 2026, University of Bern"
+author: Digital Humanities
+date: 2026-11-05
+image: careing-for-data_banner.jpg
+image-alt: "Abstract blue waves"
+categories:
+  - Post
+other-links:
+  - text: Programme and registration
+    icon: calendar-event
+    href: /content/events/im_dialog/2026-careing-for-data-in-dialogue/
+  - text: Flyer (PDF)
+    icon: file-earmark-pdf
+    href: careing-for-data-in-dialogue-flyer.pdf
+  - text: Contact us
+    icon: envelope
+    href: mailto:imdialog@ub.unibe.ch
+---
+
+![](careing-for-data_banner.jpg){fig-alt="Abstract blue waves" width="100%"}
+
+Research data in the humanities and social sciences is rarely simply "open" or "closed". Much of
+it describes people — their words, their images, their suffering — and caring for such data is a
+question of ethics as much as of infrastructure. The **CARE principles** (Collective benefit,
+Authority to control, Responsibility, Ethics) put those questions beside the FAIR ones, and the
+seventh edition of "… in dialogue" asks what that looks like in practice.
+
+Researchers bring **concrete datasets** to the table and discuss the ethical questions each one
+raises, in short pitches, hands-on sessions and with perspectives from law.
+
+**9 December 2026 · Kuppelraum (501), Hochschulstrasse 4, University of Bern · in English · hybrid**
+
+## On the programme
+
+- **Keynote** — *Beyond FAIR: CARE, Community Responsibility, and the Challenges of (Historical)
+  Sociolinguistic Data*, Anita Auer (University of Lausanne), on pauper letters and Swiss Heritage
+  Tamil
+- **Dataset pitches** on psychiatric patient letters, witch-trial records, ethnographic fieldwork,
+  a discrimination-sensitive scholarly edition, archaeological site data, emergency-medicine
+  records and research on sexual abuse in the Catholic Church
+- **Hands-on sessions** on discrimination-sensitive metadata, and a "bring your own data" slot
+- A closing contribution from **CCdigitallaw** on how open research data can be, and at what cost
+
+The full programme, all abstracts and short biographies are on the
+[event page](/content/events/im_dialog/2026-careing-for-data-in-dialogue/).
+
+## Registration
+
+Registration is free and runs through the University Library Bern — see the event page, or share
+the short link **<https://bit.ly/imdialog2026>**. The
+[flyer is available as a PDF](careing-for-data-in-dialogue-flyer.pdf) for printing and
+circulating.
+
+The workshop is organised by the Digital Humanities Center at the Walter Benjamin Kolleg and
+Open Science at the University Library Bern. Questions go to
+[imdialog\@ub.unibe.ch](mailto:imdialog@ub.unibe.ch).
+
+::: {.callout-tip collapse="true" title="Image credit"}
+Header image by [Simon Lee](https://unsplash.com/@simonppt) on
+[Unsplash](https://unsplash.com/photos/zft-W1kVEhg), used under the
+[Unsplash licence](https://unsplash.com/license). Cropped to a banner format.
+:::
