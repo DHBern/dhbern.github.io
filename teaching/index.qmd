@@ -194,6 +194,14 @@ You present your thesis in 15 minutes and then answer questions for 15 minutes f
 **What are the final-year meetings?**
 In your last semester you report on your thesis or final project twice (week 3 and week 8) and present it at the end of the semester. In the autumn these meetings are part of the DH Lab; in the spring they are scheduled separately – see the [semester overview](fs2027/index.qmd#final-year-and-doctoral-programme).
 
+### Information and support
+
+**How do I get updates and information?**
+Sign up to the DH [mailing list](/content/services/mailinglist/index.qmd): news about the programme, courses and events, and about Digital Humanities in Bern and beyond. University of Bern members subscribe via [listserv.unibe.ch](https://listserv.unibe.ch/mailman/listinfo/dh.wbkolleg), others by writing to [dh.wbkolleg-join@lists.unibe.ch](mailto:dh.wbkolleg-join@lists.unibe.ch). Upcoming events are listed on the [DH website](https://dhbern.github.io/#events).
+
+**What services and support does the DH offer?**
+Advice and training on digital tools, support for research projects and applications, text recognition, IIIF, Omeka S, nodegoat, Linked Open Data, Zotero, the Open Access Lab, the GameLab and the data stewards. See the [Services](/content/services/index.qmd) section of the website for descriptions and contact persons.
+
 ### Changes and beyond
 
 **Can I switch from the Minor to the Major?**
