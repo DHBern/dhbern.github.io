@@ -1,0 +1,118 @@
+---
+title: "Semester planner"
+subtitle: "Pick your DH courses for a semester, see them in a weekly calendar, and check for overlaps and problems"
+date: "2026-11-12"
+date-modified: "2026-11-12"
+toc: false
+page-layout: full
+resources:
+  - courses.js
+  - planning.js
+---
+
+::: {.callout-note title="How it works"}
+Choose the semester, your programme and the semester you are in. Filter the course list and **add** courses: they appear in the weekly calendar. Overlapping sessions are marked in red; courses that are planned for a later semester or do not count for your programme are flagged. Your selection is kept in this browser only. **This planner is a help, not a registration** – book your courses in [KSL](https://www.ksl.unibe.ch/KSL/home), and check the [programme page](../index.qmd) and the study plan.
+:::
+
+```{=html}
+<div id="pl-root">
+  <div class="pl-controls">
+    <label>Semester <select id="pl-semester"></select></label>
+    <label>Programme
+      <select id="pl-programme"><option value="major">MA Major (90 ECTS)</option><option value="minor">MA Minor (30 ECTS)</option></select>
+    </label>
+    <label>My study semester
+      <select id="pl-studysem"><option value="1">1st</option><option value="2">2nd</option><option value="3">3rd</option><option value="4">4th</option></select>
+    </label>
+    <label class="pl-check"><input type="checkbox" id="pl-introdone"> Introduction block completed</label>
+  </div>
+
+  <div class="pl-layout">
+    <section class="pl-left">
+      <h3>Courses</h3>
+      <div class="pl-filters">
+        <input type="search" id="pl-q" placeholder="Search title, lecturer, KSL number">
+        <select id="pl-kind">
+          <option value="">All types</option><option value="seminar">Seminars</option><option value="colloquium">Colloquia</option>
+          <option value="course">Courses</option><option value="lecture">Lectures</option><option value="online">Online lecture</option>
+          <option value="workshop">Workshops (PPP / ProjM)</option><option value="meeting">Meetings</option>
+        </select>
+        <select id="pl-block">
+          <option value="">All blocks</option><option value="introduction">Introduction</option><option value="theory">Theories, approaches &amp; solutions</option>
+          <option value="elective">Elective seminars</option><option value="reflection">Reflection</option>
+          <option value="application">Application</option><option value="final">Final phase</option>
+        </select>
+        <label class="pl-check"><input type="checkbox" id="pl-onlymine"> only courses for my programme</label>
+      </div>
+      <div class="pl-count" id="pl-count"></div>
+      <div id="pl-list"></div>
+    </section>
+
+    <section class="pl-right">
+      <h3>My plan</h3>
+      <div class="pl-summary"><span id="pl-ects"></span> <button class="btn btn-sm btn-outline-secondary" id="pl-clear">Clear semester</button></div>
+      <ul id="pl-checks" class="pl-checks"></ul>
+      <div id="pl-tba" class="pl-tba"></div>
+
+      <div class="pl-weeknav">
+        <button class="btn btn-sm btn-outline-secondary" id="pl-prev">‹ previous</button>
+        <span id="pl-weeklabel"></span>
+        <button class="btn btn-sm btn-outline-secondary" id="pl-next">next ›</button>
+        <button class="btn btn-sm btn-outline-danger" id="pl-firstconflict">first overlap</button>
+      </div>
+      <div id="pl-cal"></div>
+    </section>
+  </div>
+</div>
+
+<style>
+#pl-root { font-size: 0.92rem; }
+.pl-controls { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; align-items: end; margin: 1rem 0 1.5rem; padding: .8rem 1rem; background: #f6f6f6; border-radius: 6px; }
+.pl-controls label { display: flex; flex-direction: column; gap: .2rem; font-weight: 600; }
+.pl-controls select { font-weight: 400; padding: .2rem .4rem; }
+.pl-check { flex-direction: row !important; align-items: center; gap: .4rem !important; font-weight: 400 !important; }
+.pl-layout { display: grid; grid-template-columns: minmax(300px, 2fr) 3fr; gap: 1.5rem; }
+@media (max-width: 900px) { .pl-layout { grid-template-columns: 1fr; } }
+.pl-filters { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: .5rem; }
+.pl-filters input[type=search] { flex: 1 1 100%; padding: .3rem .5rem; }
+.pl-count { color: #666; font-size: .85rem; margin-bottom: .3rem; }
+#pl-list { max-height: 900px; overflow-y: auto; border-top: 1px solid #ddd; }
+.pl-item { display: flex; gap: .6rem; align-items: start; justify-content: space-between; padding: .55rem .2rem; border-bottom: 1px solid #eee; }
+.pl-item.on { background: #f3f8ff; }
+.pl-item-title { font-weight: 600; line-height: 1.25; }
+.pl-item-meta, .pl-item-when { font-size: .8rem; color: #555; }
+.pl-tag-warn { color: #a35b00; font-weight: 600; }
+.pl-summary { display: flex; justify-content: space-between; align-items: center; font-weight: 600; margin-bottom: .4rem; }
+.pl-checks { list-style: none; padding: 0; margin: 0 0 .6rem; }
+.pl-checks li { padding: .35rem .6rem; margin-bottom: .25rem; border-radius: 4px; border-left: 4px solid #bbb; background: #fafafa; }
+.pl-checks li.pl-error { border-color: #c00; background: #fdecec; }
+.pl-checks li.pl-warn { border-color: #e08a00; background: #fff5e6; }
+.pl-checks li.pl-info { border-color: #6c8ebf; background: #eef3fb; }
+.pl-checks li.pl-ok { border-color: #2e8b57; background: #edf7f0; }
+.pl-tba { font-size: .85rem; color: #555; margin-bottom: .6rem; }
+.pl-weeknav { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin: .6rem 0; }
+.pl-weeknav span { font-weight: 600; min-width: 18rem; text-align: center; }
+.pl-grid { position: relative; display: grid; grid-template-columns: 3rem repeat(5, 1fr); border: 1px solid #ddd; }
+.pl-hours { position: relative; border-right: 1px solid #ddd; }
+.pl-hours div { position: absolute; right: .3rem; font-size: .7rem; color: #777; transform: translateY(-50%); }
+.pl-day { position: relative; border-right: 1px solid #eee; }
+.pl-day.off { background: repeating-linear-gradient(45deg, #f4f4f4, #f4f4f4 6px, #ececec 6px, #ececec 12px); }
+.pl-dayhead { height: 24px; line-height: 24px; text-align: center; font-size: .78rem; font-weight: 600; border-bottom: 1px solid #ddd; background: #fafafa; }
+.pl-line { position: absolute; left: 0; right: 0; border-top: 1px dashed #eee; }
+.pl-ev { position: absolute; box-sizing: border-box; padding: 2px 4px; font-size: .7rem; line-height: 1.15; overflow: hidden; border-radius: 3px;
+         background: #e6eefb; border: 1px solid #6c8ebf; color: #123; }
+.pl-ev.k-seminar { background: #e9f5e9; border-color: #4a9a4a; }
+.pl-ev.k-colloquium { background: #f3eafa; border-color: #8a5ab0; }
+.pl-ev.k-workshop { background: #fff6dd; border-color: #c9a227; }
+.pl-ev.k-meeting { background: #eef0f2; border-color: #7a8590; }
+.pl-ev.bad { background: #fdd; border: 2px solid #c00; }
+</style>
+<script src="courses.js"></script>
+<script src="planning.js"></script>
+```
+
+## Notes
+
+- **Data:** spring 2027 from KSL and the [semester overview](../fs2027/index.qmd) (as of 12 November 2026); autumn 2027 is [in development](../hs2027/index.qmd) and based on the autumn 2026 timetable. Courses without fixed dates are listed but not shown in the calendar.
+- **Checks:** overlaps are computed for every single date (holidays and the Easter break are left out). A course is flagged as *too early* when the study plan places its block in a later semester; elective seminars and PPP / Project Management workshops are only noted, as they can be taken earlier (workshops also make up missing ECTS).
+- Questions: Adrian Demleitner, head of study programmes ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch)).
