@@ -6,7 +6,7 @@ date-modified: "2026-11-11"
 toc: true
 ---
 
-This page brings together everything Digital Humanities at the University of Bern offers in the spring semester 2027 (FS 2027): seminars and colloquia, the workshops of the *Applied Digital Humanities* modules, and the meetings for students in their final year and in the doctoral programme.
+This page brings together everything Digital Humanities at the University of Bern offers in the spring semester 2027 (FS 2027): seminars and colloquia, the online lecture, the workshops of the *Applied Digital Humanities* modules, and the meetings for students in their final year and in the doctoral programme.
 
 - **Lecture period:** 22 February – 4 June 2027
 - **Easter break:** 26 March – 4 April 2027 (no teaching)
@@ -22,19 +22,32 @@ There is no DH Lab in the spring semester. The final-year meetings take place as
 
 | Course | Type | ECTS | Dates | Place | KSL |
 |---|---|---|---|---|---|
-| **Bots: Building and Evaluating Bots for Humanities Research** | Colloquium (EN) | 6 | Mondays 10:00–12:00, from 8 March; full-day block Mon 3 May; no sessions 29 March (Easter) and 17 May (Whit Monday) | Unitobler (room tba) | 530331 |
+| **Bots: Building and Evaluating Bots for Humanities Research** | Colloquium (EN) | 3 | Mondays 10:00–12:00, from 8 March; full-day block Mon 3 May; no sessions 29 March (Easter) and 17 May (Whit Monday) | Unitobler (room tba) | 530331 |
 | **Analysing a City: Stadtgeschichte Aarau (Image and Text)** | Seminar (DE) | 6 | Fri 30 April and Fri 7 May, 10:15–12:00 (online, Zoom) · Fri 14 May, 09:30–17:00 · Fri 21 May, 09:30–17:00 · Fri 28 May, 09:15–13:30 (presentations) | 14 May: Stadtmuseum Aarau; 21/28 May: Unitobler (room tba) | 530330 |
 | **Text Recognition: Working with Text Programmatically** | Seminar (EN) | 6 | Wednesdays 13:00–17:00: 7 April, 28 April, 5, 12, 19, 26 May, 2 June | Unitobler (room tba) | 530332 |
+| **From Information to Insights: Introduction to Data Analysis Using Open Data** (Francesco Beretta) | Seminar | 6 | Tuesdays 10:15–12:00, weekly | tba | not yet in KSL |
+| **Research Perspectives on Born-Digital** (Critical Algorithm Studies; with Digital History) – Moritz Mähr, Adrian Demleitner, Daniel Gammenthaler, Max Frischknecht and others | Colloquium | 3 | Wednesday afternoons, weekly | tba | not yet in KSL |
+| **Alt-Soc** (with Digital In/Justice) | Microcourse | 0.5 | one half day, date tba | tba | not yet in KSL |
 
-### Lecture with DH participation
+### Introduction to programming
 
-| Course | Type | ECTS | Dates | Lecturers | KSL |
+| Course | Type | ECTS | Dates | Place | Registration |
 |---|---|---|---|---|---|
-| **BMZ Lecture** (Bern Center for Medieval Studies) | Lecture (EN) | 3 | Thursdays 16:15–17:45 and 17:45–18:45, weekly | Annette Kern-Stähler, Christian Hesse, Michael Stolz, Cristina Urchueguía, Tobias Hodel | 530182 |
+| **[Grundkurs Programmieren](https://www.digitale-nachhaltigkeit.unibe.ch/studium/grundkurs_programmieren/index_ger.html)** (Python; Research Center for Digital Sustainability) | Course, inverted classroom (DE) | 3 | Fridays 13:15–15:00 (recorded as podcast; can be followed fully online); 90-minute exam, offered twice per semester | Hauptgebäude H4 | via ILIAS |
+
+### Online lecture
+
+| Course | Type | ECTS | Format | Exam | KSL |
+|---|---|---|---|---|---|
+| **[Digital Humanities — Introductions](/content/intro-lecture/index.qmd)** | Lecture, online only (EN/DE) | 3 | 17 recorded lectures, to be worked through in any order; two consultation sessions via Zoom/ILIAS (dates tba) | Open-book multiple-choice exam, end of semester (date tba) | tba |
 
 ## Applied Digital Humanities: workshops
 
-The workshops belong to the submodules *Publishing, Preserving, Presenting* (PPP) and *Project Management* (ProjM). Each workshop is worth 0.5 ECTS and is booked individually in KSL. Registration closes on the Friday of the week before the workshop.
+::: {.callout-warning title="Work in progress"}
+The programmes of *Presentation, Preservation, Publication* (PPP) and *Project Management* (ProjM) for spring 2027 are still being put together. Further workshops and dates will follow.
+:::
+
+The workshops belong to the submodules *Presentation, Preservation, Publication* (PPP) and *Project Management* (ProjM). Each workshop is worth 0.5 ECTS and is booked individually in KSL. Registration closes on the Friday of the week before the workshop.
 
 | Date | Time | Workshop | Submodule | Instructors | KSL |
 |---|---|---|---|---|---|
@@ -49,23 +62,72 @@ The workshops belong to the submodules *Publishing, Preserving, Presenting* (PPP
 
 The data management and IIIF workshops take place at the University Library Bern (room tba). Dates marked *tba* will be added here as soon as they are fixed.
 
+## Networking meeting (Application module)
+
+| Date | What |
+|---|---|
+| Tue 23 February 2027 (first Tuesday of the semester), 15:00–19:00, place tba | Networking meeting: institutions present projects for the applied working phase (Major, module Application) |
+
 ## Final year and doctoral programme
 
 Meetings for students writing their Master thesis (Major and Minor) and for doctoral students.
 
 | Date | Time | What | Place |
 |---|---|---|---|
-| Tue 16 March 2027 | 16:00–17:15 | Final-year meeting: progress report | tba |
+| Tue 16 March 2027 | 16:00–17:15 | Final-year meeting: progress report | D222 (DH offices) |
 | Tue 20 April 2027 | 12:00–13:00 | Final-year meeting: status report | tba |
 | Tue 20 April 2027 | 14:15–17:00, followed by an apéro | DHCH doctoral afternoon | tba |
-| Tue 1 June 2027 | 14:00–17:15 | Final-year presentations (Major / Minor) | tba |
+| Tue 1 June 2027 | 14:00–17:15 | Final-year presentations (Major / Minor) | D222 (DH offices) |
 | Tue 31 August 2027 | full day | Master thesis defences, together with a doctoral exchange | tba |
+
+## Course descriptions
+
+::: {.callout-note title="First draft"}
+The descriptions below are drafts. The descriptions in KSL are binding.
+:::
+
+### Building and Assessing Bots for Research in the Humanities
+*Colloquium · 3 ECTS · Tobias Hodel · Mondays 10:00–12:00 from 8 March, full-day block on 3 May, presentations in the following weeks*
+
+Chatbots based on large language models are becoming part of how students and researchers search for, read and summarise historical information. Starting from the pilot project *Swiss History Bot*, the colloquium asks whether a chatbot can become a source-traceable research tool. Participants **build** bots on a curated corpus (HLS, Dodis, infoclio.ch, e-periodica), combining a knowledge graph with a vector database (GraphRAG) and running on the University of Bern's own LLM infrastructure, and **assess** them: is every claim traceable to a source, how often does the bot hallucinate (curated test set), and is it useful for students, teachers and researchers?
+
+### Eine Stadt analysieren: Stadtgeschichte Aarau (Bild und Text)
+*Seminar · 6 ECTS · Tobias Hodel · in German · two online sessions, two full days, presentations*
+
+Digital and public history through a project, in collaboration with the authors of the *Stadtgeschichte Aarau*. Students work with sources on the population (address books, resident registers, census data, city maps) and on public discourse (*Aarauer Neujahrsblätter* on e-periodica). No programming skills are needed; some Python is introduced. Students deliver a group presentation, an individual handout (4–5 pages) and a blog post on their project for a wider audience; the grade is the average of all parts.
+
+### Text Recognition: Dealing with Text Programmatically
+*Seminar · 6 ECTS · Tobias Hodel · Wednesdays 13:00–17:00, seven sessions from 7 April to 2 June*
+
+An introduction to automated text recognition: the basics of OCR and HTR (pipeline, CER/WER metrics), eScriptorium and Kraken, open models and HTR-United, as well as TrOCR and vision-language models (GPT-4o, Gemini, open VLMs). The seminar is based on the open teaching resource [thodel.github.io/atr](https://thodel.github.io/atr/) (CC BY 4.0), with quiz and literature list, and on the open-access book *Automated Text Recognition* (Schonhardt, Geelhaar, Hodel, Odstrčilík; Bielefeld University Press, 2026).
+
+### From Information to Insights: Introduction to Data Analysis Using Open Data
+*Seminar · 6 ECTS · Francesco Beretta · Tuesdays 10:15–12:00, weekly*
+
+An introduction to data analysis with open data: from finding and preparing information to deriving insights. *Description to follow.*
+
+### Research Perspectives on Born-Digital
+*Colloquium · 3 ECTS · Critical Algorithm Studies · with Digital History · Moritz Mähr, Adrian Demleitner, Daniel Gammenthaler, Max Frischknecht and others · Wednesday afternoons, weekly*
+
+Current approaches and projects on researching born-digital artefacts in the Digital Humanities and Digital History. Inputs and guest lectures present recent and ongoing research on artefacts such as databases, video games and source code.
+
+### Alt-Soc
+*Microcourse · 0.5 ECTS · one half day · with Digital In/Justice*
+
+*Description to follow.*
+
+### Digital Humanities — Introductions
+*Lecture · 3 ECTS · online only*
+
+Seventeen researchers from Swiss and European universities present major research areas and methods of the Digital Humanities in recorded lectures, which can be worked through in any order. Assessment is an open-book multiple-choice exam. See the [course page](/content/intro-lecture/index.qmd).
 
 ## Calendar at a glance
 
 | Week of | Mon | Tue | Wed | Thu | Fri |
 |---|---|---|---|---|---|
-| 8 March | Bots | | | | |
+| 22 February | | Networking meeting (15:00–19:00) | | | |
+| 1 March | | Data analysis (Beretta) | Born-Digital colloquium | | |
+| 8 March | Bots | Data analysis (Beretta) | Born-Digital colloquium | | |
 | 15 March | Bots | Final year: progress report | PPP: Data Management I + II | ProjM: Data Management III | |
 | 22 March | Bots | | | | |
 | *29 March* | *Easter break* | | | | |
@@ -80,6 +142,6 @@ Meetings for students writing their Master thesis (Major and Minor) and for doct
 | 31 May | Bots | Final-year presentations | Text Recognition | | |
 | 30 August | | Master thesis defences · doctoral exchange | | | |
 
-The weekly BMZ Lecture (Thursdays 16:15–18:45) is not shown in the calendar.
+The online lecture *Digital Humanities — Introductions* runs throughout the semester and is not shown in the calendar. The weekly courses of Francesco Beretta (Tuesdays 10:15–12:00) and the Born-Digital colloquium (Wednesday afternoons) are shown only in the first weeks, as their exact dates are not yet fixed.
 
 *Last updated: 11 November 2026. Dates and rooms may still change; KSL is the binding source.*
