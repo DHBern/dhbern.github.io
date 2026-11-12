@@ -2,18 +2,18 @@
 (function () {
   "use strict";
 
-  const SEM = window.DH_SEMESTERS, COURSES = window.DH_COURSES, RULES = window.DH_RULES;
+  const SEM = window.DH_SEMESTERS, COURSES = window.DH_COURSES, RULES = window.DH_RULES, SPEC = window.DH_SPECIALISATIONS || {};
   const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"];
   const KIND_LABEL = { seminar: "Seminar", colloquium: "Colloquium", lecture: "Lecture", course: "Course",
     workshop: "Workshop", meeting: "Meeting", online: "Online lecture" };
   const BLOCK_LABEL = { introduction: "Introduction", theory: "Theories, approaches & solutions",
     advanced: "Advanced studies", reflection: "Reflection", elective: "Elective seminar",
     application: "Application", final: "Final phase", none: "–" };
-  const STORE = "dh-teaching-planner-v1";
+  const STORE = "dh-teaching-planner-v2";
 
   // ---------- state ----------
-  let state = { semester: "FS2027", programme: "major", studySem: 2, introDone: true,
-    selected: {}, q: "", kind: "", block: "", onlyMine: true, week: 0 };
+  let state = { semester: "FS2027", programme: "major", studySem: 2, spec: "",
+    selected: {}, q: "", kind: "", block: "", onlyMine: true, onlySpec: false, week: 0 };
   try { const s = JSON.parse(localStorage.getItem(STORE) || "null"); if (s) state = Object.assign(state, s); } catch (e) {}
   function save() { try { localStorage.setItem(STORE, JSON.stringify(state)); } catch (e) {} }
 
@@ -50,6 +50,16 @@
   }
 
   function counts(c) { return (c.programmes || []).includes(state.programme); }
+  const mySpec = () => (state.programme === "major" ? state.spec : "");
+  // true: course fits my specialisation; false: tagged, but for other specialisations; null: general course
+  function fitsSpec(c) {
+    if (!c.specialisations || !c.specialisations.length) return null;
+    return mySpec() ? c.specialisations.includes(mySpec()) : null;
+  }
+  function specTags(c) {
+    return (c.specialisations || []).map((k) =>
+      `<span class="pl-spec ${k === mySpec() ? "mine" : ""}" title="${esc(SPEC[k] || k)}">${esc(SPEC[k] || k)}</span>`).join(" ");
+  }
 
   // ---------- checks ----------
   function checks() {
@@ -88,8 +98,10 @@
         const lvl = (c.block === "elective" || c.kind === "workshop") ? "info" : "warn";
         out.push({ level: lvl, text: `<b>${esc(c.title)}</b> (${BLOCK_LABEL[c.block]}) is planned for semester ${rec}; you are in semester ${sem} – ${c.block === "final" ? "final-year meetings are for your last semester" : "taken too early"}.` });
       }
-      if (["advanced", "reflection", "elective", "theory", "application"].includes(c.block) && !state.introDone && sem > 1)
-        out.push({ level: "warn", text: `<b>${esc(c.title)}</b>: complete the Introduction block (Intro to DH, DH Lab, programming, lecture series) first.` });
+      if (["advanced", "reflection", "elective", "theory", "application"].includes(c.block) && sem === 1 && SEM[state.semester].season === "autumn")
+        out.push({ level: "info", text: `<b>${esc(c.title)}</b>: in your first semester, the Introduction block (Intro to DH, DH Lab, programming, lecture series) comes first.` });
+      if (prog === "major" && mySpec() && c.kind === "seminar" && fitsSpec(c) === false)
+        out.push({ level: "info", text: `<b>${esc(c.title)}</b> is outside your specialisation (${esc(SPEC[mySpec()])}). It can count as an elective seminar; seminars in the specialisation are needed as well.` });
       if (c.tba) out.push({ level: "info", text: `<b>${esc(c.title)}</b>: ${esc(c.tba)}.` });
     });
 
@@ -102,7 +114,17 @@
       });
     }
 
-    // 5. workload
+    // 5. specialisation overview
+    if (prog === "major" && mySpec()) {
+      const seminars = chosen.filter((c) => c.kind === "seminar");
+      const inSpec = seminars.filter((c) => fitsSpec(c) === true).length;
+      if (seminars.length) out.push({ level: inSpec ? "ok" : "warn",
+        text: `Specialisation ${esc(SPEC[mySpec()])}: ${inSpec} of ${seminars.length} planned seminar(s) fit your specialisation.` });
+      if (!COURSES.some((c) => c.semester === state.semester && c.kind === "seminar" && fitsSpec(c) === true))
+        out.push({ level: "info", text: `No seminar this semester is tagged for ${esc(SPEC[mySpec()])} yet. Courses from the cooperating institutes may count – ask the head of study programmes.` });
+    }
+
+    // 6. workload
     const ects = chosen.reduce((t, c) => t + (counts(c) ? c.ects : 0), 0);
     if (ects > 30) out.push({ level: "warn", text: `You have planned ${ects} ECTS that count for your programme – more than a full-time semester (30 ECTS).` });
 
@@ -114,7 +136,11 @@
     $("pl-semester").innerHTML = Object.entries(SEM).map(([k, v]) => `<option value="${k}" ${k === state.semester ? "selected" : ""}>${esc(v.label)}</option>`).join("");
     $("pl-programme").value = state.programme;
     $("pl-studysem").value = String(state.studySem);
-    $("pl-introdone").checked = !!state.introDone;
+    $("pl-spec").innerHTML = '<option value="">No specialisation (broad)</option>' +
+      Object.entries(SPEC).map(([k, v]) => `<option value="${k}" ${k === state.spec ? "selected" : ""}>${esc(v)}</option>`).join("");
+    $("pl-spec-wrap").style.display = state.programme === "major" ? "" : "none";
+    $("pl-onlyspec").checked = !!state.onlySpec;
+    $("pl-onlyspec-wrap").style.display = mySpec() ? "" : "none";
     $("pl-q").value = state.q; $("pl-kind").value = state.kind; $("pl-block").value = state.block;
     $("pl-onlymine").checked = !!state.onlyMine;
   }
@@ -125,6 +151,7 @@
       .filter((c) => !state.kind || c.kind === state.kind)
       .filter((c) => !state.block || c.block === state.block)
       .filter((c) => !state.onlyMine || counts(c))
+      .filter((c) => !state.onlySpec || !mySpec() || fitsSpec(c) !== false)
       .filter((c) => !q || (c.title + " " + c.lecturers + " " + (c.ksl || "")).toLowerCase().includes(q));
     $("pl-count").textContent = `${items.length} course(s)`;
     $("pl-list").innerHTML = items.map((c) => {
@@ -132,10 +159,11 @@
       const ss = sessions(c);
       const when = c.weekly ? `${DAYS[c.weekly.day - 1]} ${c.weekly.start}–${c.weekly.end}, ${ss.filter((x) => !x.note).length} sessions` :
         ss.length ? ss.map((x) => `${fmtDate(x.date)} ${x.start}–${x.end}`).slice(0, 3).join("; ") + (ss.length > 3 ? " …" : "") : (c.tba || "tba");
-      return `<div class="pl-item ${on ? "on" : ""}">
+      return `<div class="pl-item ${on ? "on" : ""} ${fitsSpec(c) === true ? "fit" : ""}">
         <div class="pl-item-main">
           <div class="pl-item-title"><a href="${esc(c.url || "#")}">${esc(c.title)}</a></div>
           <div class="pl-item-meta">${KIND_LABEL[c.kind] || c.kind} · ${c.ects} ECTS · ${BLOCK_LABEL[c.block] || ""}${c.lecturers ? " · " + esc(c.lecturers) : ""}${c.language ? " · " + esc(c.language) : ""}${c.ksl ? " · KSL " + esc(c.ksl) : ""}</div>
+          ${c.specialisations ? `<div class="pl-item-spec">${specTags(c)}</div>` : ""}
           <div class="pl-item-when">${esc(when)}${c.note ? " · " + esc(c.note) : ""}${!counts(c) ? ' · <span class="pl-tag-warn">not in your programme</span>' : ""}</div>
         </div>
         <button class="btn btn-sm ${on ? "btn-outline-danger" : "btn-outline-primary"}" data-id="${c.id}">${on ? "Remove" : "Add"}</button>
@@ -194,7 +222,7 @@
 
   function renderChecks(res) {
     $("pl-ects").textContent = `${res.ects} ECTS planned (${res.chosen.length} item(s))`;
-    const order = { error: 0, warn: 1, info: 2 };
+    const order = { error: 0, warn: 1, info: 2, ok: 3 };
     const list = res.list.sort((a, b) => order[a.level] - order[b.level]);
     $("pl-checks").innerHTML = list.length ? list.map((x) => `<li class="pl-${x.level}">${x.text}</li>`).join("")
       : (res.chosen.length ? '<li class="pl-ok">No overlaps or problems found.</li>' : "<li>Add courses to see checks.</li>");
@@ -218,7 +246,8 @@
     $("pl-semester").addEventListener("change", (e) => { state.semester = e.target.value; state.week = 0; render(); });
     $("pl-programme").addEventListener("change", (e) => { state.programme = e.target.value; render(); });
     $("pl-studysem").addEventListener("change", (e) => { state.studySem = Number(e.target.value); render(); });
-    $("pl-introdone").addEventListener("change", (e) => { state.introDone = e.target.checked; render(); });
+    $("pl-spec").addEventListener("change", (e) => { state.spec = e.target.value; render(); });
+    $("pl-onlyspec").addEventListener("change", (e) => { state.onlySpec = e.target.checked; render(); });
     $("pl-q").addEventListener("input", (e) => { state.q = e.target.value; renderList(); save(); });
     $("pl-kind").addEventListener("change", (e) => { state.kind = e.target.value; render(); });
     $("pl-block").addEventListener("change", (e) => { state.block = e.target.value; render(); });

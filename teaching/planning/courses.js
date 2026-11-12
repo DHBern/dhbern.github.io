@@ -8,6 +8,7 @@
 //   programmes: which programmes the course counts for: ["major", "minor"]
 //   weekly: { day: 1-5 (Mon-Fri), start, end, from, to, except: [dates] }   (optional)
 //   dates:  [ { date, start, end, note } ]                                  (optional, single dates)
+//   specialisations: ["editing" | "histories" | "culture" | "datascience" | "sociolinguistics"] (optional)
 //   tba: text shown when dates/times are not fixed yet
 //   url: link to course page
 
@@ -31,7 +32,7 @@ window.DH_SEMESTERS = {
 window.DH_COURSES = [
   // ---------------- FS 2027 ----------------
   {
-    id: "fs27-bots", semester: "FS2027", kind: "colloquium", ects: 3,
+    id: "fs27-bots", specialisations: ["histories", "datascience"], semester: "FS2027", kind: "colloquium", ects: 3,
     title: "Building and Assessing Bots for Research in the Humanities",
     lecturers: "Tobias Hodel", language: "EN", ksl: "530331",
     block: "reflection", programmes: ["major", "minor"],
@@ -41,7 +42,7 @@ window.DH_COURSES = [
     url: "../fs2027/index.html#building-and-assessing-bots-for-research-in-the-humanities"
   },
   {
-    id: "fs27-aarau", semester: "FS2027", kind: "seminar", ects: 6,
+    id: "fs27-aarau", specialisations: ["histories", "culture"], semester: "FS2027", kind: "seminar", ects: 6,
     title: "Eine Stadt analysieren: Stadtgeschichte Aarau (Bild und Text)",
     lecturers: "Tobias Hodel", language: "DE", ksl: "530330",
     block: "elective", programmes: ["major", "minor"],
@@ -55,7 +56,7 @@ window.DH_COURSES = [
     url: "../fs2027/index.html#eine-stadt-analysieren-stadtgeschichte-aarau-bild-und-text"
   },
   {
-    id: "fs27-atr", semester: "FS2027", kind: "seminar", ects: 6,
+    id: "fs27-atr", specialisations: ["editing", "histories"], semester: "FS2027", kind: "seminar", ects: 6,
     title: "Text Recognition: Dealing with Text Programmatically",
     lecturers: "Tobias Hodel", language: "EN", ksl: "530332",
     block: "elective", programmes: ["major", "minor"],
@@ -64,7 +65,7 @@ window.DH_COURSES = [
     url: "../fs2027/index.html#text-recognition-dealing-with-text-programmatically"
   },
   {
-    id: "fs27-beretta", semester: "FS2027", kind: "seminar", ects: 6,
+    id: "fs27-beretta", specialisations: ["datascience", "histories"], semester: "FS2027", kind: "seminar", ects: 6,
     title: "From Information to Insights: Introduction to Data Analysis Using Open Data",
     lecturers: "Francesco Beretta", language: "tba", ksl: "",
     block: "elective", programmes: ["major", "minor"],
@@ -73,7 +74,7 @@ window.DH_COURSES = [
     url: "../fs2027/index.html#from-information-to-insights-introduction-to-data-analysis-using-open-data"
   },
   {
-    id: "fs27-borndigital", semester: "FS2027", kind: "colloquium", ects: 3,
+    id: "fs27-borndigital", specialisations: ["culture", "histories"], semester: "FS2027", kind: "colloquium", ects: 3,
     title: "Research Perspectives on Born-Digital (Critical Algorithm Studies)",
     lecturers: "Moritz Mähr, Adrian Demleitner, Daniel Gammenthaler, Max Frischknecht", language: "tba", ksl: "",
     block: "reflection", programmes: ["major", "minor"],
@@ -82,7 +83,7 @@ window.DH_COURSES = [
     url: "../fs2027/index.html#research-perspectives-on-born-digital"
   },
   {
-    id: "fs27-altsoc", semester: "FS2027", kind: "workshop", ects: 0.5,
+    id: "fs27-altsoc", specialisations: ["culture"], semester: "FS2027", kind: "workshop", ects: 0.5,
     title: "Alt-Soc (microcourse, with Digital In/Justice)",
     lecturers: "", language: "tba", ksl: "",
     block: "application", programmes: ["major"],
@@ -208,6 +209,17 @@ window.DH_COURSES = [
     lecturers: "", language: "EN", ksl: "", block: "application", programmes: ["major"], tba: "date tba",
     url: "../hs2027/index.html#applied-digital-humanities-workshops-application-major" }
 ];
+
+// Specialisations of the Major. Courses carry a "specialisations" list where they fit one;
+// courses without the list are general (count for every specialisation).
+// The assignment of courses to specialisations is a first proposal – please check.
+window.DH_SPECIALISATIONS = {
+  editing: "Digital Scholarly Editing and Computational Literary Studies",
+  histories: "Digital Histories",
+  culture: "Digital Culture Studies",
+  datascience: "Data Science",
+  sociolinguistics: "Digital Sociolinguistics"
+};
 
 // Recommended study semester per block (from the study plan on /teaching/).
 window.DH_RULES = {

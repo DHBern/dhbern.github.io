@@ -11,20 +11,20 @@ resources:
 ---
 
 ::: {.callout-note title="How it works"}
-Choose the semester, your programme and the semester you are in. Filter the course list and **add** courses: they appear in the weekly calendar. Overlapping sessions are marked in red; courses that are planned for a later semester or do not count for your programme are flagged. Your selection is kept in this browser only. **This planner is a help, not a registration** – book your courses in [KSL](https://www.ksl.unibe.ch/KSL/home), and check the [programme page](../index.qmd) and the study plan.
+Choose (1) the semester you want to plan, (2) your semester in DH, (3) Major or Minor and (4), for the Major, your specialisation. Filter the course list and **add** courses: they appear in the weekly calendar. Overlapping sessions are marked in red; courses that are planned for a later semester or do not count for your programme are flagged. Your selection is kept in this browser only. **This planner is a help, not a registration** – book your courses in [KSL](https://www.ksl.unibe.ch/KSL/home), and check the [programme page](../index.qmd) and the study plan.
 :::
 
 ```{=html}
 <div id="pl-root">
   <div class="pl-controls">
-    <label>Semester <select id="pl-semester"></select></label>
-    <label>Programme
+    <label>1 · Semester to plan <select id="pl-semester"></select></label>
+    <label>2 · My semester in DH
+      <select id="pl-studysem"><option value="1">1st semester</option><option value="2">2nd semester</option><option value="3">3rd semester</option><option value="4">4th semester</option></select>
+    </label>
+    <label>3 · Programme
       <select id="pl-programme"><option value="major">MA Major (90 ECTS)</option><option value="minor">MA Minor (30 ECTS)</option></select>
     </label>
-    <label>My study semester
-      <select id="pl-studysem"><option value="1">1st</option><option value="2">2nd</option><option value="3">3rd</option><option value="4">4th</option></select>
-    </label>
-    <label class="pl-check"><input type="checkbox" id="pl-introdone"> Introduction block completed</label>
+    <label id="pl-spec-wrap">4 · Specialisation (Major) <select id="pl-spec"></select></label>
   </div>
 
   <div class="pl-layout">
@@ -43,6 +43,7 @@ Choose the semester, your programme and the semester you are in. Filter the cour
           <option value="application">Application</option><option value="final">Final phase</option>
         </select>
         <label class="pl-check"><input type="checkbox" id="pl-onlymine"> only courses for my programme</label>
+        <label class="pl-check" id="pl-onlyspec-wrap"><input type="checkbox" id="pl-onlyspec"> hide seminars of other specialisations</label>
       </div>
       <div class="pl-count" id="pl-count"></div>
       <div id="pl-list"></div>
@@ -81,6 +82,11 @@ Choose the semester, your programme and the semester you are in. Filter the cour
 .pl-item.on { background: #f3f8ff; }
 .pl-item-title { font-weight: 600; line-height: 1.25; }
 .pl-item-meta, .pl-item-when { font-size: .8rem; color: #555; }
+.pl-item.fit { border-left: 4px solid #4a9a4a; padding-left: .4rem; }
+.pl-item-spec { margin: .15rem 0; }
+.pl-spec { display: inline-block; font-size: .7rem; padding: 0 .4rem; border-radius: 9px; background: #eee; color: #444; margin: 0 .2rem .15rem 0; }
+.pl-spec.mine { background: #4a9a4a; color: #fff; }
+.pl-checks li.pl-ok { border-color: #2e8b57; background: #edf7f0; }
 .pl-tag-warn { color: #a35b00; font-weight: 600; }
 .pl-summary { display: flex; justify-content: space-between; align-items: center; font-weight: 600; margin-bottom: .4rem; }
 .pl-checks { list-style: none; padding: 0; margin: 0 0 .6rem; }
@@ -115,4 +121,5 @@ Choose the semester, your programme and the semester you are in. Filter the cour
 
 - **Data:** spring 2027 from KSL and the [semester overview](../fs2027/index.qmd) (as of 12 November 2026); autumn 2027 is [in development](../hs2027/index.qmd) and based on the autumn 2026 timetable. Courses without fixed dates are listed but not shown in the calendar.
 - **Checks:** overlaps are computed for every single date (holidays and the Easter break are left out). A course is flagged as *too early* when the study plan places its block in a later semester; elective seminars and PPP / Project Management workshops are only noted, as they can be taken earlier (workshops also make up missing ECTS).
+- **Specialisations:** seminars and colloquia are tagged with the specialisations they fit; courses without a tag are general. Seminars of your specialisation are marked green.
 - Questions: Adrian Demleitner, head of study programmes ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch)).
