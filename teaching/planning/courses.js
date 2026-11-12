@@ -32,7 +32,7 @@ window.DH_SEMESTERS = {
 window.DH_COURSES = [
   // ---------------- FS 2027 ----------------
   {
-    id: "fs27-bots", specialisations: ["histories", "datascience"], semester: "FS2027", kind: "colloquium", ects: 3,
+    id: "fs27-bots", semester: "FS2027", kind: "colloquium", ects: 3,
     title: "Building and Assessing Bots for Research in the Humanities",
     lecturers: "Tobias Hodel", language: "EN", ksl: "530331",
     block: "reflection", programmes: ["major", "minor"],
@@ -56,7 +56,7 @@ window.DH_COURSES = [
     url: "../fs2027/index.html#eine-stadt-analysieren-stadtgeschichte-aarau-bild-und-text"
   },
   {
-    id: "fs27-atr", specialisations: ["editing", "histories"], semester: "FS2027", kind: "seminar", ects: 6,
+    id: "fs27-atr", specialisations: ["editing", "histories", "datascience", "sociolinguistics"], semester: "FS2027", kind: "seminar", ects: 6,
     title: "Text Recognition: Dealing with Text Programmatically",
     lecturers: "Tobias Hodel", language: "EN", ksl: "530332",
     block: "elective", programmes: ["major", "minor"],
@@ -74,7 +74,7 @@ window.DH_COURSES = [
     url: "../fs2027/index.html#from-information-to-insights-introduction-to-data-analysis-using-open-data"
   },
   {
-    id: "fs27-borndigital", specialisations: ["culture", "histories"], semester: "FS2027", kind: "colloquium", ects: 3,
+    id: "fs27-borndigital", semester: "FS2027", kind: "colloquium", ects: 3,
     title: "Research Perspectives on Born-Digital (Critical Algorithm Studies)",
     lecturers: "Moritz Mähr, Adrian Demleitner, Daniel Gammenthaler, Max Frischknecht", language: "tba", ksl: "",
     block: "reflection", programmes: ["major", "minor"],
@@ -212,6 +212,7 @@ window.DH_COURSES = [
 
 // Specialisations of the Major. Courses carry a "specialisations" list where they fit one;
 // courses without the list are general (count for every specialisation).
+// Colloquia carry no specialisation.
 // The assignment of courses to specialisations is a first proposal – please check.
 window.DH_SPECIALISATIONS = {
   editing: "Digital Scholarly Editing and Computational Literary Studies",

@@ -121,5 +121,5 @@ Choose (1) the semester you want to plan, (2) your semester in DH, (3) Major or 
 
 - **Data:** spring 2027 from KSL and the [semester overview](../fs2027/index.qmd) (as of 12 November 2026); autumn 2027 is [in development](../hs2027/index.qmd) and based on the autumn 2026 timetable. Courses without fixed dates are listed but not shown in the calendar.
 - **Checks:** overlaps are computed for every single date (holidays and the Easter break are left out). A course is flagged as *too early* when the study plan places its block in a later semester; elective seminars and PPP / Project Management workshops are only noted, as they can be taken earlier (workshops also make up missing ECTS).
-- **Specialisations:** seminars and colloquia are tagged with the specialisations they fit; courses without a tag are general. Seminars of your specialisation are marked green.
+- **Specialisations:** seminars are tagged with the specialisations they fit; colloquia and courses without a tag are general. Seminars of your specialisation are marked green.
 - Questions: Adrian Demleitner, head of study programmes ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch)).
