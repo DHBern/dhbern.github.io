@@ -1,0 +1,44 @@
+---
+title: "St. Gallen Missives, Read Eight Ways"
+subtitle: "Machine readings of the letters of the city of St. Gallen (1400–1650), side by side with the edition"
+image: "https://media.sources-online.org/cantaloupe/iiif/2/sg-missiven!StadtASG_Missive_1_1.JPG/full/750,/0/default.jpg"
+author:
+  - Tobias Hodel
+type: "Research in Machine Learning and Artificial Intelligence"
+status: active
+tags: [HTR, Vision-Language Models, TEI, IIIF, NER, Entity Linking, Letters]
+categories:
+  - Project
+  - Demonstrator
+page-layout: full
+toc: false
+---
+
+The Stadtarchiv und Vadianische Sammlung St. Gallen publishes the letters that the city of St. Gallen received and sent between 1400 and 1650 as a digital edition ([missiven.stadtarchiv.ch](https://missiven.stadtarchiv.ch/)). We used its 808 letters and 2,049 page images to test how well current machines read these chancery hands, and how far a machine reading can carry an edition's work.
+
+Every page is shown with the edition's transcription and with the readings of automatic readers, switchable page by page on the left:
+
+- **Gemini 4 Argon** and **Gemini 3.8 Flash** (Google), zero-shot, whole pages, with one prompt written for this edition's conventions;
+- a **fine-tuned Qwen3.5-4B** vision-language model from our own training on German chancery and Kurrent hands. It saw most of these pages during training, so its score is shown but is not a fair comparison;
+- two **kraken** and two **TrOCR** models on automatically segmented lines;
+- a **joint reading** combined from them.
+
+Each reading is scored against the edition (character error rate per page and over the corpus), and differences can be highlighted word by word. On the best reading, persons, organisations, places and dates are tagged automatically and linked to the edition's registers. The tagger is trained on the edition's own TEI tagging and evaluated on letters it never saw.
+
+```{=html}
+<div style="margin: 1.5rem 0;">
+  <iframe src="https://dhbern.github.io/sg-missiven-data/" title="St. Gallen Missives readings viewer" loading="lazy"
+    style="width: 100%; height: 85vh; min-height: 560px; border: 1px solid #ddd; border-radius: 8px;"></iframe>
+  <p style="font-size: 0.875rem;"><a href="https://dhbern.github.io/sg-missiven-data/">Open the viewer in its own window</a></p>
+</div>
+```
+
+## Data and code
+
+- Readings, scores, tagging and viewer: [github.com/DHBern/sg-missiven-data](https://github.com/DHBern/sg-missiven-data)
+- Edition: Stadtarchiv und Vadianische Sammlung der Ortsbürgergemeinde St. Gallen, _Briefverkehr der Stadt St. Gallen 1400–1650_ (TEI, CC BY-SA 4.0); images from the edition's IIIF server.
+- Text recognition runs on the University of Bern's ATR gateway; workflow and evaluation with [agentic_historian](https://github.com/thodel/agentic_historian).
+
+## Image credit
+
+StadtASG Missive Nr. 1 (Konrad am Wasen to the mayor and council of St. Gallen, 19 January 1417), Stadtarchiv St. Gallen, via the edition's IIIF server.
