@@ -94,8 +94,8 @@
       if (!counts(c))
         out.push({ level: "warn", text: `<b>${esc(c.title)}</b> does not count towards the ${prog === "major" ? "Major" : "Minor"}.` });
       const rec = rules[c.block];
-      if (rec && sem < rec) {
-        const lvl = (c.block === "elective" || c.kind === "workshop") ? "info" : "warn";
+      if (rec && sem < rec && c.kind !== "workshop") {
+        const lvl = c.block === "elective" ? "info" : "warn";
         out.push({ level: lvl, text: `<b>${esc(c.title)}</b> (${BLOCK_LABEL[c.block]}) is planned for semester ${rec}; you are in semester ${sem} – ${c.block === "final" ? "final-year meetings are for your last semester" : "taken too early"}.` });
       }
       if (["advanced", "reflection", "elective", "theory", "application"].includes(c.block) && sem === 1 && SEM[state.semester].season === "autumn")
@@ -109,9 +109,13 @@
     if (sem === 1) {
       if (s.season === "spring")
         out.push({ level: "warn", text: "The programmes start in the <b>autumn</b>: Introduction to DH, DH Lab and the lecture series are only taught then." });
-      else ["hs27-intro", "hs27-lab"].forEach((id) => {
+      else {
+        if (prog === "major" && !chosen.some((c) => /Introduction to Project Management/.test(c.title)))
+          out.push({ level: "info", text: "Tip: start the Project Management workshops early – ideally with <b>Introduction to Project Management</b> in your first autumn semester." });
+        ["hs27-intro", "hs27-lab"].forEach((id) => {
         if (!sel().includes(id)) { const c = COURSES.find((x) => x.id === id); if (c) out.push({ level: "warn", text: `First semester: add <b>${esc(c.title)}</b> (compulsory).` }); }
-      });
+        });
+      }
     }
 
     // 5. specialisation overview

@@ -88,7 +88,7 @@ The data collected or the method used may become the foundation of the Master's 
 The PPP and Project Management programmes are being revised.
 :::
 
-**Project management** teaches how to carry out a digital project, as preparation for the thesis and for professional practice: five short workshops and a project plan. **PPP** (Presentation, Preservation, Publication) teaches academic writing with digital means (e.g. Jupyter Notebooks), the preparation of datasets and the sustainable publication of research results: six short workshops, run with the University Library and the Data Science Lab. All workshops are half-day mini-modules (about four hours, 0.5 ECTS each) and are described in the [ILIAS course «Applied Digital Humanities»](https://ilias.unibe.ch/go/crs/3440360).
+**Project management** teaches how to carry out a digital project, as preparation for the thesis and for professional practice: five short workshops and a project plan. **PPP** (Presentation, Preservation, Publication) teaches academic writing with digital means (e.g. Jupyter Notebooks), the preparation of datasets and the sustainable publication of research results: six short workshops, run with the University Library and the Data Science Lab. The workshops can be taken from the first semester on: start early, ideally with *Introduction to Project Management* in your first autumn semester, and have your project management plan ready before the internship. All workshops are half-day mini-modules (about four hours, 0.5 ECTS each) and are described in the [ILIAS course «Applied Digital Humanities»](https://ilias.unibe.ch/go/crs/3440360).
 
 ### Final phase: thesis lab
 
@@ -176,6 +176,9 @@ In [KSL](https://www.ksl.unibe.ch/KSL/home). Each Project Management and PPP wor
 
 **Are courses recorded?**
 The online lecture is recorded by design, and the *Introduction to programming* is available as a podcast. Other courses, such as the DH Lab, are generally not recorded.
+
+**When should I take the Project Management and PPP workshops?**
+Start early – you do not need to wait for the Application semester. Each module offers three to four workshops every year, so spreading them over your studies is easiest. Ideally, you begin with *Introduction to Project Management* in your first autumn semester. Prepare your project management plan before you start your applied working (internship).
 
 ### Internship and thesis
 
