@@ -1,0 +1,47 @@
+---
+title: "Linked Elites Suisses"
+subtitle: "The Swiss Elites database as Linked Open Data – a pilot of the LESSH project"
+image: "linked-elites-suisses.jpg"
+author:
+ - Francesco Beretta
+ - Tobias Hodel
+ - Stephen Hart
+type: "Linked Open Data"
+status: ongoing
+tags: [Linked Open Data, SPARQL, CIDOC CRM, WissKI, LLM]
+categories:
+- Project
+- Cooperation
+- LOD4HSS
+other-links:
+  - text: 'Linked Elites Suisses (website)'
+    icon: globe
+    href: https://elites-suisses.lod4hss.org/
+  - text: 'Documentation: from tables to LOD'
+    icon: book
+    href: https://elites-suisses.lod4hss.org/documentation/table-to-lod.html
+  - text: 'SPARQL endpoint'
+    icon: database
+    href: https://swiss-elites.lod4hss.cloud/wisski/endpoint/default_wisski_distillery_adapter
+  - text: 'Swiss Elites Chat (login required)'
+    icon: chat-dots
+    href: https://swiss-elites.dsl.unibe.ch/
+  - text: 'GitHub repository'
+    icon: github
+    href: https://github.com/lod4hss-projects/elites-suisses
+---
+
+*Linked Elites Suisses* is the public interface of the Swiss Elites database of the Swiss Elite Observatory (OBELIS, University of Lausanne), transformed into a Linked Open Data knowledge graph. It is developed within **LESSH – Linked Elites: ORD for the SSH**, a pilot of our [LOD for Humanities and Social Sciences (LOD4HSS)](../../services/lod4hss/index.qmd) services.
+
+The database documents political, economic, administrative and academic elites in Switzerland from 1890 to today. In the knowledge graph, persons, mandates and memberships, organisations, education, births and family relations are modelled with CIDOC CRM and the SDHSS ontologies (application profiles in OntoME) and hosted in a WissKI-based LOD4HSS environment. The data are open for reuse through a public SPARQL endpoint.
+
+The website queries the graph live: every figure, chart and list – from the composition of the elites by reference year and gender to birthplaces, education and the share of women in political bodies – is a SPARQL query that can be inspected and reused. Person and organisation profiles link to Wikidata and to the original OBELIS records. The interface is available in English, French and German.
+
+In addition, *Swiss Elites Chat* (beta, login required) lets users query the database in natural language.
+
+## Cooperation
+
+- Swiss Elite Observatory (OBELIS), University of Lausanne
+- College of Humanities (CDH), EPFL
+- Digital Humanities, University of Bern
+- Data Science Lab, University of Bern
