@@ -18,6 +18,14 @@ We host, maintain, and advise on all things LOD.
 -   Provision of tools for semantic data modeling
 -   support with publishing and analyzing research data
 
+## Pilots
+
+### LESSH – Linked Elites: ORD for the SSH
+
+LESSH transforms the Swiss Elites database of the Swiss Elite Observatory (OBELIS, University of Lausanne) into a Linked Open Data knowledge graph, modelled with CIDOC CRM and the SDHSS ontologies and hosted in a WissKI-based LOD4HSS environment. The public interface [Linked Elites Suisses](https://elites-suisses.lod4hss.org/) queries the graph live through its SPARQL endpoint, documents the step [from tables to Linked Open Data](https://elites-suisses.lod4hss.org/documentation/table-to-lod.html), and offers natural-language access via *Swiss Elites Chat* (login required). LESSH is a cooperation with OBELIS (UNIL), the College of Humanities (EPFL) and the Data Science Lab (University of Bern).
+
+→ [Project page: Linked Elites Suisses](../../projects/linked-elites-suisses/index.qmd)
+
 ## Contact
 
 Stephen Hart\
