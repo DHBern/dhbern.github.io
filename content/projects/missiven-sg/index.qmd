@@ -18,9 +18,13 @@ The Stadtarchiv und Vadianische Sammlung St. Gallen publishes the letters that t
 
 Every page is shown with the edition's transcription and with the readings of automatic readers, switchable page by page on the left:
 
-- **Gemini 4 Argon** and **Gemini 3.8 Flash** (Google), zero-shot, whole pages, with one prompt written for this edition's conventions;
-- a **fine-tuned Qwen3.5-4B** vision-language model from our own training on German chancery and Kurrent hands. It saw most of these pages during training, so its score is shown but is not a fair comparison;
-- two **kraken** and two **TrOCR** models on automatically segmented lines;
+- **Gemini 4 Argon** ([model card](https://deepmind.google/models/model-cards/gemini-4-argon/)) and **Gemini 3.8 Flash** ([model card](https://deepmind.google/models/model-cards/gemini-3-8-flash/)) by Google, zero-shot, whole pages, with one prompt written for this edition's conventions;
+- a **fine-tuned Qwen3.5-4B** vision-language model from our own training on German chancery and Kurrent hands (not yet published; base model [Qwen/Qwen3.5-4B](https://huggingface.co/Qwen/Qwen3.5-4B)). It saw most of these pages during training, so its score is shown but is not a fair comparison;
+- two **kraken** and two **TrOCR** models on automatically segmented lines:
+  - kraken, Bernese chancery: our own fine-tune on the Bernese Reformation records of 1528 (not yet published);
+  - kraken, Inzigkofen cursive: [15th-century German cursive](https://doi.org/10.5281/zenodo.18207767) (Zenodo);
+  - TrOCR, Kurrent: [dh-unibe/trocr-kurrent-XVI-XVII](https://huggingface.co/dh-unibe/trocr-kurrent-XVI-XVII) (16th–18th century);
+  - TrOCR, medieval: [dh-unibe/trocr-medieval-escriptmask](https://huggingface.co/dh-unibe/trocr-medieval-escriptmask) (13th–16th century, German, French, Latin, Dutch);
 - a **joint reading** combined from them.
 
 Each reading is scored against the edition (character error rate per page and over the corpus), and differences can be highlighted word by word. On the best reading, persons, organisations, places and dates are tagged automatically and linked to the edition's registers. The tagger is trained on the edition's own TEI tagging and evaluated on letters it never saw.
