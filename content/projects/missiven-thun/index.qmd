@@ -1,0 +1,51 @@
+---
+title: "Thun Missives, Read by Machines"
+subtitle: "Machine readings of the letters received by the town of Thun (15th–16th century), without an edition to lean on"
+image: "thun-merian.jpg"
+author:
+  - Tobias Hodel
+type: "Research in Machine Learning and Artificial Intelligence"
+status: active
+tags: [HTR, Vision-Language Models, Transkribus, NER, Entity Linking, Letters]
+categories:
+  - Project
+  - Demonstrator
+page-layout: full
+toc: false
+---
+
+The Burgerarchiv Thun keeps the letters that the town of Thun received in the fifteenth and sixteenth centuries, many of them from the Schultheiss and council of Bern. 5,165 page images in 36 volumes and bundles have been digitised and segmented in Transkribus. There is no edition, and nothing has been corrected by hand.
+
+This demonstrator repeats what we did for the [St. Gallen Missives](../missiven-sg/) on a corpus without an edition. The question is what machine readings are worth when nothing tells us which one is right.
+
+Every page is shown with the readings of automatic readers, switchable page by page:
+
+- **now:** the **Transkribus** reading of the collection (PyLaia, *Medieval Scripts M2.4*), uncorrected;
+- **in preparation:**
+  - **Gemini 4 Argon** and **Gemini 3.8 Flash**, zero-shot, whole pages, with the prompt and transcription conventions of the St. Gallen edition;
+  - our **fine-tuned Qwen3.5-4B** and **olmOCR** page models;
+  - two **kraken** and two **TrOCR** models on automatically segmented lines.
+
+There is no ground truth, so no reading is scored. Where two readers have read a page, the viewer shows where they disagree, and how much. Disagreement is not a measure of quality: a model that invents fluent text disagrees as much as one that reads badly.
+
+Persons, organisations, places and dates will be tagged automatically by a model trained on the St. Gallen edition's own tagging. They will be linked to the St. Gallen registers only where that linking proved reliable there, and always marked as uncertain here.
+
+The page images were digitised by the University of Zurich (Chair of Prof. Simon Teuscher). The viewer shows the machine text only.
+
+```{=html}
+<div style="margin: 1.5rem 0;">
+  <iframe src="https://dhbern.github.io/thun-missiven-data/?lang=de" title="Thun Missives readings viewer" loading="lazy"
+    style="width: 100%; height: 85vh; min-height: 560px; border: 1px solid #ddd; border-radius: 8px;"></iframe>
+  <p style="font-size: 0.875rem;"><a href="https://dhbern.github.io/thun-missiven-data/?lang=de">Open the viewer in its own window</a></p>
+</div>
+```
+
+## Data and code
+
+- Readings, tagging and viewer: [github.com/DHBern/thun-missiven-data](https://github.com/DHBern/thun-missiven-data)
+- Source: Burgerarchiv Thun, Missiven (BAT 663–666.1); digitised by the University of Zurich (Chair of Prof. Simon Teuscher), page images and segmentation in Transkribus.
+- Text recognition runs on the University of Bern's ATR gateway and on UBELIX; workflow with [agentic_historian](https://github.com/thodel/agentic_historian).
+
+## Image credit
+
+Thun, copperplate from Matthäus Merian and Martin Zeiller, _Topographia Helvetiae, Rhaetiae et Valesiae_ (1642), public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thun_(Merian).jpg).
