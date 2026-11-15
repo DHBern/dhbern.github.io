@@ -8,7 +8,7 @@ author:
   - Sebastian Flick
   - Tobias Hodel
 type: "Digitale Edition"
-status: active
+status: ongoing
 tags: [Digital Edition, TEI, Visualization, Geo-Visualization]
 categories:
 - Project
