@@ -19,4 +19,6 @@ The Flow, running from 2023 to 2026, strives to create standardized digital work
 
 The Flow is a joint project of the DH departments of the Universities of Bern and Bielefeld and the Research Centre for Hanse and Baltic History in Lübeck. The project is funded by the Swiss National Science Foundation (SNSF) and the German Research Foundation (DFG).
 
+A prototype for searching and analysing the Bernese Tower Books (Turmbücher, State Archives of the Canton of Bern, B IX 422–509) is online: [Berner Turmbücher](https://dhbern.github.io/turmbuecher-data/). It shows the page images linked to the text line by line, entries with machine-drafted titles and regests, and an analysis of the recorded offences over time. The viewer is in German; everything in it is machine output that has not been checked.
+
 For more information see the official webpage: [The Flow](https://www.flow-project.net/)
