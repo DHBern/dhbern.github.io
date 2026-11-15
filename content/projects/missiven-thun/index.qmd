@@ -30,7 +30,7 @@ There is no ground truth, so no reading is scored. Where two readers have read a
 
 Persons, organisations, places and dates will be tagged automatically by a model trained on the St. Gallen edition's own tagging. They will be linked to the St. Gallen registers only where that linking proved reliable there, and always marked as uncertain here.
 
-The page images are not shown, because their publication has not been cleared with the Burgerarchiv Thun. Only the machine text is public.
+The page images were digitised by the University of Zurich (Chair of Prof. Simon Teuscher). The viewer shows the machine text only.
 
 ```{=html}
 <div style="margin: 1.5rem 0;">
@@ -43,7 +43,7 @@ The page images are not shown, because their publication has not been cleared wi
 ## Data and code
 
 - Readings, tagging and viewer: [github.com/DHBern/thun-missiven-data](https://github.com/DHBern/thun-missiven-data)
-- Source: Burgerarchiv Thun, Missiven (BAT 663–666.1), page images and segmentation in Transkribus.
+- Source: Burgerarchiv Thun, Missiven (BAT 663–666.1); digitised by the University of Zurich (Chair of Prof. Simon Teuscher), page images and segmentation in Transkribus.
 - Text recognition runs on the University of Bern's ATR gateway and on UBELIX; workflow with [agentic_historian](https://github.com/thodel/agentic_historian).
 
 ## Image credit
