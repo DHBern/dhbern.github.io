@@ -5,7 +5,7 @@ image: "thun-merian.jpg"
 author:
   - Tobias Hodel
 type: "Research in Machine Learning and Artificial Intelligence"
-status: active
+status: ongoing
 tags: [HTR, Vision-Language Models, Transkribus, NER, Entity Linking, Letters]
 categories:
   - Project
