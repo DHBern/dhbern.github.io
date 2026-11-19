@@ -37,7 +37,7 @@ Admission is decided by the University's Admission, Enrolment and Advice office 
       <label><input type="radio" name="basis" value="cs"> A Bachelor's (Major) in computer science</label>
       <label><input type="radio" name="basis" value="sixty"> At least 60 ECTS in one of these, for example a Minor</label>
       <label><input type="radio" name="basis" value="less"> Less than 60 ECTS in these subjects</label>
-      <small>Humanities means a subject taught at Bern's Faculty of Humanities, or an equivalent elsewhere; for the Major, Theology counts too.</small>
+      <small>We understand the humanities broadly: any subject of Bern's Faculty of Humanities or of Theology, or an equivalent elsewhere, and also Communication and Media Studies.</small>
     </fieldset>
     <fieldset>
       <legend>4 · When do you want to start?</legend>
@@ -115,9 +115,11 @@ Admission is decided by the University's Admission, Enrolment and Advice office 
 
 ## Who can apply {#requirements}
 
-**MA Major (90 ECTS).** You need knowledge worth **60 ECTS** in a subject taught at the Faculty of Humanities or the Faculty of Theology, or in computer science. If your Bachelor's lacks some of what the programme builds on, **additional work of up to 60 ECTS** can be required, as conditions before or during the Master's. The Collegium Decanale sets these individually; they appear separately in your Diploma Supplement (Art. 51 RSL Phil.-hist. 21).
+We understand **the humanities broadly**: any subject taught at Bern's Faculty of Humanities or Faculty of Theology, or an equivalent subject elsewhere, and also **Communication and Media Studies**, which many universities count among the humanities.
 
-**MA Minor (30 ECTS).** You need one of: a Bachelor's in a subject of the Faculty of Humanities; a completed Minor of at least 60 ECTS in such a subject; a Bachelor's in computer science; or a completed Minor of at least 60 ECTS in computer science. Additional knowledge can be required in the same way.
+**MA Major (90 ECTS).** You need knowledge worth **60 ECTS** in the humanities or in computer science. If your Bachelor's lacks some of what the programme builds on, **additional work of up to 60 ECTS** can be required, as conditions before or during the Master's. The Collegium Decanale sets these individually; they appear separately in your Diploma Supplement (Art. 51 RSL Phil.-hist. 21).
+
+**MA Minor (30 ECTS).** You need one of: a Bachelor's in the humanities; a completed Minor of at least 60 ECTS in the humanities; a Bachelor's in computer science; or a completed Minor of at least 60 ECTS in computer science. Additional knowledge can be required in the same way.
 
 **Placement.** Digital Humanities does not continue one particular Bachelor's, so every applicant is placed individually (*Einstufung*): the Faculty checks what you bring, which credits count, and whether conditions apply.
 
@@ -127,7 +129,7 @@ Admission is decided by the University's Admission, Enrolment and Advice office 
 
 **Degrees from abroad.** You need a degree from a recognised university after a programme of at least three years with an academic orientation. Continuing-education qualifications (Executive Master, certificates, diplomas) are not recognised.
 
-**Start.** The programme can be started in the autumn or the spring semester. Introduction to DH, the DH Lab and the lecture series are only taught in the autumn, so [the programme is designed to start in the autumn](../index.qmd#getting-started).
+**Start.** You can start in either semester, but **we strongly encourage starting in the autumn**: Introduction to DH, the DH Lab and the lecture series are only taught then, and [the programme is built around them](../index.qmd#getting-started).
 
 ## Deadlines {#deadlines}
 
@@ -147,7 +149,7 @@ From the [admission conditions 2026/27](https://www.unibe.ch/unibe/portal/conten
 
 ## Fees {#fees}
 
-- **Application fee** (degrees from outside the University of Bern): for international degrees CHF 155, or CHF 255 for a late application; it is not refunded and cannot be moved to another semester. With a Swiss degree you receive the invoice about two weeks after applying. Your application is processed only once the fee is paid.
+- **Application fee:** CHF 150 for every application, with a Swiss or an international degree, and CHF 100 more for a late application (CHF 250). It is not refunded and cannot be moved to another semester; your application is processed only once it is paid. Students of the University of Bern who change to the Master's do not apply and pay no application fee.
 - **Tuition fee:** CHF 850 per semester, plus the **semester fee** of CHF 34.
 - **Additional tuition fee of CHF 1,700 per semester** if you lived outside Switzerland and Liechtenstein when you obtained the qualification that admitted you to your Bachelor's. Students enrolled at Bern in the spring semester 2026 or earlier keep the former rate of CHF 200 until they complete their current level of study. Recognised refugees and people with status B, F, S or N can apply to have the additional fee waived from spring 2027.
 
@@ -165,10 +167,10 @@ You do not apply again: you change to the Master's when you renew your semester 
 1. [You]{.who .who-you} **Complete your Bachelor's.** The degree is reported via KSL; your institute or faculty explains the procedure ([Bachelor's degree, Faculty of Humanities](https://www.philhist.unibe.ch/studium/bachelor_master/bachelorabschluss/index_ger.html)).
 2. [You]{.who .who-you} **Request the change in your semester registration.** In the online [semester registration form](https://www.selfservice.unibe.ch) choose *«Einen Stufenwechsel zum Master vornehmen»* and enter your target programme: for the Major, *MA in Digital Humanities, Major Digital Humanities* plus your Minor; for the Minor, your Master's Major plus *Minor Digital Humanities*. The form is open 20 May – 31 August for the autumn and 15 December – 31 January for the spring. Pay the fee invoice. The ZIB confirms by email and asks for a placement decision; until then you stay enrolled in your Bachelor's.
 3. [You]{.who .who-you} **Ask the Dean's Office for your placement.** Write to [jenny.preiss@unibe.ch](mailto:jenny.preiss@unibe.ch) with the ZIB's confirmation email, your address and contact details, your matriculation number, your Bachelor's (completed or planned, with the subject combination) and the Master's combination you want.
-4. [University]{.who .who-uni} **Placement (*Einstufung*).** The Dean's Office passes your file to Digital Humanities, which checks whether you can be admitted directly or need to complete additional work; the Collegium Decanale decides. This takes about **4 to 8 weeks**.
+4. [University]{.who .who-uni} **Placement (*Einstufung*).** The Dean's Office passes your file to Digital Humanities, which checks whether you can be admitted directly or need to complete additional work; the Collegium Decanale decides. This takes **6 to 8 weeks**.
 5. [You]{.who .who-you} **Forward the placement decision to the ZIB** at [info.zib@unibe.ch](mailto:info.zib@unibe.ch). Placement and Bachelor's degree must be there by the **end of September** (autumn) or the **end of March** (spring).
 6. [University]{.who .who-uni} **Enrolment in the Master's.** Once the ZIB has approved the change, you receive an email and the new combination appears in KSL the next day. The change takes effect by the end of September or March at the latest, so your courses may begin before your Master's enrolment is official. If you need a Master's enrolment certificate earlier (usually only for a grant application), ask the ZIB once the change is approved.
-7. [Both]{.who .who-both} **Talk to the Digital Humanities study advice** at [digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch) about your study plan, any conditions and your first semester.
+7. [Both]{.who .who-both} **Talk to the Digital Humanities study advice** about your study plan, any conditions and your first semester: write to [digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch) **and** to the head of study programmes, [adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch).
 :::
 
 ### Bachelor's from another Swiss university {#route-swiss}
@@ -178,12 +180,12 @@ You do not apply again: you change to the Master's when you renew your semester 
 2. [You]{.who .who-you} **Apply online** at [studis.unibe.ch](https://www.studis.unibe.ch) by **30 April** (autumn) or **15 December** (spring). You need your correspondence address, your matriculation number, your AHV number, your place of origin, a passport photo and details of your previous studies ([what the form asks for](https://www.unibe.ch/unibe/portal/content/e1006/e1029/e1031/e1036/e110213/e594508/Anmeldung_ger.pdf)).
 3. [University]{.who .who-uni} **Confirmation of receipt** by email within 5 days.
 4. [You]{.who .who-you} **Email your documents** (PDF) to the ZIB when asked: your transcripts, stamped and signed by the faculty of your previous university; a CV with your education; your diploma, if you already have it.
-5. [You]{.who .who-you} **Pay the application fee.** The invoice arrives about 2 weeks after you apply; without payment your application is not processed.
+5. [You]{.who .who-you} **Pay the application fee** of CHF 150 (late: CHF 250). The invoice arrives about 2 weeks after you apply; without payment your application is not processed.
 6. [University]{.who .who-uni} **Placement (*Einstufung*)** by the Faculty of Humanities: **6 to 8 weeks**. The ZIB then sends you the placement decision together with the invitation to complete your enrolment, from early April for the autumn and from early November for the spring.
 7. [Both]{.who .who-both} **Original documents.** Send your original diploma or certificate; it is checked within 2 to 3 weeks and returned.
 8. [University]{.who .who-uni} **Campus Account and invoice.** You receive your Campus Account details and the invoice for tuition and semester fees; pay it on time.
 9. [University]{.who .who-uni} **UNICARD and enrolment certificate** arrive by post once you have paid.
-10. [Both]{.who .who-both} **Talk to the Digital Humanities study advice** at [digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch) about your study plan, any conditions and your first semester.
+10. [Both]{.who .who-both} **Talk to the Digital Humanities study advice** about your study plan, any conditions and your first semester: write to [digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch) **and** to the head of study programmes, [adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch).
 
 If you decide not to start, tell the ZIB in writing as soon as possible: [info.zib@unibe.ch](mailto:info.zib@unibe.ch).
 :::
@@ -194,14 +196,14 @@ If you decide not to start, tell the ZIB in writing as soon as possible: [info.z
 1. [You]{.who .who-you} **Check the requirements**: a degree from a recognised university after at least three years of academic study. Read the [checklist for international applicants](https://www.unibe.ch/e1006/e1029/e1041/e1046/e9395/e9454/e11071/e1803186/MasterCheckliste_ger.pdf) before you apply.
 2. [You]{.who .who-you} **Apply online** at [studis.unibe.ch](https://www.studis.unibe.ch) by **30 April** (autumn) or **15 December** (spring). A late application is possible until 31 August or 31 January, **but not if you need a visa**.
 3. [You]{.who .who-you} **Send your documents on paper, by post**, to the ZIB by **31 May** (autumn) or **31 December** (spring); after a late application, within two weeks. See [the list below](#docs-intl).
-4. [You]{.who .who-you} **Pay the application fee** of CHF 155 (late: CHF 255). Your application is checked only when all documents are in and the fee is paid.
+4. [You]{.who .who-you} **Pay the application fee** of CHF 150 (late: CHF 250). Your application is checked only when all documents are in and the fee is paid.
 5. [University]{.who .who-uni} **Confirmation of receipt** by email within about 10 days; missing documents are requested, which delays the process. The ZIB's formal check takes 1 to 3 weeks.
 6. [University]{.who .who-uni} **Placement (*Einstufung*)** by the Faculty of Humanities: **6 to 8 weeks**. It checks whether your degree matches a comparable Bern degree, whether you need additional work before or during the Master's, and which credits count.
 7. [University]{.who .who-uni} **Decision** by the ZIB, not by the Faculty: admission, admission with conditions, or rejection; possibly with the request to send your original diploma.
 8. [Both]{.who .who-both} **Invitation to complete your enrolment**, from early April for the autumn and from early November for the spring. Your original documents are compared with the certified copies within 2 to 3 weeks and returned.
 9. [University]{.who .who-uni} **Campus Account and invoice.** You receive your Campus Account details and the invoice for tuition and semester fees, including the [additional fee](#fees) if it applies to you; pay it on time.
 10. [University]{.who .who-uni} **UNICARD and enrolment certificate** arrive by post once you have paid.
-11. [Both]{.who .who-both} **Talk to the Digital Humanities study advice** at [digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch) about your study plan, any conditions and your first semester.
+11. [Both]{.who .who-both} **Talk to the Digital Humanities study advice** about your study plan, any conditions and your first semester: write to [digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch) **and** to the head of study programmes, [adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch).
 :::
 
 #### Documents to send (international degrees) {#docs-intl}
@@ -224,7 +226,7 @@ Documents not in German, French, Italian or English need a **professional transl
 
 - **Admission, application, fees:** Admission, Enrolment and Advice (ZIB), [info.zib@unibe.ch](mailto:info.zib@unibe.ch), +41 31 684 39 11, Hochschulstrasse 4, 3012 Bern ([opening hours](https://www.unibe.ch/studium/zib/index_ger.html))
 - **Placement of University of Bern students:** Dean's Office of the Faculty of Humanities, [jenny.preiss@unibe.ch](mailto:jenny.preiss@unibe.ch)
-- **Study plan, conditions, first semester:** Digital Humanities study advice, [digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch); head of study programmes Adrian Demleitner ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch))
+- **Study plan, conditions, first semester:** please write to both the Digital Humanities study advice, [digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch), and the head of study programmes, Adrian Demleitner ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch))
 
 ## Official sources {#sources}
 
