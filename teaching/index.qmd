@@ -17,6 +17,8 @@ This page explains what the programmes aim at, how they are built and in which s
 
 **Plan your semester:** the [semester planner](planning/index.qmd) puts your courses into a weekly calendar, flags overlaps and courses taken too early, and saves the dates as a calendar file (.ics)
 
+**Applying:** [how to apply](application/index.qmd) – requirements, deadlines, fees, and a check that works out your steps
+
 **Semester overviews:** [Spring 2027](fs2027/index.qmd) · [Autumn 2027](hs2027/index.qmd) · **[FAQ](#faq)**
 
 **Questions about your study plan:** Adrian Demleitner, head of study programmes ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch))
@@ -133,7 +135,7 @@ To combine these into a weekly timetable, use the [semester planner](planning/in
 
 The programme is run together with many institutes of the University of Bern. Seminars from these fields can count towards the specialisations:
 
-- **Faculty of Humanities:** Philosophy and Philosophy of Science, English, French, German, Italian, Hispanic and Slavic Studies, Classical Philology, History, Archaeological Sciences (incl. SAKS), Art History, Musicology, Theatre Studies, Linguistics (ISW), Gender Studies, CSLS
+- **Faculty of Humanities:** Philosophy and Philosophy of Science, English, French, German, Italian, Hispanic and Slavic Studies, Classical Philology, History, Archaeological Sciences, Social Anthropology and Cultural Studies (SAKS), Art History, Musicology, Theatre Studies, Linguistics (ISW), Gender Studies, CSLS
 - **Other faculties:** Communication and Media Studies, Political Science and Business Informatics (Business, Economics and Social Sciences), Computer Science (Science), Psychology of Digitalisation (Human Sciences)
 
 Courses outside the DH programme can be credited under certain conditions, always after agreement with the study programme management:
@@ -144,7 +146,7 @@ Courses outside the DH programme can be credited under certain conditions, alway
 
 ## Admission and change of programme
 
-- **New applications** are made via the University of Bern (see the [faculty page](https://www.philhist.unibe.ch/studies/study_programs/master_s_in_digital_humanities/index_eng.html)). Admission requires a completed Bachelor's degree in the humanities or in computer science; for the Major, at least 60 ECTS in a relevant field. Master's credits can be taken in advance. As the programme does not follow directly from a Bachelor's programme, students are placed individually – please contact the head of study programmes.
+- **Applying:** the Major requires knowledge worth 60 ECTS in a humanities subject, Theology or computer science; the Minor a Bachelor's, or a Minor of at least 60 ECTS, in a humanities subject or computer science. As the programme does not follow directly from a Bachelor's programme, every applicant is placed individually, and missing knowledge can be set as additional work. Students of the University of Bern change programme when they renew their semester registration; everyone else applies online. Requirements, deadlines, fees and all steps: **[How to apply](application/index.qmd)**. Master's credits can be taken in advance.
 - **Changing programme** (for example from the Minor to the Major): change the field of study on the semester enrolment form, copy all DH credits in KSL to the clipboard (the head of study programmes can do this for you) and get in touch: you will be placed anew and the credits you already have are redistributed. Nothing gets lost.
 
 ## FAQ {#faq}
@@ -158,7 +160,7 @@ No. No programming experience is expected when you start. The *Introduction to p
 The introductory courses are only taught in the autumn, so the programme is designed to start in autumn. If you start in spring, contact the head of study programmes to plan your semesters.
 
 **In which language are the courses taught?**
-Most DH courses are taught in English; some seminars are in German, and discussion in German is welcome. Good command of both German and English is expected (C1 for the Minor).
+Most DH courses are taught in English; some seminars are in German, and discussion in German is welcome. Excellent German and English, at level C1, are expected for both the Major and the Minor; no certificate is asked for when you apply.
 
 **Do I need my own laptop?**
 Yes. From the second week of the DH Lab you work on your own laptop (any operating system). If your machine is managed by an employer and you cannot install software, tell us at the start.
