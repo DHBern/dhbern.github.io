@@ -91,6 +91,12 @@ format:
     css: styles.css
     link-external-icon: true
     link-external-newwindow: true
+    # Internal = this repo's own pages: content/, teaching/, the asset folders and
+    # root-level files. Everything else under dhbern.github.io/ is a separate
+    # repo (dh-lab, introduction-to-dh, BeNASch, …) and counts as external (#133).
+    # The *.app.github.dev alternative keeps relative links internal in a
+    # Codespaces preview. No backslashes: the value ends up in a JS string.
+    link-external-filter: '^https://(dhbern[.]github[.]io/((content|teaching|assets|site_libs|docs)([/?#]|$)|[^/?#]*[.][a-z0-9]+([?#]|$)|[?#]|$)|[^/]+[.]app[.]github[.]dev/)'
     include-in-header:
       - custom-header.html
     page-layout: full
