@@ -1,0 +1,236 @@
+---
+title: "Applying for the MA in Digital Humanities"
+subtitle: "Who can apply, the deadlines, and every step from application to enrolment – for the Major (90 ECTS) and the Minor (30 ECTS)"
+date: "2026-11-19"
+date-modified: "2026-11-19"
+toc: true
+resources:
+  - application.js
+---
+
+How you apply depends on where you did your Bachelor's: at the University of Bern, at another Swiss university, or abroad. This page brings the three routes together, with the deadlines, documents and fees. The **check below** picks out your route and works out your dates.
+
+::: {.callout-note title="What is binding"}
+Admission is decided by the University's Admission, Enrolment and Advice office (ZIB), placement (*Einstufung*) by the Faculty of Humanities. The binding texts are the [admission conditions 2026/27](https://www.unibe.ch/unibe/portal/content/e1006/e15237/e1466572/Zulassungbedingungen_de_26-27_ger.pdf) and the [study plan](https://www.unibe.ch/e152701/e154048/e191232/e205334/e1045724/phil_hist_sp_ma_digital_humanities_final_ger.pdf). This page replaces the earlier procedure PDFs of the Digital Humanities.
+:::
+
+## Check your route {#check}
+
+```{=html}
+<div id="ap-root">
+  <form id="ap-form" class="ap-form" onsubmit="return false">
+    <fieldset>
+      <legend>1 · Where is your Bachelor's from?</legend>
+      <label><input type="radio" name="origin" value="bern" checked> University of Bern</label>
+      <label><input type="radio" name="origin" value="swiss"> Another Swiss university</label>
+      <label><input type="radio" name="origin" value="swissfh"> A Swiss university of applied sciences or of teacher education (FH / PH)</label>
+      <label><input type="radio" name="origin" value="intl"> A university outside Switzerland</label>
+    </fieldset>
+    <fieldset>
+      <legend>2 · Programme</legend>
+      <label><input type="radio" name="programme" value="major" checked> MA Major Digital Humanities (90 ECTS)</label>
+      <label><input type="radio" name="programme" value="minor"> MA Minor Digital Humanities (30 ECTS), with a Major in another subject</label>
+    </fieldset>
+    <fieldset>
+      <legend>3 · What does your Bachelor's include?</legend>
+      <label><input type="radio" name="basis" value="hum" checked> A Bachelor's (Major) in a humanities subject</label>
+      <label><input type="radio" name="basis" value="cs"> A Bachelor's (Major) in computer science</label>
+      <label><input type="radio" name="basis" value="sixty"> At least 60 ECTS in one of these, for example a Minor</label>
+      <label><input type="radio" name="basis" value="less"> Less than 60 ECTS in these subjects</label>
+      <small>Humanities means a subject taught at Bern's Faculty of Humanities, or an equivalent elsewhere; for the Major, Theology counts too.</small>
+    </fieldset>
+    <fieldset>
+      <legend>4 · When do you want to start?</legend>
+      <select id="ap-start" name="start"></select>
+      <label id="ap-done-wrap"><input type="checkbox" name="done"> My Bachelor's is already completed</label>
+      <label id="ap-visa-wrap"><input type="checkbox" name="visa"> I need a visa to study in Switzerland</label>
+    </fieldset>
+    <fieldset>
+      <legend>5 · Languages</legend>
+      <label><input type="checkbox" name="de" checked> My German is at level C1 or better</label>
+      <label><input type="checkbox" name="en" checked> My English is at level C1 or better</label>
+    </fieldset>
+  </form>
+
+  <section id="ap-result" class="ap-result" aria-live="polite">
+    <div class="ap-result-head">
+      <h3 id="ap-title">Your route</h3>
+      <button type="button" class="btn btn-sm btn-outline-primary" id="ap-print">Print or save as PDF</button>
+    </div>
+    <p class="ap-legend"><span class="who who-you">You</span> you act · <span class="who who-uni">University</span> no action needed from you · <span class="who who-both">Both</span> both sides</p>
+    <ul id="ap-checks" class="ap-checks"></ul>
+    <h4>Your dates</h4>
+    <div id="ap-dates" class="ap-dates"></div>
+    <h4>Your steps</h4>
+    <div id="ap-steps"></div>
+    <div id="ap-docs"></div>
+    <p class="ap-note">This check runs only in your browser. Nothing you choose is saved or sent anywhere.</p>
+  </section>
+</div>
+
+<style>
+#ap-root { display: grid; grid-template-columns: minmax(260px, 2fr) 3fr; gap: 1.5rem; margin: 1rem 0 2rem; font-size: .93rem; }
+@media (max-width: 900px) { #ap-root { grid-template-columns: 1fr; } }
+.ap-form fieldset { border: 0; border-top: 1px solid #e4e6ea; padding: .6rem 0 .4rem; margin: 0; }
+.ap-form legend { font-weight: 600; font-size: .95rem; margin-bottom: .2rem; float: none; }
+.ap-form label { display: block; margin: .15rem 0; line-height: 1.35; }
+.ap-form input { margin-right: .35rem; }
+.ap-form select { width: 100%; padding: .25rem .4rem; margin-bottom: .3rem; }
+.ap-form small { display: block; color: #6a6f77; margin-top: .3rem; line-height: 1.35; }
+.ap-result { border: 1px solid #e4e6ea; border-radius: 8px; padding: .9rem 1.1rem; background: #fcfcfd; }
+.ap-result-head { display: flex; justify-content: space-between; align-items: center; gap: .6rem; flex-wrap: wrap; }
+.ap-result h3 { margin: 0; font-size: 1.15rem; }
+.ap-result h4 { font-size: 1rem; margin: 1rem 0 .4rem; }
+.ap-legend { font-size: .8rem; color: #555; margin: .4rem 0 .6rem; }
+.ap-checks { list-style: none; padding: 0; margin: 0; }
+.ap-checks li { padding: .4rem .6rem; margin-bottom: .3rem; border-radius: 4px; border-left: 4px solid #bbb; background: #fafafa; }
+.ap-checks li.ap-ok { border-color: #2e8b57; background: #edf7f0; }
+.ap-checks li.ap-info { border-color: #6c8ebf; background: #eef3fb; }
+.ap-checks li.ap-warn { border-color: #e08a00; background: #fff5e6; }
+.ap-checks li.ap-error { border-color: #c00; background: #fdecec; }
+.ap-dates { display: grid; grid-template-columns: max-content 1fr; font-size: .88rem; }
+.ap-dates > div { padding: .3rem .4rem; border-top: 1px solid #eee; }
+.ap-dates > div:nth-child(odd) { font-weight: 600; padding-left: 0; }
+@media (max-width: 480px) { .ap-dates { grid-template-columns: 1fr; } .ap-dates > div:nth-child(even) { border-top: 0; padding-top: 0; } }
+.ap-dates .ap-past { color: #999; text-decoration: line-through; }
+.ap-dates .ap-soon { color: #a35b00; font-weight: 600; }
+.ap-note { font-size: .8rem; color: #6a6f77; margin: .8rem 0 0; }
+.who { display: inline-block; font-size: .72rem; font-weight: 600; padding: 0 .45rem; border-radius: 9px; margin-right: .3rem; vertical-align: .08em; }
+.who-you { background: #e1eefb; color: #14507f; }
+.who-uni { background: #ececef; color: #4a4a52; }
+.who-both { background: #fdf0d9; color: #8a5100; }
+/* Print only the result. display:none (not visibility) so the rest of the page takes no space. */
+@media print {
+  #quarto-header, #quarto-sidebar, #quarto-margin-sidebar, footer,
+  #quarto-document-content > :not(#check), #check > :not(#ap-root),
+  #ap-form, #ap-print, noscript { display: none !important; }
+  #ap-root { display: block; margin: 0; }
+  #ap-result { border: 0; background: none; padding: 0; }
+  .ap-checks li, .who { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+</style>
+<noscript><p><b>The interactive check needs JavaScript.</b> All the information it uses is below: requirements, deadlines, fees and the steps for each route.</p></noscript>
+<script src="application.js"></script>
+```
+
+## Who can apply {#requirements}
+
+**MA Major (90 ECTS).** You need knowledge worth **60 ECTS** in a subject taught at the Faculty of Humanities or the Faculty of Theology, or in computer science. If your Bachelor's lacks some of what the programme builds on, **additional work of up to 60 ECTS** can be required, as conditions before or during the Master's. The Collegium Decanale sets these individually; they appear separately in your Diploma Supplement (Art. 51 RSL Phil.-hist. 21).
+
+**MA Minor (30 ECTS).** You need one of: a Bachelor's in a subject of the Faculty of Humanities; a completed Minor of at least 60 ECTS in such a subject; a Bachelor's in computer science; or a completed Minor of at least 60 ECTS in computer science. Additional knowledge can be required in the same way.
+
+**Placement.** Digital Humanities does not continue one particular Bachelor's, so every applicant is placed individually (*Einstufung*): the Faculty checks what you bring, which credits count, and whether conditions apply.
+
+**Languages.** Excellent German and English, at level **C1**, are expected for both the Major and the Minor. No certificate is asked for when you apply, so you are responsible for meeting the level yourself.
+
+**Degrees from Swiss universities of applied sciences or of teacher education (FH / PH).** These never give direct entry: admission is always with conditions. The university lists which degrees qualify in its [annex on Swiss Bachelor's degrees](https://www.unibe.ch/unibe/portal/content/e1006/e15237/e1623725/Fachhochschulabschluesse_ger.pdf).
+
+**Degrees from abroad.** You need a degree from a recognised university after a programme of at least three years with an academic orientation. Continuing-education qualifications (Executive Master, certificates, diplomas) are not recognised.
+
+**Start.** The programme can be started in the autumn or the spring semester. Introduction to DH, the DH Lab and the lecture series are only taught in the autumn, so [the programme is designed to start in the autumn](../index.qmd#getting-started).
+
+## Deadlines {#deadlines}
+
+From the [admission conditions 2026/27](https://www.unibe.ch/unibe/portal/content/e1006/e15237/e1466572/Zulassungbedingungen_de_26-27_ger.pdf) and the [checklist for international applicants](https://www.unibe.ch/e1006/e1029/e1041/e1046/e9395/e9454/e11071/e1803186/MasterCheckliste_ger.pdf). The dates recur every year; check the current admission conditions before you rely on them.
+
+| | Start in the autumn | Start in the spring |
+|---|---|---|
+| Online application (Swiss and international degrees) | 30 April | 15 December |
+| Late application, with a higher fee | until 31 August | until 31 January |
+| Documents by post (international degrees) | 31 May | 31 December |
+| Documents after a late application (international) | within two weeks of the online application | within two weeks of the online application |
+| Diploma, if not yet available when you apply (international) | end of August | end of January |
+| Re-registration with change to the Master (University of Bern) | 20 May – 31 August | 15 December – 31 January |
+| Placement and Bachelor's degree with the ZIB (University of Bern) | end of September | end of March |
+
+**Late applications are not possible if you need a visa.**
+
+## Fees {#fees}
+
+- **Application fee** (degrees from outside the University of Bern): for international degrees CHF 155, or CHF 255 for a late application; it is not refunded and cannot be moved to another semester. With a Swiss degree you receive the invoice about two weeks after applying. Your application is processed only once the fee is paid.
+- **Tuition fee:** CHF 850 per semester, plus the **semester fee** of CHF 34.
+- **Additional tuition fee of CHF 1,700 per semester** if you lived outside Switzerland and Liechtenstein when you obtained the qualification that admitted you to your Bachelor's. Students enrolled at Bern in the spring semester 2026 or earlier keep the former rate of CHF 200 until they complete their current level of study. Recognised refugees and people with status B, F, S or N can apply to have the additional fee waived from spring 2027.
+
+Details and exemptions: [tuition and semester fees](https://www.unibe.ch/studium/organisatorisches/semestereinschreibung/gebuehren/index_ger.html).
+
+## Steps for each route {#steps}
+
+Each step shows who acts: [You]{.who .who-you} you · [University]{.who .who-uni} no action needed from you · [Both]{.who .who-both} both sides.
+
+### Already studying at the University of Bern {#route-bern}
+
+You do not apply again: you change to the Master's when you renew your semester registration.
+
+::: {#steps-bern .ap-steps}
+1. [You]{.who .who-you} **Complete your Bachelor's.** The degree is reported via KSL; your institute or faculty explains the procedure ([Bachelor's degree, Faculty of Humanities](https://www.philhist.unibe.ch/studium/bachelor_master/bachelorabschluss/index_ger.html)).
+2. [You]{.who .who-you} **Request the change in your semester registration.** In the online [semester registration form](https://www.selfservice.unibe.ch) choose *«Einen Stufenwechsel zum Master vornehmen»* and enter your target programme: for the Major, *MA in Digital Humanities, Major Digital Humanities* plus your Minor; for the Minor, your Master's Major plus *Minor Digital Humanities*. The form is open 20 May – 31 August for the autumn and 15 December – 31 January for the spring. Pay the fee invoice. The ZIB confirms by email and asks for a placement decision; until then you stay enrolled in your Bachelor's.
+3. [You]{.who .who-you} **Ask the Dean's Office for your placement.** Write to [jenny.preiss@unibe.ch](mailto:jenny.preiss@unibe.ch) with the ZIB's confirmation email, your address and contact details, your matriculation number, your Bachelor's (completed or planned, with the subject combination) and the Master's combination you want.
+4. [University]{.who .who-uni} **Placement (*Einstufung*).** The Dean's Office passes your file to Digital Humanities, which checks whether you can be admitted directly or need to complete additional work; the Collegium Decanale decides. This takes about **4 to 8 weeks**.
+5. [You]{.who .who-you} **Forward the placement decision to the ZIB** at [info.zib@unibe.ch](mailto:info.zib@unibe.ch). Placement and Bachelor's degree must be there by the **end of September** (autumn) or the **end of March** (spring).
+6. [University]{.who .who-uni} **Enrolment in the Master's.** Once the ZIB has approved the change, you receive an email and the new combination appears in KSL the next day. The change takes effect by the end of September or March at the latest, so your courses may begin before your Master's enrolment is official. If you need a Master's enrolment certificate earlier (usually only for a grant application), ask the ZIB once the change is approved.
+7. [Both]{.who .who-both} **Talk to the Digital Humanities study advice** at [digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch) about your study plan, any conditions and your first semester.
+:::
+
+### Bachelor's from another Swiss university {#route-swiss}
+
+::: {#steps-swiss .ap-steps}
+1. [You]{.who .who-you} **Check your degree.** A Bachelor's or an equivalent degree that is not too old (the study regulations set how old it may be). Your Transcript of Records is the basis of the decision. Degrees from a university of applied sciences or of teacher education always lead to admission with conditions.
+2. [You]{.who .who-you} **Apply online** at [studis.unibe.ch](https://www.studis.unibe.ch) by **30 April** (autumn) or **15 December** (spring). You need your correspondence address, your matriculation number, your AHV number, your place of origin, a passport photo and details of your previous studies ([what the form asks for](https://www.unibe.ch/unibe/portal/content/e1006/e1029/e1031/e1036/e110213/e594508/Anmeldung_ger.pdf)).
+3. [University]{.who .who-uni} **Confirmation of receipt** by email within 5 days.
+4. [You]{.who .who-you} **Email your documents** (PDF) to the ZIB when asked: your transcripts, stamped and signed by the faculty of your previous university; a CV with your education; your diploma, if you already have it.
+5. [You]{.who .who-you} **Pay the application fee.** The invoice arrives about 2 weeks after you apply; without payment your application is not processed.
+6. [University]{.who .who-uni} **Placement (*Einstufung*)** by the Faculty of Humanities: **6 to 8 weeks**. The ZIB then sends you the placement decision together with the invitation to complete your enrolment, from early April for the autumn and from early November for the spring.
+7. [Both]{.who .who-both} **Original documents.** Send your original diploma or certificate; it is checked within 2 to 3 weeks and returned.
+8. [University]{.who .who-uni} **Campus Account and invoice.** You receive your Campus Account details and the invoice for tuition and semester fees; pay it on time.
+9. [University]{.who .who-uni} **UNICARD and enrolment certificate** arrive by post once you have paid.
+10. [Both]{.who .who-both} **Talk to the Digital Humanities study advice** at [digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch) about your study plan, any conditions and your first semester.
+
+If you decide not to start, tell the ZIB in writing as soon as possible: [info.zib@unibe.ch](mailto:info.zib@unibe.ch).
+:::
+
+### Bachelor's from a university outside Switzerland {#route-intl}
+
+::: {#steps-intl .ap-steps}
+1. [You]{.who .who-you} **Check the requirements**: a degree from a recognised university after at least three years of academic study. Read the [checklist for international applicants](https://www.unibe.ch/e1006/e1029/e1041/e1046/e9395/e9454/e11071/e1803186/MasterCheckliste_ger.pdf) before you apply.
+2. [You]{.who .who-you} **Apply online** at [studis.unibe.ch](https://www.studis.unibe.ch) by **30 April** (autumn) or **15 December** (spring). A late application is possible until 31 August or 31 January, **but not if you need a visa**.
+3. [You]{.who .who-you} **Send your documents on paper, by post**, to the ZIB by **31 May** (autumn) or **31 December** (spring); after a late application, within two weeks. See [the list below](#docs-intl).
+4. [You]{.who .who-you} **Pay the application fee** of CHF 155 (late: CHF 255). Your application is checked only when all documents are in and the fee is paid.
+5. [University]{.who .who-uni} **Confirmation of receipt** by email within about 10 days; missing documents are requested, which delays the process. The ZIB's formal check takes 1 to 3 weeks.
+6. [University]{.who .who-uni} **Placement (*Einstufung*)** by the Faculty of Humanities: **6 to 8 weeks**. It checks whether your degree matches a comparable Bern degree, whether you need additional work before or during the Master's, and which credits count.
+7. [University]{.who .who-uni} **Decision** by the ZIB, not by the Faculty: admission, admission with conditions, or rejection; possibly with the request to send your original diploma.
+8. [Both]{.who .who-both} **Invitation to complete your enrolment**, from early April for the autumn and from early November for the spring. Your original documents are compared with the certified copies within 2 to 3 weeks and returned.
+9. [University]{.who .who-uni} **Campus Account and invoice.** You receive your Campus Account details and the invoice for tuition and semester fees, including the [additional fee](#fees) if it applies to you; pay it on time.
+10. [University]{.who .who-uni} **UNICARD and enrolment certificate** arrive by post once you have paid.
+11. [Both]{.who .who-both} **Talk to the Digital Humanities study advice** at [digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch) about your study plan, any conditions and your first semester.
+:::
+
+#### Documents to send (international degrees) {#docs-intl}
+
+::: {#docs-list-intl .ap-docs}
+By post to: Universität Bern, Zulassung, Immatrikulation und Beratung, Hochschulstrasse 4, 3012 Bern, Switzerland.
+
+- the **consent form** from the [checklist](https://www.unibe.ch/e1006/e1029/e1041/e1046/e9395/e9454/e11071/e1803186/MasterCheckliste_ger.pdf), filled in and signed; it serves as the cover sheet
+- a **CV** with your education, studies and degrees in chronological order
+- a **letter of motivation**, at most one page
+- a copy of your **Bachelor's diploma** and Diploma Supplement (can follow until the end of August or January)
+- a copy of your current **transcript**, showing credits and grades, and the **grading system** if the transcript does not explain it
+- **short course descriptions**, three or four sentences per course; you may write or translate them yourself
+- a copy of your **passport or ID** (both sides), and of your Swiss residence permit if you have one
+
+Documents not in German, French, Italian or English need a **professional translation** firmly attached to a copy of the original ([rules on certification and translation](https://www.unibe.ch/unibe/portal/content/e1006/e15237/e224424/Richtlinien_sig_3.2.ULS220816_VRL_Richtlinien_Beglaubigungen_Aenderungen_ger.pdf); [translation services the ZIB recommends](https://www.unibe.ch/e1006/e1029/e1041/e1046/e110496/e1821794/ListeEmpfehlungUebersetzungsdiensteZIB_ger.pdf)). **Digital Humanities asks for no further documents**, and no language certificate.
+:::
+
+## Contacts {#contacts}
+
+- **Admission, application, fees:** Admission, Enrolment and Advice (ZIB), [info.zib@unibe.ch](mailto:info.zib@unibe.ch), +41 31 684 39 11, Hochschulstrasse 4, 3012 Bern ([opening hours](https://www.unibe.ch/studium/zib/index_ger.html))
+- **Placement of University of Bern students:** Dean's Office of the Faculty of Humanities, [jenny.preiss@unibe.ch](mailto:jenny.preiss@unibe.ch)
+- **Study plan, conditions, first semester:** Digital Humanities study advice, [digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch); head of study programmes Adrian Demleitner ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch))
+
+## Official sources {#sources}
+
+- [Master Digital Humanities](https://www.philhist.unibe.ch/studium/studienprogramme/master_digital_humanities/index_ger.html) and [Minor Digital Humanities](https://www.philhist.unibe.ch/studium/studienprogramme/master_minorstudienprogramm_digital_humanities/index_ger.html) (Faculty of Humanities)
+- [Applying with a Swiss degree](https://www.unibe.ch/studium/studienangebote/master/bewerbung/national/index_ger.html) and [with an international degree](https://www.unibe.ch/studium/studienangebote/master/bewerbung/international/index_ger.html) (University of Bern)
+- [Admission conditions 2026/27](https://www.unibe.ch/unibe/portal/content/e1006/e15237/e1466572/Zulassungbedingungen_de_26-27_ger.pdf) · [Study plan for the Digital Humanities programmes](https://www.unibe.ch/e152701/e154048/e191232/e205334/e1045724/phil_hist_sp_ma_digital_humanities_final_ger.pdf)
+- [Re-registration for the coming semester](https://www.unibe.ch/studium/organisatorisches/semestereinschreibung/ablauf/index_ger.html) · [Placement for students changing programme](https://www.unibe.ch/studium/organisatorisches/semestereinschreibung/einstufung/index_ger.html)
+
+*Last updated: 19 November 2026. In case of doubt, the admission conditions, the study plan and the ZIB apply.*
