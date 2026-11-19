@@ -31,7 +31,27 @@ website:
       - text: Events
         href: /#events
       - text: Studies
-        href: https://www.dh.unibe.ch/studium/index_ger.html
+        menu:
+          - text: Studying DH in Bern
+            href: teaching/index.qmd
+          - text: Semester planner
+            href: teaching/planning/index.qmd
+          - text: Spring semester 2027
+            href: teaching/fs2027/index.qmd
+          - text: Autumn semester 2027
+            href: teaching/hs2027/index.qmd
+          - text: '---'
+          - text: Introduction to Digital Humanities
+            href: https://dhbern.github.io/introduction-to-dh/
+          - text: DH Lab
+            href: https://dhbern.github.io/dh-lab/
+          - text: Lecture series
+            href: https://dhbern.github.io/dh-lecture-series/
+          - text: 'Lecture: Introduction to DH approaches (online)'
+            href: content/intro-lecture/index.qmd
+          - text: '---'
+          - text: Study pages on dh.unibe.ch
+            href: https://www.dh.unibe.ch/studium/index_ger.html
       - text: Research
         href: content/projects/index.qmd
       - text: Services
@@ -41,7 +61,7 @@ website:
   page-footer:
     left: '[Digital Humanities, University of Bern](https://www.dh.unibe.ch/)'
     center: '[digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch) · [GitHub](https://github.com/DHBern) · [LinkedIn](https://www.linkedin.com/school/university-of-bern/)'
-    right: '[News](/#blog) · [Events](/#events) · [Projects](/content/projects/index.qmd) · [Services](/content/services/index.qmd)'
+    right: '[News](/#blog) · [Events](/#events) · [Studies](/teaching/index.qmd) · [Projects](/content/projects/index.qmd) · [Services](/content/services/index.qmd)'
 
   sidebar:
     logo: ''

@@ -17,7 +17,7 @@ window.DH_SEMESTERS = {
     label: "Spring semester 2027",
     start: "2027-02-22", end: "2027-06-04",
     breaks: [{ from: "2027-03-26", to: "2027-04-04", label: "Easter break" }],
-    holidays: ["2027-05-17"],
+    holidays: ["2027-05-06", "2027-05-17"], // Ascension Day, Whit Monday
     season: "spring"
   },
   HS2027: {

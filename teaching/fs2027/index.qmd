@@ -2,7 +2,7 @@
 title: "Teaching overview – Spring semester 2027"
 subtitle: "Courses, workshops and programme meetings of Digital Humanities, University of Bern (FS 2027)"
 date: "2026-11-11"
-date-modified: "2026-11-11"
+date-modified: "2026-11-19"
 toc: true
 ---
 
@@ -10,8 +10,10 @@ This page brings together everything Digital Humanities at the University of Ber
 
 - **Lecture period:** 22 February – 4 June 2027
 - **Easter break:** 26 March – 4 April 2027 (no teaching)
+- **Ascension Day:** 6 May 2027 (no teaching)
 - **Whit Monday:** 17 May 2027 (no teaching)
 - **Registration:** all courses are booked via [KSL](https://www.ksl.unibe.ch/KSL/home); the course number is given for each course. Course material is made available on [ILIAS](https://ilias.unibe.ch/).
+- **Plan your timetable:** the [semester planner](../planning/index.qmd) checks your choice for overlaps and saves it as a calendar file (.ics)
 - **Questions about the study programmes:** Adrian Demleitner, head of study programmes ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch))
 
 ::: {.callout-note}
@@ -135,7 +137,7 @@ Seventeen researchers from Swiss and European universities present major researc
 | 12 April | Bots | | | | |
 | 19 April | Bots | Final year: status report · DHCH doctoral afternoon | | | |
 | 26 April | Bots | | Text Recognition | | Aarau (online) |
-| 3 May | Bots (full day) | | Text Recognition · PPP: IIIF | | Aarau (online) |
+| 3 May | Bots (full day) | | Text Recognition · PPP: IIIF | *Ascension Day* | Aarau (online) |
 | 10 May | Bots | | Text Recognition | | Aarau (Stadtmuseum Aarau) |
 | 17 May | *Whit Monday* | | Text Recognition | | Aarau (Bern) |
 | 24 May | Bots | | Text Recognition | | Aarau (presentations) |
@@ -144,4 +146,4 @@ Seventeen researchers from Swiss and European universities present major researc
 
 The online lecture *Digital Humanities — Introductions* runs throughout the semester and is not shown in the calendar. The weekly courses of Francesco Beretta (Tuesdays 10:15–12:00) and the Born-Digital colloquium (Wednesday afternoons) are shown only in the first weeks, as their exact dates are not yet fixed.
 
-*Last updated: 11 November 2026. Dates and rooms may still change; KSL is the binding source.*
+*Last updated: 19 November 2026. Dates and rooms may still change; KSL is the binding source.*
