@@ -51,6 +51,7 @@ categories: [Post]
 title: 'Event Title'
 subtitle: 'Optional subtitle'
 event-date: '2025-04-30'
+event-end: '2025-05-01' # optional: last day of a multi-day event
 date: '2025-04-25'
 categories: [Event]
 location: 'Room, Building, City'
@@ -116,6 +117,7 @@ other-links:
 
 - `content/intro-lecture/` is **synced from an external repo** — edits here will be overwritten
 - Date format varies: posts use `YYYY.MM.DD`, events use ISO `YYYY-MM-DD` for `event-date`
+- `event-end` shows the event as a span (`2026.09.27–30`) and keeps it under upcoming events until its last day (`scripts/split-events.py`)
 - The `freeze: auto` setting caches computed outputs — delete `_freeze/` if outputs seem stale
 - Rendered site goes to `_site/` (gitignored) — do not commit build artifacts
 - Primary brand color is `#d6002b` (University of Bern red)

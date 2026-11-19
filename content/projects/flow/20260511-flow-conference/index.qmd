@@ -2,6 +2,7 @@
 title: "The Flow Conference"
 subtitle: "From Deep Learning to Digital Analysis and their Role in the Humanities"
 event-date: "2026.06.11"
+event-end: 2026.06.12
 date: "2026.06.11"
 categories:
   - Event
