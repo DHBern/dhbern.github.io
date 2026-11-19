@@ -483,9 +483,17 @@ function revealAnswer(chosen) {
     11:'sennrich',12:'savic',13:'munnich',14:'hodel',15:'wildi',
     16:'chiquet',17:'rochat'};
   const slug = SLUG[q.lecture] || '';
-  const bioLink = slug
-    ? `<a href="../${String(q.lecture).padStart(2,'0')}-${slug}.html" target="_blank" style="color:#93c5fd;text-decoration:underline">${q.lecturer}</a>`
-    : q.lecturer;
+  // Built with setAttribute, not as an "<a href=...>" string: the site's link checker (wget)
+  // reads tags inside scripts as real links and reports the unexpanded template as dead.
+  let bioLink = q.lecturer;
+  if (slug) {
+    const a = document.createElement('a');
+    a.setAttribute('href', `../${String(q.lecture).padStart(2,'0')}-${slug}.html`);
+    a.target = '_blank';
+    a.style.cssText = 'color:#93c5fd;text-decoration:underline';
+    a.textContent = q.lecturer;
+    bioLink = a.outerHTML;
+  }
   const citation = `<div class="citation">📖 ${bioLink} · Lecture ${q.lecture}: ${q.topic}</div>`;
 
   if (chosen === -1) fb.innerHTML = `⏰ Time's up! Correct: ${correct.join(' & ')}. ${q.explanation}${citation}`;
