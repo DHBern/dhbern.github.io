@@ -19,6 +19,12 @@ permissions:
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
+# One run per ref at a time: a newer push cancels the older run, so a stale
+# build can never deploy after a newer one (seen 19.11.2026 with #143/#145).
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint:
     name: Lint with Prettier
@@ -45,7 +51,7 @@ jobs:
         run: npm install
 
       - name: Check for linting errors
-        run: npm run format
+        run: npm run check
 
   build-optimize:
     name: Build, Optimize, and Upload Artifacts
