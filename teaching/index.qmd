@@ -10,7 +10,7 @@ The University of Bern offers Digital Humanities at Master's level as a **Major 
 This page explains what the programmes aim at, how they are built and in which semester each course belongs. The binding rules are in the [study plan](https://www.dh.unibe.ch/studium/studium/studienplan/index_ger.html); dates, rooms and registration are in [KSL](https://www.ksl.unibe.ch/KSL/home).
 
 ::: {.callout-tip title="Start in the autumn"}
-*Introduction to Digital Humanities*, the *DH Lab* and the lecture series are taught in the **autumn semester**. The first semester of both programmes is therefore an autumn semester.
+You can start in either semester, but we **strongly encourage starting in the autumn**: *Introduction to Digital Humanities*, the *DH Lab* and the lecture series are taught only then, and both programmes are built around them.
 :::
 
 **Course websites:** [Introduction to Digital Humanities](https://dhbern.github.io/introduction-to-dh/) · [DH Lab](https://dhbern.github.io/dh-lab/) · [Lecture series: Insights into the Digital Humanities](https://dhbern.github.io/dh-lecture-series/) · [Lecture: Introduction to DH approaches](/content/intro-lecture/index.qmd) (online)
@@ -146,7 +146,7 @@ Courses outside the DH programme can be credited under certain conditions, alway
 
 ## Admission and change of programme
 
-- **Applying:** the Major requires knowledge worth 60 ECTS in a humanities subject, Theology or computer science; the Minor a Bachelor's, or a Minor of at least 60 ECTS, in a humanities subject or computer science. As the programme does not follow directly from a Bachelor's programme, every applicant is placed individually, and missing knowledge can be set as additional work. Students of the University of Bern change programme when they renew their semester registration; everyone else applies online. Requirements, deadlines, fees and all steps: **[How to apply](application/index.qmd)**. Master's credits can be taken in advance.
+- **Applying:** the Major requires knowledge worth 60 ECTS in the humanities or computer science; the Minor a Bachelor's, or a Minor of at least 60 ECTS, in the humanities or computer science. We understand the humanities broadly, including Theology and Communication and Media Studies. As the programme does not follow directly from a Bachelor's programme, every applicant is placed individually, and missing knowledge can be set as additional work. Students of the University of Bern change programme when they renew their semester registration; everyone else applies online. Requirements, deadlines, fees and all steps: **[How to apply](application/index.qmd)**. Master's credits can be taken in advance.
 - **Changing programme** (for example from the Minor to the Major): change the field of study on the semester enrolment form, copy all DH credits in KSL to the clipboard (the head of study programmes can do this for you) and get in touch: you will be placed anew and the credits you already have are redistributed. Nothing gets lost.
 
 ## FAQ {#faq}
@@ -157,7 +157,7 @@ Courses outside the DH programme can be credited under certain conditions, alway
 No. No programming experience is expected when you start. The *Introduction to programming* in the first semester and the DH Lab teach what you need.
 
 **Can I start in the spring semester?**
-The introductory courses are only taught in the autumn, so the programme is designed to start in autumn. If you start in spring, contact the head of study programmes to plan your semesters.
+Yes, starting is possible in either semester, but we strongly encourage the autumn: the introductory courses are only taught then. If you start in the spring, contact the study advice to plan your semesters.
 
 **In which language are the courses taught?**
 Most DH courses are taught in English; some seminars are in German, and discussion in German is welcome. Excellent German and English, at level C1, are expected for both the Major and the Minor; no certificate is asked for when you apply.

@@ -76,13 +76,13 @@
 				level: 'ok',
 				text:
 					s.programme === 'major'
-						? 'You meet the subject requirement of the Major: knowledge worth 60 ECTS in a humanities subject, Theology or computer science. Conditions can still be set at placement.'
-						: "You meet the subject requirement of the Minor: a Bachelor's, or a Minor of at least 60 ECTS, in a humanities subject or computer science. Conditions can still be set at placement."
+						? 'You meet the subject requirement of the Major: knowledge worth 60 ECTS in the humanities, understood broadly (including Theology and Communication and Media Studies), or in computer science. Conditions can still be set at placement.'
+						: "You meet the subject requirement of the Minor: a Bachelor's, or a Minor of at least 60 ECTS, in the humanities, understood broadly (including Theology and Communication and Media Studies), or in computer science. Conditions can still be set at placement."
 			});
 		else
 			out.push({
 				level: 'warn',
-				text: `The ${prog} expects ${s.programme === 'major' ? 'knowledge worth 60 ECTS in a humanities subject, Theology' : "a Bachelor's or a Minor of at least 60 ECTS in a humanities subject"} or computer science. Missing knowledge can be required as additional work${s.programme === 'major' ? ' of up to 60 ECTS' : ''}. Talk to the Digital Humanities study advice before you apply.`
+				text: `The ${prog} expects ${s.programme === 'major' ? 'knowledge worth 60 ECTS in the humanities' : "a Bachelor's or a Minor of at least 60 ECTS in the humanities"} or computer science. Missing knowledge can be required as additional work${s.programme === 'major' ? ' of up to 60 ECTS' : ''}. Talk to the Digital Humanities study advice before you apply.`
 			});
 
 		// 2. kind of degree
@@ -118,7 +118,7 @@
 			else
 				out.push({
 					level: 'warn',
-					text: `The regular deadline for the ${s.start.label} (${fmt(dt.apply)}) has passed. A late application is possible until ${fmt(dt.late)}, with a higher fee${s.origin === 'intl' ? ' (CHF 255); send your documents within two weeks of applying' : ''}.`
+					text: `The regular deadline for the ${s.start.label} (${fmt(dt.apply)}) has passed. A late application is possible until ${fmt(dt.late)}; the application fee is then CHF 250 instead of CHF 150${s.origin === 'intl' ? ', and your documents must follow within two weeks' : ''}.`
 				});
 		} else {
 			const n = daysUntil(dt.apply, today);
@@ -131,8 +131,8 @@
 		// 4. start in the spring
 		if (s.start.season === 'spring')
 			out.push({
-				level: 'info',
-				text: 'You can start in the spring, but Introduction to DH, the DH Lab and the lecture series are taught only in the autumn. Plan your first semesters with the study advice.'
+				level: 'warn',
+				text: 'You can start in the spring, but we strongly encourage the autumn: Introduction to DH, the DH Lab and the lecture series are taught only in the autumn. If you start in the spring, plan your first semesters with the study advice.'
 			});
 
 		// 5. Bachelor's not yet completed
@@ -166,12 +166,12 @@
 		if (s.origin === 'intl')
 			out.push({
 				level: 'info',
-				text: "Fees: application fee CHF 155 (late: CHF 255). Each semester: tuition CHF 850, semester fee CHF 34, and CHF 1,700 in addition if you lived outside Switzerland and Liechtenstein when you obtained the qualification that admitted you to your Bachelor's."
+				text: "Fees: application fee CHF 150 (late: CHF 250). Each semester: tuition CHF 850, semester fee CHF 34, and CHF 1,700 in addition if you lived outside Switzerland and Liechtenstein when you obtained the qualification that admitted you to your Bachelor's."
 			});
 		else
 			out.push({
 				level: 'info',
-				text: `Fees: ${ext ? 'an application fee (invoice about two weeks after you apply), then ' : ''}each semester tuition CHF 850 and a semester fee of CHF 34. CHF 1,700 in addition applies if you lived outside Switzerland and Liechtenstein when you obtained the qualification that admitted you to your Bachelor's${s.origin === 'bern' ? '; students enrolled at Bern by spring 2026 keep the former rate of CHF 200 until they complete their current level of study' : ''}.`
+				text: `Fees: ${ext ? 'application fee CHF 150 (late: CHF 250), invoiced about two weeks after you apply. ' : ''}Each semester: tuition CHF 850 and a semester fee of CHF 34. CHF 1,700 in addition applies if you lived outside Switzerland and Liechtenstein when you obtained the qualification that admitted you to your Bachelor's${s.origin === 'bern' ? '; students enrolled at Bern by spring 2026 keep the former rate of CHF 200 until they complete their current level of study' : ''}.`
 			});
 
 		return out;
@@ -209,9 +209,9 @@
 			if (s.origin === 'intl') {
 				point('Documents by post', dt.docs);
 				if (s.visa) rows.push(['Late application', 'not possible with a visa', '', '']);
-				else point('Late application', dt.late, 'higher fee, documents within two weeks');
+				else point('Late application', dt.late, 'fee CHF 250, documents within two weeks');
 				if (!s.done) point('Diploma at the latest', dt.diploma);
-			} else point('Late application', dt.late, 'higher fee');
+			} else point('Late application', dt.late, 'fee CHF 250');
 			rows.push(['Invitation to enrol', 'from ' + dt.invite, '', '']);
 		}
 		return rows;
