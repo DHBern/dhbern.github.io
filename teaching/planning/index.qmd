@@ -1,6 +1,7 @@
 ---
 title: "Semester planner"
-subtitle: "Pick your DH courses for a semester, see them in a weekly calendar, and check for overlaps and problems"
+subtitle: "Hermione's time turner"
+description: "Pick your DH courses for a semester, see them in a weekly calendar, and check for overlaps and problems"
 date: "2026-11-12"
 date-modified: "2026-11-19"
 toc: false
