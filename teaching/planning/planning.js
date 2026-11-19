@@ -12,9 +12,17 @@
   const STORE = "dh-teaching-planner-v2";
 
   // ---------- state ----------
-  let state = { semester: "FS2027", programme: "major", studySem: 2, spec: "",
+  // Default to the first semester that has not ended yet.
+  const today = new Date().toISOString().slice(0, 10);
+  const firstOpen = Object.keys(SEM).find((k) => SEM[k].end >= today) || Object.keys(SEM)[0];
+  let state = { semester: firstOpen, programme: "major", studySem: 2, spec: "",
     selected: {}, q: "", kind: "", block: "", onlyMine: true, onlySpec: false, week: 0 };
   try { const s = JSON.parse(localStorage.getItem(STORE) || "null"); if (s) state = Object.assign(state, s); } catch (e) {}
+  // A saved plan can outlive the data it refers to (a semester removed from courses.js).
+  if (!SEM[state.semester]) { state.semester = firstOpen; state.week = 0; }
+  if (!["major", "minor"].includes(state.programme)) state.programme = "major";
+  state.studySem = Math.min(4, Math.max(1, Number(state.studySem) || 1));
+  if (state.spec && !SPEC[state.spec]) state.spec = "";
   function save() { try { localStorage.setItem(STORE, JSON.stringify(state)); } catch (e) {} }
 
   // ---------- helpers ----------
@@ -131,6 +139,74 @@
     return { list: out, ects, chosen, overlaps: pairs };
   }
 
+  // ---------- calendar export (.ics, RFC 5545) ----------
+  // Every session becomes its own event in Europe/Zurich time; breaks and holidays are already
+  // left out by sessions(). UIDs are stable (course, date, start), so the same plan exported
+  // twice yields the same identifiers.
+  const VTIMEZONE = ["BEGIN:VTIMEZONE", "TZID:Europe/Zurich",
+    "BEGIN:DAYLIGHT", "TZOFFSETFROM:+0100", "TZOFFSETTO:+0200", "TZNAME:CEST",
+    "DTSTART:19700329T020000", "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU", "END:DAYLIGHT",
+    "BEGIN:STANDARD", "TZOFFSETFROM:+0200", "TZOFFSETTO:+0100", "TZNAME:CET",
+    "DTSTART:19701025T030000", "RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU", "END:STANDARD",
+    "END:VTIMEZONE"];
+  const icsEsc = (s) => String(s).replace(/\\/g, "\\\\").replace(/;/g, "\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
+  const icsLocal = (d, t) => d.replace(/-/g, "") + "T" + t.replace(":", "") + "00";
+  const utf8 = new TextEncoder();
+  // Fold at 75 octets; continuation lines start with one space. Never split a character.
+  function fold(line) {
+    const out = []; let cur = "", len = 0;
+    for (const ch of line) {
+      const n = utf8.encode(ch).length;
+      if (len + n > 75) { out.push(cur); cur = " "; len = 1; }
+      cur += ch; len += n;
+    }
+    out.push(cur);
+    return out.join("\r\n");
+  }
+
+  function buildIcs(semKey, ids) {
+    const s = SEM[semKey];
+    const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+    const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Digital Humanities Bern//Semester planner//EN",
+      "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:" + icsEsc("DH Bern – " + s.label),
+      "X-WR-TIMEZONE:Europe/Zurich"].concat(VTIMEZONE);
+    let count = 0;
+    COURSES.filter((c) => c.semester === semKey && ids.includes(c.id)).forEach((c) => {
+      const url = c.url ? new URL(c.url, document.baseURI).href : "";
+      const facts = [KIND_LABEL[c.kind] || c.kind, c.ects + " ECTS", BLOCK_LABEL[c.block],
+        c.lecturers, c.language, c.ksl ? "KSL " + c.ksl : ""].filter(Boolean).join(" · ");
+      sessions(c).forEach((x) => {
+        const desc = [facts, x.note, c.note, "Planned with the DH semester planner – not a registration; KSL is binding.", url]
+          .filter(Boolean).join("\n");
+        lines.push("BEGIN:VEVENT",
+          "UID:" + [c.id, x.date.replace(/-/g, ""), x.start.replace(":", "")].join("-") + "@dhbern.github.io",
+          "DTSTAMP:" + stamp,
+          "DTSTART;TZID=Europe/Zurich:" + icsLocal(x.date, x.start),
+          "DTEND;TZID=Europe/Zurich:" + icsLocal(x.date, x.end),
+          "SUMMARY:" + icsEsc(c.title + (x.note ? " – " + x.note : "")),
+          "DESCRIPTION:" + icsEsc(desc),
+          "CATEGORIES:" + icsEsc(KIND_LABEL[c.kind] || c.kind));
+        if (url) lines.push("URL:" + url);
+        lines.push("END:VEVENT");
+        count++;
+      });
+    });
+    lines.push("END:VCALENDAR");
+    return { text: lines.map(fold).join("\r\n") + "\r\n", count };
+  }
+
+  function downloadIcs() {
+    const { text, count } = buildIcs(state.semester, sel());
+    if (!count) return;
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([text], { type: "text/calendar;charset=utf-8" }));
+    a.download = "dh-bern-plan-" + state.semester + ".ics";
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  }
+  // Read-only hook so the export can be checked outside the page.
+  window.DH_PLANNER = { buildIcs };
+
   // ---------- rendering ----------
   function renderControls() {
     $("pl-semester").innerHTML = Object.entries(SEM).map(([k, v]) => `<option value="${k}" ${k === state.semester ? "selected" : ""}>${esc(v.label)}</option>`).join("");
@@ -222,6 +298,9 @@
 
   function renderChecks(res) {
     $("pl-ects").textContent = `${res.ects} ECTS planned (${res.chosen.length} item(s))`;
+    const n = res.chosen.reduce((t, c) => t + sessions(c).length, 0);
+    $("pl-ics").disabled = !n;
+    $("pl-ics").textContent = n ? `Download .ics (${n} date${n === 1 ? "" : "s"})` : "Download .ics";
     const order = { error: 0, warn: 1, info: 2, ok: 3 };
     const list = res.list.sort((a, b) => order[a.level] - order[b.level]);
     $("pl-checks").innerHTML = list.length ? list.map((x) => `<li class="pl-${x.level}">${x.text}</li>`).join("")
@@ -261,6 +340,7 @@
       state.week = weeks.findIndex((w) => d >= w && d < addDays(w, 7)); render();
     });
     $("pl-clear").addEventListener("click", () => { state.selected[state.semester] = []; render(); });
+    $("pl-ics").addEventListener("click", downloadIcs);
     render();
   }
 

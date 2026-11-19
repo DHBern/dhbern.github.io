@@ -2,7 +2,7 @@
 title: "Studying Digital Humanities in Bern"
 subtitle: "MA Major (90 ECTS) and MA Minor (30 ECTS): what to take, and when"
 date: "2026-11-11"
-date-modified: "2026-11-11"
+date-modified: "2026-11-19"
 ---
 
 The University of Bern offers Digital Humanities at Master's level as a **Major (90 ECTS, four semesters)** and as a **Minor (30 ECTS)** that is combined with a Major in another subject. Both are taught at the Digital Humanities Center (Walter Benjamin Kolleg).
@@ -12,6 +12,10 @@ This page explains what the programmes aim at, how they are built and in which s
 ::: {.callout-tip title="Start in the autumn"}
 *Introduction to Digital Humanities*, the *DH Lab* and the lecture series are taught in the **autumn semester**. The first semester of both programmes is therefore an autumn semester.
 :::
+
+**Course websites:** [Introduction to Digital Humanities](https://dhbern.github.io/introduction-to-dh/) · [DH Lab](https://dhbern.github.io/dh-lab/) · [Lecture series: Insights into the Digital Humanities](https://dhbern.github.io/dh-lecture-series/) · [Lecture: Introduction to DH approaches](/content/intro-lecture/index.qmd) (online)
+
+**Plan your semester:** the [semester planner](planning/index.qmd) puts your courses into a weekly calendar, flags overlaps and courses taken too early, and saves the dates as a calendar file (.ics)
 
 **Semester overviews:** [Spring 2027](fs2027/index.qmd) · [Autumn 2027](hs2027/index.qmd) · **[FAQ](#faq)**
 
@@ -123,6 +127,8 @@ Major and Minor students attend the same courses. In the final project, Minor st
 | Project management · PPP | autumn and spring | [ILIAS «Applied Digital Humanities»](https://ilias.unibe.ch/go/crs/3440360) |
 | Networking meeting | first Tuesday of the spring semester (2027: 23 February, 15:00–19:00) | [Spring 2027](fs2027/index.qmd) |
 
+To combine these into a weekly timetable, use the [semester planner](planning/index.qmd).
+
 ## Cooperations and mobility
 
 The programme is run together with many institutes of the University of Bern. Seminars from these fields can count towards the specialisations:
@@ -171,6 +177,9 @@ Missing ECTS can be made up with Project Management or PPP workshops (0.5 ECTS e
 **Do I have to follow the semester order exactly?**
 No. The tables show the recommended order. Some courses are only offered in one semester (Introduction, Lab and lecture series in autumn; the online lecture in spring), so plan these first.
 
+**How do I check that my courses do not overlap?**
+Use the [semester planner](planning/index.qmd): it shows your courses in a weekly calendar, marks every overlapping date and lets you download the dates for your own calendar. It is a planning aid only – registration is in KSL.
+
 **Where do I register for courses?**
 In [KSL](https://www.ksl.unibe.ch/KSL/home). Each Project Management and PPP workshop is booked individually there. The *Introduction to programming* is the exception: registration and exam sign-up are via ILIAS.
 
@@ -213,4 +222,4 @@ Adrian Demleitner, head of study programmes ([adrian.demleitner@unibe.ch](mailto
 - [Study plan](https://www.dh.unibe.ch/studium/studium/studienplan/index_ger.html) and [current courses](https://www.dh.unibe.ch/studium/lehrveranstaltungen/aktuell/index_ger.html) (dh.unibe.ch)
 - [Master Digital Humanities](https://www.philhist.unibe.ch/studies/study_programs/master_s_in_digital_humanities/index_eng.html) and [Master Minor Digital Humanities](https://www.philhist.unibe.ch/studies/study_programs/master_minor_digital_humanities/index_eng.html) (Faculty of Humanities: admission, combinations)
 
-*Last updated: 11 November 2026. In case of doubt the study plan applies.*
+*Last updated: 19 November 2026. In case of doubt the study plan applies.*

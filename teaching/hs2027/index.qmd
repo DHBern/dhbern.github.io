@@ -2,7 +2,7 @@
 title: "Teaching overview – Autumn semester 2027"
 subtitle: "Courses, workshops and programme meetings of Digital Humanities, University of Bern (HS 2027)"
 date: "2026-11-11"
-date-modified: "2026-11-11"
+date-modified: "2026-11-19"
 ---
 
 ::: {.callout-warning title="In development"}
@@ -13,6 +13,7 @@ The autumn semester is where both programmes start: *Introduction to Digital Hum
 
 - **Lecture period:** 20 September – 24 December 2027
 - **Registration:** via [KSL](https://www.ksl.unibe.ch/KSL/home); course material on [ILIAS](https://ilias.unibe.ch/)
+- **Plan your timetable:** the [semester planner](../planning/index.qmd) – choose *Autumn semester 2027*
 - **Questions about the study programmes:** Adrian Demleitner, head of study programmes ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch))
 
 ## Introduction (1st semester, Major and Minor)
@@ -56,4 +57,4 @@ In the autumn, the final-year meetings take place in the DH Lab (Tuesdays, 16:00
 | Tue 9 November 2027 (week 8) | 16:00 | Final-year meeting: status report |
 | Tue 21 December 2027 (week 14) | 14:00–17:15 | Final-year presentations (Major / Minor) |
 
-*Last updated: 11 November 2026.*
+*Last updated: 19 November 2026.*

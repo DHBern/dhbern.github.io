@@ -2,7 +2,7 @@
 title: "Semester planner"
 subtitle: "Pick your DH courses for a semester, see them in a weekly calendar, and check for overlaps and problems"
 date: "2026-11-12"
-date-modified: "2026-11-12"
+date-modified: "2026-11-19"
 toc: false
 page-layout: full
 resources:
@@ -11,7 +11,11 @@ resources:
 ---
 
 ::: {.callout-note title="How it works"}
-Choose (1) the semester you want to plan, (2) your semester in DH, (3) Major or Minor and (4), for the Major, your specialisation. Filter the course list and **add** courses: they appear in the weekly calendar. Overlapping sessions are marked in red; courses that are planned for a later semester or do not count for your programme are flagged. Your selection is kept in this browser only. **This planner is a help, not a registration** – book your courses in [KSL](https://www.ksl.unibe.ch/KSL/home), and check the [programme page](../index.qmd) and the study plan.
+Choose (1) the semester you want to plan, (2) your semester in DH, (3) Major or Minor and (4), for the Major, your specialisation. Filter the course list and **add** courses: they appear in the weekly calendar. Overlapping sessions are marked in red; courses that are planned for a later semester or do not count for your programme are flagged. Your selection is kept in this browser only.
+
+**Download .ics** saves the dates of your plan as a calendar file for Outlook, Apple Calendar or Google Calendar. It is a one-off copy: courses without fixed dates are left out, and if dates change, download the file again and replace the old events.
+
+**This planner is a help, not a registration** – book your courses in [KSL](https://www.ksl.unibe.ch/KSL/home), and check the [programme page](../index.qmd) and the study plan.
 :::
 
 ```{=html}
@@ -51,7 +55,7 @@ Choose (1) the semester you want to plan, (2) your semester in DH, (3) Major or 
 
     <section class="pl-right">
       <h3>My plan</h3>
-      <div class="pl-summary"><span id="pl-ects"></span> <button class="btn btn-sm btn-outline-secondary" id="pl-clear">Clear semester</button></div>
+      <div class="pl-summary"><span id="pl-ects"></span> <span class="pl-actions"><button class="btn btn-sm btn-outline-primary" id="pl-ics" disabled>Download .ics</button> <button class="btn btn-sm btn-outline-secondary" id="pl-clear">Clear semester</button></span></div>
       <ul id="pl-checks" class="pl-checks"></ul>
       <div id="pl-tba" class="pl-tba"></div>
 
@@ -88,7 +92,8 @@ Choose (1) the semester you want to plan, (2) your semester in DH, (3) Major or 
 .pl-spec.mine { background: #4a9a4a; color: #fff; }
 .pl-checks li.pl-ok { border-color: #2e8b57; background: #edf7f0; }
 .pl-tag-warn { color: #a35b00; font-weight: 600; }
-.pl-summary { display: flex; justify-content: space-between; align-items: center; font-weight: 600; margin-bottom: .4rem; }
+.pl-summary { display: flex; flex-wrap: wrap; gap: .4rem; justify-content: space-between; align-items: center; font-weight: 600; margin-bottom: .4rem; }
+.pl-actions { display: flex; gap: .4rem; }
 .pl-checks { list-style: none; padding: 0; margin: 0 0 .6rem; }
 .pl-checks li { padding: .35rem .6rem; margin-bottom: .25rem; border-radius: 4px; border-left: 4px solid #bbb; background: #fafafa; }
 .pl-checks li.pl-error { border-color: #c00; background: #fdecec; }
