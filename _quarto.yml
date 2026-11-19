@@ -34,6 +34,8 @@ website:
         menu:
           - text: Studying DH in Bern
             href: teaching/index.qmd
+          - text: How to apply
+            href: teaching/application/index.qmd
           - text: Semester planner
             href: teaching/planning/index.qmd
           - text: Spring semester 2027
