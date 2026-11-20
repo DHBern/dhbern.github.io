@@ -162,6 +162,32 @@ does not help. There are two ways to avoid this:
   `git reset --hard` throws away commits on your local `main` that are not on GitHub.
   Run it only after your pull request has been merged.
 
+- **Working from a fork:** in a Codespace created on your fork, `origin` is the fork,
+  not `DHBern/dhbern.github.io`. Add the DHBern repository once as `upstream`:
+
+  ```bash
+  git remote add upstream https://github.com/DHBern/dhbern.github.io.git
+  ```
+
+  Then use `upstream` wherever the commands above say `origin`:
+
+  ```bash
+  git fetch upstream
+  git switch -c my-change upstream/main
+  ```
+
+  Sync pushes the branch to your fork; open the pull request from there against
+  `DHBern/dhbern.github.io`. After the merge:
+
+  ```bash
+  git switch main
+  git fetch upstream
+  git reset --hard upstream/main
+  ```
+
+  To bring your fork's `main` on GitHub up to date as well, use **Sync fork** on the
+  fork's page.
+
 <details>
   <summary>👩‍💻 Setup Locally (Advanced Users)</summary>
 
