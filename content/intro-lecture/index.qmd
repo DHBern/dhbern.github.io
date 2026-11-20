@@ -253,13 +253,28 @@ The *Digital Humanities — Introductions* lecture series brings together 17 res
   draw();
   let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(draw, 150); });
 
-  // Text version of the same data, for screen readers and small screens
-  const det = document.createElement('details');
-  det.innerHTML = '<summary>Topics and lectures as a table</summary>' +
-    // tag names split so Quarto does not try to parse this string as a raw HTML table
-    '<' + 'table class="table tn-table"><thead><tr><th>Topic</th><th>Lectures</th></tr></thead><tbody>' +
-    topics.map(t => `<tr><td>${t.label}</td><td>${t.links.map(([id, ev]) => { const l = lectures[id - 1]; return `<a href="${l.file.replace('.qmd', '.html')}">${id} ${l.short}</a>: ${ev}`; }).join('<br>')}</td></tr>`).join('') +
-    '</tbody></' + 'table>';
+  // Text version of the same data, for screen readers and small screens.
+  // Built with DOM calls: the dead-link check (wget) also reads link attributes inside scripts.
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; };
+  const det = el('details');
+  det.append(el('summary', null, 'Topics and lectures as a table'));
+  const table = el('table', 'table tn-table');
+  const head = table.createTHead().insertRow();
+  head.append(el('th', null, 'Topic'), el('th', null, 'Lectures'));
+  const body = table.createTBody();
+  topics.forEach(t => {
+    const row = body.insertRow();
+    row.insertCell().textContent = t.label;
+    const cell = row.insertCell();
+    t.links.forEach(([id, ev], k) => {
+      const l = lectures[id - 1];
+      const a = el('a', null, `${id} ${l.short}`);
+      a.setAttribute('href', l.file.replace('.qmd', '.html'));
+      if (k) cell.append(el('br'));
+      cell.append(a, `: ${ev}`);
+    });
+  });
+  det.append(table);
   root.nextElementSibling.after(det);
 })();
 </script>
