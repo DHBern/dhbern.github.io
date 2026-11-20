@@ -9,8 +9,15 @@
 		}
 	},
 	"postCreateCommand": "bash .devcontainer/setup.sh",
+	"remoteEnv": {
+		"PATH": "${containerWorkspaceFolder}/.venv/bin:${containerEnv:PATH}",
+		"UV_MANAGED_PYTHON": "1"
+	},
 	"customizations": {
 		"vscode": {
+			"settings": {
+				"python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python"
+			},
 			"extensions": [
 				"quarto.quarto",
 				"ms-python.python",

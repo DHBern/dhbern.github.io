@@ -7,7 +7,8 @@ echo "[devcontainer] Installing project dependencies..."
 npm install
 
 # Python environment via uv
-uv sync
+uv sync --managed-python
+uv run --managed-python python -c 'import shutil, tempfile, urllib.request, yaml'
 
 # R packages with renv
 Rscript -e 'install.packages("renv", repos="https://cloud.r-project.org"); renv::restore()'
