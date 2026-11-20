@@ -42,20 +42,20 @@ The 17 lectures span four interconnected themes drawn from the introductory podc
 
 | # | Lecturer | Institution | Topic |
 |---|---------|------------|-------|
-| [1](01-fischer.qmd) | Andreas Fischer | HES-SO / Univ. Fribourg | Text Recognition |
+| [1](01-fischer.qmd) | Andreas Fischer | Univ. Fribourg | Text Recognition |
 | [2](02-prietl.qmd) | Bianca Prietl | Univ. Basel | Gender & Digitalization |
 | [3](03-mahlow.qmd) | Cerstin Mahlow | ZHAW | Digital Linguistics |
-| [4](04-chestnova.qmd) | Elena Chestnova | USI | Digital Editing |
+| [4](04-chestnova.qmd) | Elena Chestnova | USI Mendrisio | Digital Editing |
 | [5](05-lauer.qmd) | Gerhard Lauer | Univ. Mainz | Digital Book Studies |
 | [6](06-rosenthaler.qmd) | Lukas Rosenthaler | Univ. Basel | Open Linked Data |
 | [7](07-piotrowski.qmd) | Michael Piotrowski | Univ. Lausanne | Theory & Epistemology |
 | [8](08-bubenhofer.qmd) | Noah Bubenhofer | Univ. Zurich | Corpus Linguistics |
 | [9](09-fornaro.qmd) | Peter Fornaro | Univ. Basel | Imaging Technologies *(DE only, not for exam)* |
 | [10](10-roller.qmd) | Ramona Roller | ETH Zurich | Network Analysis |
-| [11](11-sennrich.qmd) | Rico Sennrich | Univ. Zurich / DARIAH | Natural Language Processing |
-| [12](12-savic.qmd) | Selena Savic | FHNW | Data Materialism |
+| [11](11-sennrich.qmd) | Rico Sennrich | Univ. Zurich | Natural Language Processing |
+| [12](12-savic.qmd) | Selena Savić | FHNW | Data Materialism |
 | [13](13-munnich.qmd) | Stefan Münnich | Univ. Basel | Digital Musicology |
-| [14](14-hodel.qmd) | Tobias Hodel | Univ. Bern / DARIAH | ML & History |
+| [14](14-hodel.qmd) | Tobias Hodel | Univ. Bern | ML & History |
 | [15](15-wildi.qmd) | Tobias Wildi | FH Graubünden | Archives & Preservation |
 | [16](16-chiquet.qmd) | Vera Chiquet | Univ. Basel | Digital Photography |
 | [17](17-rochat.qmd) | Yannick Rochat | Univ. Lausanne | Game Studies |
@@ -110,10 +110,10 @@ The 17 lectures span four interconnected themes drawn from the introductory podc
   };
 
   const lecturers = [
-    { num:1,  name:'Andreas Fischer',    inst:'HES-SO / Univ. Fribourg', topic:'Text Recognition',        lat:46.806,  lng:7.162,  theme:'text'     },
+    { num:1,  name:'Andreas Fischer',    inst:'University of Fribourg',   topic:'Text Recognition',        lat:46.806,  lng:7.162,  theme:'text'     },
     { num:2,  name:'Bianca Prietl',      inst:'University of Basel',      topic:'Gender & Digitalization', lat:47.559,  lng:7.588,  theme:'critical'  },
     { num:3,  name:'Cerstin Mahlow',     inst:'ZHAW Winterthur',          topic:'Digital Linguistics',     lat:47.500,  lng:8.722,  theme:'text'     },
-    { num:4,  name:'Elena Chestnova',    inst:'USI Lugano',               topic:'Digital Editing',         lat:46.004,  lng:8.951,  theme:'text'     },
+    { num:4,  name:'Elena Chestnova',    inst:'USI Mendrisio',            topic:'Digital Editing',         lat:45.870,  lng:8.982,  theme:'text'     },
     { num:5,  name:'Gerhard Lauer',      inst:'University of Mainz',      topic:'Digital Book Studies',    lat:49.993,  lng:8.247,  theme:'case'     },
     { num:6,  name:'Lukas Rosenthaler',  inst:'University of Basel',      topic:'Open Linked Data',        lat:47.562,  lng:7.591,  theme:'data'     },
     { num:7,  name:'Michael Piotrowski', inst:'University of Lausanne',   topic:'Theory & Epistemology',   lat:46.519,  lng:6.568,  theme:'critical'  },
@@ -121,7 +121,7 @@ The 17 lectures span four interconnected themes drawn from the introductory podc
     { num:9,  name:'Peter Fornaro',      inst:'University of Basel',      topic:'Imaging Technologies',    lat:47.557,  lng:7.585,  theme:'data'     },
     { num:10, name:'Ramona Roller',      inst:'ETH Zurich',               topic:'Network Analysis',        lat:47.377,  lng:8.548,  theme:'data'     },
     { num:11, name:'Rico Sennrich',      inst:'University of Zurich',     topic:'Natural Language Processing', lat:47.371, lng:8.554, theme:'text'  },
-    { num:12, name:'Selena Savic',       inst:'FHNW',                     topic:'Data Materialism',        lat:47.476,  lng:8.211,  theme:'critical'  },
+    { num:12, name:'Selena Savić',       inst:'FHNW',                     topic:'Data Materialism',        lat:47.476,  lng:8.211,  theme:'critical'  },
     { num:13, name:'Stefan Münnich',     inst:'University of Basel',      topic:'Digital Musicology',      lat:47.554,  lng:7.582,  theme:'case'     },
     { num:14, name:'Tobias Hodel',       inst:'University of Bern',       topic:'ML & History',            lat:46.951,  lng:7.439,  theme:'text'     },
     { num:15, name:'Tobias Wildi',       inst:'FH Graubünden, Chur',      topic:'Archives & Preservation', lat:46.850,  lng:9.531,  theme:'data'     },
