@@ -6,7 +6,7 @@ Academic website for the Digital Humanities department at the University of Bern
 
 - **Quarto website** (`_quarto.yml`) with listings-driven homepage
 - Content lives in `content/` with four main types: `posts/`, `events/`, `projects/`, `services/`
-- `content/intro-lecture/` is a special synced section (from external repo via GitHub Actions) — do not edit directly
+- `intro-lecture/` is the online lecture _Digital Humanities — Introductions_ (served at `/intro-lecture/`); its source material is in `intro-lecture/_src/` (not published). Edit it here: since 20.11.2026 it no longer syncs from `thodel/intro-lecture`
 - Styling: `_brand.yml` → `custom.scss` → `styles.css` (Bootstrap + brand tokens + custom SCSS)
 - Static assets (fonts) in `assets/fonts/`
 
@@ -115,7 +115,7 @@ other-links:
 
 ## Gotchas
 
-- `content/intro-lecture/` is **synced from an external repo** — edits here will be overwritten
+- URL rule: teaching sits at the top level (`/teaching/`, `/intro-lecture/`, separate repos like `/introduction-to-dh/`); projects, services, events and posts sit under `/content/`. A new top-level folder must not share a name with a DHBern repo and must be added to `link-external-filter` in `_quarto.yml`
 - Date format varies: posts use `YYYY.MM.DD`, events use ISO `YYYY-MM-DD` for `event-date`
 - `event-end` shows the event as a span (`2026.09.27–30`) and keeps it under upcoming events until its last day (`scripts/split-events.py`)
 - The `freeze: auto` setting caches computed outputs — delete `_freeze/` if outputs seem stale

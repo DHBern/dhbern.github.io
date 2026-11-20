@@ -41,7 +41,7 @@ There is no DH Lab in the spring semester. The final-year meetings take place as
 
 | Course | Type | ECTS | Format | Exam | KSL |
 |---|---|---|---|---|---|
-| **[Digital Humanities — Introductions](/content/intro-lecture/index.qmd)** | Lecture, online only (EN/DE) | 3 | 17 recorded lectures, to be worked through in any order; two consultation sessions via Zoom/ILIAS (dates tba) | Open-book multiple-choice exam, end of semester (date tba) | tba |
+| **[Digital Humanities — Introductions](/intro-lecture/index.qmd)** | Lecture, online only (EN/DE) | 3 | 17 recorded lectures, to be worked through in any order; two consultation sessions via Zoom/ILIAS (dates tba) | Open-book multiple-choice exam, end of semester (date tba) | tba |
 
 ## Applied Digital Humanities: workshops
 
@@ -121,7 +121,7 @@ Current approaches and projects on researching born-digital artefacts in the Dig
 ### Digital Humanities — Introductions
 *Lecture · 3 ECTS · online only*
 
-Seventeen researchers from Swiss and European universities present major research areas and methods of the Digital Humanities in recorded lectures, which can be worked through in any order. Assessment is an open-book multiple-choice exam. See the [course page](/content/intro-lecture/index.qmd).
+Seventeen researchers from Swiss and European universities present major research areas and methods of the Digital Humanities in recorded lectures, which can be worked through in any order. Assessment is an open-book multiple-choice exam. See the [course page](/intro-lecture/index.qmd).
 
 ## Calendar at a glance
 
