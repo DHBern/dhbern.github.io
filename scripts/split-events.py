@@ -46,6 +46,22 @@ def _format_date(value: date) -> str:
     return value.strftime(DATE_FORMAT)
 
 
+def _format_range(start: date, end: date | None) -> str:
+    """Render a start date, or a span that keeps the full start date in front.
+
+    The start stays a prefix so the listings' string sort still orders by it:
+    2026.09.27, 2026.09.27–30, 2026.09.30–10.02, 2026.12.30–2027.01.02.
+    """
+    first = _format_date(start)
+    if end is None or end <= start:
+        return first
+    if end.year != start.year:
+        return f"{first}–{_format_date(end)}"
+    if end.month != start.month:
+        return f"{first}–{end.strftime('%m.%d')}"
+    return f"{first}–{end.strftime('%d')}"
+
+
 def _flatten_author(author) -> str:
     """Convert author field (string, dict, or list) to a plain string."""
     if isinstance(author, str):
@@ -59,7 +75,7 @@ def _flatten_author(author) -> str:
 
 
 def collect_events() -> list[tuple[date, dict]]:
-    """Walk content/ for event .qmd files and return (event_date, item) tuples."""
+    """Walk content/ for event .qmd files and return (last_day, item) tuples."""
     events: list[tuple[date, dict]] = []
     for qmd in CONTENT_DIR.rglob("*.qmd"):
         fm = parse_frontmatter(qmd)
@@ -75,6 +91,11 @@ def collect_events() -> list[tuple[date, dict]]:
         if event_date is None:
             continue  # Skip events with missing or invalid date format
 
+        # Optional last day of a multi-day event (#32); it decides when the
+        # event moves from upcoming to past.
+        event_end = _parse_date(fm.get("event-end"))
+        last_day = max(event_date, event_end) if event_end else event_date
+
         # Fall back to the event date when no separate publication date is set
         pub_date = _parse_date(fm.get("date")) or event_date
 
@@ -83,7 +104,7 @@ def collect_events() -> list[tuple[date, dict]]:
 
         item = {
             "title": fm.get("title", ""),
-            "event-date": _format_date(event_date),
+            "event-date": _format_range(event_date, event_end),
             "date": _format_date(pub_date),
             "author": _flatten_author(fm.get("author", "")),
             "location": fm.get("location", ""),
@@ -93,7 +114,7 @@ def collect_events() -> list[tuple[date, dict]]:
         if fm.get("subtitle"):
             item["subtitle"] = fm["subtitle"]
 
-        events.append((event_date, item))
+        events.append((last_day, item))
 
     return events
 

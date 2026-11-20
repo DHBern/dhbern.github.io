@@ -3,6 +3,7 @@ title: Beyond Regional Histories
 subtitle: Digital Game Design & Ludic Cultures Around the World
 date: 2026.09.07
 event-date: 2026.09.27
+event-end: 2026.09.30
 categories:
   - Event
   - Confoederatio Ludens
