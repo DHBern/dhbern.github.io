@@ -6,7 +6,7 @@ toc: false
 ---
 
 ::: {.callout-note appearance="minimal"}
-This page is not part of the main dhbern.github.io navigation. It is a companion resource for the lecture series **Digital Humanities — Introductions** (FS 2027). Bios on this page are AI-generated from public academic profiles and marked accordingly.
+This page is not part of the main dhbern.github.io navigation. It is a companion resource for the lecture series **Digital Humanities — Introductions** (FS 2027). Lecturer bios are AI-generated from public academic profiles, checked against them and marked accordingly; Cerstin Mahlow's bio is her own.
 :::
 
 ## About the Series
@@ -20,14 +20,250 @@ The *Digital Humanities — Introductions* lecture series brings together 17 res
 
 ## Thematic Overview
 
-<figure style="margin:0 0 8px">
-<img src="https://raw.githubusercontent.com/thodel/intro-lecture/main/docs/dh-visualization.png"
-     alt="Network visualization of Digital Humanities topics: glowing nodes connecting text recognition, NLP, semantic web, gender studies, corpus linguistics, digital preservation, and more"
-     style="width:100%;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.3)">
-<figcaption style="font-size:12px;color:#64748b;margin-top:6px;text-align:center">
-Thematic network of the lecture series — generated with Google Imagen 4 · 🤖 AI-generated
-</figcaption>
-</figure>
+```{=html}
+<style>
+  .tn-wrap { position: relative; margin: 0 0 8px; border: 1px solid #e2e8f0; border-radius: 12px; background: #fff; }
+  .tn-wrap svg { display: block; width: 100%; height: auto; touch-action: none; }
+  .tn-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; padding: 10px 14px 0; font-size: 13px; color: #334155; }
+  .tn-legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .tn-legend i { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+  .tn-legend i.tn-concept { border-radius: 3px; background: #f1f5f9; border: 1px solid #94a3b8; }
+  .tn-tip { position: absolute; pointer-events: none; max-width: 300px; padding: 8px 10px; font-size: 13px; line-height: 1.35;
+            background: #0f172a; color: #f8fafc; border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,.25); opacity: 0; transition: opacity .12s; z-index: 5; }
+  .tn-tip b { color: #fff; }
+  .tn-tip em { color: #cbd5e1; }
+  .tn-node-lecture { cursor: pointer; }
+  .tn-dim { opacity: .12; }
+  .tn-caption { font-size: 12px; color: #64748b; margin: 6px 0 0; text-align: center; max-width: none; }
+  .tn-table { font-size: 14px; }
+  .tn-wrap.tn-narrow { border: 0; }
+  .tn-wrap.tn-narrow .tn-legend { display: none; }
+  .tn-note { display: none; margin: 0; font-size: 14px; color: #475569; }
+  .tn-wrap.tn-narrow .tn-note { display: block; }
+  .tn-wrap.tn-narrow + .tn-caption { display: none; }
+  .tn-wrap svg text { font-family: inherit; }
+</style>
+<div class="tn-wrap" id="topic-network">
+  <div class="tn-legend" aria-hidden="true">
+    <span><i style="background:#6366f1"></i>Text &amp; Language</span>
+    <span><i style="background:#06b6d4"></i>Data &amp; Infrastructure</span>
+    <span><i style="background:#ec4899"></i>Critical Perspectives</span>
+    <span><i style="background:#f59e0b"></i>Case Studies</span>
+    <span><i class="tn-concept"></i>Shared topic</span>
+  </div>
+  <p class="tn-note">On small screens the diagram is replaced by the table below: it lists, for each topic, the lectures that take it up.</p>
+  <div class="tn-tip" role="status"></div>
+</div>
+<p class="tn-caption">Left: the 17 lectures by thematic area. Right: topics that several lectures take up. Each line rests on a statement in that lecture's summary; hover over a line to read it, click a lecture to open it.</p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+(function () {
+  const lectures = [
+    { id: 1,  short: 'Text Recognition',        name: 'Andreas Fischer',    file: '01-fischer.qmd',     theme: 'text' },
+    { id: 2,  short: 'Gender & Digitalization', name: 'Bianca Prietl',      file: '02-prietl.qmd',      theme: 'critical' },
+    { id: 3,  short: 'Digital Linguistics',     name: 'Cerstin Mahlow',     file: '03-mahlow.qmd',      theme: 'text' },
+    { id: 4,  short: 'Digital Editing',         name: 'Elena Chestnova',    file: '04-chestnova.qmd',   theme: 'text' },
+    { id: 5,  short: 'Digital Book Studies',    name: 'Gerhard Lauer',      file: '05-lauer.qmd',       theme: 'case' },
+    { id: 6,  short: 'Open Linked Data',        name: 'Lukas Rosenthaler',  file: '06-rosenthaler.qmd', theme: 'data' },
+    { id: 7,  short: 'Theory & Epistemology',   name: 'Michael Piotrowski', file: '07-piotrowski.qmd',  theme: 'critical' },
+    { id: 8,  short: 'Corpus Linguistics',      name: 'Noah Bubenhofer',    file: '08-bubenhofer.qmd',  theme: 'text' },
+    { id: 9,  short: 'Imaging Technologies',    name: 'Peter Fornaro',      file: '09-fornaro.qmd',     theme: 'data' },
+    { id: 10, short: 'Network Analysis',        name: 'Ramona Roller',      file: '10-roller.qmd',      theme: 'data' },
+    { id: 11, short: 'Natural Language Processing', name: 'Rico Sennrich',  file: '11-sennrich.qmd',    theme: 'text' },
+    { id: 12, short: 'Data Materialism',        name: 'Selena Savić',       file: '12-savic.qmd',       theme: 'critical' },
+    { id: 13, short: 'Digital Musicology',      name: 'Stefan Münnich',     file: '13-munnich.qmd',     theme: 'case' },
+    { id: 14, short: 'ML & History',            name: 'Tobias Hodel',       file: '14-hodel.qmd',       theme: 'text' },
+    { id: 15, short: 'Archives & Preservation', name: 'Tobias Wildi',       file: '15-wildi.qmd',       theme: 'data' },
+    { id: 16, short: 'Digital Photography',     name: 'Vera Chiquet',       file: '16-chiquet.qmd',     theme: 'critical' },
+    { id: 17, short: 'Game Studies',            name: 'Yannick Rochat',     file: '17-rochat.qmd',      theme: 'case' }
+  ];
+  // Every link cites the lecture summary on its page (Overview, Main Points, Examples Mentioned).
+  const topics = [
+    { id: 'recognition', label: 'Text & music recognition', links: [
+      [1, 'Workflow from layout analysis to line-level recognition and keyword search'],
+      [11, 'NLP can assist with OCR post-processing and normalization'],
+      [13, 'Optical music recognition'],
+      [14, 'Handwritten text recognition engines and transformer models'] ] },
+    { id: 'ml', label: 'Machine learning & language models', links: [
+      [1, 'Machine learning as the practical basis for current systems'],
+      [8, 'Large language models as systems that learn typical language patterns'],
+      [11, 'From rule-based to statistical and neural approaches; language modeling'],
+      [14, 'Supervised learning, neural networks, training data and error rates'] ] },
+    { id: 'corpora', label: 'Corpora', links: [
+      [5, 'Large publication corpora become computationally analyzable'],
+      [8, 'Corpora as large, machine-readable collections of texts'],
+      [11, 'Parallel corpora for training translation systems'],
+      [12, 'Programmatic work on textual corpora and social media data'],
+      [14, 'Medieval and early modern corpora'] ] },
+    { id: 'language', label: 'Language as data', links: [
+      [3, 'Language data must be represented explicitly and coherently'],
+      [8, 'Language studied through observation of real usage'],
+      [11, 'Making text collections accessible and analyzable'] ] },
+    { id: 'annotation', label: 'Annotation & named entities', links: [
+      [8, 'Metadata and linguistic annotation in corpora'],
+      [11, 'Named entity recognition among large-scale text tasks'],
+      [14, 'Recognized text as basis for named entity recognition and linking'] ] },
+    { id: 'editions', label: 'Encoding & digital editions', links: [
+      [4, 'TEI as the de facto standard for digital scholarly editing'],
+      [13, 'Music encoding (MEI) and digital editions'] ] },
+    { id: 'graphs', label: 'Graphs, networks & linked data', links: [
+      [4, 'Graph-based models as alternatives to hierarchical markup'],
+      [6, 'Graph databases, RDF triples and linked open data'],
+      [10, 'Entities and relations represented as nodes and edges'] ] },
+    { id: 'metadata', label: 'Metadata & classification', links: [
+      [5, 'Library catalogs, indexes and structured book data'],
+      [6, 'Metadata gives digital objects context and meaning'],
+      [9, 'What bits mean depends on format, metadata and interpretation'],
+      [12, 'Socially produced categories can appear neutral'],
+      [15, 'Provenance, original order and hierarchical archival description'] ] },
+    { id: 'modelling', label: 'Modelling as interpretation', links: [
+      [3, 'Digital linguistics defined through formal modeling'],
+      [4, 'Editions represent texts and create a theory of the corpus'],
+      [7, 'A model-centered definition of digital humanities'],
+      [10, 'Every network model is an interpretive abstraction'],
+      [14, 'Critical about what counts as text and what is being modeled'] ] },
+    { id: 'critique', label: 'Methodological critique', links: [
+      [5, 'Sampling and the gap between available data and the full population'],
+      [7, 'Critiques of uncritical tool adoption'],
+      [12, 'Against data idealism'],
+      [14, 'Biases and limitations of the pipeline'] ] },
+    { id: 'power', label: 'Gender, power & data feminism', links: [
+      [2, 'Gender and technology are co-constructed; Data Feminism'],
+      [8, 'Political language and gendered language use'],
+      [12, 'Feminist methods, data feminism and platform power'] ] },
+    { id: 'platforms', label: 'Digital media & platforms', links: [
+      [2, 'Digital media as arenas for gender politics'],
+      [10, 'Social media and the web as networks'],
+      [12, 'Topic modeling of Twitter discourse'],
+      [17, 'Games combine code, communities and platforms'] ] },
+    { id: 'access', label: 'Search & access', links: [
+      [1, 'Machine-readable text for search, navigation and access'],
+      [11, 'Making text collections more accessible'],
+      [12, 'Search infrastructures shape what becomes visible'] ] },
+    { id: 'images', label: 'Images & visual evidence', links: [
+      [6, 'A wartime photograph whose meaning depends on metadata'],
+      [9, 'Images as sampled representations made of pixels'],
+      [14, 'Text tied to images and material witnesses'],
+      [16, 'Photography as a medium of constructed truth'] ] },
+    { id: 'preservation', label: 'Preservation & sustainability', links: [
+      [13, 'Stable data, long-term storage and future accessibility'],
+      [15, 'Keeping digital information usable across generations of systems'],
+      [17, 'Video games as digital heritage needing archival strategies'] ] },
+    { id: 'documents', label: 'Manuscripts & historical sources', links: [
+      [1, 'Medieval manuscripts and historical correspondence'],
+      [4, 'The Gospel of John in multiple manuscript witnesses'],
+      [10, 'Reformation correspondence networks'],
+      [13, 'Historical and non-European notation systems'],
+      [14, 'Medieval and early modern documents'] ] }
+  ];
+
+  const COLOR = { text: '#6366f1', data: '#06b6d4', critical: '#ec4899', case: '#f59e0b' };
+  const GROUPS = [['text', 'Text & Language'], ['data', 'Data & Infrastructure'], ['critical', 'Critical Perspectives'], ['case', 'Case Studies']];
+  const root = document.getElementById('topic-network');
+  const tip = root.querySelector('.tn-tip');
+  const links = topics.flatMap(t => t.links.map(([lid, ev]) => ({ topic: t, lecture: lectures[lid - 1], ev })));
+
+  function draw() {
+    root.querySelectorAll('svg').forEach(s => s.remove());
+    const W = root.clientWidth;
+    const narrow = W < 620;
+    root.classList.toggle('tn-narrow', narrow);
+    if (narrow) return; // small screens get the table below instead
+    const ROW = 30, GAP = 26, TOP = 30;
+    const xL = Math.min(250, W * 0.32), xR = W - Math.min(250, W * 0.30);
+
+    // left column: lectures grouped by theme
+    let y = TOP;
+    const heads = [];
+    GROUPS.forEach(([key, label]) => {
+      heads.push({ key, label, y });
+      y += GAP - 4;
+      lectures.filter(l => l.theme === key).forEach(l => { l.y = y; y += ROW; });
+      y += 6;
+    });
+    const H = y + 10;
+    // right column: topics ordered by the mean position of their lectures, to keep lines short
+    topics.forEach(t => { t.bary = d3.mean(t.links, ([id]) => lectures[id - 1].y); });
+    const order = topics.slice().sort((a, b) => a.bary - b.bary);
+    const step = (H - TOP - 20) / (order.length - 1);
+    order.forEach((t, i) => { t.y = TOP + 10 + i * step; });
+
+    const svg = d3.select(root).insert('svg', '.tn-tip')
+      .attr('viewBox', [0, 0, W, H]).attr('width', W).attr('height', H)
+      .attr('role', 'img')
+      .attr('aria-label', 'Diagram linking the 17 lectures to ' + topics.length + ' shared topics. A table version follows below.');
+
+    svg.append('g').selectAll('text').data(heads).join('text')
+      .attr('x', xL + 8).attr('y', d => d.y + 6).attr('text-anchor', 'end')
+      .attr('font-size', 11).attr('font-weight', 700).attr('letter-spacing', '.06em')
+      .attr('fill', d => COLOR[d.key]).text(d => d.label.toUpperCase());
+
+    const path = d => {
+      const x1 = xL + 8, y1 = d.lecture.y, x2 = xR - 8, y2 = d.topic.y, m = (x1 + x2) / 2;
+      return `M${x1},${y1} C${m},${y1} ${m},${y2} ${x2},${y2}`;
+    };
+    const link = svg.append('g').attr('fill', 'none').selectAll('path').data(links).join('path')
+      .attr('d', path).attr('stroke', d => COLOR[d.lecture.theme]).attr('stroke-opacity', 0.5).attr('stroke-width', 1.8);
+    const hit = svg.append('g').attr('fill', 'none').selectAll('path').data(links).join('path')
+      .attr('d', path).attr('stroke', 'transparent').attr('stroke-width', 10).style('cursor', 'help');
+
+    const lec = svg.append('g').selectAll('a').data(lectures).join('a')
+      .attr('href', d => d.file.replace('.qmd', '.html')).attr('class', 'tn-node-lecture')
+      .attr('aria-label', d => `Lecture ${d.id}: ${d.short} (${d.name})`)
+      .attr('transform', d => `translate(${xL},${d.y})`);
+    lec.append('circle').attr('cx', 8).attr('r', 6).attr('fill', d => COLOR[d.theme]);
+    lec.append('text').attr('x', -4).attr('dy', '0.35em').attr('text-anchor', 'end')
+      .attr('font-size', 13).attr('fill', '#0f172a')
+      .text(d => `${d.id} · ${d.short}`);
+
+    const top = svg.append('g').selectAll('g').data(topics).join('g')
+      .attr('transform', d => `translate(${xR},${d.y})`).style('cursor', 'default');
+    top.append('rect').attr('x', -8).attr('y', -6).attr('width', 12).attr('height', 12).attr('rx', 3)
+      .attr('fill', '#f1f5f9').attr('stroke', '#64748b');
+    top.append('text').attr('x', 12).attr('dy', '0.35em').attr('font-size', 13).attr('font-weight', 600)
+      .attr('fill', '#0f172a').text(d => d.label);
+
+    function place(evt) {
+      const r = root.getBoundingClientRect();
+      let x = evt.clientX - r.left + 14, yy = evt.clientY - r.top + 14;
+      if (x + tip.offsetWidth > r.width - 8) x = evt.clientX - r.left - tip.offsetWidth - 14;
+      tip.style.left = Math.max(8, x) + 'px'; tip.style.top = yy + 'px';
+    }
+    function show(html, evt) { tip.innerHTML = html; tip.style.opacity = 1; place(evt); }
+    function focus(keep) {
+      link.classed('tn-dim', d => !keep(d));
+      lec.classed('tn-dim', l => !links.some(d => keep(d) && d.lecture === l));
+      top.classed('tn-dim', t => !links.some(d => keep(d) && d.topic === t));
+    }
+    function reset() { tip.style.opacity = 0; link.classed('tn-dim', false); lec.classed('tn-dim', false); top.classed('tn-dim', false); }
+
+    lec.on('mouseenter focus', (evt, l) => {
+      focus(d => d.lecture === l);
+      show(`<b>${l.id} · ${l.short}</b><br>${l.name}<br><em>${links.filter(d => d.lecture === l).map(d => d.topic.label).join(' · ')}</em>`, evt);
+    }).on('mousemove', place).on('mouseleave blur', reset);
+    top.on('mouseenter', (evt, t) => {
+      focus(d => d.topic === t);
+      show(`<b>${t.label}</b><br>Lectures ${t.links.map(([id]) => id).sort((a, b) => a - b).join(', ')}`, evt);
+    }).on('mousemove', place).on('mouseleave', reset);
+    hit.on('mouseenter click', (evt, d) => {
+      focus(x => x === d);
+      show(`<b>${d.lecture.id} · ${d.lecture.short}</b> → ${d.topic.label}<br><em>${d.ev}</em>`, evt);
+    }).on('mousemove', place).on('mouseleave', reset);
+  }
+  draw();
+  let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(draw, 150); });
+
+  // Text version of the same data, for screen readers and small screens
+  const det = document.createElement('details');
+  det.innerHTML = '<summary>Topics and lectures as a table</summary>' +
+    // tag names split so Quarto does not try to parse this string as a raw HTML table
+    '<' + 'table class="table tn-table"><thead><tr><th>Topic</th><th>Lectures</th></tr></thead><tbody>' +
+    topics.map(t => `<tr><td>${t.label}</td><td>${t.links.map(([id, ev]) => { const l = lectures[id - 1]; return `<a href="${l.file.replace('.qmd', '.html')}">${id} ${l.short}</a>: ${ev}`; }).join('<br>')}</td></tr>`).join('') +
+    '</tbody></' + 'table>';
+  root.nextElementSibling.after(det);
+})();
+</script>
+```
 
 The 17 lectures span four interconnected themes drawn from the introductory podcast:
 
