@@ -41,7 +41,7 @@ There is no DH Lab in the spring semester. The final-year meetings take place as
 
 | Course | Type | ECTS | Format | Exam | KSL |
 |---|---|---|---|---|---|
-| **[Digital Humanities — Introductions](/intro-lecture/index.qmd)** | Lecture, online only (EN/DE) | 3 | 17 recorded lectures, to be worked through in any order; two consultation sessions via Zoom/ILIAS (dates tba) | Open-book multiple-choice exam, end of semester (date tba) | tba |
+| **[Digital Humanities — Introductions](/intro-lecture/index.qmd)** | Lecture, online only (EN/DE) | 3 | 17 recorded lectures, to be worked through in any order; one consultation session via Zoom (Tue 25 May 2027, 12:30–13:30) | Open-book multiple-choice exam, online, Mon 7 June 2027 | 483000 |
 
 ## Applied Digital Humanities: workshops
 
