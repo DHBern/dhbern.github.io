@@ -132,6 +132,36 @@ We recommend using **GitHub Codespaces** for a quick and reproducible setup.
      <img src="docs/assets/img_terminal.png" alt="Terminal window showing command" style="width: 540px; margin: 1em 0;" />
    </div>
 
+### One Codespace, several pull requests
+
+Pull requests here are merged as a single squashed commit. Your Codespace still holds
+your original commits, which `main` no longer contains in that form, so after the first
+merge the **Sync Changes** button reports "N commits ahead" and fails. Syncing again
+does not help. There are two ways to avoid this:
+
+- **Simplest: one Codespace per pull request.** Once the pull request is merged, delete
+  the Codespace on [github.com/codespaces](https://github.com/codespaces) and create a
+  fresh one from `main` for the next change.
+- **Reusing a Codespace:** start every change on its own branch, created from the
+  current `main`. Open a terminal (**Terminal → New Terminal**) and run:
+
+  ```bash
+  git fetch origin
+  git switch -c my-change origin/main
+  ```
+
+  Commit and sync on that branch, and open the pull request from it. Once it is merged,
+  bring your `main` back in line with GitHub before the next change:
+
+  ```bash
+  git switch main
+  git fetch origin
+  git reset --hard origin/main
+  ```
+
+  `git reset --hard` throws away commits on your local `main` that are not on GitHub.
+  Run it only after your pull request has been merged.
+
 <details>
   <summary>👩‍💻 Setup Locally (Advanced Users)</summary>
 
