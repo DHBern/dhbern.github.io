@@ -96,7 +96,7 @@ window.DH_COURSES = [
     lecturers: "17 lecturers", language: "EN/DE", ksl: "",
     block: "theory", programmes: ["major"],
     tba: "online, any time; exam and consultations tba",
-    url: "/content/intro-lecture/"
+    url: "/intro-lecture/"
   },
   {
     id: "fs27-programming", semester: "FS2027", kind: "course", ects: 3,

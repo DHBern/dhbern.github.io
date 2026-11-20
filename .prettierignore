@@ -7,7 +7,7 @@ _site/
 docs/
 
 # Generated / external content — do not lint
-content/intro-lecture/
+intro-lecture/
 .github/workflows/.sync-trigger
 
 # Data files

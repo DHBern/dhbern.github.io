@@ -13,7 +13,7 @@ This page explains what the programmes aim at, how they are built and in which s
 You can start in either semester, but we **strongly encourage starting in the autumn**: *Introduction to Digital Humanities*, the *DH Lab* and the lecture series are taught only then, and both programmes are built around them.
 :::
 
-**Course websites:** [Introduction to Digital Humanities](https://dhbern.github.io/introduction-to-dh/) · [DH Lab](https://dhbern.github.io/dh-lab/) · [Lecture series: Insights into the Digital Humanities](https://dhbern.github.io/dh-lecture-series/) · [Lecture: Introduction to DH approaches](/content/intro-lecture/index.qmd) (online)
+**Course websites:** [Introduction to Digital Humanities](https://dhbern.github.io/introduction-to-dh/) · [DH Lab](https://dhbern.github.io/dh-lab/) · [Lecture series: Insights into the Digital Humanities](https://dhbern.github.io/dh-lecture-series/) · [Lecture: Introduction to DH approaches](/intro-lecture/index.qmd) (online)
 
 **Plan your semester:** the [semester planner](planning/index.qmd) puts your courses into a weekly calendar, flags overlaps and courses taken too early, and saves the dates as a calendar file (.ics)
 
@@ -54,7 +54,7 @@ The Major can be studied broadly or with one of five specialisations:
 | **2nd** (spring) | **Advanced studies and reflection** · 25 ECTS | Two elective seminars (6 + 6) | 12 |
 | | | Colloquium: Critical Algorithm Studies | 3 |
 | | | Seminar: philosophy of science / media theory | 7 |
-| | | [Lecture: Introduction to DH approaches](/content/intro-lecture/index.qmd) (online, spring) | 3 |
+| | | [Lecture: Introduction to DH approaches](/intro-lecture/index.qmd) (online, spring) | 3 |
 | **3rd** (autumn) | **Application** · 22 ECTS | Elective seminar | 6 |
 | | | Networking meeting and learning agreement | 1 |
 | | | Project management | 3 |
@@ -122,7 +122,7 @@ Major and Minor students attend the same courses. In the final project, Minor st
 | Introduction to Digital Humanities | autumn | [dhbern.github.io/introduction-to-dh](https://dhbern.github.io/introduction-to-dh/) |
 | DH Lab (incl. final-year meetings in the autumn) | autumn | [dhbern.github.io/dh-lab](https://dhbern.github.io/dh-lab/) |
 | Lecture series: Insights into the Digital Humanities | autumn | [dhbern.github.io/dh-lecture-series](https://dhbern.github.io/dh-lecture-series/) |
-| Lecture: Introduction to DH approaches (online only) | spring | [Digital Humanities — Introductions](/content/intro-lecture/index.qmd) |
+| Lecture: Introduction to DH approaches (online only) | spring | [Digital Humanities — Introductions](/intro-lecture/index.qmd) |
 | Introduction to programming (Grundkurs Programmieren, Python) | every semester, Fridays 13:15–15:00, can be followed online | [digitale-nachhaltigkeit.unibe.ch](https://www.digitale-nachhaltigkeit.unibe.ch/studium/grundkurs_programmieren/index_ger.html) · registration via ILIAS |
 | Colloquium: Critical Algorithm Studies | spring | [Spring 2027](fs2027/index.qmd) |
 | Elective seminars | every semester | [Spring 2027](fs2027/index.qmd) · [Autumn 2027](hs2027/index.qmd) |

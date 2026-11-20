@@ -14,8 +14,30 @@ The structure of this repository follows the [Advanced Structure for Data Analys
 - `.venv/` - Python virtual environment for website build.
 - `assets/` - Images, stylesheets, JavaScript files.
 - `docs/` - Documentation assets for README.md.
-- `content/` - Website content (main and additional pages).
+- `content/` - Website content: projects, services, events, news posts.
+- `teaching/` - Teaching pages: programme overview, semester pages, planner, application.
+- `intro-lecture/` - The online lecture _Digital Humanities — Introductions_; its source material (transcripts, lecture overviews, quiz sources) is in `intro-lecture/_src/`, which Quarto does not publish.
 - `renv/` - R environment for website build.
+
+## 🔗 URL Rule: Teaching at the Top Level, Everything Else under `/content/`
+
+- **Teaching is linked directly under `dhbern.github.io/`**, for example
+  [dhbern.github.io/introduction-to-dh/](https://dhbern.github.io/introduction-to-dh/),
+  [dhbern.github.io/dh-lab/](https://dhbern.github.io/dh-lab/),
+  [dhbern.github.io/teaching/](https://dhbern.github.io/teaching/) and
+  [dhbern.github.io/intro-lecture/](https://dhbern.github.io/intro-lecture/).
+  A course is either its own DHBern repository with GitHub Pages (`introduction-to-dh`, `dh-lab`,
+  `dh-lecture-series`) or a top-level folder in this repository (`teaching/`, `intro-lecture/`).
+- **Projects, services, events and news are under `dhbern.github.io/content/`**, for example
+  `dhbern.github.io/content/projects/…` or `dhbern.github.io/content/events/…`.
+
+When you add a top-level teaching folder to this repository:
+
+- Pick a name that no DHBern repository uses: a repository with GitHub Pages is served at the same
+  path and the two would collide.
+- Add the folder to `link-external-filter` in `_quarto.yml`; otherwise links to it get the
+  external-link icon (see #133).
+- When a page moves, keep its old URL working with `aliases:` in the front matter.
 
 ## 📁 Content Structure and Categorization
 
@@ -27,8 +49,9 @@ graph TD
   A --> A2["Events"]
   A --> A3["Projects"]
   A --> A4["Services"]
+  A --> A5["Teaching (top level)"]
 
-  B["dh.unibe.ch"] --> B1["Studies"]
+  B["dh.unibe.ch"] --> B1["Studies (official regulations)"]
   B --> B2["Team"]
 ```
 
@@ -40,9 +63,10 @@ _Diagram: Overview of content domains for the public site and official universit
   - 📅 Events
   - 🧪 Projects
   - 🛠 Services
+  - 📚 Teaching: [programme overview](https://dhbern.github.io/teaching/), course sites and the online lecture
 
 - The official DH Bern university pages at **[https://www.dh.unibe.ch/](https://www.dh.unibe.ch/)** cover:
-  - 📚 Study programs
+  - 📚 Study programmes (official pages and regulations)
   - 👥 Team information
     - ➤ Changes to the team page are made via [this Office form](https://forms.office.com/Pages/ResponsePage.aspx?id=ejgA1C8h6kOsf3eqEteXfhgnFcqTSVtNvO8z2rg4-SZUQlBGMUFZOFQyWElFWk5JRUpTWUdNSFY5Ty4u) (contact: Dominik Kilchmann).
 
