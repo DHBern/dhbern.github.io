@@ -62,7 +62,7 @@ website:
         href: https://www.dh.unibe.ch/about_us/team/index_eng.html
   page-footer:
     left: '[Digital Humanities, University of Bern](https://www.dh.unibe.ch/)'
-    center: '[digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch) · [GitHub](https://github.com/DHBern) · [LinkedIn](https://www.linkedin.com/school/university-of-bern/)'
+    center: '[digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch) · [Find us: Unitobler D222](https://mediascout-lw.ub.unibe.ch/?lang=en_GB&m=2D&l=4&d=678b10f1-09a0-678c-ea7a-818e6120b1ea) · [GitHub](https://github.com/DHBern) · [LinkedIn](https://www.linkedin.com/school/university-of-bern/)'
     right: '[News](/#blog) · [Events](/#events) · [Studies](/teaching/index.qmd) · [Projects](/content/projects/index.qmd) · [Services](/content/services/index.qmd)'
 
   sidebar:
