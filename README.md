@@ -132,6 +132,62 @@ We recommend using **GitHub Codespaces** for a quick and reproducible setup.
      <img src="docs/assets/img_terminal.png" alt="Terminal window showing command" style="width: 540px; margin: 1em 0;" />
    </div>
 
+### One Codespace, several pull requests
+
+Pull requests here are merged as a single squashed commit. Your Codespace still holds
+your original commits, which `main` no longer contains in that form, so after the first
+merge the **Sync Changes** button reports "N commits ahead" and fails. Syncing again
+does not help. There are two ways to avoid this:
+
+- **Simplest: one Codespace per pull request.** Once the pull request is merged, delete
+  the Codespace on [github.com/codespaces](https://github.com/codespaces) and create a
+  fresh one from `main` for the next change.
+- **Reusing a Codespace:** start every change on its own branch, created from the
+  current `main`. Open a terminal (**Terminal → New Terminal**) and run:
+
+  ```bash
+  git fetch origin
+  git switch -c my-change origin/main
+  ```
+
+  Commit and sync on that branch, and open the pull request from it. Once it is merged,
+  bring your `main` back in line with GitHub before the next change:
+
+  ```bash
+  git switch main
+  git fetch origin
+  git reset --hard origin/main
+  ```
+
+  `git reset --hard` throws away commits on your local `main` that are not on GitHub.
+  Run it only after your pull request has been merged.
+
+- **Working from a fork:** in a Codespace created on your fork, `origin` is the fork,
+  not `DHBern/dhbern.github.io`. Add the DHBern repository once as `upstream`:
+
+  ```bash
+  git remote add upstream https://github.com/DHBern/dhbern.github.io.git
+  ```
+
+  Then use `upstream` wherever the commands above say `origin`:
+
+  ```bash
+  git fetch upstream
+  git switch -c my-change upstream/main
+  ```
+
+  Sync pushes the branch to your fork; open the pull request from there against
+  `DHBern/dhbern.github.io`. After the merge:
+
+  ```bash
+  git switch main
+  git fetch upstream
+  git reset --hard upstream/main
+  ```
+
+  To bring your fork's `main` on GitHub up to date as well, use **Sync fork** on the
+  fork's page.
+
 <details>
   <summary>👩‍💻 Setup Locally (Advanced Users)</summary>
 
