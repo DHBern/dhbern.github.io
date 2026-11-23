@@ -39,6 +39,10 @@ The website queries the graph live: every figure, chart and list – from the co
 
 In addition, *Swiss Elites Chat* (beta, login required) lets users query the database in natural language.
 
+## Events
+
+- **8 December 2026, University of Bern:** [LESSH Workshop – LOD at the Age of AI](20261208-lessh-workshop/index.qmd), the concluding workshop of the project, with talks and hands-on sessions on querying knowledge graphs in natural language.
+
 ## Cooperation
 
 - Swiss Elite Observatory (OBELIS), University of Lausanne
