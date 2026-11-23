@@ -1,0 +1,53 @@
+---
+title: "LESSH Workshop – LOD at the Age of AI"
+subtitle: "Concluding workshop of the project Linked Elites – ORD for the SSH (LESSH)"
+date: "2026.11.23"
+event-date: "2026.12.08"
+categories:
+  - Event
+  - LOD4HSS
+location: "Room 028, Main Building (Hochschulstrasse 4), University of Bern"
+author:
+  - name: LESSH project
+    role: author
+other-links:
+  - text: Programme (PDF)
+    icon: file-earmark-pdf
+    href: program-lessh-workshop.pdf
+  - text: How to find room 028 (PDF)
+    icon: geo-alt
+    href: room-028-hauptgebaeude.pdf
+  - text: Linked Elites Suisses (LESSH)
+    icon: diagram-3
+    href: ../index.html
+  - text: LOD4HSS services
+    icon: share
+    href: ../../../services/lod4hss/index.html
+---
+
+How can we make research data more accessible, interoperable, and reusable in the age of Artificial Intelligence? This workshop marks the conclusion of the Linked Elites – ORD for the SSH (LESSH) project, which explores the transformation of traditional research databases into interconnected Knowledge Graphs, using the Swiss Elites database as a case study. Bringing together researchers and experts from the Humanities, Semantic Web, and AI communities, the workshop will present approaches to connecting and exploring research data through Linked Open Data and Large Language Models (LLMs). The afternoon will feature hands-on sessions demonstrating how AI-powered tools can facilitate querying and exploring Knowledge Graphs using natural language and will be an opportunity to discuss the benefits and challenges of such technologies for FAIR research data.
+
+**8 December 2026, 9:30–16:00, Room 028, Main Building (Hochschulstrasse 4), University of Bern.** Room 028 is on the ground floor of the west wing; see the [site and floor plan](room-028-hauptgebaeude.pdf).
+
+The workshop is organised by Digital Humanities at the University of Bern and the University of Lausanne. LESSH is a pilot of our [LOD for Humanities and Social Sciences (LOD4HSS)](../../../services/lod4hss/index.qmd) services; its results are published as [Linked Elites Suisses](../index.qmd).
+
+## Programme
+
+Also available as [PDF](program-lessh-workshop.pdf).
+
+| Time | |
+|---:|---|
+| 09:30 | Welcome coffee |
+| | **Part one: LESSH and other projects in focus** |
+| 10:00 | **LESSH: Producing a Connected Linked Elites Knowledge Graph** — Stephen Hart<br>*Creating a reproducible Strings to Linked Things workflow* |
+| 10:20 | **LESSH: Facilitating the Reuse of Information with AI** — Matteo Boi<br>*Generating SPARQL queries with Large Language Models* |
+| 10:40 | **LESSH: Accessing the Linked Elites Cloud** — Francesco Beretta<br>*Producing federated queries with the SPARQL-LLM environment* |
+| 11:00 | Break |
+| 11:15 | **SPARQL-LLM: a domain-agnostic approach for answering questions over scientific knowledge graphs** — Vincent Emonet<br>*Knowledge Graphs and LLM in the domain of bioinformatics* |
+| 11:45 | **What is LINDAS and how can we keep semantics aligned across multiple organizations?** — Claudio Di Gallo<br>*Connecting knowledge graphs* |
+| 12:15 | General discussion |
+| 12:30 | Lunch break |
+| | **Part two: Hands-on** |
+| 13:30 | **Hands-on 1: Exploring the Linked Elites Knowledge Graph**<br>*Creating SPARQL queries for the Swiss Elites database with the LLM tool* |
+| 14:30 | **Hands-on 2: Exploring the LOD Cloud**<br>*Using the SPARQL-LLM tool to explore other Knowledge Graphs* |
+| 15:30 | **Final discussion** (until 16:00) |
