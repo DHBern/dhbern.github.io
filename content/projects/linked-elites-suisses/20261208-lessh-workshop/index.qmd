@@ -39,9 +39,9 @@ Also available as [PDF](program-lessh-workshop.pdf).
 |---:|---|
 | 09:30 | Welcome coffee |
 | | **Part one: LESSH and other projects in focus** |
-| 10:00 | **LESSH: Producing a Connected Linked Elites Knowledge Graph** — Stephen Hart<br>*Creating a reproducible Strings to Linked Things workflow* |
+| 10:00 | **LESSH: Producing a Connected Linked Elites Knowledge Graph** — Francesco Beretta<br>*Creating a reproducible Strings to Linked Things workflow* |
 | 10:20 | **LESSH: Facilitating the Reuse of Information with AI** — Matteo Boi<br>*Generating SPARQL queries with Large Language Models* |
-| 10:40 | **LESSH: Accessing the Linked Elites Cloud** — Francesco Beretta<br>*Producing federated queries with the SPARQL-LLM environment* |
+| 10:40 | **LESSH: Accessing the Linked Elites Cloud** — Stephen Hart<br>*Perspective on bringing the Swiss Elites into the Linked Open Data Cloud* |
 | 11:00 | Break |
 | 11:15 | **SPARQL-LLM: a domain-agnostic approach for answering questions over scientific knowledge graphs** — Vincent Emonet<br>*Knowledge Graphs and LLM in the domain of bioinformatics* |
 | 11:45 | **What is LINDAS and how can we keep semantics aligned across multiple organizations?** — Claudio Di Gallo<br>*Connecting knowledge graphs* |
