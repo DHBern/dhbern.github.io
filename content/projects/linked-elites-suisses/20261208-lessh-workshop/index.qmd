@@ -27,7 +27,7 @@ other-links:
 
 How can we make research data more accessible, interoperable, and reusable in the age of Artificial Intelligence? This workshop marks the conclusion of the Linked Elites – ORD for the SSH (LESSH) project, which explores the transformation of traditional research databases into interconnected Knowledge Graphs, using the Swiss Elites database as a case study. Bringing together researchers and experts from the Humanities, Semantic Web, and AI communities, the workshop will present approaches to connecting and exploring research data through Linked Open Data and Large Language Models (LLMs). The afternoon will feature hands-on sessions demonstrating how AI-powered tools can facilitate querying and exploring Knowledge Graphs using natural language and will be an opportunity to discuss the benefits and challenges of such technologies for FAIR research data.
 
-**8 December 2026, 9:30–16:00, Room 028, Main Building (Hochschulstrasse 4), University of Bern.** Room 028 is on the ground floor of the west wing; see the [site and floor plan](room-028-hauptgebaeude.pdf).
+**8 December 2026, 9:30–16:00, Room 028, Main Building (Hochschulstrasse 4), University of Bern.** Room 028 is on the ground floor of the west wing; see the [site and floor plan](room-028-hauptgebaeude.pdf). Participation is free and no registration is required.
 
 The workshop is organised by Digital Humanities at the University of Bern and the University of Lausanne. LESSH is a pilot of our [LOD for Humanities and Social Sciences (LOD4HSS)](../../../services/lod4hss/index.qmd) services; its results are published as [Linked Elites Suisses](../index.qmd).
 
