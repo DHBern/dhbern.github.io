@@ -2,7 +2,7 @@
 // Edit this file to add or change courses. Dates: YYYY-MM-DD, times: HH:MM.
 //
 // Each course:
-//   id, title, kind (seminar | colloquium | lecture | course | workshop | meeting | online),
+//   id, title, kind (exercise | seminar | colloquium | lecture | online | course | workshop | meeting),
 //   ects, semester (FS2027 | HS2027), lecturers, language, ksl,
 //   block: introduction | advanced | reflection | theory | application | final | elective | none
 //   programmes: which programmes the course counts for: ["major", "minor"]
@@ -84,7 +84,7 @@ window.DH_COURSES = [
   },
   {
     id: "fs27-altsoc", specialisations: ["culture"], semester: "FS2027", kind: "workshop", ects: 0.5,
-    title: "Alt-Soc (microcourse, with Digital In/Justice)",
+    title: "[PPP] Alt-Soc (microcourse, with Digital In/Justice)",
     lecturers: "", language: "tba", ksl: "",
     block: "application", programmes: ["major"],
     tba: "one half day, date tba",
@@ -146,7 +146,7 @@ window.DH_COURSES = [
 
   // ---------------- HS 2027 (in development) ----------------
   {
-    id: "hs27-intro", semester: "HS2027", kind: "course", ects: 3,
+    id: "hs27-intro", semester: "HS2027", kind: "exercise", ects: 3,
     title: "Introduction to Digital Humanities",
     lecturers: "Course team", language: "EN", ksl: "",
     block: "introduction", programmes: ["major", "minor"],
@@ -154,7 +154,7 @@ window.DH_COURSES = [
     url: "https://dhbern.github.io/introduction-to-dh/"
   },
   {
-    id: "hs27-lab", semester: "HS2027", kind: "course", ects: 4,
+    id: "hs27-lab", semester: "HS2027", kind: "exercise", ects: 4,
     title: "DH Lab",
     lecturers: "Course team", language: "EN", ksl: "",
     block: "introduction", programmes: ["major", "minor"],

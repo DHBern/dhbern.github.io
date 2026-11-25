@@ -3,7 +3,7 @@ title: "Semester planner"
 subtitle: "Hermione's time turner"
 description: "Pick your DH courses for a semester, see them in a weekly calendar, and check for overlaps and problems"
 date: "2026-11-12"
-date-modified: "2026-11-19"
+date-modified: "2026-11-25"
 toc: false
 page-layout: full
 resources:
@@ -12,7 +12,7 @@ resources:
 ---
 
 ::: {.callout-note title="How it works"}
-Choose (1) the semester you want to plan, (2) your semester in DH, (3) Major or Minor and (4), for the Major, your specialisation. Filter the course list and **add** courses: they appear in the weekly calendar. Overlapping sessions are marked in red; courses that are planned for a later semester or do not count for your programme are flagged. Your selection is kept in this browser only.
+Choose (1) the semester you want to plan, (2) your semester in DH, (3) Major or Minor and (4), for the Major, your specialisation. Filter the course list and **add** courses: they appear in the weekly calendar. Overlapping sessions are marked in red; courses that are planned for a later semester are marked light red, and courses that do not count for your programme are flagged. Your selection is kept in this browser only.
 
 **Download .ics** saves the dates of your plan as a calendar file for Outlook, Apple Calendar or Google Calendar. It is a one-off copy: courses without fixed dates are left out, and if dates change, download the file again and replace the old events.
 
@@ -38,9 +38,9 @@ Choose (1) the semester you want to plan, (2) your semester in DH, (3) Major or 
       <div class="pl-filters">
         <input type="search" id="pl-q" placeholder="Search title, lecturer, KSL number">
         <select id="pl-kind">
-          <option value="">All types</option><option value="seminar">Seminars</option><option value="colloquium">Colloquia</option>
-          <option value="course">Courses</option><option value="lecture">Lectures</option><option value="online">Online lecture</option>
-          <option value="workshop">Workshops (PPP / ProjM)</option><option value="meeting">Meetings</option>
+          <option value="">All types</option><option value="exercise">Exercises</option><option value="course">Courses</option>
+          <option value="seminar">Seminars</option><option value="colloquium">Colloquia</option><option value="lecture">Lectures</option>
+          <option value="online">Online lecture</option><option value="workshop">Workshops (ProjM / PPP)</option><option value="meeting">Meetings</option>
         </select>
         <select id="pl-block">
           <option value="">All blocks</option><option value="introduction">Introduction</option><option value="theory">Theories, approaches &amp; solutions</option>
@@ -85,6 +85,8 @@ Choose (1) the semester you want to plan, (2) your semester in DH, (3) Major or 
 #pl-list { max-height: 900px; overflow-y: auto; border-top: 1px solid #ddd; }
 .pl-item { display: flex; gap: .6rem; align-items: start; justify-content: space-between; padding: .55rem .2rem; border-bottom: 1px solid #eee; }
 .pl-item.on { background: #f3f8ff; }
+.pl-item.early { background: #fff0f0; }
+.pl-tag-early { color: #b42318; font-weight: 600; }
 .pl-item-title { font-weight: 600; line-height: 1.25; }
 .pl-item-meta, .pl-item-when { font-size: .8rem; color: #555; }
 .pl-item.fit { border-left: 4px solid #4a9a4a; padding-left: .4rem; }
@@ -98,6 +100,7 @@ Choose (1) the semester you want to plan, (2) your semester in DH, (3) Major or 
 .pl-checks { list-style: none; padding: 0; margin: 0 0 .6rem; }
 .pl-checks li { padding: .35rem .6rem; margin-bottom: .25rem; border-radius: 4px; border-left: 4px solid #bbb; background: #fafafa; }
 .pl-checks li.pl-error { border-color: #c00; background: #fdecec; }
+.pl-checks li.pl-early { border-color: #e8a0a0; background: #fff0f0; }
 .pl-checks li.pl-warn { border-color: #e08a00; background: #fff5e6; }
 .pl-checks li.pl-info { border-color: #6c8ebf; background: #eef3fb; }
 .pl-checks li.pl-ok { border-color: #2e8b57; background: #edf7f0; }
@@ -126,6 +129,7 @@ Choose (1) the semester you want to plan, (2) your semester in DH, (3) Major or 
 ## Notes
 
 - **Data:** spring 2027 from KSL and the [semester overview](../fs2027/index.qmd) (as of 12 November 2026); autumn 2027 is [in development](../hs2027/index.qmd) and based on the autumn 2026 timetable. Courses without fixed dates are listed but not shown in the calendar.
-- **Checks:** overlaps are computed for every single date (holidays and the Easter break are left out). A course is flagged as *too early* when the study plan places its block in a later semester; elective seminars and PPP / Project Management workshops are only noted, as they can be taken earlier (workshops also make up missing ECTS).
+- **Checks:** overlaps are computed for every single date (holidays and the Easter break are left out). A course is marked light red as *too early* when the study plan places its block in a later semester; elective seminars and PPP / Project Management workshops are only noted, as they can be taken earlier (workshops also make up missing ECTS).
+- **Order:** the course list shows exercises (Introduction to DH, DH Lab) and the programming course first, then seminars, colloquia, lectures and the micro-credited workshops (Project Management, then PPP), followed by meetings.
 - **Specialisations:** seminars and colloquia are tagged with the specialisations they fit; courses without a tag are general. Seminars of your specialisation are marked green.
 - Questions: Adrian Demleitner, head of study programmes ([adrian.demleitner@unibe.ch](mailto:adrian.demleitner@unibe.ch)).

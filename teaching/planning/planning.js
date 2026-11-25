@@ -4,12 +4,20 @@
 
   const SEM = window.DH_SEMESTERS, COURSES = window.DH_COURSES, RULES = window.DH_RULES, SPEC = window.DH_SPECIALISATIONS || {};
   const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"];
-  const KIND_LABEL = { seminar: "Seminar", colloquium: "Colloquium", lecture: "Lecture", course: "Course",
+  const KIND_LABEL = { seminar: "Seminar", colloquium: "Colloquium", lecture: "Lecture", exercise: "Exercise", course: "Course",
     workshop: "Workshop", meeting: "Meeting", online: "Online lecture" };
   const BLOCK_LABEL = { introduction: "Introduction", theory: "Theories, approaches & solutions",
     advanced: "Advanced studies", reflection: "Reflection", elective: "Elective seminar",
     application: "Application", final: "Final phase", none: "–" };
   const STORE = "dh-teaching-planner-v2";
+  // Order of the course list: exercises (and the other introductory courses), seminars,
+  // colloquia, lectures, then the micro-credited workshops (Project Management before PPP),
+  // then meetings. Within a group the order of courses.js is kept.
+  function typeRank(c) {
+    if (c.kind === "workshop") return /^\[ProjM\]/.test(c.title) ? 6 : /^\[PPP\]/.test(c.title) ? 7 : 8;
+    const r = { exercise: 0, course: 1, seminar: 2, colloquium: 3, lecture: 4, online: 5, meeting: 9 }[c.kind];
+    return r == null ? 10 : r;
+  }
 
   // ---------- state ----------
   // Default to the first semester that has not ended yet.
@@ -69,6 +77,14 @@
       `<span class="pl-spec ${k === mySpec() ? "mine" : ""}" title="${esc(SPEC[k] || k)}">${esc(SPEC[k] || k)}</span>`).join(" ");
   }
 
+  // The study plan places the course's block in a later semester. Elective seminars and
+  // workshops may be taken earlier, so for them this is only a note (see the page notes).
+  function tooEarly(c) {
+    const rec = RULES[state.programme][c.block];
+    return rec && Number(state.studySem) < rec ? rec : 0;
+  }
+  const earlyIsIssue = (c) => !(c.block === "elective" || c.kind === "workshop");
+
   // ---------- checks ----------
   function checks() {
     const chosen = COURSES.filter((c) => sel().includes(c.id));
@@ -101,9 +117,9 @@
     chosen.forEach((c) => {
       if (!counts(c))
         out.push({ level: "warn", text: `<b>${esc(c.title)}</b> does not count towards the ${prog === "major" ? "Major" : "Minor"}.` });
-      const rec = rules[c.block];
-      if (rec && sem < rec) {
-        const lvl = (c.block === "elective" || c.kind === "workshop") ? "info" : "warn";
+      const rec = tooEarly(c);
+      if (rec) {
+        const lvl = earlyIsIssue(c) ? "early" : "info";
         out.push({ level: lvl, text: `<b>${esc(c.title)}</b> (${BLOCK_LABEL[c.block]}) is planned for semester ${rec}; you are in semester ${sem} – ${c.block === "final" ? "final-year meetings are for your last semester" : "taken too early"}.` });
       }
       if (["advanced", "reflection", "elective", "theory", "application"].includes(c.block) && sem === 1 && SEM[state.semester].season === "autumn")
@@ -228,19 +244,21 @@
       .filter((c) => !state.block || c.block === state.block)
       .filter((c) => !state.onlyMine || counts(c))
       .filter((c) => !state.onlySpec || !mySpec() || fitsSpec(c) !== false)
-      .filter((c) => !q || (c.title + " " + c.lecturers + " " + (c.ksl || "")).toLowerCase().includes(q));
+      .filter((c) => !q || (c.title + " " + c.lecturers + " " + (c.ksl || "")).toLowerCase().includes(q))
+      .map((c, i) => ({ c, i })).sort((a, b) => typeRank(a.c) - typeRank(b.c) || a.i - b.i).map((x) => x.c);
     $("pl-count").textContent = `${items.length} course(s)`;
     $("pl-list").innerHTML = items.map((c) => {
       const on = sel().includes(c.id);
+      const early = earlyIsIssue(c) ? tooEarly(c) : 0;
       const ss = sessions(c);
       const when = c.weekly ? `${DAYS[c.weekly.day - 1]} ${c.weekly.start}–${c.weekly.end}, ${ss.filter((x) => !x.note).length} sessions` :
         ss.length ? ss.map((x) => `${fmtDate(x.date)} ${x.start}–${x.end}`).slice(0, 3).join("; ") + (ss.length > 3 ? " …" : "") : (c.tba || "tba");
-      return `<div class="pl-item ${on ? "on" : ""} ${fitsSpec(c) === true ? "fit" : ""}">
+      return `<div class="pl-item ${on ? "on" : ""} ${early ? "early" : ""} ${fitsSpec(c) === true ? "fit" : ""}">
         <div class="pl-item-main">
           <div class="pl-item-title"><a href="${esc(c.url || "#")}">${esc(c.title)}</a></div>
           <div class="pl-item-meta">${KIND_LABEL[c.kind] || c.kind} · ${c.ects} ECTS · ${BLOCK_LABEL[c.block] || ""}${c.lecturers ? " · " + esc(c.lecturers) : ""}${c.language ? " · " + esc(c.language) : ""}${c.ksl ? " · KSL " + esc(c.ksl) : ""}</div>
           ${c.specialisations ? `<div class="pl-item-spec">${specTags(c)}</div>` : ""}
-          <div class="pl-item-when">${esc(when)}${c.note ? " · " + esc(c.note) : ""}${!counts(c) ? ' · <span class="pl-tag-warn">not in your programme</span>' : ""}</div>
+          <div class="pl-item-when">${esc(when)}${c.note ? " · " + esc(c.note) : ""}${!counts(c) ? ' · <span class="pl-tag-warn">not in your programme</span>' : ""}${early ? ` · <span class="pl-tag-early">too early: planned for semester ${early}</span>` : ""}</div>
         </div>
         <button class="btn btn-sm ${on ? "btn-outline-danger" : "btn-outline-primary"}" data-id="${c.id}">${on ? "Remove" : "Add"}</button>
       </div>`;
@@ -301,7 +319,7 @@
     const n = res.chosen.reduce((t, c) => t + sessions(c).length, 0);
     $("pl-ics").disabled = !n;
     $("pl-ics").textContent = n ? `Download .ics (${n} date${n === 1 ? "" : "s"})` : "Download .ics";
-    const order = { error: 0, warn: 1, info: 2, ok: 3 };
+    const order = { error: 0, early: 1, warn: 2, info: 3, ok: 4 };
     const list = res.list.sort((a, b) => order[a.level] - order[b.level]);
     $("pl-checks").innerHTML = list.length ? list.map((x) => `<li class="pl-${x.level}">${x.text}</li>`).join("")
       : (res.chosen.length ? '<li class="pl-ok">No overlaps or problems found.</li>' : "<li>Add courses to see checks.</li>");
