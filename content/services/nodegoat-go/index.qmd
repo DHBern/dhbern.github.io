@@ -42,7 +42,7 @@ These scenarios leverage nodegoat’s built-in data modeling, temporal–spatial
 | Guides & FAQs | <https://nodegoat.net/guides>, <https://nodegoat.net/faq> |
 | Developer studio (LAB1100) | <https://lab1100.com/> |
 | Community mailing list (UniBE) | nodegoat.hist-join\@lists.unibe.ch |
-| ILIAS support group | request via sebastian.borkowski\@unibe.ch |
+| ILIAS support group | request via stephen.hart\@unibe.ch |
 | Tobira channel “Closer to the Edge” | <https://tobira.unibe.ch/!s/:unE1loPMPW> |
 | nodegoat Tutorials und News auf dem HistData-Blog von Kaspar Gubler | <https://histdata.hypotheses.org/> |
 
@@ -52,5 +52,5 @@ A curated playlist showcases concrete applications—from digital editions to ar
 
 ## Contact
 
-Sebastian Borkowski\
-[support.dsl\@unibe.ch](mailto:support.dsl@unibe.ch)
+Stephen Hart\
+[stephen.hart\@unibe.ch](mailto:stephen.hart@unibe.ch)
