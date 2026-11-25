@@ -4,19 +4,19 @@
 
   const SEM = window.DH_SEMESTERS, COURSES = window.DH_COURSES, RULES = window.DH_RULES, SPEC = window.DH_SPECIALISATIONS || {};
   const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"];
-  const KIND_LABEL = { seminar: "Seminar", colloquium: "Colloquium", lecture: "Lecture", course: "Exercise",
+  const KIND_LABEL = { seminar: "Seminar", colloquium: "Colloquium", lecture: "Lecture", exercise: "Exercise", course: "Course",
     workshop: "Workshop", meeting: "Meeting", online: "Online lecture" };
   const BLOCK_LABEL = { introduction: "Introduction", theory: "Theories, approaches & solutions",
     advanced: "Advanced studies", reflection: "Reflection", elective: "Elective seminar",
     application: "Application", final: "Final phase", none: "–" };
   const STORE = "dh-teaching-planner-v2";
-  // Order of the course list: exercises, seminars, colloquia, then the micro-credited
-  // workshops (Project Management before PPP), then everything else. Within a group the
-  // order of courses.js is kept.
+  // Order of the course list: exercises (and the other introductory courses), seminars,
+  // colloquia, lectures, then the micro-credited workshops (Project Management before PPP),
+  // then meetings. Within a group the order of courses.js is kept.
   function typeRank(c) {
-    if (c.kind === "workshop") return /^\[ProjM\]/.test(c.title) ? 3 : /^\[PPP\]/.test(c.title) ? 4 : 5;
-    const r = { course: 0, seminar: 1, colloquium: 2, lecture: 6, online: 7, meeting: 8 }[c.kind];
-    return r == null ? 9 : r;
+    if (c.kind === "workshop") return /^\[ProjM\]/.test(c.title) ? 6 : /^\[PPP\]/.test(c.title) ? 7 : 8;
+    const r = { exercise: 0, course: 1, seminar: 2, colloquium: 3, lecture: 4, online: 5, meeting: 9 }[c.kind];
+    return r == null ? 10 : r;
   }
 
   // ---------- state ----------
