@@ -2,7 +2,7 @@
 // Edit this file to add or change courses. Dates: YYYY-MM-DD, times: HH:MM.
 //
 // Each course:
-//   id, title, kind (seminar | colloquium | lecture | course | workshop | meeting | online),
+//   id, title, kind (seminar | colloquium | lecture | course = exercise | workshop | meeting | online),
 //   ects, semester (FS2027 | HS2027), lecturers, language, ksl,
 //   block: introduction | advanced | reflection | theory | application | final | elective | none
 //   programmes: which programmes the course counts for: ["major", "minor"]
